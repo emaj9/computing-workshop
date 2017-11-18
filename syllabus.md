@@ -9,6 +9,7 @@ Computing Workshop
 
 |[Website](localhost:8000)|
 
+|-----|-----------------------------------------------|
 |When|XXXdays, 3:00 - 4:30 (homework help 4:30 - 5:30)|
 |Where| B21, 657 Sherbrooke W (corner of University)|
 |Who| By Jacob Errington and Eric Mayhew|
@@ -45,18 +46,16 @@ By the end of the workshop, students wil be able to:
 
 ###(Computers)
 
-  * identify hardware components and their function;
+  * 0 identify hardware components and their function;
   * identify core services provided by an operating system;
   * identify how the operating system manages resources;
-  * identify the boundaries and relationships between application,
+  * 0 identify the boundaries and relationships between application,
     operating system, and hardware;
   * define what a program is;
   * explain the process of downloading a resource from a remote host;
-  * explain the role of HTML, CSS, and JavaScript in displaying a web page
-    in a browser;
+  * explain the role of HTML, CSS, and JavaScript in displaying a web page in a browser;
   * categorize different networking protocols (application vs. hardware);
-  * break down the process from computer poweron to operating system
-    startup.
+  * break down the process from computer poweron to operating system startup.
   * Interact with github, value online commmunities, value and respect open source matierial 
   * Navigate online resources and take autonomy of their own learning
 
@@ -75,7 +74,7 @@ By the end of the workshop, students wil be able to:
 
 ###(Web Dev)
 
-  * Conceptualize a website and then create it
+  * 0 Conceptualize a website and then create it
   * Characterize the historic trends in web dev
   * Create aethestics websites using golden ratio, negative space, colour theory
   * Use appropriate elements of HTML - hamburger text markup language

@@ -7,23 +7,30 @@ title: Lessons
 ####Lesson 0
 #####Introduction to the workshop
     Introductory lesson:
-- Introducing ourselves
-- Introduce yourselves
-    - group assignments
-- what is this course all about?
-    - what inspired us to do this?
-    - end of workshop goal
-    - lessons structure
-    - homework and the course website
-- what's in a computer in the first place?
-- what is haskell?
-- haskell: functions
-- How do websites work? HTML - inspect activity
-- What's your dream website? (colour supplies)
-- Answering group questionnaire:
-    - group name!
-    - what do we want to know?
-    - questions about yourselves
+By the end of the class, SWBAT:
+0 Identify the different components of a computer
+0 Explain abstraction levels in computer science
+
+Instructional sequence
+|time|description|
+|----|-----------|
+|10|Describe the course|
+|10|Introduce themselves/their groups|
+|30|Take apart a computer and identify its components|
+|30|Discuss the connection between hardward to software, match code snippings
+to different levels of abstraction|
+|20|Planning your dream website!|
+
+Materials needed:
+1 - 4 computers to be disassembled
+1 - 4 sets of tools to disassemble
+1 - ~20 name tags
+1 - white paper and colouring supplies
+
+what we need to create:
+- slides
+- worksheet to accompany disassembly of cpus (ID components)
+- matching code to level of abstraction worksheet
 
 ####Lesson 1
 
