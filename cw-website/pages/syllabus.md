@@ -7,10 +7,10 @@ Computing Workshop
 ==================
 **Course information**
 
-[Website](localhost:8000)
+|[Website](localhost:8000)|
 
 |-----|-----------------------------------------------|
-|When| XXXdays, 3:00 - 4:30 (homework help 4:30 - 5:30)|
+|When|XXXdays, 3:00 - 4:30 (homework help 4:30 - 5:30)|
 |Where| B21, 657 Sherbrooke W (corner of University)|
 |Who| By Jacob Errington and Eric Mayhew|
 
@@ -18,11 +18,11 @@ Computing Workshop
 
 Workshop Description
 --------------------
-Computing Workshop is a 10 session workshop designed to help people understand how computers and websties work. This workshop will teach hardware, software, and web development to individuals with little to no background in working with computers. Each class is 1.5 hours long and has an estimated 1 hour worth of homework that accompanies each lesson. Our teaching approach will be founded cooperative andd co-constructive learning.
+    Computing Workshop is a 10 session workshop designed to help people understand how computers and websties work. This workshop will teach hardware, software, and web development to individuals with little to no background in working with computers. Each class is 1.5 hours long and has an estimated 1 hour worth of homework that accompanies each lesson. Our teaching approach will be founded cooperative andd co-constructive learning.
 
 Workshop Rationale
 ------------------
-We chose to design this workshop to help anyone who wants to feel more comfortable in using a computer. Techonology is pervasive in our society, but rarely are individuals provided with meaningful education in how to use it. Furthermore, finding meaningful education in the field of computer science either takes the form of amazing free resources out there (check our resrouces tab) or innaccessible lecture-based class that turns individual off from the study. These teaching styles don't resonate with most students, therefore we've set out to create a cooperative learning environment based on material provided by open source creators to help students develop their full potential.
+    We chose to design this workshop to help anyone who wants to feel more comfortable in using a computer. Techonology is pervasive in our society, but rarely are individuals provided with meaningful education in how to use it. Furthermore, finding meaningful education in the field of computer science either takes the form of amazing free resources out there (check our resrouces tab) or innaccessible lecture-based class that turns individual off from the study. These teaching styles don't resonate with most students, therefore we've set out to create a cooperative learning environment based on material provided by open source creators to help students develop their full potential.
 
 Lesson Sequence
 ===============
@@ -46,18 +46,16 @@ By the end of the workshop, students wil be able to:
 
 ###(Computers)
 
-  * identify hardware components and their function;
+  * 0 identify hardware components and their function;
   * identify core services provided by an operating system;
   * identify how the operating system manages resources;
-  * identify the boundaries and relationships between application,
+  * 0 identify the boundaries and relationships between application,
     operating system, and hardware;
   * define what a program is;
   * explain the process of downloading a resource from a remote host;
-  * explain the role of HTML, CSS, and JavaScript in displaying a web page
-    in a browser;
+  * explain the role of HTML, CSS, and JavaScript in displaying a web page in a browser;
   * categorize different networking protocols (application vs. hardware);
-  * break down the process from computer poweron to operating system
-    startup.
+  * break down the process from computer poweron to operating system startup.
   * Interact with github, value online commmunities, value and respect open source matierial 
   * Navigate online resources and take autonomy of their own learning
 
@@ -76,7 +74,7 @@ By the end of the workshop, students wil be able to:
 
 ###(Web Dev)
 
-  * Conceptualize a website and then create it
+  * 0 Conceptualize a website and then create it
   * Characterize the historic trends in web dev
   * Create aethestics websites using golden ratio, negative space, colour theory
   * Use appropriate elements of HTML - hamburger text markup language
