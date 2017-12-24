@@ -1,28 +1,28 @@
+---
+title: Syllabus
+---
 to do:
 - compile and view how the tables look
 - add link website to description
 - support our rationale/teaching methods with research
 
-Computing Workshop
-==================
-**Course information**
+Course information
+------------------
 
-|[Website](localhost:8000)|
-
-|-----|-----------------------------------------------|
-|When|XXXdays, 3:00 - 4:30 (homework help 4:30 - 5:30)|
-|Where| B21, 657 Sherbrooke W (corner of University)|
-|Who| By Jacob Errington and Eric Mayhew|
+[Website](localhost:8000)
+Duration: 10 sessions, 1.5 hours each lessons with 1 hour of homework
+Location: B21, 657 Sherbrooke W (corner of University)
+Created by: Eric and Jake
 
 *Special thanks to the Office of Student Life and Learning and B21 for allowing this to happen!*
 
 Workshop Description
 --------------------
-    Computing Workshop is a 10 session workshop designed to help people understand how computers and websties work. This workshop will teach hardware, software, and web development to individuals with little to no background in working with computers. Each class is 1.5 hours long and has an estimated 1 hour worth of homework that accompanies each lesson. Our teaching approach will be founded cooperative andd co-constructive learning.
+Computing Workshop is a 10 session workshop designed to help people understand how computers and websties work. This workshop will cover hardware, software, and web development to individuals with little to no background in computers using cooperative, problem-based learning methods. Each class is 1.5 hours long and has an estimated 1 hour worth of homework that accompanies each lesson.
 
 Workshop Rationale
 ------------------
-    We chose to design this workshop to help anyone who wants to feel more comfortable in using a computer. Techonology is pervasive in our society, but rarely are individuals provided with meaningful education in how to use it. Furthermore, finding meaningful education in the field of computer science either takes the form of amazing free resources out there (check our resrouces tab) or innaccessible lecture-based class that turns individual off from the study. These teaching styles don't resonate with most students, therefore we've set out to create a cooperative learning environment based on material provided by open source creators to help students develop their full potential.
+We created this workshop to provide people with the support to feel comfortable using a computer. Techonology is pervasive in our society, but rarely are individuals provided with meaningful education in how to use it. Our workshop looks to activate participant's motivation by providing them with hands on, interactive lessons covering fundamental knowledge with respect to computers. This workshop uses a co-constructivist teaching approach to help our participants develop their own tools and understanding of computers.
 
 Lesson Sequence
 ===============
