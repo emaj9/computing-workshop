@@ -1,14 +1,11 @@
 ---
 title: Registration
 ---
+*to do: implement backend of this website*
+
 On display below are the courses that are currently open for registration.
 Please fill out the registration form if you wish to attend an upcoming
 workshop! 
-
-to implement: 
-- back end of website
-    - that will record submissions, send us an email of the submission, and
-      send them an email confirming their placement
 
 ##January 16th to March 27th
 

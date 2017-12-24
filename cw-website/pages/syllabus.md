@@ -1,10 +1,8 @@
 ---
 title: Syllabus
 ---
-to do:
-- compile and view how the tables look
-- add link website to description
-- support our rationale/teaching methods with research
+*to do: add link website to description, review if the lesson structure and
+goals. Clone this into a pdf (and only display the pdf)? Open to feedback*
 
 Course information
 ------------------

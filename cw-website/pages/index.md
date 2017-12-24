@@ -1,6 +1,7 @@
 ---
 title: Homepage
 ---
+_to do: complete our bios, add pictures of us?, finish the "join our team"_
 
 ##Welcome!
 Welcoming to the Computing Workshop website! On this site, you'll find the
@@ -16,3 +17,4 @@ This is all about Jake!
 This is all about Eric!
 
 If you're interested in joining our team feel free to email us as...
+

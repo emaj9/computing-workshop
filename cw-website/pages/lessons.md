@@ -1,7 +1,8 @@
 ---
 title: Lessons
 ---
-
+*to do: change this whole page lol. namely: generate lessons links to lesson
+pages which have the lesson plan embedded in an iframe.*
 ##Lesson information and materials
 
 ####Lesson 0
