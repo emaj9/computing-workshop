@@ -19,6 +19,9 @@ main = hakyll $ do
   match "css/style.css" $ do
     route idRoute
     compile copyFileCompiler
+  match "img/*.jpg" $ do
+    route idRoute
+    compile copyFileCompiler
 
 myRoute :: (Identifier -> FilePath)
 myRoute id = drop 6 (toFilePath id)
