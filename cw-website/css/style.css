@@ -1,3 +1,66 @@
 body {
-    background-color:yellow;
+    background-color:#fff;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0.5em;
+}
+
+h1#title {
+    text-align:center;
+    color:white;
+    background:rgba(0,0,0,0.6);
+    justify-content: center;
+    margin: 0em;
+}
+
+div.page-header {
+   background-image: url("/img/3.jpg");
+   background-size: cover;
+}
+
+div.btn-nav a {
+    text-align: center;
+    padding: 0.75em 1.208em;
+    background-color:#d8d0f2;
+    border-left: 0.5em solid #dc30e5;
+    box-shadow: 2px 2px #333;
+    margin: 0.2em 1em;
+    transition: box-shadow 0.1s linear;
+    color: black;
+    text-decoration: none;
+}
+
+div.btn-nav a:active {
+    background-color:#e8e0ff;
+    box-shadow: none;
+}
+div.btn-nav {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 1em;
+}
+
+div#main-content {
+    max-width: 7in;
+    margin: auto;
+    padding: 0.5em 0.8em;
+}
+
+div#footer {
+    font-size: 75%;
+    border-top: 1px solid black;
+}
+
+div#footer > div {
+    max-width: 8in;
+    margin: auto;
+    text-align: right;
+    text-style: italic;
 }
