@@ -10,9 +10,12 @@ Course information
 ------------------
 
 [Website](localhost:8000)
-Duration: 10 sessions, 1.5 hours each lessons with 1 hour of homework
-Location: B21, 657 Sherbrooke W (corner of University)
-Created by: Eric and Jake
+
+**Duration:** 10 sessions, 1.5 hours each lessons with 1 hour of homework
+
+**Location:** B21, 657 Sherbrooke W (corner of University)
+
+**Created by:** Eric and Jake
 
 *Special thanks to the Office of Student Life and Learning and B21 for allowing this to happen!*
 
@@ -39,12 +42,12 @@ Lesson Sequence
 |8|Life long learners in the online community, hackathon|
 |9|Conclusion|
 
-Goals
-=====
+Learning Goals
+==============
 
 By the end of the workshop, students wil be able to:
 
-###(Computers)
+###Computers
 
   * 0 identify hardware components and their function;
   * identify core services provided by an operating system;
@@ -59,7 +62,7 @@ By the end of the workshop, students wil be able to:
   * Interact with github, value online commmunities, value and respect open source matierial 
   * Navigate online resources and take autonomy of their own learning
 
-###(Programming)
+###Programming
 
   * Translate a world problem into code: - identify key types, writing algorithm 
   * Use haskell as a calculator
@@ -72,7 +75,7 @@ By the end of the workshop, students wil be able to:
   * Use do notation for a variety of monads (Maybe, Either a, so on...)
   * Create a static site generator to create a website
 
-###(Web Dev)
+###Web Dev
 
   * 0 Conceptualize a website and then create it
   * Characterize the historic trends in web dev
