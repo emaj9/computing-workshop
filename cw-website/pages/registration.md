@@ -7,7 +7,7 @@ On display below are the courses that are currently open for registration.
 Please fill out the registration form if you wish to attend an upcoming
 workshop! 
 
-##January 16th to March 27th
+## January 16th to March 27th
 
   * Every Tuesday from 2:30pm - 4pm, homework tutorial from 4:00 - 5:00pm (Jan 16, 23, 30, Feb 6, 13, 20, 27 Mar 6, 13, 20, 27)
   * Hosted at B21, 657 Sherbrooke W.

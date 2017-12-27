@@ -3,10 +3,10 @@ title: Lessons
 ---
 *to do: change this whole page lol. namely: generate lessons links to lesson
 pages which have the lesson plan embedded in an iframe.*
-##Lesson information and materials
+## Lesson information and materials
 
-####Lesson 0
-#####Introduction to the workshop
+#### Lesson 0
+##### Introduction to the workshop
 By the end of the class, SWBAT:
 
 * 0 Identify the different components of a computer
@@ -37,27 +37,27 @@ what we need to create:
 - worksheet to accompany disassembly of cpus (ID components)
 - matching code to level of abstraction worksheet
 
-####Lesson 1
+#### Lesson 1
 
-####Lesson 2
+#### Lesson 2
 Haskell: Declarations, expression, types
     Haskell as a calculator for taxes, generlize this
 
-####Lesson 3
+#### Lesson 3
 Haskell: ADT
     194 first homework
 
-####Lesson 4
+#### Lesson 4
 
-####Lesson 5
+#### Lesson 5
 
-####Lesson 6
+#### Lesson 6
 
-####Lesson 7
+#### Lesson 7
 
-####Lesson 8
+#### Lesson 8
 
-####Lesson 9
+#### Lesson 9
 
 Lesson descriptions rough draft
 
