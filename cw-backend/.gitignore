@@ -1,0 +1,4 @@
+.stack-work/
+cw-backend.cabal
+*~
+/out.dat
