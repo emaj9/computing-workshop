@@ -64,3 +64,38 @@ div#footer > div {
     text-align: right;
     text-style: italic;
 }
+
+form ul.form-fields {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+form ul.form-fields li {
+    margin: 1em 0;
+}
+
+form ul.form-fields label {
+    display: block;
+}
+
+form ul.form-fields textarea {
+    width: 100%;
+}
+
+dl dt {
+    font-style: italic;
+    margin-top: 1em;
+}
+
+dl dd {
+    margin-bottom: 1em;
+}
+
+.form-error-invisible {
+    display: none;
+}
+
+.form-error {
+    color: red;
+}

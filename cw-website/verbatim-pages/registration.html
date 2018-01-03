@@ -1,0 +1,81 @@
+---
+title: Registration
+---
+
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="/js/register.js"></script>
+
+<p>
+On display below are the courses that are currently open for registration.
+Please fill out the registration form if you wish to attend an upcoming
+workshop!
+</p>
+
+<h2> January 16th to March 27th </h2>
+
+<dl>
+  <dt>When?</dt>
+  <dd>
+  <ul>
+    <li> Every <em>Tuesday</em> from 2:30pm to 4:00pm </li>
+    <li> Homework tutorial from 4:00pm - 5:00pm </li>
+    <li> Meeting dates: Jan 16, 23, 30, Feb 6, 13, 20, 27 Mar 6, 13, 20, 27 </li>
+  </ul>
+  </dd>
+
+  <dt>Where?</dt>
+  <dd> Hosted at B21, 657 Sherbrooke W. </dd>
+
+  <dt>For whom?</dt>
+  <dd>
+  Anyone who has used a computer, but who wants to know about what's going on
+  <em>under the hood.</em>
+  </dd>
+
+  <dt>By whom?</dt>
+  <dd><a href="/about-teachers.html">Eric Mayhew and Jacob Errington</a></dd>
+
+  <dt>How?</dt>
+  <dd id="how-to-register">
+  To register, please fill out the following form.
+  <form id="register" action="javascript:void(0);">
+    <ul class="form-fields">
+      <li>
+        <label for="registerName"> Name </label>
+        <input class='field' type="text" name="registerName">
+      </li>
+
+      <li>
+        <label for="registerEmail"> Email </label>
+        <input class='field' name="registerEmail" type="email" name="email">
+      </li>
+
+      <li>
+        <label for="registerBgGeneral">
+        Background (education, profession, interests)
+        </label>
+        <textarea class='field' name="registerBgGeneral" type="text" rows="5"></textarea>
+      </li>
+
+      <li>
+        <label for="registerBgComputers">
+        Please describe your knowledge of computers
+        </label>
+        <textarea class='field' name="registerBgComputers" type="text" rows="5"></textarea>
+      </li>
+
+      <li>
+        <label for="registerBgTeaching">
+        Please describe your experience with teaching
+        </label>
+        <textarea class='field' name="registerBgTeaching" type="text" rows="5"></textarea>
+      </li>
+    </ul>
+
+    <input id="submit-button" type="submit" value="Register">
+
+    <p class='form-error-invisible form-error'></p>
+  </form>
+  </dd>
+</dl>
+
