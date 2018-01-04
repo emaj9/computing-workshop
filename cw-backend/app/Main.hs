@@ -4,7 +4,7 @@ import Server
 import Servant
 import Network.Wai.Handler.Warp
 import Network.Wai.Middleware.RequestLogger
-import System.Environment ( lookupEnv )
+import System.Environment ( lookupEnv, getEnv )
 
 (<#>) = flip (<$>)
 infixr 3 <#>
@@ -17,5 +17,6 @@ main = do
     False -> logStdout
     True -> logStdoutDev
 
-  putStrLn "Listening on port 8080"
-  run 8080 (logger $ serve cwapi (server env))
+  port <- read <$> getEnv "CW_API_PORT"
+  putStrLn $ "Backend listening on port " ++ show port
+  run port (logger $ serve cwapi (server env))

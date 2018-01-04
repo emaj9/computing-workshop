@@ -2,5 +2,5 @@
 
 set -e
 
-stack exec cw-website-exe rebuild
+./build.sh
 (cd _site ; python -m http.server 8000)
