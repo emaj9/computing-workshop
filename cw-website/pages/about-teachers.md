@@ -16,4 +16,4 @@ See (my site)[http://emayhew.com/].
  * _Passion:_ Programming languages.
  * _Favourite orchestral instrument_: French horn.
 
-See (my site)[https://jerrington.me/].
+See [my site](https://jerrington.me/).
