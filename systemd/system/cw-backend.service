@@ -1,0 +1,10 @@
+[Unit]
+Description=Computing Workshop backend
+
+[Service]
+User=hakyll
+Group=hakyll
+ExecStart=/home/hakyll/.local/bin/cw-backend
+Type=simple
+EnvironmentFile=/home/hakyll/etc/cw-backend.env
+WorkingDirectory=/home/hakyll/var/cw-backend
