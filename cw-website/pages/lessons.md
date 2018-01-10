@@ -7,9 +7,9 @@ On this page you will find the lesson plans for each lesson of the workshop.
 You can click on the lesson to download the pdf of lesson plan; there will you
 find everything you need to know about the lesson.
 
-#### [Lesson 0](https://www.computing-workshop.com/lessons/pdfs/lp-0.pdf)
+#### [Lesson 0](https://www.computing-workshop.com/lessons/pdf/lp-0.pdf)
 
-#### [Lesson 1](https://www.computing-workshop.com/lessons/pdfs/lp-1.pdf)
+#### [Lesson 1](https://www.computing-workshop.com/lessons/pdf/lp-1.pdf)
 
 #### Lesson 2 - 9
 *Work in Progress! Stay tuned!*
