@@ -7,9 +7,9 @@ On this page you will find the lesson plans for each lesson of the workshop.
 You can click on the lesson to download the pdf of lesson plan; there will you
 find everything you need to know about the lesson.
 
-#### [Lesson 0](/pdf/lp-0.pdf)
+#### [Lesson 0](/pdf/0-lp.pdf)
 
-#### [Lesson 1](/pdf/lp-1.pdf)
+#### [Lesson 1](/pdf/1-lp.pdf)
 
 #### Lesson 2 - 9
 *Work in Progress! Stay tuned!*
