@@ -1,20 +1,26 @@
 ---
 title: Homepage
 ---
-_to do: complete our bios, add pictures of us?, finish the "join our team"_
 
 ## Welcome!
-Welcoming to the Computing Workshop website! On this site, you'll find the
+Welcoming to the computing workshop website! On this site, you'll find the
 details of the computing workshop itself, along with all the matierals
 necessary to run this workshop.
 
-### Our team
+## Meet the facilitators!
 
-#### Jacob Errington
-This is all about Jake!
+### Eric Mayhew
 
-#### Eric Mayhew
-This is all about Eric!
+ * _Education:_ B.Ed. Secondary Education, McGill.
+ * _Passion:_ Music.
+ * _Favourite orchestral instrument_: Viola.
 
-If you're interested in joining our team feel free to email us as...
+See [my site](https://emayhew.com/).
 
+### Jacob Errington
+
+ * _Education:_ B.Sc. Mathematics & Computer Science,  McGill (2017).
+ * _Passion:_ Programming languages.
+ * _Favourite orchestral instrument_: French horn.
+
+See [my site](https://jerrington.me/).

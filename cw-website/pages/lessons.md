@@ -1,64 +1,22 @@
 ---
 title: Lessons
 ---
-*to do: change this whole page lol. namely: generate lessons links to lesson
-pages which have the lesson plan embedded in an iframe.*
+
 ## Lesson information and materials
+On this page you will find the lesson plans for each lesson of the workshop.
+You can click on the lesson to download the pdf of lesson plan; there will you
+find everything you need to know about the lesson.
 
-#### Lesson 0
-##### Introduction to the workshop
-By the end of the class, SWBAT:
+#### [Lesson 0](https://www.computing-workshop.com/lessons/pdfs/lp-0.pdf
+"Lesson 0 Plan")
 
-* 0 Identify the different components of a computer
-* 0 Explain abstraction levels in computer science
+#### [Lesson 1](https://www.computing-workshop.com/lessons/pdfs/lp-1.pdf
+"Lesson 0 Plan")
 
-Instructional sequence:
+#### Lesson 2 - 9
+*Work in Progress! Stay tuned!*
 
-* 10 mins: Describe the course
-* 10 mins: Introduce themselves/their groups|
-* 30 mins: Take apart a computer and identify its components|
-* 30 mins: Discuss the connection between hardward to software, match code snippings
-to different levels of abstraction|
-* 20 mins: Planning your dream website!|
-
-Materials needed:
-
-1 - 4 computers to be disassembled
-
-1 - 4 sets of tools to disassemble
-
-1 - ~20 name tags
-
-1 - white paper and colouring supplies
-
-
-what we need to create:
-- slides
-- worksheet to accompany disassembly of cpus (ID components)
-- matching code to level of abstraction worksheet
-
-#### Lesson 1
-
-#### Lesson 2
-Haskell: Declarations, expression, types
-    Haskell as a calculator for taxes, generlize this
-
-#### Lesson 3
-Haskell: ADT
-    194 first homework
-
-#### Lesson 4
-
-#### Lesson 5
-
-#### Lesson 6
-
-#### Lesson 7
-
-#### Lesson 8
-
-#### Lesson 9
-
+<!---
 Lesson descriptions rough draft
 
    **Computers:**
@@ -93,3 +51,4 @@ Lesson descriptions rough draft
 6. What makes a beautiful website? 
 7. Applying differnet website styles
 8. Website work
+--->

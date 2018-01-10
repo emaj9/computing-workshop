@@ -1,22 +1,20 @@
 ---
 title: Resources
 ---
-*to do: make pretty, clickable links to each resources*
 Here are some resources to help guide you in your learning.
 
+#### Computers
+
+  * [Crash Course Computer Science Series](https://www.youtube.com/playlist?list=PLME-KWdxI8dcaHSzzRsNuOLXtM2Ep_C7a)
+
 #### Haskell
-  * Learn you a haskell for the greater good
-  * Haskell Wiki
-  * The slides to that famous haskell professor who recently died
+  * [Learn you a haskell for the greater good](http://learnyouahaskell.com/chapters)
+  * [Haskell Wiki](https://wiki.haskell.org/Haskell)
 
 #### HTML
 
-  * Codeacademy
+  * [Codecademy](https://www.codecademy.com/learn/learn-html)
 
 #### CSS
 
-  * Firefox developer pages
-
-#### Computing in general
-
-  * Crash Course Computer Science Series
+  * [Firefox developer pages](https://developer.mozilla.org/en-US/docs/Web/CSS)
