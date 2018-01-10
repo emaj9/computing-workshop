@@ -6,25 +6,43 @@ import qualified Data.ByteString as BS
 import qualified Data.ByteString.Lazy as LBS
 import Data.Monoid ( (<>) )
 import Data.Aeson
-import Data.Text ( Text )
-import GHC.Generics
+import Data.Text as T
+import Data.Text.Lazy as TL
+import Network.HaskellNet.SMTP
 import Servant
 import System.IO
 import System.Environment
+import System.Exit
+
+import Mailer
+import Types
 
 data Env
   = Env
     { envLock :: Lock
     , envOutPath :: FilePath
+    , envMailer :: Mailer
     }
+
+makeMailerConf :: IO MailerConf
+makeMailerConf = MailerConf
+  <$> getEnv "CW_BACKEND_SMTP_USERNAME"
+  <*> getEnv "CW_BACKEND_SMTP_PASSWORD"
+  <*> getEnv "CW_BACKEND_SMTP_HOSTNAME"
 
 makeEnv :: IO Env
 makeEnv = do
   l <- Lock <$> newMVar ()
   p <- getEnv "CW_BACKEND_OUT_PATH"
+  mailerConf <- makeMailerConf
+  mailer <- newMailer mailerConf >>= \case
+    Left msg -> die msg
+    Right x -> pure x
+
   pure Env
     { envLock = l
     , envOutPath = p
+    , envMailer = mailer
     }
 
 newtype Lock = Lock (MVar ())
@@ -34,8 +52,9 @@ withLock (Lock l) m = withMVar l (const m)
 
 server :: Env -> Server CWAPI
 server Env{..} = register where
-  register reg = do
-    liftIO $ registerUser envLock envOutPath reg
+  register reg = liftIO $ do
+    registerUser envLock envOutPath reg
+    submitMail envMailer (sendConfirmationEmails reg)
     pure RegistrationRes
       { registerStatus = RegisterOk
       }
@@ -50,28 +69,20 @@ type CWAPI =
 cwapi :: Proxy CWAPI
 cwapi = Proxy
 
-data Registration
-  = Registration
-    { registerName :: Text
-    , registerEmail :: Text
-    , registerBgGeneral :: Text
-    , registerBgComputers :: Text
-    , registerBgTeaching :: Text
-    }
-  deriving (Eq, Generic, FromJSON, ToJSON)
+emailSender :: String
+emailSender = "noreply@computing-workshop.com"
 
-data RegistrationRes
-  = RegistrationRes
-    { registerStatus :: RegisterStatus
-    }
-  deriving (Eq, Generic, ToJSON)
+emailSubject :: String
+emailSubject = "[Computing Workshop] Welcome!"
 
-data RegisterStatus
-  = RegisterOk
-  | RegisterNotOk
-  deriving (Eq, Generic)
+sendConfirmationEmails :: Registration -> SMTPConnection -> IO ()
+sendConfirmationEmails reg@Registration{..} conn = do
+  let body = mailBody reg
+  sendPlainTextMail (T.unpack registerEmail) emailSender emailSubject body conn
 
-instance ToJSON RegisterStatus where
-  toJSON x = case x of
-    RegisterOk -> "ok"
-    RegisterNotOk -> "notok"
+mailBody :: Registration -> TL.Text
+mailBody Registration{..} =
+  "Dear " <> TL.fromStrict registerName <> ",\n\n" <>
+  "We're pleased to have you join Computing Workshop!\n\n" <>
+  "Looking forward to meeting you,\n" <>
+  "Jacob & Eric\n"
