@@ -1,27 +1,20 @@
 ---
 title: Homepage
 ---
+_to do: complete our bios, add pictures of us?, finish the "join our team"_
 
 ## Welcome!
-
-Computing Workshop is a 10-week course on the basics of computing.
-It is aimed at people who operate computers on a daily basis and who want to
-know more about what's happening under the hood.
+Welcoming to the Computing Workshop website! On this site, you'll find the
+details of the computing workshop itself, along with all the matierals
+necessary to run this workshop.
 
 ### Our team
 
 #### Jacob Errington
-
- * _Education:_ B.Sc. Mathematics & Computer Science @ McGill (2017)
- * _Passion:_ Programming languages.
- * _Favourite orchestral instrument_: French horn.
-
-[Personal site](https://jerrington.me/)
+This is all about Jake!
 
 #### Eric Mayhew
+This is all about Eric!
 
- * _Education:_ B.Ed. Secondary Education
- * _Passion:_ Music.
- * _Favourite orchestral instrument_: Viola.
+If you're interested in joining our team feel free to email us as...
 
-[Personal site](http://emayhew.com/)
