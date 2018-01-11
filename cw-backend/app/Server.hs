@@ -1,13 +1,15 @@
 module Server where
 
+import Control.Monad ( forM_ )
 import Control.Monad.IO.Class
 import Control.Concurrent
 import qualified Data.ByteString as BS
 import qualified Data.ByteString.Lazy as LBS
 import Data.Monoid ( (<>) )
 import Data.Aeson
-import Data.Text as T
-import Data.Text.Lazy as TL
+import Data.List.Split
+import qualified Data.Text as T
+import qualified Data.Text.Lazy as TL
 import Network.HaskellNet.SMTP
 import Servant
 import System.IO
@@ -22,6 +24,7 @@ data Env
     { envLock :: Lock
     , envOutPath :: FilePath
     , envMailer :: Mailer
+    , envNotificationRecipients :: [String]
     }
 
 makeMailerConf :: IO MailerConf
@@ -35,6 +38,7 @@ makeEnv = do
   l <- Lock <$> newMVar ()
   p <- getEnv "CW_BACKEND_OUT_PATH"
   mailerConf <- makeMailerConf
+  recps <- splitOn "," <$> getEnv "CW_BACKEND_NOTIFY_RECIPIENTS"
   mailer <- newMailer mailerConf >>= \case
     Left msg -> die msg
     Right x -> pure x
@@ -43,6 +47,7 @@ makeEnv = do
     { envLock = l
     , envOutPath = p
     , envMailer = mailer
+    , envNotificationRecipients = recps
     }
 
 newtype Lock = Lock (MVar ())
@@ -54,7 +59,12 @@ server :: Env -> Server CWAPI
 server Env{..} = register where
   register reg = liftIO $ do
     registerUser envLock envOutPath reg
-    submitMail envMailer (sendConfirmationEmails reg)
+
+    submitMail envMailer (sendRegistrationEmail welcomeEmail reg)
+
+    let notifyEmail = notificationEmail envNotificationRecipients
+    submitMail envMailer (sendRegistrationEmail notifyEmail reg)
+
     pure RegistrationRes
       { registerStatus = RegisterOk
       }
@@ -69,20 +79,44 @@ type CWAPI =
 cwapi :: Proxy CWAPI
 cwapi = Proxy
 
-emailSender :: String
-emailSender = "noreply@computing-workshop.com"
+-- | A formatter for emails.
+data RegistrationEmail
+  = RegistrationEmail
+    { regEmailSubject :: Registration -> String
+    , regEmailBody :: Registration -> TL.Text
+    , regEmailRecipients :: Registration -> [String]
+    }
 
-emailSubject :: String
-emailSubject = "[Computing Workshop] Welcome!"
+welcomeEmail :: RegistrationEmail
+welcomeEmail = RegistrationEmail
+  { regEmailSubject = const "Welcome to Computing Workshop!"
+  , regEmailBody = \Registration{..} ->
+    "Dear " <> TL.fromStrict registerName <> ",\n\n" <>
+    "We're pleased to have you join Computing Workshop!\n\n" <>
+    "Looking forward to meeting you,\n" <>
+    "Jacob & Eric\n"
+  , regEmailRecipients = \Registration{..} -> [T.unpack registerEmail]
+  }
 
-sendConfirmationEmails :: Registration -> SMTPConnection -> IO ()
-sendConfirmationEmails reg@Registration{..} conn = do
-  let body = mailBody reg
-  sendPlainTextMail (T.unpack registerEmail) emailSender emailSubject body conn
+notificationEmail :: [String] -> RegistrationEmail
+notificationEmail recps = RegistrationEmail
+  { regEmailSubject = \Registration{..} ->
+    "[CW] New registrant: " <> T.unpack registerName
+  , regEmailRecipients = const recps
+  , regEmailBody = \Registration{..} -> TL.concat $ map f
+    [ ("Name: ", registerName)
+    , ("Email: ", registerEmail)
+    , ("Background (general): ", registerBgGeneral)
+    , ("Background (computers): ", registerBgComputers)
+    , ("Background (teachign): ", registerBgTeaching)
+    ]
+  } where
+    f (fieldName, content) =
+      fieldName <> "\n    " <> TL.fromStrict content <> "\n"
 
-mailBody :: Registration -> TL.Text
-mailBody Registration{..} =
-  "Dear " <> TL.fromStrict registerName <> ",\n\n" <>
-  "We're pleased to have you join Computing Workshop!\n\n" <>
-  "Looking forward to meeting you,\n" <>
-  "Jacob & Eric\n"
+sendRegistrationEmail :: RegistrationEmail -> Registration -> SMTPConnection -> IO ()
+sendRegistrationEmail RegistrationEmail{..} reg conn = do
+  forM_ (regEmailRecipients reg) $ \recp -> do
+    sendPlainTextMail recp emailSender (regEmailSubject reg) (regEmailBody reg) conn
+  where
+    emailSender = "noreply@computing-workshop.com"

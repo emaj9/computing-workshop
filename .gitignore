@@ -11,3 +11,4 @@
 *.blg
 writeup.pdf
 presentation.pdf
+.smtp.secrets

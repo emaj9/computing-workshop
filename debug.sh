@@ -10,6 +10,11 @@ export CW_DEBUG_PORT=8080
 export CW_BACKEND_PORT=8082
 export CW_FRONTEND_PATH="../cw-website/_site"
 
+if ! test -e .smtp.secrets ; then
+    echo "No .smtp.secrets file found."
+fi
+source .smtp.secrets
+
 echo ">>> BUILDING FRONTEND"
 
 (cd cw-website ; ./build.sh "$@")

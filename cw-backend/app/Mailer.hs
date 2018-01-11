@@ -58,4 +58,3 @@ newMailer MailerConf{..} = do
       MailInfo{..} <- readChan c
       writeChan mailInfoResponse () -- send confirmation of submission
       mailInfoCommand conn -- run the request
-
