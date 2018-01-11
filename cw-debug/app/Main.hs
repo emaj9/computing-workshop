@@ -27,7 +27,7 @@ debugApi = Proxy
 
 main :: IO ()
 main = do
-  apiPort <- read <$> getEnv "CW_API_PORT"
+  apiPort <- read <$> getEnv "CW_BACKEND_PORT"
   frontendPath <- getEnv "CW_FRONTEND_PATH"
   port <- read <$> getEnv "CW_DEBUG_PORT"
 

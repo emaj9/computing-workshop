@@ -17,6 +17,6 @@ main = do
     False -> logStdout
     True -> logStdoutDev
 
-  port <- read <$> getEnv "CW_API_PORT"
+  port <- read <$> getEnv "CW_BACKEND_PORT"
   putStrLn $ "Backend listening on port " ++ show port
   run port (logger $ serve cwapi (server env))

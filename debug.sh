@@ -7,7 +7,7 @@
 set -e
 
 export CW_DEBUG_PORT=8080
-export CW_API_PORT=8082
+export CW_BACKEND_PORT=8082
 export CW_FRONTEND_PATH="../cw-website/_site"
 
 echo ">>> BUILDING FRONTEND"
