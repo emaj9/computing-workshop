@@ -6,9 +6,12 @@ $(function() {
   console.log("Registration loaded!");
 
   function registerSuccess() {
-    $('#how-to-register').replaceWith('<dd> Thanks for registering! ' +
-                                      'You should receive shortly a ' +
-                                      'confirmation email. </dd>');
+    $('#how-to-register').replaceWith(
+        '<dd>' +
+        'Your registration has been accepted! ' +
+        'You should hear back from us soon.' +
+        '</dd>' +
+    );
   }
 
   function registerFailed() {
