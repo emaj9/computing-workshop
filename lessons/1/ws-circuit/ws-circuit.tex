@@ -1,9 +1,10 @@
 \documentclass{exam}
 
-\title{Lesson \#1 -- Worksheet \#1\\Circuit diagrams and boolean logic}
-\author{Jacob Thomas Errington \& Eric Mayhew}
-\date{Winter 2018}
+\title{Circuit diagrams and boolean logic}
+\author{}
+\date{}
 
+\usepackage{amsmath}
 \usepackage{multicol}
 \usepackage{circuitikz}
 \usepackage{tikz}
@@ -24,6 +25,9 @@
 }
 
 \tikzset{
+  every path/.style={
+    thick,
+  },
   declare function={% in case of CVS which switches the arguments of atan2
     atan3(\a,\b)=ifthenelse(atan2(0,1)==90, atan2(\a,\b), atan2(\b,\a));
   },
@@ -44,9 +48,13 @@
   }
 }
 
-\newcommand{\bingate}[1]{%
+\newcommand{\bingate}[2]{%
   \begin{multicols}{2}
     \centering
+    {\large #2}
+
+    ~
+
     \begin{circuitikz}
       \draw
       (0, 0) node[#1] (gate) {}
@@ -56,7 +64,7 @@
       ;
     \end{circuitikz}
     \vfill
-    \begin{tabular}{|c|c|c|}
+    \begin{tabular}{|c|c||c|}
       \hline
       Input 1 & Input 2 & Output \\ \hline
       ~ & ~ & ~   \\ \hline
@@ -67,9 +75,13 @@
   \end{multicols}
 }
 
-\newcommand{\ungate}[1]{%
+\newcommand{\ungate}[2]{%
   \begin{multicols}{2}
     \centering
+    {\large #2}
+
+    ~
+
     \begin{circuitikz}
       \draw
       (0, 0) node[#1] (gate) {}
@@ -78,7 +90,7 @@
       ;
     \end{circuitikz}
     \vfill
-    \begin{tabular}{|c|c|}
+    \begin{tabular}{|c||c|}
       \hline
       Input & Output \\ \hline
       ~ & ~   \\ \hline
@@ -102,12 +114,45 @@ between circuit diagrams and truth tables.
   questions.
 
   \begin{figure}[H]
-    \bingate{and port}
-    \bingate{or port}
-    \bingate{xor port}
-    \ungate{not port}
+    \begin{multicols}{2}
+      \centering
+      {\large AND}
+
+      ~
+
+      \begin{circuitikz}
+        \draw
+        (0, 0) node[and port] (gate) {}
+        (gate.in 1) ++(-1, 0) node (in 1) {Input 1}
+        (gate.in 2) ++(-1, 0) node (in 2) {Input 2}
+        (gate.out)  ++(1, 0)  node (out)  {Output}
+        ;
+      \end{circuitikz}
+      \vfill
+      \begin{tabular}{|c|c||c|}
+        \hline
+        Input 1 & Input 2 & Output \\ \hline
+        $0$     & $0$     & $0$    \\ \hline
+        $0$     & $1$     & $0$    \\ \hline
+        $1$     & $0$     & $0$    \\ \hline
+        $1$     & $1$     & $1$    \\ \hline
+      \end{tabular}
+    \end{multicols}
+
+    ~
+
+    \bingate{or port}{OR}
+
+    ~
+
+    \bingate{xor port}{XOR}
+
+    ~
+
+    \ungate{not port}{NOT}
   \end{figure}
 
+  \pagebreak
   \question
   Draw up the truth table for the following circuit diagrams.
 
@@ -150,7 +195,9 @@ between circuit diagrams and truth tables.
         ;
       \end{circuitikz}
 
-      \begin{tabular}{|c|c|c|c|}
+      ~
+
+      \begin{tabular}{|c|c|c||c|}
         \hline
         A & B & C & OUT \\ \hline
         ~ & ~ & ~ & ~ \\   \hline
@@ -204,7 +251,7 @@ between circuit diagrams and truth tables.
 
       ~
 
-      \begin{tabular}{|c|c|c|}
+      \begin{tabular}{|c|c||c|}
         \hline
         A & B & OUT \\ \hline
         ~ & ~ & ~ \\ \hline
@@ -214,6 +261,51 @@ between circuit diagrams and truth tables.
       \end{tabular}
     \end{figure}
 
+    \vfill
+    \part
+    Consider this circuit with two inputs and two outputs.
+
+    \begin{figure}[H]
+      \centering
+
+      \begin{circuitikz}[x=3cm,y=1.5cm,z=2cm]
+        \draw
+        (0, 0)  node [xor port] (xor) {}
+        (0, -1) node [and port] (and) {}
+        ;
+        \draw
+        (xor.out) ++(1, 0) node (S) {S}
+        (xor.out) -- (S)
+        (and.out) ++(1, 0) node (C) {C}
+        (and.out) -- (C)
+        ;
+        \draw
+        (xor.in 1) ++(-1, 0) node (A) {A}
+        (xor.in 2) ++(-1, 0) node (B) {B}
+        (xor.in 1) -- (A)
+        (xor.in 2) -- (B)
+        ;
+        \draw
+        (xor.in 1) ++(-0.1, 0) coordinate (foo)
+          to[kinky cross=(A)--(xor.in 2), kinky crosses=left]
+          (and.in 1 -| foo)
+          -- (and.in 1)
+        (xor.in 2) ++(-0.2, 0)
+          |- (and.in 2)
+        ;
+      \end{circuitikz}
+
+      ~
+
+      \begin{tabular}{|c|c||c|c|}
+        \hline
+        A & B & S & C \\ \hline
+        ~ & ~ & ~ & ~ \\ \hline
+        ~ & ~ & ~ & ~ \\ \hline
+        ~ & ~ & ~ & ~ \\ \hline
+        ~ & ~ & ~ & ~ \\ \hline
+      \end{tabular}
+    \end{figure}
   \end{parts}
 
   \question
@@ -225,8 +317,8 @@ between circuit diagrams and truth tables.
 
     \begin{figure}[H]
       \centering
-      \begin{tabular}{ccc}
-        Input 1 & Input 2 & Output \\ \hline
+      \begin{tabular}{cc||c}
+        A & B & OUT \\ \hline
         $1$ & $1$ & $0$ \\
         $1$ & $0$ & $0$ \\
         $0$ & $1$ & $0$ \\
@@ -236,13 +328,14 @@ between circuit diagrams and truth tables.
 
     \answerbox
 
+    \vfill
     \part
     Consider the following function with three inputs and one output.
 
     \begin{figure}[H]
       \centering
-      \begin{tabular}{cccc}
-        Input 1 & Input 2 & Input 3 & Output \\ \hline
+      \begin{tabular}{ccc||c}
+        A & B & C & OUT \\ \hline
         $0$ & $0$ & $0$ & $0$ \\
         $0$ & $0$ & $1$ & $1$ \\
         $0$ & $1$ & $0$ & $1$ \\
@@ -256,7 +349,39 @@ between circuit diagrams and truth tables.
 
     \answerbox
 
+    \part
+    Consider the following function with three inputs and two outputs.
+
+    \begin{figure}[H]
+      \centering
+      \begin{tabular}{ccc||cc}
+        $A$ & $B$ & $C_{\text{in}}$ & $S$ & $C_{\text{out}}$ \\ \hline
+        $0$ & $0$ & $0$             & $0$ & $0$              \\
+        $0$ & $0$ & $1$             & $1$ & $0$              \\
+        $0$ & $1$ & $0$             & $1$ & $0$              \\
+        $0$ & $1$ & $1$             & $0$ & $1$              \\
+        $1$ & $0$ & $0$             & $1$ & $0$              \\
+        $1$ & $0$ & $1$             & $0$ & $1$              \\
+        $1$ & $1$ & $0$             & $0$ & $1$              \\
+        $1$ & $1$ & $1$             & $1$ & $1$              \\
+      \end{tabular}
+    \end{figure}
+
+    \answerbox
+
   \end{parts}
+
+  \question
+  In this last question, your group will either design a circuit or a boolean
+  function using a truth table.
+  Once your design is complete, trade worksheets with another group and on
+  their worksheet, complete the missing half.
+
+  Feel free to use as many inputs and outputs as you like, but bear in mind
+  that if there are $n$ inputs, then there are $2^n$ entries in the truth
+  table; that's a lot!
+
+  \answerbox
 \end{questions}
 
 \end{document}
