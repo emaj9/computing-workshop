@@ -1,0 +1,262 @@
+\documentclass{exam}
+
+\title{Lesson \#1 -- Worksheet \#1\\Circuit diagrams and boolean logic}
+\author{Jacob Thomas Errington \& Eric Mayhew}
+\date{Winter 2018}
+
+\usepackage{multicol}
+\usepackage{circuitikz}
+\usepackage{tikz}
+\usepackage{float}
+\usepackage{wrapfig}
+
+\setlength{\columnsep}{1cm}
+
+\usetikzlibrary{calc}
+
+\newcommand{\answerbox}{%
+  \begin{figure}[H]
+    \begin{tikzpicture}
+      \draw
+      (0,0) rectangle (\textwidth, 0.33\textheight);
+    \end{tikzpicture}
+  \end{figure}
+}
+
+\tikzset{
+  declare function={% in case of CVS which switches the arguments of atan2
+    atan3(\a,\b)=ifthenelse(atan2(0,1)==90, atan2(\a,\b), atan2(\b,\a));
+  },
+  kinky cross radius/.initial=+.125cm,
+  @kinky cross/.initial=+, kinky crosses/.is choice,
+  kinky crosses/left/.style={@kinky cross=-},kinky crosses/right/.style={@kinky cross=+},
+  kinky cross/.style args={(#1)--(#2)}{
+    to path={
+      let \p{@kc@}=($(\tikztotarget)-(\tikztostart)$),
+          \n{@kc@}={atan3(\p{@kc@})+180} in
+      -- ($(intersection of \tikztostart--{\tikztotarget} and #1--#2)!%
+             \pgfkeysvalueof{/tikz/kinky cross radius}!(\tikztostart)$)
+      arc [ radius     =\pgfkeysvalueof{/tikz/kinky cross radius},
+            start angle=\n{@kc@},
+            delta angle=\pgfkeysvalueof{/tikz/@kinky cross}180 ]
+      -- (\tikztotarget)
+    }
+  }
+}
+
+\newcommand{\bingate}[1]{%
+  \begin{multicols}{2}
+    \centering
+    \begin{circuitikz}
+      \draw
+      (0, 0) node[#1] (gate) {}
+      (gate.in 1) ++(-1, 0) node (in 1) {Input 1}
+      (gate.in 2) ++(-1, 0) node (in 2) {Input 2}
+      (gate.out)  ++(1, 0)  node (out)  {Output}
+      ;
+    \end{circuitikz}
+    \vfill
+    \begin{tabular}{|c|c|c|}
+      \hline
+      Input 1 & Input 2 & Output \\ \hline
+      ~ & ~ & ~   \\ \hline
+      ~ & ~ & ~   \\ \hline
+      ~ & ~ & ~   \\ \hline
+      ~ & ~ & ~   \\ \hline
+    \end{tabular}
+  \end{multicols}
+}
+
+\newcommand{\ungate}[1]{%
+  \begin{multicols}{2}
+    \centering
+    \begin{circuitikz}
+      \draw
+      (0, 0) node[#1] (gate) {}
+      (gate.in)   ++(-1, 0) node (in 1) {Input}
+      (gate.out)  ++(1, 0)  node (out)  {Output}
+      ;
+    \end{circuitikz}
+    \vfill
+    \begin{tabular}{|c|c|}
+      \hline
+      Input & Output \\ \hline
+      ~ & ~   \\ \hline
+      ~ & ~   \\ \hline
+    \end{tabular}
+  \end{multicols}
+}
+
+\begin{document}
+
+\maketitle
+
+In this worksheet, you will practise your understanding of the relationship
+between circuit diagrams and truth tables.
+
+\begin{questions}
+  \question
+  First, review your understanding of the four basic logic gates by filling out
+  the truth tables for each of them.
+  The solution to this question can serve as a reference card for the later
+  questions.
+
+  \begin{figure}[H]
+    \bingate{and port}
+    \bingate{or port}
+    \bingate{xor port}
+    \ungate{not port}
+  \end{figure}
+
+  \question
+  Draw up the truth table for the following circuit diagrams.
+
+  \begin{parts}
+    \part
+    Consider this diagram with three inputs and one output.
+
+    \begin{figure}[H]
+      \centering
+
+      \begin{circuitikz}[x=3cm,y=1.5cm,z=2cm]
+        \draw
+        (0, 0)  node[not port] (not 1) {}
+        (0, -1) node[not port] (not 2) {}
+        (0, -2) node[not port] (not 3) {}
+        ;
+        \coordinate (bet 1 2) at ($ (not 1.out) !.5! (not 2.out) $);
+        \coordinate (bet 2 3) at ($ (not 2.out) !.5! (not 3.out) $);
+        \draw
+        (not 1.in) ++(-1, 0) node (A) {A}
+        (not 1.in) -- (A)
+        (not 2.in) ++(-1, 0) node (B) {B}
+        (not 2.in) -- (B)
+        (not 3.in) ++(-1, 0) node (C) {C}
+        (not 3.in) -- (C)
+        ;
+        \draw
+        (bet 1 2)  ++(1, 0)  node[and port] (and 1 2) {}
+        (bet 2 3)  ++(2, 0)  node[and port] (and 2 3) {}
+        ;
+        \draw
+        (not 1.out)   |- (and 1 2.in 1)
+        (not 2.out)   |- (and 1 2.in 2)
+        (and 1 2.out) |- (and 2 3.in 1)
+        (not 3.out)   |- (and 2 3.in 2)
+        ;
+        \draw
+        (and 2 3.out) ++(1, 0) node (OUT) {OUT}
+        (and 2 3.out) -- (OUT)
+        ;
+      \end{circuitikz}
+
+      \begin{tabular}{|c|c|c|c|}
+        \hline
+        A & B & C & OUT \\ \hline
+        ~ & ~ & ~ & ~ \\   \hline
+        ~ & ~ & ~ & ~ \\   \hline
+        ~ & ~ & ~ & ~ \\   \hline
+        ~ & ~ & ~ & ~ \\   \hline
+        ~ & ~ & ~ & ~ \\   \hline
+        ~ & ~ & ~ & ~ \\   \hline
+        ~ & ~ & ~ & ~ \\   \hline
+        ~ & ~ & ~ & ~ \\   \hline
+      \end{tabular}
+    \end{figure}
+
+    \part
+    Consider this diagram with two inputs and one output.
+
+    \begin{figure}[H]
+      \centering
+
+      \begin{circuitikz}[x=3cm,y=1.5cm,z=2cm]
+        \draw
+        (0, 0)      node           (A)       {A}
+        %puts pen   a node         name of node    text at node
+        (0, -1)     node           (B)       {B}
+        (1, -0.5)   node[or port]  (orgate)  {}
+                        %class for node, "or port" from package
+        (1, -2)     node[and port] (and1)    {}
+        (1.5, -2)   node[not port] (notgate) {}
+        (2.5, -0.5) node[and port] (and2)    {}
+        (3.0, -0.5) node           (OUTPUT)  {OUT}
+
+
+        %node a, |- do these directions to destinatino orgate
+        (A) |- (orgate.in 1)
+        (B) |- (orgate.in 2)
+
+        (orgate.out) |- (and2.in 1)
+        (notgate.out) |- (and2.in 2)
+        (and1.out) -- (notgate.in)
+        (and2.out) -- (OUTPUT)
+        ;
+        \coordinate (foo) at ($ (orgate.in 1) - (0.05, 0) $);
+        \draw
+        (A) |- (foo)
+            to[kinky cross=(B)--(orgate.in 2), kinky crosses=left]
+            (and1.in 1 -| foo)
+            -- (and1.in 1)
+        (B) |- ($ (orgate.in 2) - (0.10, 0) $) |- (and1.in 2)
+        ;
+      \end{circuitikz}
+
+      ~
+
+      \begin{tabular}{|c|c|c|}
+        \hline
+        A & B & OUT \\ \hline
+        ~ & ~ & ~ \\ \hline
+        ~ & ~ & ~ \\ \hline
+        ~ & ~ & ~ \\ \hline
+        ~ & ~ & ~ \\ \hline
+      \end{tabular}
+    \end{figure}
+
+  \end{parts}
+
+  \question
+  Draw a circuit diagram that implements the boolean function.
+
+  \begin{parts}
+    \part
+    Consider the following function with two inputs and one output.
+
+    \begin{figure}[H]
+      \centering
+      \begin{tabular}{ccc}
+        Input 1 & Input 2 & Output \\ \hline
+        $1$ & $1$ & $0$ \\
+        $1$ & $0$ & $0$ \\
+        $0$ & $1$ & $0$ \\
+        $0$ & $0$ & $1$ \\
+      \end{tabular}
+    \end{figure}
+
+    \answerbox
+
+    \part
+    Consider the following function with three inputs and one output.
+
+    \begin{figure}[H]
+      \centering
+      \begin{tabular}{cccc}
+        Input 1 & Input 2 & Input 3 & Output \\ \hline
+        $0$ & $0$ & $0$ & $0$ \\
+        $0$ & $0$ & $1$ & $1$ \\
+        $0$ & $1$ & $0$ & $1$ \\
+        $0$ & $1$ & $1$ & $1$ \\
+        $1$ & $0$ & $0$ & $1$ \\
+        $1$ & $0$ & $1$ & $1$ \\
+        $1$ & $1$ & $0$ & $1$ \\
+        $1$ & $1$ & $1$ & $1$ \\
+      \end{tabular}
+    \end{figure}
+
+    \answerbox
+
+  \end{parts}
+\end{questions}
+
+\end{document}
