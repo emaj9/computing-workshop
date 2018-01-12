@@ -11,6 +11,7 @@ data Registration
     , registerBgGeneral :: Text
     , registerBgComputers :: Text
     , registerBgTeaching :: Text
+    , registerQuestions :: Text
     }
   deriving (Eq, Generic, FromJSON, ToJSON)
 
