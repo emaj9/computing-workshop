@@ -1,4 +1,4 @@
 .PHONY: all
 
 all:
-	make -C lesson-plans
+	make -C lessons
