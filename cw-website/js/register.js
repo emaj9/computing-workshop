@@ -10,7 +10,7 @@ $(function() {
         '<dd>' +
         'Your registration has been accepted! ' +
         'You should hear back from us soon.' +
-        '</dd>' +
+        '</dd>'
     );
   }
 
