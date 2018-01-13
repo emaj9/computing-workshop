@@ -48,57 +48,6 @@
   }
 }
 
-\newcommand{\bingate}[2]{%
-  \begin{multicols}{2}
-    \centering
-    {\large #2}
-
-    ~
-
-    \begin{circuitikz}
-      \draw
-      (0, 0) node[#1] (gate) {}
-      (gate.in 1) ++(-1, 0) node (in 1) {Input 1}
-      (gate.in 2) ++(-1, 0) node (in 2) {Input 2}
-      (gate.out)  ++(1, 0)  node (out)  {Output}
-      ;
-    \end{circuitikz}
-    \vfill
-    \begin{tabular}{|c|c||c|}
-      \hline
-      Input 1 & Input 2 & Output \\ \hline
-      ~ & ~ & ~   \\ \hline
-      ~ & ~ & ~   \\ \hline
-      ~ & ~ & ~   \\ \hline
-      ~ & ~ & ~   \\ \hline
-    \end{tabular}
-  \end{multicols}
-}
-
-\newcommand{\ungate}[2]{%
-  \begin{multicols}{2}
-    \centering
-    {\large #2}
-
-    ~
-
-    \begin{circuitikz}
-      \draw
-      (0, 0) node[#1] (gate) {}
-      (gate.in)   ++(-1, 0) node (in 1) {Input}
-      (gate.out)  ++(1, 0)  node (out)  {Output}
-      ;
-    \end{circuitikz}
-    \vfill
-    \begin{tabular}{|c||c|}
-      \hline
-      Input & Output \\ \hline
-      ~ & ~   \\ \hline
-      ~ & ~   \\ \hline
-    \end{tabular}
-  \end{multicols}
-}
-
 \begin{document}
 
 \maketitle
@@ -107,52 +56,6 @@ In this worksheet, you will practise your understanding of the relationship
 between circuit diagrams and truth tables.
 
 \begin{questions}
-  \question
-  First, review your understanding of the four basic logic gates by filling out
-  the truth tables for each of them.
-  The solution to this question can serve as a reference card for the later
-  questions.
-
-  \begin{figure}[H]
-    \begin{multicols}{2}
-      \centering
-      {\large AND}
-
-      ~
-
-      \begin{circuitikz}
-        \draw
-        (0, 0) node[and port] (gate) {}
-        (gate.in 1) ++(-1, 0) node (in 1) {Input 1}
-        (gate.in 2) ++(-1, 0) node (in 2) {Input 2}
-        (gate.out)  ++(1, 0)  node (out)  {Output}
-        ;
-      \end{circuitikz}
-      \vfill
-      \begin{tabular}{|c|c||c|}
-        \hline
-        Input 1 & Input 2 & Output \\ \hline
-        $0$     & $0$     & $0$    \\ \hline
-        $0$     & $1$     & $0$    \\ \hline
-        $1$     & $0$     & $0$    \\ \hline
-        $1$     & $1$     & $1$    \\ \hline
-      \end{tabular}
-    \end{multicols}
-
-    ~
-
-    \bingate{or port}{OR}
-
-    ~
-
-    \bingate{xor port}{XOR}
-
-    ~
-
-    \ungate{not port}{NOT}
-  \end{figure}
-
-  \pagebreak
   \question
   Draw up the truth table for the following circuit diagrams.
 
