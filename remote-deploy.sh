@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 ssh hakyll@emayhew.com zsh <<'EOF'
 export PATH=$HOME/.local/bin:$PATH
 set -e
@@ -9,3 +11,5 @@ git reset --hard origin/master
 ./build.sh
 ./deploy.sh
 EOF
+
+echo ">>> DEPLOY COMPLETE"
