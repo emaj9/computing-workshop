@@ -19,7 +19,7 @@
   \begin{figure}[H]
     \begin{tikzpicture}
       \draw
-      (0,0) rectangle (\textwidth, 0.33\textheight);
+      (0,0) rectangle (\textwidth, 0.45\textheight);
     \end{tikzpicture}
   \end{figure}
 }
@@ -114,6 +114,7 @@ between circuit diagrams and truth tables.
       \end{tabular}
     \end{figure}
 
+    \vfill
     \part
     Consider this diagram with two inputs and one output.
 
@@ -164,7 +165,6 @@ between circuit diagrams and truth tables.
       \end{tabular}
     \end{figure}
 
-    \vfill
     \part
     Consider this circuit with two inputs and two outputs.
 
@@ -211,6 +211,7 @@ between circuit diagrams and truth tables.
     \end{figure}
   \end{parts}
 
+  \pagebreak
   \question
   Draw a circuit diagram that implements the boolean function.
 
@@ -251,41 +252,7 @@ between circuit diagrams and truth tables.
     \end{figure}
 
     \answerbox
-
-    \part
-    Consider the following function with three inputs and two outputs.
-
-    \begin{figure}[H]
-      \centering
-      \begin{tabular}{ccc||cc}
-        $A$ & $B$ & $C_{\text{in}}$ & $S$ & $C_{\text{out}}$ \\ \hline
-        $0$ & $0$ & $0$             & $0$ & $0$              \\
-        $0$ & $0$ & $1$             & $1$ & $0$              \\
-        $0$ & $1$ & $0$             & $1$ & $0$              \\
-        $0$ & $1$ & $1$             & $0$ & $1$              \\
-        $1$ & $0$ & $0$             & $1$ & $0$              \\
-        $1$ & $0$ & $1$             & $0$ & $1$              \\
-        $1$ & $1$ & $0$             & $0$ & $1$              \\
-        $1$ & $1$ & $1$             & $1$ & $1$              \\
-      \end{tabular}
-    \end{figure}
-
-    \answerbox
-
   \end{parts}
-
-  \question
-  In this last question, your group will either design a circuit or a boolean
-  function using a truth table.
-  Once your design is complete, trade worksheets with a group that designed a
-  boolean function or a circuit, respectively, and on their worksheet, complete
-  the missing half.
-
-  Feel free to use as many inputs and outputs as you like, but bear in mind
-  that if there are $n$ inputs, then there are $2^n$ entries in the truth
-  table; that's a lot!
-
-  \answerbox
 \end{questions}
 
 \end{document}
