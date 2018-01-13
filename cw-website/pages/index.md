@@ -4,9 +4,9 @@ title: Homepage
 
 ## Welcome!
 
-Welcoming to the Computing Workshop website! On this site, you'll find the
-details of the computing workshop itself, along with all the matierals
-necessary to run this workshop.
+Welcome to the Computing Workshop website!
+On this site, you'll find the details of the workshop itself, along with all
+the materials necessary to run this workshop.
 
 Upon completing Computing Workshop, you will have built a website from start to
 finish and will understand each component of it.
@@ -19,7 +19,7 @@ sessions and completing the final project.*
 
 ### Eric Mayhew
 
- * _Education:_ B.Ed. Secondary Education, McGill.
+ * _Education:_ B.Ed. Secondary Education, McGill (2019).
  * _Passion:_ Music.
  * _Favourite orchestral instrument_: Viola.
 
