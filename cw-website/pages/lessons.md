@@ -5,7 +5,7 @@ title: Lessons
 ## Lesson information and materials
 
 On this page you will find the lesson plans for each lesson of the workshop.
-You can click on the lesson to download the pdf of lesson plan; there will you
+You can click on the lesson to download the lesson plan; there will you
 find everything you need to know about the lesson.
 
 This page is a living document: as new lesson plans are released, they will
