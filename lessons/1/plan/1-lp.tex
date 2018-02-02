@@ -14,7 +14,7 @@ binary. Understanding binary and circuits are at the soul of computers,
 therefore it is essential they are discussed in order to be comfortable with
 computers. By implementing logic gates using breadboards, participants will learn how basic circuits are
 constructed using hands-on learning activities. Understanding circuitry will lay the ground work for
-introducing more complicated concepts like processors in later lessons.
+introducing more complicated concepts like integrated circuits and processors in later lessons.
 
 \section*{Overview}
 
@@ -28,9 +28,6 @@ introducing more complicated concepts like processors in later lessons.
 
     \item Build basic logic gates out of transistors, both theoretically and
       physically on a breadboard.
-
-    \item Draw the logic gate diagram corresponding to a circuit on a
-      breadboard.
 
     \item Name a few basic Haskell types and use an interactive Haskell prompt
       like GHCi.
@@ -47,28 +44,18 @@ introducing more complicated concepts like processors in later lessons.
         \url{\cwpdf 1-slides.pdf}
 
       \item
-        logic gate review worksheet;
+        accompanying slides notes for students.
 
         \url{\cwpdf 1-ws-gate-review.pdf}
-
-      \item
-        circuit diagrams and boolean logic worksheet;
-
-        \url{\cwpdf 1-ws-circuit.pdf}
-
-      \item
-        breadboard reverse engineering worksheet;
-
-        \url{\cwpdf 1-ws-bb-reverse-engineering.pdf}
 
       \item
         one breadboard for each group and enough of the following electronic
         components:
         NPN transistors,
-        100~$\Omega$ resistors,
+        10~$\Omega$ resistors,
         9~V batteries,
-        5~V power regulators,
-        jumper wires of various lengths or ribbon cables,
+        5~V voltage regulators,
+        jumper wires (male to male),
         and assorted LEDs.
 
     \end{itemize}
@@ -80,25 +67,44 @@ introducing more complicated concepts like processors in later lessons.
   \item[5 mins.]
     Facilitators welcome the group and present lesson agenda.
 
+  \item[25 mins.]
+    Using the slides, facilitators will present the power supply unit, which
+    turns alternating current to direct current, a form of electricity computers
+    can use. To represent this, students will implement a basic circuit on their
+    breadboard.
+
+    Before creating the circuit, facilitators will explain the purpose of each
+    component using the slides.
+
+    The students will now create the circuit shown on slide 10. Building this circuit will require: the breadboard, a resistor, voltage
+    regulator (VR), the battery, and a LED. The circuit will run a current through the VR, then the LED,
+    then a resistor and back to the batter. The LED light will
+    to turn it on, demonstrating a basic circuit. Students should add a button
+    anywhere before the LED on their circuit to get familiar with its function.
+
   \item[20 mins.]
-    Using the slides, facilitators will present the power supply unit, binary
-    numbers, and logic gates (AND, OR, NOT, XOR).
+    Once students feel comfortable with using the breadboard to create
+    circuits, facilitators will introduce transistors. For our purpose,
+    transistors act as electronic switches which are used to manipulate binary
+    values. 
 
-  \item[10 mins.]
-    Students will complete the ``Logic gate review'' worksheet.
-    In this worksheet, students write out the truth tables for the four basic
-    logic gates: AND, OR, XOR, and NOT.
+    Students will add a transistor to their breadboard. They will do this by
+    moving the output of the LED current into the base (middle prong) of the
+    transistor. Then they will connect the collector (left prong) to a
+    different colour LED and to the positive voltage. Finally the emitter
+    (right prong) will connect to the negative voltage. 
 
-  \item[15 mins.]
-    Students will complete the ``Circuit diagrams and boolean logic''
-    worksheet.
-    Each group will receive two copies of the worksheet and the worksheet is to
-    be completed in pairs.
+    Pressing the button of the base wire will light up both the base LED and
+    collector LED. Explain this is because the base makes the transistor
+    conductive, allowing electricity to move from collector to emitter. The
+    base is like a spigot on a tap: when it is open, water flows; when it is
+    closed, water does not flow.
 
-  \item[30 mins.]
-    Students will complete the ``Breadboard reverse engineering worksheet''.
-    This is a collaborative activity in which each group is assigned a logical
-    circuit to implement physically using transistors and integrated circuits.
+  \item[35 mins.]
+    When students are comfortable with transistors, they will use 2 transistors
+    to make the "and" \& "or" logic gate. To create an and gate using
+    transistors, refer to this video:
+    \url{https://www.youtube.com/watch?v=sTu3LwpF6XI&t=488s}.
 
   \item[10 mins.]
     The rest of the class will introduce Haskell and programming languages. To
