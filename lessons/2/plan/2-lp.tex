@@ -1,0 +1,93 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=2cm]{geometry}
+\usepackage{hyperref}
+
+\title{2 -- Integrated circuits and memory}
+\author{Eric Mayhew \& Jacob Errington}
+\date{}
+\newcommand{\cwurl}{https://www.computing-workshop.com/}
+\newcommand{\cwpdf}{\cwurl pdf/}
+
+\newcommand{\codeworld}{\href{http://code.world/}{code world}}
+
+\begin{document}
+
+\maketitle
+
+This lesson guides its participants up the ladder of abstraction from
+transistors to integrated circuits, which bundle up useful logical operations
+into their own electronic component. The development of integrated circuits
+allowed computers to be miniaturized. Participants will use integrated circuits
+for AND and OR gates in order to build an S-R latch, which will illustrate the
+operation of memory. Finally, participants will use \codeworld{} to explore
+Haskell functions and types.
+
+\section*{Overview}
+
+\subsection*{Learning objectives}
+
+By the end of this lesson, students will be able to:
+%
+\begin{itemize}
+\item Physically construct a NOT gate using a discrete transistor on a breadboard.
+\item Explain the operation of computer memory by physically constructing an S-R
+  latch using integrated circuits.
+\item Use Haskell functions to draw simple images.
+\item Interpret simple Haskell type signatures.
+\item Differentiate between definitions and expressions.
+\end{itemize}
+
+\subsection*{Materials}
+
+To run this lesson, the following materials are necessary:
+
+\begin{itemize}
+\item The lesson slides, \cwpdf{2-slides.pdf}.
+\item One breadboard for each group and enough of the following electronic
+  components:
+  NPN transistors,
+  100~$\Omega$ resistors,
+  9~V batteries,
+  5~V voltage regulators,
+  jumper wires (male to male),
+  assorted LEDs,
+  integrated circuits from the 7400-series (7408 (quad 2-input AND gate), 7432
+  (quad 2-input OR gate)).
+\end{itemize}
+
+\section*{Instructional sequence}
+
+\begin{itemize}
+\item[5 mins.]
+  Facilitators will greet the participants and present the lesson agenda.
+\item[10 mins.]
+  Following a diagram in the slides, participants will build a NOT gate on their
+  breadboard using transistors.
+\item[20 mins.]
+  Facilitators will introduce integrated circuits as packaged-up
+  transistor-based circuits.
+  To get comfortable with ICs, participants will test the AND and OR gates by
+  manipulating their inputs and observing with LEDs their outputs.
+  Diagrams of the test circuits are provided in the slides.
+\item[30 mins.]
+  When participants are comfortable with ICs, the facilitators will introduce
+  computer memory and its operation by showing a video clip linked in the
+  slides. (1:27 to 3:12.)
+  %
+  Participants will construct an S-R latch using ICs following a diagram in the
+  slides.
+\item[20 mins.]
+  Once students complete the S-R latch exercise, facilitators will introduce
+  functions as machines with one input and one output.
+  Facilitators will explain how to read and interpret a Haskell type signature,
+  paying close attention to concrete types, tuple types, and function types.
+  To demonstrate the use of functions, facilitators will program a picture of a
+  village. Participants will follow along with this code on their computers.
+  Once this code is complete, participants will be invited to extend (or
+  completely change) it in small groups or individually.
+\end{itemize}
+
+\section*{Homework}
+For homework, participants will create their own picture using \codeworld.
+\end{document}
