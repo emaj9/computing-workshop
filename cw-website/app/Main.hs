@@ -1,44 +1,45 @@
+{-# LANGUAGE LambdaCase #-}
 {-# LANGUAGE OverloadedStrings #-}
+
 module Main where
 
-import Hakyll
+import Data.Aeson
+import Data.Bool ( bool )
+import qualified Data.HashMap.Lazy as M
+import Data.Monoid ( (<>) )
 import System.FilePath
 import Text.Pandoc
-import Data.Monoid ( (<>) )
 
---hakyll :: monad -> IO ()
+import Hakyll
 
 main :: IO ()
 main = hakyll $ do
   match "pages/*" $ do
     route $ customRoute (dropRoute 6) `composeRoutes` (setExtension "html")
-    compile $ pandocCompiler
-      >>= loadAndApplyTemplate "templates/default.html" defaultContext
-      >>= relativizeUrls
+    compile $ do
+      -- select the compilation strategy depending on whether the page is verbatim:
+      --  - verbatim -> just read the file
+      --  - not verbatim -> use pandoc
+      (bool pandocCompiler getResourceBody =<< isVerbatim)
+        >>= loadAndApplyTemplate "templates/default.html" defaultContext
+        >>= relativizeUrls
 
-  match "verbatim-pages/*" $ do
-    route $ customRoute (dropRoute 15) `composeRoutes` (setExtension "html")
-    compile $ getResourceBody
-      >>= loadAndApplyTemplate "templates/default.html" defaultContext
-      >>= relativizeUrls
-
-  match "js/*" $ do
-    route idRoute
+  match "static/**" $ do
+    route (customRoute $ dropRoute 7)
     compile copyFileCompiler
 
   match "templates/*" $ compile templateCompiler
 
-  match "css/style.css" $ do
-    route idRoute
-    compile copyFileCompiler
-
-  match "pdf/*" $ do
-    route idRoute
-    compile copyFileCompiler
-
-  match "img/*.jpg" $ do
-    route idRoute
-    compile copyFileCompiler
-
 dropRoute :: Int -> Identifier -> FilePath
 dropRoute n id = drop n (toFilePath id)
+
+(<#>) = flip (<$>)
+infixl 1 <#>
+
+-- | Decides whether the current compilation target is a verbatim
+-- target (i.e. should not be processed with pandoc)
+isVerbatim :: Compiler Bool
+isVerbatim =
+  getUnderlying >>= getMetadata <#> M.lookup "verbatim" <#> \case
+    Just (Bool True) -> True
+    _ -> False
