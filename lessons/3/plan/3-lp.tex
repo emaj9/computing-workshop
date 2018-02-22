@@ -1,12 +1,13 @@
 \documentclass[11pt]{article}
 
-\title{3 -- Pattern matching and ALU}
+\usepackage[margin=2cm]{geometry}
+\usepackage{hyperref}
+
+\title{3 -- Types, pattern matching, and the ALU}
 \author{Eric Mayhew \& Jacob Errington}
 \date{}
-
 \newcommand{\cwurl}{https://www.computing-workshop.com/}
 \newcommand{\cwpdf}{\cwurl pdf/}
-\newcommand{\bootstrapurl}{\url{\cwurl hs/getting-started.hs}}
 
 \newcommand{\codeworld}{\href{http://code.world/}{code world}}
 
@@ -36,7 +37,8 @@ To run this lesson, the folloing materials are necessary:
 
 \begin{itemize}
 \item The lesson slides, \url{\cwpdf{3-presentation.pdf}}.
-\item One breadbaord for each group and enough of the following electronic components:
+\item One breadbaord for each group and enough of the following electronic
+  components:
   NPN transistors,
   100~$\Omega$ resistors,
   9~V batteries,
@@ -46,8 +48,6 @@ To run this lesson, the folloing materials are necessary:
   integrated circuits from the 7400-series (7408 (quad 2-input AND gate), 7486
   (quad 2-input XOR gate)).
 \item Each participant needs a computer to work on, with access to the web.
-\item A basic Haskell file for getting started with interactive programs in
-  codeworld: \bootstrapurl.
 \end{itemize}
 
 \section*{Instructional sequence}
@@ -55,22 +55,8 @@ To run this lesson, the folloing materials are necessary:
 \begin{itemize}
 \item[5 mins.]
   Facilitators will greet the participants and present the lesson agenda.
-\item[20 mins.]
-  Using the slides, facilitators will recall types in Haskell, paying special
-  attention to function types. This leads into an explanation of pattern
-  matching, by walking through the stoplight example.
-  Facilitators will follow-up with a discussion of recursion, by defining the
-  \texttt{length} function for lists recursively, and walkthrough through its
-  evaluation.
-\item[20 mins.]
-  With this knowledge of pattern matching, facilitators will walk students
-  through a concrete example of pattern matching on \codeworld{} by creating a
-  program that displays a shape whose colour is chosen by cycling through a list
-  when a key is pressed.
-
-  Students will get started by pasting a premade bootstrap file \bootstrapurl{}
-  into \codeworld. Then they will follow along with the projected facilitator's
-  screen.
 \end{itemize}
+
+\section*{Homework}
 
 \end{document}

@@ -17,6 +17,8 @@ appear on this page.
 
 #### [Lesson 2](/pdf/2-lp.pdf)
 
+#### [Lesson 3](/pdf/3-lp.pdf)
+
 <!---
 Lesson descriptions rough draft
 
