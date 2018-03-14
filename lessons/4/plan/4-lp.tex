@@ -1,0 +1,99 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=2cm]{geometry}
+\usepackage{hyperref}
+
+\title{4 - Operating systems and Linux!}
+\author{Jacob Errington \& Eric Mayhew}
+\date{}
+
+\newcommand{\cwurl}{https://www.computing-workshop.com/}
+\newcommand{\cwpdf}{\cwurl pdf/}
+
+\begin{document}
+
+\maketitle
+
+In this lesson, participants will be introduced to operating system
+fundamentals. We will explore the boot sequence of a laptop computer in detail,
+and present the high-level features of a modern operating system.
+Finally, participants will begin to use the Linux command line.
+
+\section*{Overview}
+
+\subsection*{Learning objectives}
+
+By the end of the lesson, students will be able to:
+\begin{itemize}
+\item
+  Explain the boot sequence of a typical modern computer.
+\item
+  Name some key features of a modern operating system, such as user isolation,
+  memory protection, and hardware abstraction.
+\item
+  Use a (bash-compatible) Linux shell for basic file management such as changing
+  directories, moving/copying files, creating files and directories, and viewing
+  text files.
+\item
+  Use an editor from the \texttt{vi} family to edit files
+\end{itemize}
+
+\subsection*{Materials}
+
+To run this lesson, the following materials are necessary:
+
+\begin{itemize}
+\item
+  Each participant requires a computer with VirtualBox installed, and each
+  participant needs to download and unzip the prepared virtual machine:
+  \url{https://files.jerrington.me/arch.zip}.
+
+\item
+  In particular, this prepared VM contains a Linux command line scavenger hunt
+  activity, available here:
+  \url{https://github.com/tsani/scavenger-hunt}
+\end{itemize}
+
+\section*{Instructional sequence}
+
+\begin{itemize}
+\item[5 mins.]
+  Facilitators will greet the participants and present the recap and lesson
+  agenda.
+\item[20 mins.]
+  Two things happen concurrently during this period:
+  \begin{itemize}
+  \item
+    A few participants will be pulled aside by one facilitator and will discuss
+    the boot sequence of a computer following a video:
+    \url{https://www.youtube.com/watch?v=zyHoBzm5taw}
+  \item
+    The remaining participants will reboot a computer multiple times and take
+    note of visible and audible changes in the computer, in order to try to
+    empirically figure out what the different stages of the boot sequence are.
+    These participants will construct a timeline of events that take place
+    during the boot sequence.
+  \end{itemize}
+\item[10 mins.]
+  The participants that were taken aside will work the participants who observed
+  the boot sequence to bridge their knowledge. They will work together to
+  annotate the timeline with the different stages of the boot sequence outlined
+  in the slides.
+\item[5 mins.]
+  Facilitators will show a Crash Course Computer Science video on operating
+  systems.
+\item[5 mins.]
+  Facilitators will introduce Linux by distinguishing distributions from kernels
+  from other types of Linux OSes such as Android.
+  Then, participants will boot up their virtual machines and log in.
+  Facilitators will briefly touch on the \texttt{cd} and \texttt{ls} commands to
+  prepare participants to do the scavenger hunt activity.
+\item[25 mins.]
+  Participants will complete the scavenger hunt activity as facilitators
+  circulate to assist them.
+\item[5 mins.]
+  Facilitors will briefly recap the lesson and mention the topics to be
+  discussed next week.
+\end{itemize}
+
+\end{document}
