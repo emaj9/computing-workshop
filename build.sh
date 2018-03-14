@@ -14,6 +14,7 @@ function uh-oh() {
 }
 
 mkdir -p extra-pdf
+mkdir -p cw-website/static/pdf
 
 echo ">>> BUILDING PDFs"
 make > "$LOG" || uh-oh
