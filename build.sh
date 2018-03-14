@@ -5,7 +5,7 @@ set -e
 LOG=/tmp/cw-build.log
 
 function copy-pdfs() {
-    find "$1" -name '*.pdf' -exec cp -v {} cw-website/pdf \;
+    find "$1" -name '*.pdf' -exec cp -v {} cw-website/static/pdf \;
 }
 
 function uh-oh() {
