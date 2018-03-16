@@ -6,4 +6,6 @@ all:
 	make -C 2
 	make -C 3
 	make -C 4/plan
+	make -C 5/plan
+	make -C 6/plan
 	make -C syllabus
