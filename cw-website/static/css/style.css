@@ -79,6 +79,10 @@ form ul.form-fields label {
     display: block;
 }
 
+form ul.form-fields .checkbox label {
+    display: inline;
+}
+
 form ul.form-fields textarea {
     width: 100%;
 }
