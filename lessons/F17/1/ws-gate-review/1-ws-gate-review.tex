@@ -1,0 +1,112 @@
+\documentclass{exam}
+
+\title{Logic gate review}
+\author{}
+\date{}
+
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{circuitikz}
+\usepackage{tikz}
+\usepackage{float}
+\usepackage{wrapfig}
+
+\setlength{\columnsep}{1cm}
+
+\usetikzlibrary{calc}
+
+\newcommand{\answerbox}{%
+  \begin{figure}[H]
+    \begin{tikzpicture}
+      \draw
+      (0,0) rectangle (\textwidth, 0.33\textheight);
+    \end{tikzpicture}
+  \end{figure}
+}
+
+\tikzset{
+  every path/.style={
+    thick,
+  },
+}
+
+\newcommand{\bingate}[2]{%
+  \begin{multicols}{2}
+    \centering
+    {\large #2}
+
+    ~
+
+    \begin{circuitikz}
+      \draw
+      (0, 0) node[#1] (gate) {}
+      (gate.in 1) ++(-1, 0) node (in 1) {Input 1}
+      (gate.in 2) ++(-1, 0) node (in 2) {Input 2}
+      (gate.out)  ++(1, 0)  node (out)  {Output}
+      ;
+    \end{circuitikz}
+    \vfill
+    \begin{tabular}{|c|c||c|}
+      \hline
+      Input 1 & Input 2 & Output \\ \hline
+      ~ & ~ & ~   \\ \hline
+      ~ & ~ & ~   \\ \hline
+      ~ & ~ & ~   \\ \hline
+      ~ & ~ & ~   \\ \hline
+    \end{tabular}
+  \end{multicols}
+}
+
+\newcommand{\ungate}[2]{%
+  \begin{multicols}{2}
+    \centering
+    {\large #2}
+
+    ~
+
+    \begin{circuitikz}
+      \draw
+      (0, 0) node[#1] (gate) {}
+      (gate.in)   ++(-1, 0) node (in 1) {Input}
+      (gate.out)  ++(1, 0)  node (out)  {Output}
+      ;
+    \end{circuitikz}
+    \vfill
+    \begin{tabular}{|c||c|}
+      \hline
+      Input & Output \\ \hline
+      ~ & ~   \\ \hline
+      ~ & ~   \\ \hline
+    \end{tabular}
+  \end{multicols}
+}
+
+\begin{document}
+
+\maketitle
+
+In this worksheet, you will review the basic logic gates and their truth
+tables.
+
+\begin{questions}
+  \question
+  Fill out the truth table for each of the four basic gates.
+
+  \begin{figure}[H]
+    \bingate{and port}{AND}
+
+    ~
+
+    \bingate{or port}{OR}
+
+    ~
+
+    \bingate{xor port}{XOR}
+
+    ~
+
+    \ungate{not port}{NOT}
+  \end{figure}
+\end{questions}
+
+\end{document}

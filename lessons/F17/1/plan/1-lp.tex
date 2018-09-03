@@ -9,8 +9,8 @@
 
 \begin{document}
 \maketitle
-This lesson provides its participants with an introduction to transistors and
-binary. Understanding binary and transistors are at the core of computers,
+This lesson provides its participants with an introduction to circuits and
+binary. Understanding binary and circuits are at the soul of computers,
 therefore it is essential they are discussed in order to be comfortable with
 computers. By implementing logic gates using breadboards, participants will learn how basic circuits are
 constructed using hands-on learning activities. Understanding circuitry will lay the ground work for
@@ -24,12 +24,13 @@ introducing more complicated concepts like integrated circuits and processors in
    By the end of the lesson, students will be able to:
 
   \begin{itemize}
-
-    \item Describe how transistors work;
+    \item Explain the function of the power supply unit in the computer.
 
     \item Build basic logic gates out of transistors, both theoretically and
       physically on a breadboard.
 
+    \item Name a few basic Haskell types and use an interactive Haskell prompt
+      like GHCi.
   \end{itemize}
 
   \item [Materials]~
@@ -62,6 +63,21 @@ introducing more complicated concepts like integrated circuits and processors in
     Facilitators welcome the group and present lesson agenda.
 
   \item[25 mins.]
+    Using the slides, facilitators will present the power supply unit, which
+    turns alternating current to direct current, a form of electricity computers
+    can use. To represent this, students will implement a basic circuit on their
+    breadboard.
+
+    Before creating the circuit, facilitators will explain the purpose of each
+    component using the slides.
+
+    The students will now create the circuit shown on slide 10.
+    Building this circuit will require: the breadboard, a resistor, voltage
+    regulator (VR), the battery, and a LED. The circuit will run a current
+    through the VR, then the LED, then a resistor and back to the batter.
+    The LED light will to turn it on, demonstrating a basic circuit.
+    Students should add a button anywhere before the LED on their circuit to
+    get familiar with its function.
 
   \item[20 mins.]
     Once students feel comfortable with using the breadboard to create
@@ -88,6 +104,16 @@ introducing more complicated concepts like integrated circuits and processors in
     \url{https://www.youtube.com/watch?v=sTu3LwpF6XI&t=488s}.
 
   \item[10 mins.]
+    The rest of the class will introduce Haskell and programming languages. To
+    tie in pre-existing knowledge of hardware, students will understand
+    compilation to be moving down the latter of abstraction. Participants are
+    now prepared to complete the \url{www.tryhaskell.org} by the next session.
 \end{itemize}
+
+\section*{Homework}
+
+Students should build an intuitive understanding of Haskell syntax and types
+by completing \url{www.tryhaskell.org} up to but not including lesson 4 (on
+pattern matching).
 
 \end{document}
