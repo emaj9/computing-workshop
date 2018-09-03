@@ -1,3 +1,7 @@
+@font-face{
+    font-family: Fipps;
+    src:url("/fonts/Fipps-Regular.otf") format("opentype");
+}
 body {
     background-color:#fff;
     font-family: 'Open Sans', sans-serif;
@@ -19,20 +23,19 @@ h1#title {
 }
 
 div.page-header {
-   background-image: url("/img/3.jpg");
    background-size: cover;
+   margin: auto;
 }
 
 div.btn-nav a {
     text-align: center;
     padding: 0.75em 1.208em;
-    background-color:#d8d0f2;
-    border-left: 0.5em solid #dc30e5;
-    box-shadow: 2px 2px #333;
+    background-color:#000;
     margin: 0.2em 1em;
     transition: box-shadow 0.1s linear;
     color: black;
     text-decoration: none;
+    font-family: Fipps;
 }
 
 div.btn-nav a:active {
