@@ -23,7 +23,7 @@ data Env
   = Env
     { envLock :: Lock
     , envOutPath :: FilePath
-    , envMailer :: Mailer
+    , envMailerConf :: MailerConf
     , envNotificationRecipients :: [String]
     }
 
@@ -39,14 +39,11 @@ makeEnv = do
   p <- getEnv "CW_BACKEND_OUT_PATH"
   mailerConf <- makeMailerConf
   recps <- splitOn "," <$> getEnv "CW_BACKEND_NOTIFY_RECIPIENTS"
-  mailer <- newMailer mailerConf >>= \case
-    Left msg -> die msg
-    Right x -> pure x
 
   pure Env
     { envLock = l
     , envOutPath = p
-    , envMailer = mailer
+    , envMailerConf = mailerConf
     , envNotificationRecipients = recps
     }
 
@@ -57,17 +54,22 @@ withLock (Lock l) m = withMVar l (const m)
 
 server :: Env -> Server CWAPI
 server Env{..} = register where
+  notifyEmail = notificationEmail envNotificationRecipients
+
   register reg = liftIO $ do
     registerUser envLock envOutPath reg
 
-    submitMail envMailer (sendRegistrationEmail welcomeEmail reg)
-
-    let notifyEmail = notificationEmail envNotificationRecipients
-    submitMail envMailer (sendRegistrationEmail notifyEmail reg)
-
-    pure RegistrationRes
-      { registerStatus = RegisterOk
-      }
+    newMailer envMailerConf >>= \case
+      Right mailer -> do
+        submitMail mailer (sendRegistrationEmail notifyEmail reg)
+        submitMail mailer (sendRegistrationEmail welcomeEmail reg)
+        pure RegistrationRes
+          { registerStatus = RegisterOk
+          }
+      Left err -> do
+        pure RegistrationRes
+          { registerStatus = RegisterNotOk
+          }
 
 registerUser :: Lock -> FilePath -> Registration -> IO ()
 registerUser l fp = withLock l . LBS.appendFile fp . lf . encode where
@@ -107,8 +109,6 @@ notificationEmail recps = RegistrationEmail
     [ ("Name: ", registerName)
     , ("Email: ", registerEmail)
     , ("Background (general): ", registerBgGeneral)
-    , ("Background (computers): ", registerBgComputers)
-    , ("Background (teaching): ", registerBgTeaching)
     , ("Questions about computers: ", registerQuestions)
     ]
   } where
