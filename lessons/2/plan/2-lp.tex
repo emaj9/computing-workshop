@@ -3,7 +3,7 @@
 \usepackage[margin=2cm]{geometry}
 \usepackage{hyperref}
 
-\title{2 -- Integrated circuits and memory}
+\title{2 -- Integrated circuits and the ALU}
 \author{Eric Mayhew \& Jacob Errington}
 \date{}
 \newcommand{\cwurl}{https://www.computing-workshop.com/}
@@ -17,11 +17,10 @@
 
 This lesson guides its participants up the ladder of abstraction from
 transistors to integrated circuits, which bundle up useful logical operations
-into their own electronic component. The development of integrated circuits
-allowed computers to be miniaturized. Participants will use integrated circuits
-for AND and OR gates in order to build an S-R latch, which will illustrate the
-operation of memory. Finally, participants will use \codeworld{} to explore
-Haskell functions and types.
+into their own electronic component. Using the logic operations learned last
+lesson, participants will create different features of the arthmetic and logic unit (ALU)
+on their breadboards. This lays the foundation for exploring memory, and
+eventually the processor in futher lessons.
 
 \section*{Overview}
 
@@ -30,12 +29,10 @@ Haskell functions and types.
 By the end of this lesson, students will be able to:
 %
 \begin{itemize}
-\item Physically construct a NOT gate using a discrete transistor on a breadboard.
-\item Explain the operation of computer memory by physically constructing an S-R
-  latch using integrated circuits.
-\item Use Haskell functions to draw simple images.
-\item Interpret simple Haskell type signatures.
-\item Differentiate between definitions and expressions.
+\item Translate numbers from base 10 to base 2;
+  \item Describe the function and use of intergrated circuits (ICs) in computing;
+\item Describe the common operations of the ALU;
+  \item Reconstruct a full adder and other ALU features using ICs on a breadboard.
 \end{itemize}
 
 \subsection*{Materials}
@@ -62,32 +59,64 @@ To run this lesson, the following materials are necessary:
 \item[5 mins.]
   Facilitators will greet the participants and present the lesson agenda.
 \item[10 mins.]
-  Following a diagram in the slides, participants will build a NOT gate on their
-  breadboard using transistors.
-\item[20 mins.]
+  To get warmed up, each group will reconstruct a truth table from the logic gate of their choosing
+  covered last week. Groups are also encouraged to research and construct the
+  truth table for logic gates we didn't get to cover, like the NAND and NOR
+  gates. Each group will present their truth table, explaining how it
+  works. It's important these truth tables stay on the board as they will be
+  used later in the lesson.
+\item[10 mins.]
   Facilitators will introduce integrated circuits as packaged-up
-  transistor-based circuits.
-  To get comfortable with ICs, participants will test the AND and OR gates by
-  manipulating their inputs and observing with LEDs their outputs.
-  Diagrams of the test circuits are provided in the slides.
-\item[30 mins.]
-  When participants are comfortable with ICs, the facilitators will introduce
-  computer memory and its operation by showing a video clip linked in the
-  slides. (1:27 to 3:12.)
-  %
-  Participants will construct an S-R latch using ICs following a diagram in the
-  slides.
-\item[20 mins.]
-  Once students complete the S-R latch exercise, facilitators will introduce
-  functions as machines with one input and one output.
-  Facilitators will explain how to read and interpret a Haskell type signature,
-  paying close attention to concrete types, tuple types, and function types.
-  To demonstrate the use of functions, facilitators will program a picture of a
-  village. Participants will follow along with this code on their computers.
-  Once this code is complete, participants will be invited to extend (or
-  completely change) it in small groups or individually.
+  transistor-based circuits, including the history of the integrated
+  circuit. Participants must understand that ICs are an abstraction of
+  transistor-based logic gates. In this lesson, the class will reconstruct parts
+  of an ALU on their breadboards.
+\item[10 mins.]
+  Starting with the arithmetic part of the ALU, facilitators will review the
+  relationship between binary and base 10. Using the activites outlined in the
+  slides, participants will translate base 2 numbers into base 10.
+\item[10 mins.]
+  Next, the participants will explore base 2 addition. To start, one volunteer
+  with the the help of the facilitator will review how to add two numbers in
+  base 10. An example might be something like 99 + 2. In this example, the
+  facilitator should emphasize what happens to the ``carry over'' of 99 + 2,
+  namely that a new column is added to the right of the sum (as in the 1 in 100
+  is a new ``column'' in the number). Next, the participant will add two binary
+  numbers such as 01 and 11. Working from the right most column, 1 + 1 obviously
+  equals 2, but in binary there is no 2, so the sum is actually 10. It's
+  important to note that this isn't ten like in base 10, but rather the sum of 1
+  + 1 is 0 carry 1. This ``carry 1'' carries the value 1 to the next column to
+  the left. There for the next column is adding 0 + 1 + the carry 1 from the
+  right column. Here, the same principle applies where 1 + 1 in binary results
+  in 0 carry 1. Thus, in binary, 01 + 11 = 110.
+\item[10 mims.] Now with an intuition as to how binary addition works,
+  participants will consider how to structure their breadboard to add any
+  combination of numbers in binary, in other words, create a half-adder. To do
+  this, a volunteer will write all the possible combinations of adding two bits
+  together in a table. Then, participants will assess which truth table written
+  on the board earlier in the lesson correlates closest to the possible
+  combinations of the single bit addition. The closest is the XOR gate, with the
+  exception being that when both inputs are 1, the output should not be 1 but
+  instead 10. Another logic gate will have to be introduced to our system to
+  account for this outcome, and luckily the AND gate does just that! Therefore
+  the AND and XOR gate together create our bit adder.
+\item[10 mins.] Before diving into creating the half adder on their breadboards,
+  participants will learn about the history and use of ICs using the
+  slides. These slides provide important information as to how to use ICs.
+\item[10 mins.] Once ICs are clear, participants will implement the half adder
+  to their breadboard.
+\item[20 mins.] A half adder isn't enough if we want to add more than two,
+  single bit inputs. In order to add larger numbers, a full adder must be
+  implemented. Referencing the slides and video, participants will get an
+  understanding how to implement the full adder and create one on their
+  breadboards.
+\item[20 mins.] Addition is not the only feature of a breadboard
+  however. Facilitators will introduce an example feature, such as checking if
+  an input is all zero using OR gates. Afterwards, participants will be given a
+  list of common ALU features to implement using breadboards to conclude the
+  lesson.
+\item[5 mins.] To conclude, facilitators will review the concepts covered in
+  this class as well as what is to be expected next week.
 \end{itemize}
 
-\section*{Homework}
-For homework, participants will create their own picture using \codeworld.
 \end{document}
