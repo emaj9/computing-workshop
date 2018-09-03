@@ -17,15 +17,25 @@ h1, h2, h3, h4, h5, h6 {
 h1#title {
     text-align:center;
     color:white;
-    background:rgba(0,0,0,0.6);
+    /* background:rgba(0,0,0,0.6); */
     justify-content: center;
     margin: 0em;
 }
 
+h1#title > img.banner {
+    margin: 1em 0;
+    max-width: 100%;
+    max-height: 20vh;
+}
+
+/*
 div.page-header {
+   background-image: url("/img/pcb.jpg");
+   background-position: center bottom;
    background-size: cover;
    margin: auto;
 }
+*/
 
 div.btn-nav a {
     text-align: center;
