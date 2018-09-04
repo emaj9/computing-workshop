@@ -17,7 +17,7 @@ mkdir -p extra-pdf
 mkdir -p cw-website/static/pdf
 
 echo ">>> BUILDING PDFs"
-make > "$LOG" || uh-oh
+make > "$LOG" 2>&1 || uh-oh
 
 echo ">>> COPYING PDFs"
 copy-pdfs lessons > "$LOG" 2>&1 || uh-oh
