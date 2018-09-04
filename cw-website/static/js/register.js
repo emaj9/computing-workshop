@@ -2,6 +2,7 @@
 
 $(function() {
     var register = $("#register");
+    var submitButton = register.children('input[type="submit"]');
 
     console.log("Registration loaded!");
 
@@ -30,6 +31,7 @@ $(function() {
     }
 
     function onSubmitRegister(event) {
+        submitButton.prop("disabled", true);
         console.log("Got submit! Serializing form...");
 
         var form = {};
@@ -53,7 +55,7 @@ $(function() {
         event.preventDefault();
     }
 
-    register.children('input[type="submit"]').click(onSubmitRegister);
+    submitButton.click(onSubmitRegister);
     // $('#submit-button').click(onSubmitRegister);
     console.log("Registered submit handler on button.");
 });
