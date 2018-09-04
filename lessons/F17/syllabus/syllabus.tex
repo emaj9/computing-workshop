@@ -1,0 +1,134 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=2.0cm]{geometry}
+\usepackage{hyperref}
+
+\newcommand{\code}{\texttt}
+
+\author{%
+  Eric Mayhew \& Jacob Errington%
+  \footnote{%
+    Special thanks to Building21 (McGill's Office of Student Life and Learning)
+    and to Anita Parmar.
+    Computing Workshop would not have been possible without her tremendous
+    support!
+  }
+}
+\title{Syllabus}
+\date{Winter 2018}
+
+\begin{document}
+
+\maketitle
+
+\begin{description}
+  \item[Website:]
+    \url{http://computing-workshop.com/}
+
+  \item[Location:]
+    B21, 651 rue Sherbrooke Ouest
+    (Northeast corner of University street)
+
+  \item[Time:]
+    From 1:30~PM to 3:00~PM on the following days:
+    \begin{itemize}
+      \item January 26,
+      \item February 2, 9, 16, 23,
+      \item March 2, 16, 23, 30.
+    \end{itemize}
+
+    After each session there is a one-hour homework tutorial during which the
+    facilitators will give hands-on help with whatever homework was assigned
+    during the session.
+
+  \item[Goal:]
+    At the end of the workshop, particpants will have created their own static
+    site by themselves. Participants will have a deep understanding of their
+    computer, from the circuitry to the operating system.
+\end{description}
+
+\section*{Description}
+
+Computing Workshop is a 9-session workshop designed to help people understand
+how computers and websites work. This workshop will cover hardware, software,
+and web development to individuals with little to no background in computers
+using cooperative, problem-based learning methods. Each class is 1.5 hours long
+and has an estimated 1 hour worth of homework that accompanies each lesson.
+
+\section*{Rationale}
+
+We created this workshop to provide people with the support to feel comfortable
+using a computer. Technology is pervasive in our society, but rarely are
+individuals provided with meaningful education in how to use it. Our workshop
+looks to activate participant's motivation by providing them with hands on,
+interactive lessons covering fundamental knowledge with respect to computers.
+This workshop uses a co-constructivist teaching approach to help our
+participants develop their own tools and understanding of computers.
+
+\vfill
+\section*{Lesson sequence}
+
+\begin{enumerate}
+    \setcounter{enumi}{-1}
+  \item Intro, first glance at hardware and abstraction
+  \item Binary, circuits, and intro to Haskell
+  \item Processors, Haskell types and functions
+  \item Memory, virutal machine, Haskell functions continued
+  \item What happens when you turn a computer on, OSs, Haskell functors
+  \item Hardware wrap up, intro to github, Haskell monads
+  \item Designing your website, intro to web development, hakyll
+  \item Creating website components, computer networking, working on your
+    website
+  \item Finishing your website, online community, conclusion
+\end{enumerate}
+
+\section*{Learning goals}
+
+\subsection*{Computers}
+
+\begin{itemize}
+  \item identify key hardware components and their function;
+  \item identify core services provided by an operating system;
+  \item identify the boundaries and relationships between application,
+    operating system, and hardware;
+  \item explain the process of downloading a resource from a remote host;
+  \item explain the role of HTML, CSS, and JavaScript in displaying a web page
+    in a browser;
+  \item categorize different networking protocols (application vs. hardware);
+  \item break down the process from computer power-on to operating system
+    startup;
+  \item interact with online communities and tools;
+  \item appreciate open source material;
+  \item navigate online resources and take autonomy of their own learning.
+\end{itemize}
+
+\subsection*{Programming}
+
+\begin{itemize}
+  \item Translate a word problem into code: identify key types and dataflow;
+  \item use Haskell libraries effectively;
+  \item differentiate between values, types, types classes, and kinds;
+  \item type check expressions;
+  \item implement and use higher-order functions and partial applications;
+  \item use the \code{IO} monad to create programs with side-effects;
+  \item understand general patterns (e.g. \code{Functor}) when applicable and
+    use them;
+  \item
+    use \code{do}-notation for a variety of monads:
+    \code{Maybe}, \code{Either a}, \textellipsis;
+\end{itemize}
+
+\subsection*{Web development}
+
+\begin{itemize}
+  \item Design and implement a website;
+  \item apply appropriate aesthetics to the design of websites:
+    golden ratio, negative space, color theory, \textellipsis;
+  \item use appropriate elements of HTML;
+  \item make responsive websites;
+  \item build reusable web components;
+  %\item use JavaScript to create dynamic websites;
+  \item use appropriate web development tooling (e.g. static site generators).
+\end{itemize}
+
+\end{document}
