@@ -27,7 +27,7 @@ main = hakyll $ do
   match "lessons/**.pdf" $ do
     -- go up to fetch the lessons, but make sure to drop the ../ when
     -- copying into _site
-    route $ customRoute (dropRoute 3)
+    route idRoute
     compile copyFileCompiler
 
   match "static/**" $ do
