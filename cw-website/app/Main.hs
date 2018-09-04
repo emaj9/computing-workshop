@@ -24,8 +24,18 @@ main = hakyll $ do
         >>= loadAndApplyTemplate "templates/default.html" defaultContext
         >>= relativizeUrls
 
+  match "lessons/**.pdf" $ do
+    -- go up to fetch the lessons, but make sure to drop the ../ when
+    -- copying into _site
+    route $ customRoute (dropRoute 3)
+    compile copyFileCompiler
+
   match "static/**" $ do
     route (customRoute $ dropRoute 7)
+    compile copyFileCompiler
+
+  match "dst-fonts/*" $ do
+    route $ gsubRoute "dst-fonts" (const "fonts")
     compile copyFileCompiler
 
   match "templates/*" $ compile templateCompiler
