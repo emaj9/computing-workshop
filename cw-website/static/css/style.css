@@ -2,9 +2,17 @@
     font-family: Fipps;
     src:url("/fonts/Fipps-Regular.otf") format("opentype");
 }
+@font-face{
+    font-family: Windows;
+    src:url("/fonts/windows_command_prompt.ttf") format("truetype");
+}
+@font-face{
+    font-family: pixel;
+    src:url("/fonts/pixeltype.ttf") format("truetype");
+}
 body {
     background-color:#fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: pixel;
     text-align: justify;
     margin: 0;
     padding: 0;
@@ -23,7 +31,7 @@ h1#title {
 }
 
 h1#title > img.banner {
-    margin: 1em 0;
+    margin: 0.2em 0;
     max-width: 100%;
     max-height: 20vh;
 }
@@ -39,8 +47,9 @@ div.page-header {
 
 div.btn-nav a {
     text-align: center;
-    padding: 0.75em 1.208em;
-    background-color:#000;
+    padding: 0.25em 1.208em;
+    background-color:white;
+    border: 1px solid black;
     margin: 0.2em 1em;
     transition: box-shadow 0.1s linear;
     color: black;
