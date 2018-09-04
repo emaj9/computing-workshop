@@ -8,11 +8,12 @@
 }
 @font-face{
     font-family: pixel;
-    src:url("/fonts/pixeltype.ttf") format("truetype");
+    src:url("/fonts/Pixeltype.ttf") format("truetype");
 }
 body {
     background-color:#fff;
-    font-family: pixel;
+    font-family: 'Open Sans';
+    font-size: 1em;
     text-align: justify;
     margin: 0;
     padding: 0;
@@ -31,9 +32,9 @@ h1#title {
 }
 
 h1#title > img.banner {
-    margin: 0.2em 0;
+    margin: 0.4em 0;
     max-width: 100%;
-    max-height: 20vh;
+    max-height: 25vh;
 }
 
 /*
@@ -47,14 +48,14 @@ div.page-header {
 
 div.btn-nav a {
     text-align: center;
-    padding: 0.25em 1.208em;
-    background-color:white;
-    border: 1px solid black;
-    margin: 0.2em 1em;
+    padding: 0.05em 1em;
+    padding-top: 0.2em;
+    background-color:black;
     transition: box-shadow 0.1s linear;
-    color: black;
+    color: white;
     text-decoration: none;
-    font-family: Fipps;
+    font-family: pixel;
+    font-size: 2.95em;
 }
 
 div.btn-nav a:active {
@@ -65,8 +66,8 @@ div.btn-nav {
     display:flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid black;
-    padding: 1em;
+    background-color: black;
+    padding: 0.2em;
 }
 
 div#main-content {
