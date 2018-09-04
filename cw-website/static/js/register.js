@@ -1,59 +1,59 @@
 'use strict';
 
 $(function() {
-  var register = $("#register");
+    var register = $("#register");
 
-  console.log("Registration loaded!");
+    console.log("Registration loaded!");
 
-  function registerSuccess() {
-    $('#how-to-register').replaceWith(
-        '<dd>' +
-        'Your registration has been accepted! ' +
-        'You should hear back from us soon.' +
-        '</dd>'
-    );
-  }
-
-  function registerFailed() {
-    formError = $('p.form-error');
-    formError.removeClass('form-error-invisible');
-    formError.text("There was a problem submitting your registration.");
-  }
-
-  function onRegisterRes(data, status, xhr) {
-    if(data.registerStatus === "ok") {
-      registerSuccess();
+    function registerSuccess() {
+        $('#how-to-register').replaceWith(
+            '<dd>' +
+                'Your registration has been accepted! ' +
+                'You should hear back from us soon.' +
+                '</dd>'
+        );
     }
-    else {
-      registerFailed();
+
+    function registerFailed() {
+        formError = $('p.form-error');
+        formError.removeClass('form-error-invisible');
+        formError.text("There was a problem submitting your registration.");
     }
-  }
 
-  function onSubmitRegister(event) {
-    console.log("Got submit! Serializing form...");
+    function onRegisterRes(data, status, xhr) {
+        if(data.registerStatus === "ok") {
+            registerSuccess();
+        }
+        else {
+            registerFailed();
+        }
+    }
 
-    var form = {};
-    register.find('.field').each(function(i, e) {
-      var e = $(e); // jquery it up in here
-      var name = e.attr('name');
-      console.log('Serialized ' + name);
-      form[name] = e.val();
-    });
-    // var form = register.serialize();
+    function onSubmitRegister(event) {
+        console.log("Got submit! Serializing form...");
 
-    $.ajax({
-      data: JSON.stringify(form),
-      url: "/api/register",
-      success: onRegisterRes,
-      contentType: 'application/json',
-      dataType: 'json',
-      type: 'POST',
-    });
+        var form = {};
+        register.find('.field').each(function(i, e) {
+            var e = $(e); // jquery it up in here
+            var name = e.attr('name');
+            console.log('Serialized ' + name);
+            form[name] = e.val();
+        });
+        // var form = register.serialize();
 
-    event.preventDefault();
-  }
+        $.ajax({
+            data: JSON.stringify(form),
+            url: "/api/register",
+            success: onRegisterRes,
+            contentType: 'application/json',
+            dataType: 'json',
+            type: 'POST',
+        });
 
-  register.children('input[type="submit"]').click(onSubmitRegister);
-  // $('#submit-button').click(onSubmitRegister);
-  console.log("Registered submit handler on button.");
+        event.preventDefault();
+    }
+
+    register.children('input[type="submit"]').click(onSubmitRegister);
+    // $('#submit-button').click(onSubmitRegister);
+    console.log("Registered submit handler on button.");
 });
