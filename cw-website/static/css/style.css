@@ -1,15 +1,21 @@
 @font-face{
     font-family: Fipps;
-    src:url("/fonts/Fipps-Regular.otf") format("opentype");
+    src: url("/fonts/Fipps-Regular.woff") format("woff"),
+            url("/fonts/Fipps-Regular.otf") format("otf");
 }
+
 @font-face{
     font-family: Windows;
-    src:url("/fonts/windows_command_prompt.ttf") format("truetype");
+    src: url("/fonts/windows_command_prompt.woff") format("woff"),
+            url("/fonts/windows_command_prompt.ttf") format("ttf");
 }
+
 @font-face{
     font-family: pixel;
-    src:url("/fonts/Pixeltype.ttf") format("truetype");
+    src: url("/fonts/Pixeltype.woff") format("woff"),
+            url("/fonts/Pixeltype.ttf") format("ttf");
 }
+
 body {
     background-color:#fff;
     font-family: 'Open Sans';
