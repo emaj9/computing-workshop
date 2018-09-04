@@ -4,10 +4,6 @@ set -e
 
 LOG=/tmp/cw-build.log
 
-function copy-pdfs() {
-    find "$1" -name '*.pdf' -exec cp -v {} cw-website/static/pdf \;
-}
-
 function uh-oh() {
     cat /tmp/cw-build.log
     exit 1
@@ -21,9 +17,6 @@ make -C cw-website > "$LOG" 2>&1 || uh-oh
 
 echo ">>> BUILDING PDFs"
 make > "$LOG" 2>&1 || uh-oh
-
-echo ">>> COPYING EXTRA PDFs"
-copy-pdfs extra-pdf > "$LOG" 2>&1 || uh-oh
 
 echo ">>> BUILDING HASKELL APPICATIONS"
 stack build > "$LOG" 2>&1 || uh-oh
