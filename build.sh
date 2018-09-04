@@ -16,11 +16,13 @@ function uh-oh() {
 mkdir -p extra-pdf
 mkdir -p cw-website/static/pdf
 
+echo ">>> COMPILING FONTS"
+make -C cw-website > "$LOG" 2>&1 || uh-oh
+
 echo ">>> BUILDING PDFs"
 make > "$LOG" 2>&1 || uh-oh
 
-echo ">>> COPYING PDFs"
-copy-pdfs lessons > "$LOG" 2>&1 || uh-oh
+echo ">>> COPYING EXTRA PDFs"
 copy-pdfs extra-pdf > "$LOG" 2>&1 || uh-oh
 
 echo ">>> BUILDING HASKELL APPICATIONS"
