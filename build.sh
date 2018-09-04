@@ -26,7 +26,7 @@ echo ">>> COPYING EXTRA PDFs"
 copy-pdfs extra-pdf > "$LOG" 2>&1 || uh-oh
 
 echo ">>> BUILDING HASKELL APPICATIONS"
-stack build > "$LOG" || uh-oh
+stack build > "$LOG" 2>&1 || uh-oh
 
 echo ">>> BUILDING FRONTEND"
 (cd cw-website ; stack exec cw-website-exe rebuild) > "$LOG" 2>&1 || uh-oh
