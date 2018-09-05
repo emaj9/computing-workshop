@@ -10,6 +10,8 @@ data Registration
     , registerEmail :: Text
     , registerBgGeneral :: Text
     , registerQuestions :: Text
+    , registerModuleHardware :: Bool
+    , registerModuleSoftware :: Bool
     }
   deriving (Eq, Generic, FromJSON, ToJSON)
 
