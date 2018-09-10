@@ -17,8 +17,8 @@ ___
 <iframe class="lp" src="lessons/F18/hw-syllabus/hw-syllabus.pdf"></iframe>
 
 * [Lesson 0](/lessons/F18/hw-0/plan/0-lp.pdf): Welcome! ([slides](/lessons/F18/hw-0/slides/cw-0.pdf))
-* [Lesson 1](): Binary and logic ([slides](/lessons/F18/hw-1/slides/cw-1.pdf))
-* [Lesson 2](): Integrated circuits, and the ALU ([slides](/lessons/F18/hw-2/slides/cw-2.pdf))
+* [Lesson 1](/lessons/F18/hw-1/plan/1-lp.pdf): Binary and logic ([slides](/lessons/F18/hw-1/slides/cw-1.pdf))
+* [Lesson 2](/lessons/F18/hw-2/plan/2-lp.pdf): Integrated circuits, and the ALU ([slides](/lessons/F18/hw-2/slides/cw-2.pdf))
 * Lesson 3: Memory and storage ([slides](/lessons/F18/hw-3/slides/cw-3.pdf))
 * Lesson 4: Processor and machine code
 * Lesson 5: Operating systems
