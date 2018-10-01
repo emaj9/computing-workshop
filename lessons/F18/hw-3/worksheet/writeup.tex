@@ -1,0 +1,84 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=2.0cm]{geometry}
+
+\title{Computing Workshop: Hardware -- Memory}
+
+\newcommand{\num}[1]{$\mathbf{#1}$}
+
+\begin{document}
+
+\maketitle
+
+\begin{figure}[h]
+  \centering
+  \begin{tabular}{l||c|c|c|c|c|c|}
+    ~ & \num{2} & \num{3} & \num{4} & \num{5} & \num{6} & \num{7} \\ \hline\hline
+    \num{0} & \verb| | & \verb|0| & \verb|@| & \verb|P| & \verb|`| & \verb|p|  \\ \hline 
+    \num{1} & \verb|!| & \verb|1| & \verb|A| & \verb|Q| & \verb|a| & \verb|q|  \\ \hline 
+    \num{2} & \verb|"| & \verb|2| & \verb|B| & \verb|R| & \verb|b| & \verb|r|  \\ \hline 
+    \num{3} & \verb|#| & \verb|3| & \verb|C| & \verb|S| & \verb|c| & \verb|s|  \\ \hline 
+    \num{4} & \verb|$| & \verb|4| & \verb|D| & \verb|T| & \verb|d| & \verb|t|  \\ \hline 
+    \num{5} & \verb|%| & \verb|5| & \verb|E| & \verb|U| & \verb|e| & \verb|u|  \\ \hline 
+    \num{6} & \verb|&| & \verb|6| & \verb|F| & \verb|V| & \verb|f| & \verb|v|  \\ \hline 
+    \num{7} & \verb|'| & \verb|7| & \verb|G| & \verb|W| & \verb|g| & \verb|w|  \\ \hline 
+    \num{8} & \verb|(| & \verb|8| & \verb|H| & \verb|X| & \verb|h| & \verb|x|  \\ \hline 
+    \num{9} & \verb|)| & \verb|9| & \verb|I| & \verb|Y| & \verb|i| & \verb|y|  \\ \hline 
+    \num{A} & \verb|*| & \verb|:| & \verb|J| & \verb|Z| & \verb|j| & \verb|z|  \\ \hline
+    \num{B} & \verb|+| & \verb|;| & \verb|K| & \verb|[| & \verb|k| & \verb|{|  \\ \hline
+    \num{C} & \verb|,| & \verb|<| & \verb|L| & \verb|\| & \verb|l| & \verb|||  \\ \hline
+    \num{D} & \verb|-| & \verb|=| & \verb|M| & \verb|]| & \verb|m| & \verb|}|  \\ \hline
+    \num{E} & \verb|.| & \verb|>| & \verb|N| & \verb|^| & \verb|n| & \verb|~|  \\ \hline
+    \num{F} & \verb|/| & \verb|?| & \verb|O| & \verb|_| & \verb|o| & \verb|DEL|\\ \hline
+  \end{tabular}
+  \caption{%
+    The ASCII table. Use this table to decode a hexadecimal number into a
+    character. To distinguish hexadecimal numbers from decimal numbers, we write
+    hex numbers with the prefix \texttt{0x}. For example, to decode
+    \texttt{0x61}, look in the column labelled \texttt{6} and the row labelled
+    \texttt{1}.
+  }
+\end{figure}
+
+% The RAM is supposed to store:
+% 
+\begin{figure}[h]
+  \centering
+  \begin{tabular}{l||c|c|c|c|c|c|c|c|}
+    ~ & \num{0} & \num{1} & \num{2} & \num{3} & \num{4} & \num{5} & \num{6} & \num{7} \\ \hline \hline
+    \input{ram.tex}
+  \end{tabular}
+  \caption{%
+    The initial contents of our memory (aka RAM), represented in binary.
+    Since our RAM has eight rows and eight columns, we need \emph{six} bits to
+    store an address: three for the row number and three for the column number.
+    For example, consider the address \texttt{110010}. This refers to the cell
+    in column $010_2 = 2$ and row $110_2 = 6$, which is storing the number
+    $01101010_2$.%
+  }
+\end{figure}
+
+\section*{Exercises}
+
+\begin{enumerate}
+\item
+  Compute the sum of the values in the cells referred to by the addresses
+  $111000$ and $111100$.
+  Overwrite the value in cell $001101$ with the value you computed.
+  \vspace{4em}
+
+\item
+  Using the ASCII table, decode eight bytes starting at address $110000$. This
+  spells a japanese word; look it up!
+  \vspace{4em}
+
+\item
+  Use the ASCII table to decode the sequence of bytes starting at address
+  $001101$ and continuing until you read a \texttt{NUL} character.
+
+  Don't worry if what you decode is just symbols! Hint: if you read the symbols
+  aloud, it should form a kind of poem.
+  \vspace{4em}
+\end{enumerate}
+
+\end{document}

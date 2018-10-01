@@ -6,3 +6,4 @@ all:
 	make -C hw-1/plan
 	make -C hw-2/plan
 	make -C sw-syllabus
+	make -C hw-3/worksheet
