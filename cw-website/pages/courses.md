@@ -16,11 +16,21 @@ ___
 
 <iframe class="lp" src="lessons/F18/hw-syllabus/hw-syllabus.pdf"></iframe>
 
-* [Lesson 0](/lessons/F18/hw-0/plan/0-lp.pdf): Welcome! ([slides](/lessons/F18/hw-0/slides/cw-0.pdf))
-* [Lesson 1](/lessons/F18/hw-1/plan/1-lp.pdf): Binary and logic ([slides](/lessons/F18/hw-1/slides/cw-1.pdf))
-* [Lesson 2](/lessons/F18/hw-2/plan/2-lp.pdf): Integrated circuits, and the ALU ([slides](/lessons/F18/hw-2/slides/cw-2.pdf))
-* Lesson 3: Memory and storage ([slides](/lessons/F18/hw-3/slides/cw-3.pdf))
-* Lesson 4: Processor and machine code
+* [Lesson 0](/lessons/F18/hw-0/plan/0-lp.pdf):
+  Welcome!
+  ([slides](https://docs.google.com/presentation/d/1dfmHvNf-lHQFAkwUlQ92UpAjd7SjuiYi4xnjvChUStQ/edit?usp=sharing))
+* [Lesson 1](/lessons/F18/hw-1/plan/1-lp.pdf):
+  Binary and logic
+  ([slides](https://docs.google.com/presentation/d/1E7vCu53vvqF00CHJlvQr_GBDaX4kGw33G6_KvxLBG-Y/edit?usp=sharing))
+* [Lesson 2](/lessons/F18/hw-2/plan/2-lp.pdf):
+  Integrated circuits, and the ALU
+  ([slides](https://docs.google.com/presentation/d/1Wr165Sk7ABxGHdyIMybjO5VV4ZwEIqNUd7d7Pj2NMT4/edit?usp=sharing))
+* [Lesson 3](/lessons/F18/hw-3/plan/3-lp.pdf):
+  Memory and storage
+  ([slides](https://docs.google.com/presentation/d/1-Y3xV8i5ZOQZRG5Bojbj4fAhGLlr7twlbJNGc-RIMGU/edit?usp=sharing))
+* [Lesson 4](/lessons/F18/hw-4/plan/4-lp.pdf):
+  Processor and machine code
+  ([slides](https://docs.google.com/presentation/d/144ubTBMUBTgd4rN_nInLVQ-ofp20_tJRE_MkgXgyMrI/edit?usp=sharing))
 * Lesson 5: Operating systems
 
 ---
