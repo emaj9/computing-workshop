@@ -1,0 +1,3 @@
+[submodule "cspogil"]
+	path = cspogil
+	url = https://github.com/tsani/cspogil
