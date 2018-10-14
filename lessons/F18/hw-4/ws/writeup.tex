@@ -1,6 +1,6 @@
 \documentclass[11pt]{article}
 
-\usepackage[margin=2.0cm]{geometry}
+\usepackage[margin=1.6cm]{geometry}
 
 \title{Computing Workshop: Hardware\\Processor}
 
@@ -54,49 +54,43 @@ How to perform the fetch-decode-execute cycle.
 \begin{figure}[h]
   \centering
   \begin{tabular}{c c c c}
-    \textbf{Name} & \textbf{Encoding} &
+    \textbf{Operation} & \textbf{Op code} &
     \textbf{Register Operand (4 bits)} & \textbf{Address Operand (8 bits)} \\
     %
-    Direct Load & 
-    $0000$ & Destination register & Address to load \\
+    Direct Load &
+    $0000$ & Destination register & Address to load (from RAM) \\
     %
     Direct Store &
-    $0001$ & Source register & Destination address \\
+    $0001$ & Source register & Destination address (in RAM) \\
     %
     Indirect Load &
-    $0010$ & Destination register & Source register (low 4 bits) \\
+    $0010$ & Destination register & Source register (last 4 bits) \\
     %
     Indirect Store &
-    $0011$ & Source register & Destination register (low 4 bits) \\
+    $0011$ & Source register & Destination register (last 4 bits) \\
     %
-    Add to Register  & 
+    Add to Register  &
     $0100$ & Destination register & Source registers \\
     %
     XOR to Register &
     $0101$ & Destination register & Source registers \\
     %
     Register Copy to Register &
-    $0110$ & Destination register & Source register (low 4 bits) \\
+    $0110$ & Destination register & Source register (last 4 bits) \\
     %
     Value Copy to Register &
     $0111$ & Destination register & Value \\
     %
-    Unconditional Jump &
+    Unconditinal Jump &
     $1000$ & -- & Address to jump to \\
     %
     Jump if Zero &
     $1001$ & -- & Address to jump to \\
     %
-    Jump if Not Zero &
-    $1010$ & -- & Address to jump to \\
-    %
-    Compare Registers &
-    $1100$ & -- & Registers to compare \\
-    %
     Compare Value to Register &
     $1101$ & Register to compare & Value to compare to \\
     %
-    Halt &
+    Halt (end) &
     $1111$ & -- & --
   \end{tabular}
   \caption{%
@@ -105,17 +99,14 @@ How to perform the fetch-decode-execute cycle.
   }
 \end{figure}
 
-\newpage
-
 \section*{Instruction descriptions}
 
 \begin{description}
 \item[Direct Load \& Direct Store.]
-  A \emph{Direct Load} or \emph{Direct Store} instruction operates on an exact address
-  specified in the Address Operand.
-  For example, a Direct Store writes the value of the register specified in the
-  Register Operand to the memory cell at the address specified in the Address
-  Operand.
+  A \emph{Direct Load} or \emph{Direct Store} instruction operates on an exact
+  memory address specified in the Address Operand.
+  For example, 0001 0000 0010 0110 stores the value of register 0000 into memory
+  address 00100110.
 
 \item[Indirect Load \& Indirect Store.]
   An \emph{Indirect Load} or \emph{Indirect Store} instruction reads from or
@@ -124,10 +115,10 @@ How to perform the fetch-decode-execute cycle.
   This way, programs can compute addresses and operate on addresses that are
   unknown at the time the program is written.
   In order to specify the register containing the address, the lower (rightmost)
+  4 bits.
 
-  For example, an Indirect Load to register \regname{0100} from register
-  \regname{0101} will load into register \regname{0100} the value in the memory
-  cell at the address specified in register \regname{0101}.
+  For example, 0010 0100 0000 0101 indirectly loads the value at the address
+  contained in register 0101 into register 0100.
 
 \item[Arithmetic \& logical operations.]
   The Add and XOR operations operate on registers. They perform the operation on
@@ -149,8 +140,6 @@ How to perform the fetch-decode-execute cycle.
   The Jump if Zero instruction sets the the program counter to the value
   contained in the Address Operand if the ALU's Zero Flag is set, i.e. when the
   result of a preceding arithmetic or logical operation is zero.
-  The Jump if Not Zero instruction works exactly when the Jump if Zero
-  instruction would not.
 
   Note that if a conditional jump does not execute (because its condition is not
   satified), then the program counter simply increments as usual.
