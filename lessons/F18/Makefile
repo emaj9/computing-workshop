@@ -7,3 +7,4 @@ all:
 	make -C hw-2/plan
 	make -C sw-syllabus
 	make -C hw-3/worksheet
+	make -C	hw-4

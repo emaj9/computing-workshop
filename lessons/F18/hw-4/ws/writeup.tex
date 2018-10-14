@@ -1,0 +1,165 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=2.0cm]{geometry}
+
+\title{Computing Workshop: Hardware\\Processor}
+
+\newcommand{\regname}{\textbf}
+\newcommand{\instname}{\textit}
+
+\begin{document}
+
+\maketitle
+
+\section*{Instructions}
+
+Recall the roles:
+\begin{description}
+\item[Program Counter.]
+  Manages all the registers, including the \emph{instruction address register}
+  aka the \emph{program counter}.
+  Initially, all registers (including the program counter) are zero.
+\item[Fetcher.]
+  The Program Counter tells the Fetcher to read data from memory.
+\item[Decoder.]
+  The Decoder keeps their hands on the below Instruction Table in order to
+  decode the instruction fetched from memory.
+  The Decoder communicates with Program Counter and Fetcher to retrieve
+  additional data needed to perform the instruction and to write data into
+  registers if needed.
+  The decoder also commands the ALU to perform arithmetic and logical operations.
+\item[ALU.]
+  The ALU performs the operations demanded of it.
+\end{description}
+
+How to perform the fetch-decode-execute cycle.
+\begin{enumerate}
+\item
+  The Program Counter asks the Fetcher to retrieve two bytes from memory
+  starting at the address in the instruction address register.
+\item
+  The Fetcher gives these bytes to the Decoder, who decodes the instruction.
+\item
+  Depending on the instruction, the Decoder will ask the Program Counter to
+  write values into registers, or ask the Fetcher to read one byte from memory,
+  or ask the ALU to perform an arithmetic operation.
+\item
+  Repeat until you reach the Halt instruction!
+\end{enumerate}
+
+\newpage
+
+\section*{Instruction table}
+
+\begin{figure}[h]
+  \centering
+  \begin{tabular}{c c c c}
+    \textbf{Name} & \textbf{Encoding} &
+    \textbf{Register Operand (4 bits)} & \textbf{Address Operand (8 bits)} \\
+    %
+    Direct Load & 
+    $0000$ & Destination register & Address to load \\
+    %
+    Direct Store &
+    $0001$ & Source register & Destination address \\
+    %
+    Indirect Load &
+    $0010$ & Destination register & Source register (low 4 bits) \\
+    %
+    Indirect Store &
+    $0011$ & Source register & Destination register (low 4 bits) \\
+    %
+    Add to Register  & 
+    $0100$ & Destination register & Source registers \\
+    %
+    XOR to Register &
+    $0101$ & Destination register & Source registers \\
+    %
+    Register Copy to Register &
+    $0110$ & Destination register & Source register (low 4 bits) \\
+    %
+    Value Copy to Register &
+    $0111$ & Destination register & Value \\
+    %
+    Unconditional Jump &
+    $1000$ & -- & Address to jump to \\
+    %
+    Jump if Zero &
+    $1001$ & -- & Address to jump to \\
+    %
+    Jump if Not Zero &
+    $1010$ & -- & Address to jump to \\
+    %
+    Compare Registers &
+    $1100$ & -- & Registers to compare \\
+    %
+    Compare Value to Register &
+    $1101$ & Register to compare & Value to compare to \\
+    %
+    Halt &
+    $1111$ & -- & --
+  \end{tabular}
+  \caption{%
+    Reference instruction table. Unused operands are marked by a dash ``--''.
+    %
+  }
+\end{figure}
+
+\newpage
+
+\section*{Instruction descriptions}
+
+\begin{description}
+\item[Direct Load \& Direct Store.]
+  A \emph{Direct Load} or \emph{Direct Store} instruction operates on an exact address
+  specified in the Address Operand.
+  For example, a Direct Store writes the value of the register specified in the
+  Register Operand to the memory cell at the address specified in the Address
+  Operand.
+
+\item[Indirect Load \& Indirect Store.]
+  An \emph{Indirect Load} or \emph{Indirect Store} instruction reads from or
+  writes to memory, but uses an address contained in a register rather than a
+  predetermined address.
+  This way, programs can compute addresses and operate on addresses that are
+  unknown at the time the program is written.
+  In order to specify the register containing the address, the lower (rightmost)
+
+  For example, an Indirect Load to register \regname{0100} from register
+  \regname{0101} will load into register \regname{0100} the value in the memory
+  cell at the address specified in register \regname{0101}.
+
+\item[Arithmetic \& logical operations.]
+  The Add and XOR operations operate on registers. They perform the operation on
+  the two registers specified in the Address Operand and the result is stored in
+  the register specified in the Register Operand.
+
+\item[Copy to Register.]
+  The Register Copy to Register instruction copies the value from a source
+  register, specified in the low half (rightmost 4 bits) of the Address Operand,
+  to a destination register, specified in the Register Operand.
+
+  The Value Copy to Register instruction copies a literal value contained in the
+  Address Operand into the register specified in the Register Operand.
+
+\item[Jumps.]
+  The Unconditional Jump instruction sets the program counter to the value
+  contained in the Address Operand.
+
+  The Jump if Zero instruction sets the the program counter to the value
+  contained in the Address Operand if the ALU's Zero Flag is set, i.e. when the
+  result of a preceding arithmetic or logical operation is zero.
+  The Jump if Not Zero instruction works exactly when the Jump if Zero
+  instruction would not.
+
+  Note that if a conditional jump does not execute (because its condition is not
+  satified), then the program counter simply increments as usual.
+
+\item[Compare.]
+  The compare instructions check whether two things are equal, e.g.  two
+  registers are equal or whether a register equals a given value.
+  If the comparison is successful (the things are in fact equal), then the ALU's
+  Zero Flag is set.
+\end{description}
+
+\end{document}
