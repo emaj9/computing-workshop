@@ -6,6 +6,7 @@
 
 \newcommand{\regname}{\textbf}
 \newcommand{\instname}{\textit}
+\newcommand{\num}[1]{$\mathbf{#1}$}
 
 \begin{document}
 
@@ -29,14 +30,15 @@ Recall the roles:
   registers if needed.
   The decoder also commands the ALU to perform arithmetic and logical operations.
 \item[ALU.]
-  The ALU performs the operations demanded of it.
+  The ALU performs the operations (e.g. XOR and ADD) demanded of it.
 \end{description}
 
 How to perform the fetch-decode-execute cycle.
 \begin{enumerate}
 \item
   The Program Counter asks the Fetcher to retrieve two bytes from memory
-  starting at the address in the instruction address register.
+  starting at the address in the instruction address register (aka the program
+  counter).
 \item
   The Fetcher gives these bytes to the Decoder, who decodes the instruction.
 \item
@@ -44,12 +46,14 @@ How to perform the fetch-decode-execute cycle.
   write values into registers, or ask the Fetcher to read one byte from memory,
   or ask the ALU to perform an arithmetic operation.
 \item
+  The Program Counter increments the instruction address register (marked PC on
+  the register table) by \emph{2}.
   Repeat until you reach the Halt instruction!
 \end{enumerate}
 
 \newpage
 
-\section*{Instruction table}
+\section*{Instruction table for Decoder}
 
 \begin{figure}[h]
   \centering
@@ -150,5 +154,114 @@ How to perform the fetch-decode-execute cycle.
   If the comparison is successful (the things are in fact equal), then the ALU's
   Zero Flag is set.
 \end{description}
+
+\newpage
+
+\section*{Register table for Program Counter}
+
+\begin{figure}[h]
+  \centering
+  \begin{tabular}{|c|c||c|c|c|c|c|c|}
+    \hline
+    \regname{~PC~} &
+    \regname{Instruction} &
+    \regname{0000} & \regname{0001} & \regname{0010} &
+    \regname{0011} & \regname{0100} & \regname{0101} \\
+    \hline
+    -- & -- & ~00000000~ & ~00000000~ & ~00000000~ & ~00000000~ & ~00000000~ & ~00000000~
+    \\ \hline
+    0000 & ~ & 00000000 & 00000000 & 00000000 & ~ & 00000000 & 00000000 \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ \\ \hline
+  \end{tabular}
+\end{figure}
+
+\newpage
+
+\section*{RAM table for Fetcher}
+
+\begin{figure}[h]
+  \centering
+  \begin{tabular}{l||c|c|c|c|c|c|}
+    ~ & \num{2} & \num{3} & \num{4} & \num{5} & \num{6} & \num{7} \\ \hline\hline
+    \num{0} & \verb| | & \verb|0| & \verb|@| & \verb|P| & \verb|`| & \verb|p|  \\ \hline 
+    \num{1} & \verb|!| & \verb|1| & \verb|A| & \verb|Q| & \verb|a| & \verb|q|  \\ \hline 
+    \num{2} & \verb|"| & \verb|2| & \verb|B| & \verb|R| & \verb|b| & \verb|r|  \\ \hline 
+    \num{3} & \verb|#| & \verb|3| & \verb|C| & \verb|S| & \verb|c| & \verb|s|  \\ \hline 
+    \num{4} & \verb|$| & \verb|4| & \verb|D| & \verb|T| & \verb|d| & \verb|t|  \\ \hline 
+    \num{5} & \verb|%| & \verb|5| & \verb|E| & \verb|U| & \verb|e| & \verb|u|  \\ \hline 
+    \num{6} & \verb|&| & \verb|6| & \verb|F| & \verb|V| & \verb|f| & \verb|v|  \\ \hline 
+    \num{7} & \verb|'| & \verb|7| & \verb|G| & \verb|W| & \verb|g| & \verb|w|  \\ \hline 
+    \num{8} & \verb|(| & \verb|8| & \verb|H| & \verb|X| & \verb|h| & \verb|x|  \\ \hline 
+    \num{9} & \verb|)| & \verb|9| & \verb|I| & \verb|Y| & \verb|i| & \verb|y|  \\ \hline 
+    \num{A} & \verb|*| & \verb|:| & \verb|J| & \verb|Z| & \verb|j| & \verb|z|  \\ \hline
+    \num{B} & \verb|+| & \verb|;| & \verb|K| & \verb|[| & \verb|k| & \verb|{|  \\ \hline
+    \num{C} & \verb|,| & \verb|<| & \verb|L| & \verb|\| & \verb|l| & \verb|||  \\ \hline
+    \num{D} & \verb|-| & \verb|=| & \verb|M| & \verb|]| & \verb|m| & \verb|}|  \\ \hline
+    \num{E} & \verb|.| & \verb|>| & \verb|N| & \verb|^| & \verb|n| & \verb|~|  \\ \hline
+    \num{F} & \verb|/| & \verb|?| & \verb|O| & \verb|_| & \verb|o| & \verb|DEL|\\ \hline
+  \end{tabular}
+  \caption{%
+    The ASCII table. Use this table to decode a hexadecimal number into a
+    character. To distinguish hexadecimal numbers from decimal numbers, we write
+    hex numbers with the prefix \texttt{0x}. For example, to decode
+    \texttt{0x61}, look in the column labelled \texttt{6} and the row labelled
+    \texttt{1}, which is the character `a'.
+  }
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  RAM Table
+  
+  \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+    \hline
+    \textbf{Address base} & Value
+    \\ \hline
+    %
+    \input{ram.tex}
+  \end{tabular}
+  \caption{%
+    This RAM table contains some of the computer's memory, starting at address
+    32 (0x20 in hex).
+    Addresses 37 onwards are not initialized; the execution of
+    the program should fill addresses 37 through 39.
+    As you fill these cells, decode them using the ASCII table provided. You
+    should see a message using lowercase letters in English.
+  }
+\end{figure}
 
 \end{document}
