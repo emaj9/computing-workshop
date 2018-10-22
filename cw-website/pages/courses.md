@@ -16,13 +16,13 @@ ___
 
 <iframe class="lp" src="lessons/F18/hw-syllabus/hw-syllabus.pdf"></iframe>
 
-* [Lesson 0](/lessons/F18/hw-0/plan/0-lp.pdf):
+* Lesson 0:
   Welcome!
   ([slides](https://docs.google.com/presentation/d/1dfmHvNf-lHQFAkwUlQ92UpAjd7SjuiYi4xnjvChUStQ/edit?usp=sharing))
-* [Lesson 1](/lessons/F18/hw-1/plan/1-lp.pdf):
+* Lesson 1:
   Binary and logic
   ([slides](https://docs.google.com/presentation/d/1E7vCu53vvqF00CHJlvQr_GBDaX4kGw33G6_KvxLBG-Y/edit?usp=sharing))
-* [Lesson 2](/lessons/F18/hw-2/plan/2-lp.pdf):
+* Lesson 2:
   Integrated circuits, and the ALU
   ([slides](https://docs.google.com/presentation/d/1Wr165Sk7ABxGHdyIMybjO5VV4ZwEIqNUd7d7Pj2NMT4/edit?usp=sharing))
 * Lesson 3:
