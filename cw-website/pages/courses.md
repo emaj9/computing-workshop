@@ -25,13 +25,14 @@ ___
 * [Lesson 2](/lessons/F18/hw-2/plan/2-lp.pdf):
   Integrated circuits, and the ALU
   ([slides](https://docs.google.com/presentation/d/1Wr165Sk7ABxGHdyIMybjO5VV4ZwEIqNUd7d7Pj2NMT4/edit?usp=sharing))
-* [Lesson 3](/lessons/F18/hw-3/plan/3-lp.pdf):
+* Lesson 3:
   Memory and storage
   ([slides](https://docs.google.com/presentation/d/1-Y3xV8i5ZOQZRG5Bojbj4fAhGLlr7twlbJNGc-RIMGU/edit?usp=sharing))
-* [Lesson 4](/lessons/F18/hw-4/plan/4-lp.pdf):
+* Lesson 4:
   Processor and machine code
   ([slides](https://docs.google.com/presentation/d/144ubTBMUBTgd4rN_nInLVQ-ofp20_tJRE_MkgXgyMrI/edit?usp=sharing))
 * Lesson 5: Operating systems
+  ([slides](https://docs.google.com/presentation/d/1hehTrS_bif7IcSZ5yxxYBHyq69-VKXZb0oxvZ5OAVkI/edit?usp=sharing))
 
 ---
 
