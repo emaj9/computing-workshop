@@ -8,6 +8,7 @@ set -e
 cd computing-workshop
 git fetch
 git reset --hard origin/master
+git submodule update
 ./build.sh
 ./deploy.sh
 EOF
