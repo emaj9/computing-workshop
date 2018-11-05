@@ -18,6 +18,9 @@
   \centering
   \begin{tikzpicture}
     \begin{axis}[
+        grid=major,
+        minor x tick num=1,
+        minor y tick num=4,
         xlabel={tumor radius},
         ylabel={tumor texture},
         scatter/classes={
@@ -47,7 +50,7 @@
 \section*{Questions}
 
 Suppose we want to classify a new patient, whose measurements are
-$\text{tumor radius} = 12$ and $\text{tumor texture} = 20$.
+$\text{tumor radius} = 15$ and $\text{tumor texture} = 18$.
 
 \begin{enumerate}
 \item
@@ -60,16 +63,22 @@ $\text{tumor radius} = 12$ and $\text{tumor texture} = 20$.
 \begin{figure}[h]
   \centering
   % \pgfplotstableread[col sep=comma]{small-nice.data}\mydata
+  \pgfplotstableread[col sep=comma]{small-nice.data}\smallnice
+  \pgfplotstableset{
+    create on use/Distance/.style={
+      create col/expr={%
+        sqrt((\thisrow{radius}-15)^2
+        +
+        (\thisrow{texture}-18)^2)}}}
   \pgfplotstabletypeset[
-    col sep=comma,
-    columns={id, diagnosis, radius, texture},
+    columns={id, diagnosis, radius, texture, Distance},
     every head row/.style={before row=\toprule, after row=\midrule},
     every last row/.style={after row=\bottomrule},
     display columns/0/.style={string type, column name={ID}},
     display columns/1/.style={string type, column name={Diagnosis}},
     display columns/2/.style={column name={Radius}},
     display columns/3/.style={column name={Texture}},
-  ]{small-nice.data}
+  ]\smallnice
   \caption{%
     The table of data used to generate the preceding scatter plot.
     $M$ indicates a malignant diagnosis and $B$, benign.%
