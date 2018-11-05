@@ -1,0 +1,79 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=2.0cm]{geometry}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepackage{booktabs}
+
+\title{$k$ nearest neighbours}
+\author{Computing Workshop: Software}
+
+\begin{document}
+
+\maketitle
+
+\begin{figure}[h]
+  \centering
+  \begin{tikzpicture}
+    \begin{axis}[
+        xlabel={tumor radius},
+        ylabel={tumor texture},
+        scatter/classes={
+          M={mark=square*, red},
+          B={mark=triangle*, blue}
+        }
+      ]
+      \addplot[scatter, only marks, scatter src=explicit symbolic]
+      table[x=radius, y=texture, meta=diagnosis, col sep=comma] {small-nice.data};
+    \end{axis}
+  \end{tikzpicture}
+  \caption{%
+    This plot shows 20 data points from the UCI Breast Cancer Dataset.
+    The dataset contains measurements from people with breast tumors, some
+    benign and some malignant. Malignant tumors are dangerous, so it's important
+    to be able to predict whether a tumor might be malignant.
+    The full dataset contains 10 different measurements per person, so the data
+    is $10$-dimensional! To make things printable on a sheet of paper, we focus
+    on only two measurements: the tumor radius ($x$ axis) and the tumor texture
+    ($y$ axis).%
+    Malignant tumors are shown as squares (red) and benign tumors are shown as
+    triangles (blue).
+  }
+  \label{fig:chart}
+\end{figure}
+
+\section*{Questions}
+
+Suppose we want to classify a new patient, whose measurements are
+$\text{tumor radius} = 12$ and $\text{tumor texture} = 20$.
+
+\begin{enumerate}
+\item
+  By visual inspection of \ref{fig:chart}, what classification would this data
+  point be given?
+\item
+  By looking at the 
+\end{enumerate}
+
+\begin{figure}[h]
+  \centering
+  % \pgfplotstableread[col sep=comma]{small-nice.data}\mydata
+  \pgfplotstabletypeset[
+    col sep=comma,
+    columns={id, diagnosis, radius, texture},
+    every head row/.style={before row=\toprule, after row=\midrule},
+    every last row/.style={after row=\bottomrule},
+    display columns/0/.style={string type, column name={ID}},
+    display columns/1/.style={string type, column name={Diagnosis}},
+    display columns/2/.style={column name={Radius}},
+    display columns/3/.style={column name={Texture}},
+  ]{small-nice.data}
+  \caption{%
+    The table of data used to generate the preceding scatter plot.
+    $M$ indicates a malignant diagnosis and $B$, benign.%
+  }
+\end{figure}
+
+\end{document}

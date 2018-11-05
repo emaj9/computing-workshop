@@ -8,3 +8,4 @@ all:
 	make -C sw-syllabus
 	make -C hw-3/worksheet
 	make -C	hw-4
+	make -C sw-1
