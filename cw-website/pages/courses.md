@@ -50,6 +50,7 @@ ___
 * Lesson 2:
   Decision trees
   ([slides](https://drive.google.com/open?id=1KUip52Bvoot7ayMAHcpK3_Pe0SlL8Kar5mECoHIHSGk))
+  ([Jupyter notebook on decision trees](lessons/F18/sw-2/dt.ipynb))
 
 ---
 
