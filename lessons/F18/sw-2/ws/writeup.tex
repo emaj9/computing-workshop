@@ -42,9 +42,16 @@
 
   \begin{center}
     \renewcommand{\arraystretch}{1.5}
+    % The thing in braces after tabular are the column specifications.
+    % The first column is a fixed width column (14 em wide)
+    % The second column will be big enough to wrap its contents and will
+    % center-align text.
+    % The pipe symbols specify that there should be lines between the columns.
     \begin{tabular}{|p{14em}|c|}
-      \hline
+      \hline % Use hline to make horizontal lines between rows.
       \textbf{Data point} & \textbf{Desired classification} \\ \hline
+      % Use tilde "~" to create a blank cell.
+      % Use & to separate cells.
       ~ & Orange \\ \hline
       ~ & Teal \\ \hline
       ~ & Purple \\ \hline
