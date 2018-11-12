@@ -1,0 +1,39 @@
+\documentclass[11pt]{article}
+
+\author{Computing Workshop}
+\title{Types and values}
+\date{Fall 2018}
+
+\usepackage[margin=2.0cm]{geometry}
+
+\begin{document}
+
+\maketitle
+
+For the following expressions:
+1. hypothesize what the expression will evaluate to,
+2. hypothesize the type of the output
+3. test your answer using Python. Were you right or wrong? Why?
+\begin{center}
+\renewcommand{\arraystretch}{3.5}
+% The thing in braces after tabular are the column specifications.
+% The first column is a fixed width column (14 em wide)
+% The second column will be big enough to wrap its contents and will
+% center-align text.
+% The pipe symbols specify that there should be lines between the columns.
+\begin{tabular}{| c | p{5em}| p{5em} | p{21em} |}
+    \hline % Use hline to make horizontal lines between rows.
+    \textbf{Expression} & \textbf{Expected output}
+    & \textbf{Expected output type} & \textbf{Were you right or wrong? Why?} \\ \hline
+    % Use tilde "~" to create a blank cell.
+    % Use & to separate cells.
+    ``5'' + 5 & ~ & ~ & ~ \\ \hline
+    ``5 + 5'' & ~ & ~ & ~ \\ \hline
+    ``five'' + ``five'' & ~ & ~ & ~ \\ \hline
+    not True == not True & ~ & ~ & ~ \\ \hline
+    not (True == True) & ~ & ~ & ~ \\ \hline
+    5 + 5.0 & ~ & ~ & ~ \\ \hline
+    2/3 & ~ & ~ & ~ \\ \hline
+\end{tabular}
+\end{center}
+\end{document}
