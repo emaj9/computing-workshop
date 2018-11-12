@@ -9,3 +9,4 @@ all:
 	make -C hw-3/worksheet
 	make -C	hw-4
 	make -C sw-1
+	make -C sw-2/ws
