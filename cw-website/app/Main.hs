@@ -30,6 +30,12 @@ main = hakyll $ do
     route idRoute
     compile copyFileCompiler
 
+  match "lessons/**.ipynb" $ do
+    -- go up to fetch the lessons, but make sure to drop the ../ when
+    -- copying into _site
+    route idRoute
+    compile copyFileCompiler
+
   match "static/**" $ do
     route (customRoute $ dropRoute 7)
     compile copyFileCompiler
