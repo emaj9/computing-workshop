@@ -44,7 +44,7 @@ def classify(p, k):
     label = find_label_with_highest_count(closest)
     return label
 
-def validate(test_data):
+def validate(test_data, k):
     good = 0
     bad = 0
     for test in test_data:
