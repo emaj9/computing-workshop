@@ -1,0 +1,54 @@
+\documentclass[11pt]{article}
+
+\author{Computing Workshop}
+\title{Decision trees}
+\date{Fall 2018}
+
+\usepackage[margin=2.0cm]{geometry}
+
+\begin{document}
+
+\maketitle
+
+\section*{Questions}
+
+\begin{enumerate}
+\item
+  What is the interpretation of the colors in the tree visualization?
+  \vspace{2em}
+
+\item
+  In each node, what is the relationship between the counts in the
+  \texttt{value} list and \texttt{samples}?
+  \vspace{2em}
+
+\item
+  Notice that in all the teal and purple nodes, the first count in
+  \texttt{value} is always zero. Why is that?
+  \vspace{2em}
+
+\item
+  What is the interpretation of the \texttt{value} entry in each node?
+  \vspace{2em}
+
+\item
+  Invent three data points.
+  Choose feature values so that the first point falls into the orange leaf; the
+  second, into the teal leaf; and the third, into the most purple leaf. Recall
+  that leaves are nodes with no children.
+  For example, a point with ``petal width = $2.0$'' would follow the False
+  branch of the root node. Choose the other parameters so that the point arrives
+  at the desired classification.
+
+  \begin{center}
+    \renewcommand{\arraystretch}{1.5}
+    \begin{tabular}{|p{14em}|c|}
+      \hline
+      \textbf{Data point} & \textbf{Desired classification} \\ \hline
+      ~ & Orange \\ \hline
+      ~ & Teal \\ \hline
+      ~ & Purple \\ \hline
+    \end{tabular}
+  \end{center}
+\end{enumerate}
+\end{document}
