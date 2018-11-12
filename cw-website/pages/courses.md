@@ -41,7 +41,15 @@ ___
 
 <iframe class="lp" src="lessons/F18/sw-syllabus/sw-syllabus.pdf"></iframe>
 
-Lessons: TBA
+* Lesson 0:
+  Welcome!
+  ([slides](https://drive.google.com/open?id=1No5DSVTOAfBVyu0Sxi5tdIdtrPMd7U6rsITYQnueK9o))
+* Lesson 1:
+  _K_ nearest neighbours
+  ([slides](https://drive.google.com/open?id=1rn4q62LTCXTlGJCQFFCIpGz9xnwZKi1NGnxTsUezE4g))
+* Lesson 2:
+  Decision trees
+  ([slides](https://drive.google.com/open?id=1KUip52Bvoot7ayMAHcpK3_Pe0SlL8Kar5mECoHIHSGk))
 
 ---
 
