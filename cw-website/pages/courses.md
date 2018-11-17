@@ -10,9 +10,37 @@ and past iterations of Computing Workshop.
 This page is currently a work in progress, not all materials are yet posted as
 we're still working on them. Return at a later date to see how things are coming along!
 
-___
 
-### Hardware - Fall 2018
+---
+
+
+### Software - Fall 2018
+
+<iframe class="lp" src="lessons/F18/sw-syllabus/sw-syllabus.pdf"></iframe>
+
+* Lesson 0:
+  Welcome!
+  ([slides](https://drive.google.com/open?id=1No5DSVTOAfBVyu0Sxi5tdIdtrPMd7U6rsITYQnueK9o))
+* Lesson 1:
+  _K_ nearest neighbours
+  ([slides](https://drive.google.com/open?id=1rn4q62LTCXTlGJCQFFCIpGz9xnwZKi1NGnxTsUezE4g))
+* Lesson 2:
+  Decision trees
+  ([slides](https://drive.google.com/open?id=1KUip52Bvoot7ayMAHcpK3_Pe0SlL8Kar5mECoHIHSGk))
+  ([Jupyter notebook on Python basics](lessons/F18/sw-2/python-crash-course-script.ipynb))
+  ([Jupyter notebook on decision trees](lessons/F18/sw-2/dt.ipynb))
+* Lesson 3:
+  Neural networks.
+* Lesson 4:
+  TBA
+* Lesson 5:
+  Other kinds of machine learning and conclusion
+
+---
+
+### Past Courses
+
+#### Hardware - Fall 2018
 
 <iframe class="lp" src="lessons/F18/hw-syllabus/hw-syllabus.pdf"></iframe>
 
@@ -33,28 +61,6 @@ ___
   ([slides](https://docs.google.com/presentation/d/144ubTBMUBTgd4rN_nInLVQ-ofp20_tJRE_MkgXgyMrI/edit?usp=sharing))
 * Lesson 5: Operating systems
   ([slides](https://docs.google.com/presentation/d/1hehTrS_bif7IcSZ5yxxYBHyq69-VKXZb0oxvZ5OAVkI/edit?usp=sharing))
-
----
-
-
-### Software - Fall 2018
-
-<iframe class="lp" src="lessons/F18/sw-syllabus/sw-syllabus.pdf"></iframe>
-
-* Lesson 0:
-  Welcome!
-  ([slides](https://drive.google.com/open?id=1No5DSVTOAfBVyu0Sxi5tdIdtrPMd7U6rsITYQnueK9o))
-* Lesson 1:
-  _K_ nearest neighbours
-  ([slides](https://drive.google.com/open?id=1rn4q62LTCXTlGJCQFFCIpGz9xnwZKi1NGnxTsUezE4g))
-* Lesson 2:
-  Decision trees
-  ([slides](https://drive.google.com/open?id=1KUip52Bvoot7ayMAHcpK3_Pe0SlL8Kar5mECoHIHSGk))
-  ([Jupyter notebook on decision trees](lessons/F18/sw-2/dt.ipynb))
-
----
-
-### Past Courses
 
 #### Computing Workshop - Fall 2017
 

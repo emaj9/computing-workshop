@@ -1,0 +1,34 @@
+; the program begins at address zero
+0x00: value_copy     0011b 48          ; load output base into reg 3
+0111 0011 0011 0000
+0x02: value_copy     0000b 37          ; load decryption key into reg 0
+0111 0000 0010 0101
+0x04: value_copy     0100b 32          ; load initial index into reg 8
+0111 0100 0010 0000
+0x06: value_copy     0001b 1           ; load increment into reg 1
+0111 0001 0000 0001
+0x08: indirect_load  0101b 0100b       ; indirect load from acc into reg 9
+                                     ; now reg 9 contains a char
+0010 0101 0000 0100
+0x0A: compare_value  0101b 00000000b   ; check if char is null
+0111 0101 0000 0000
+0x0C: jump_zero      0000b 0x18
+1001 0000 0001 1000
+0x0E: xor            0101b 0000b 0010b ; xor the key and char into reg 2
+0101 0101 0000 0010
+0x10: indirect_store 0010b 0011b       ; store reg 2 into reg 3's addr
+0011 0010 0000 0011
+0x12: add            0011b 0001b 0011b ; increment output index (reg 3)
+0100 0011 0001 0011
+0x14: add            0100b 0001b 0100b ; increment input index (reg 8)
+0100 0100 0001 0100
+0x16: jump           0x08
+1000 0000 0000 1000
+0x18: halt
+1111 0000 0000 0000
+
+
+; the data begins at address 32
+; this is a XOR-ciphertext of "you rock" with key 37
+0x20: 0x5c, 0x4a, 0x50, 0x05, 0x57, 0x46, 0x4e, 0x00
+0x30: ; space for the output
