@@ -5,8 +5,10 @@
 \title{Friday planning}
 \date{Fall 2018}
 
+\usepackage{tikz}
 \usepackage{listings}
 \usepackage[margin=2.0cm]{geometry}
+\usetikzlibrary{arrows}
 
 \lstset{
   basicstyle=\ttfamily
@@ -26,7 +28,7 @@ we'll assume are the only things you do Fridays.
     \color{gray}{\emph{Staying in and study}}
 \end{enumerate}
 
-In the name of making an accuracte algorithm, reflect on 3 things that decide what you decide to do on a Friday night.
+In the name of making an accuracte algorithm, reflect on 3 things that influence what you decide to do on a Friday night.
 
 \begin{enumerate}
 \item
@@ -41,12 +43,14 @@ In the name of making an accuracte algorithm, reflect on 3 things that decide wh
 \end{enumerate}
 
 In order to make an accurate predictor, we need to know which reasons have a push or pull effect on what you'll do for
-that night. For example, nice weather might make it more likely you'll go out, but all friends being their might have
-more weight to it. Fill in the table to weigh your reasons, indicating whether you are more or less inclined to going
+that night. For example, nice weather might make it more likely you'll go out,
+but all your friends going out might have and even stronger
+weight to it. Fill in the table to weigh your reasons, indicating whether you are more or less inclined to going
 and by how much, a lot, little, or no change.
 
 \begin{center}
-\begin{tabular}{| p{11em} | p{14em} | p{14em} |}
+  \renewcommand{\arraystretch}{2.0}
+\begin{tabular}{| p{14em} | p{14em} | p{14em} |}
     \hline % Use hline to make horizontal lines between rows
     \textbf{Reason} & \textbf{Influence on first option} & \textbf{Influence on second option} \\ \hline
     \color{gray}{\emph{All your friends are going out}} & \color{gray}{\emph{more inclined by a lot}} & \color{gray}{\emph{less inclined by a little}} \\ \hline
@@ -61,8 +65,25 @@ first step is drawing out the reasons and options out in a graph, with the first
 reasons, and the next column of nodes will be the options for your Friday night.
 
 
-[diagram here, 5 nodes, 3 in 1st, 2 in second, connecting them all]
+\begin{figure}[h]
+  \centering
+  \begin{tikzpicture}[->, >=stealth', minimum size=2.5cm, shorten >=1pt]
+    \node[draw, circle] at (-6, 2.75) (input1) {\textcolor{gray}{Reason 1}};
 
+    \node[draw, circle] at (-6, 0) (input2) {\textcolor{gray}{Reason 2}};
+    \node[draw, circle] at (-6, -2.75) (input3) {\textcolor{gray}{Reason 3}};
+
+    \node[draw, circle] at (6, 1.75) (output1) {\textcolor{gray}{Option 1}};
+    \node[draw, circle] at (6, -1.75) (output2) {\textcolor{gray}{Option 2}};
+
+    \draw (input1) -- (output1);
+    \draw (input1) -- (output2);
+    \draw (input2) -- (output1);
+    \draw (input2) -- (output2);
+    \draw (input3) -- (output1);
+    \draw (input3) -- (output2);
+  \end{tikzpicture}
+\end{figure}
 
 Now that we have our network drawn out, it's time to give a numeric value to our weights from before. On the line that
 connects a reason to a potential plan to go out, translate the influence of that reason on a potential Friday night from
@@ -80,7 +101,61 @@ Now that you have an artificial neural network framework to help you plan your F
 test it is start with the inputs. The inputs should use the same scale to represent good or bad. For example, if the
 deciding factors for my network are weather and all my friends are going out, then I should use the same scale (let's
 say -5 to 5) where the -5 is most undesierable (such as bad weather or no friends are going out) and 5 is most
-desierable (great weather and all my friends are out). Plug these into the input layer and apply the weights and biases
-in the last layer. The node with the highest number in the last layer is what your network thinks you should do!
+desierable (great weather and all my friends are out).
+
+To compute a numeric answer, the neurons in the rightmost (output) layer:
+\begin{enumerate}
+  \item
+    multiply the activation of each neuron in the previous layer with its
+    corresponding weight;
+  \item
+    sum all these products;
+  \item
+    add the bias.
+\end{enumerate}
+%
+We can write this as an equation, but first we need to establish some notation.
+%
+\begin{itemize}
+  \item
+    Let $a_1$ be the value of the top input node, $a_2$ be the value of the
+    middle input node, and so on.
+  \item
+    Let $b_1$ be the bias of the top output node and $b_2$ be the bias of the
+    bottom output node.
+  \item
+    Let $w_{11}$ be the very first weight for the edge connecting the top output
+    neuron to the top input neuron, and let $w_{12}$ be the weight on the edge
+    between the top output neuron and the middle input neuron, and so on.
+\end{itemize}
+%
+\textbf{Question:} following this scheme, which edge does weight $w_{22}$ belong
+to?
+
+Finally, the value of output neuron $1$ is
+\[
+z_1 = b_1 + w_{11} a_1 + w_{12} a_2 + w_{13} a_3
+\]
+
+Using the equation, use the neural network model to decide whether you would
+pick option 1 or option 2 on Friday. Record the values you choose for the
+reasons and the calculated predictions of the model in the table below.
+
+\begin{center}
+  \newcommand{\size}{7em}
+  \renewcommand{\arraystretch}{2}
+  \begin{tabular}{| p{\size} | p{\size} | p{\size} | p{\size} | p{\size} |}
+    \hline
+    \textbf{Reason 1} & \textbf{Reason 2}
+    & \textbf{Reason 3}
+    & \textbf{Option 1}
+    & \textbf{Option 2}
+    \\ \hline
+    %
+    ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ \\ \hline
+    ~ & ~ & ~ & ~ & ~ \\ \hline
+  \end{tabular}
+\end{center}
 
 \end{document}
