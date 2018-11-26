@@ -9,9 +9,9 @@ Here are some resources to help guide you in your learning.
 
 #### Kattis problems
 
-  * https://open.kattis.com/problems/bijele
-  * https://open.kattis.com/problems/conundrum
-  * https://open.kattis.com/problems/r2
+  * <https://open.kattis.com/problems/bijele>
+  * <https://open.kattis.com/problems/conundrum>
+  * <https://open.kattis.com/problems/r2>
 
 #### Machine learning tutorials
 
