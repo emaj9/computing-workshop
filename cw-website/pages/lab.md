@@ -1,11 +1,13 @@
 ---
 title: Lab Resources
 ---
-Here are some resources to help guide you in your learning.
+Here are some resources to work on during our lab time. These resources are in ascending order of difficulty. Please feel
+free to ask your peers and the facilitators any questions you may have!
 
 #### POGIL worksheets
 
-  * On the following topics: arithmetic, types, functions, deicision, loops, containers, modules, classes, inheretence
+  * On the following topics: arithmetic, types, functions, decisions, loops, containers, modules, classes,
+    inheretence (_If you would like a copy of these worksheets after the lab please contact Eric_).
 
 #### Kattis problems
 

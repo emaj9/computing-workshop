@@ -27,19 +27,25 @@ we're still working on them. Return at a later date to see how things are coming
 * Lesson 2:
   Decision trees
   ([slides](https://drive.google.com/open?id=1KUip52Bvoot7ayMAHcpK3_Pe0SlL8Kar5mECoHIHSGk))
+
   ([Jupyter notebook on Python basics](lessons/F18/sw-2/python-crash-course-script.ipynb))
+
   ([Jupyter notebook on decision trees](lessons/F18/sw-2/dt.ipynb))
 
 * Lesson 3:
   Neural networks.
   ([slides](https://docs.google.com/presentation/d/1mjdIchMWsUMWdFBPWetouW9kUKgva0fErlHUi9R4zM8/edit?usp=sharing))
+
   ([Jupyter notebook on neural nets](lessons/F18/sw-3/nn-script.ipynb))
 
 * Lesson 4:
   Guest speaker and coding lab
   ([slides](https://docs.google.com/presentation/d/1nPxfrCoyOjLk6PcI6zP3DEvOpWUSLTci19zRBCewwiI/edit?usp=sharing))
-  ([Jhave's presentation slides](lesson/F18/sw-4/jhave-slides.pdf))
+
+  ([Jhave's presentation slides](lessons/F18/sw-4/jhave-slides.pdf))
+
   ([Lab resources](/lab.html))
+
 * Lesson 5:
   Other kinds of machine learning and conclusion
 
