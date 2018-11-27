@@ -37,7 +37,7 @@ we're still working on them. Return at a later date to see how things are coming
 
 * Lesson 4:
   Guest speaker and coding lab
-  ([slides](google link))
+  ([slides](https://docs.google.com/presentation/d/1nPxfrCoyOjLk6PcI6zP3DEvOpWUSLTci19zRBCewwiI/edit?usp=sharing))
   ([Jhave's presentation slides](lesson/F18/sw-4/jhave-slides.pdf))
   ([Lab resources](/lab.html))
 * Lesson 5:
