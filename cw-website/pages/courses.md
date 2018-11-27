@@ -36,7 +36,10 @@ we're still working on them. Return at a later date to see how things are coming
   ([Jupyter notebook on neural nets](lessons/F18/sw-3/nn-script.ipynb))
 
 * Lesson 4:
-  More coding and review
+  Guest speaker and coding lab
+  ([slides](google link))
+  ([Jhave's presentation slides](lesson/F18/sw-4/jhave-slides.pdf))
+  ([Lab resources](/lab.html))
 * Lesson 5:
   Other kinds of machine learning and conclusion
 
