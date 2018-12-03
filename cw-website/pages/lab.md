@@ -1,6 +1,14 @@
 ---
 title: Lab Resources
 ---
+
+### Visualizations
+
+* [Visualizing _k_-means clustering](https://www.naftaliharris.com/blog/visualizing-k-means-clustering/)
+* [Visualizing DBSCAN](https://www.naftaliharris.com/blog/visualizing-dbscan-clustering/)
+
+### Coding lab
+
 Here are some resources to work on during our lab time. These resources are in ascending order of difficulty. Please feel
 free to ask your peers and the facilitators any questions you may have!
 
