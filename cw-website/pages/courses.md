@@ -50,6 +50,7 @@ we're still working on them. Return at a later date to see how things are coming
   Unsupervised learning and ethical problems of machine learning.
   ([slides](https://docs.google.com/presentation/d/1dahzC6YTbW-lYf6nqx69S8Pm_TFM64WrwDcaF7Capik/edit?usp=sharing))
   ([POGIL on clustering](lessons/F18/sw-5/k-means-ws/writeup.pdf))
+  ([Specification gaming](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRPiprOaC3HsCf5Tuum8bRfzYUiKLRqJmbOoC-32JorNdfyTiRRsR7Ea5eWtvsWzuxo8bjOxCG84dAg/pubhtml))
 
 ---
 
