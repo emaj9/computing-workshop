@@ -39,7 +39,7 @@ we're still working on them. Return at a later date to see how things are coming
   ([Jupyter notebook on neural nets](lessons/F18/sw-3/nn-script.ipynb))
 
 * Lesson 4:
-  Guest speaker and coding lab
+  Applications of machine learning and coding lab
   ([slides](https://docs.google.com/presentation/d/1nPxfrCoyOjLk6PcI6zP3DEvOpWUSLTci19zRBCewwiI/edit?usp=sharing))
 
   ([Jhave's presentation slides](lessons/F18/sw-4/jhave-slides.pdf))
@@ -47,7 +47,9 @@ we're still working on them. Return at a later date to see how things are coming
   ([Lab resources](/lab.html))
 
 * Lesson 5:
-  Other kinds of machine learning and conclusion
+  Unsupervised learning and ethical problems of machine learning.
+  ([slides](https://docs.google.com/presentation/d/1dahzC6YTbW-lYf6nqx69S8Pm_TFM64WrwDcaF7Capik/edit?usp=sharing))
+  ([POGIL on clustering](lessons/F18/sw-5/k-means-ws/writeup.pdf))
 
 ---
 
