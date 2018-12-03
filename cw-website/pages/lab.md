@@ -7,6 +7,10 @@ title: Lab Resources
 * [Visualizing _k_-means clustering](https://www.naftaliharris.com/blog/visualizing-k-means-clustering/)
 * [Visualizing DBSCAN](https://www.naftaliharris.com/blog/visualizing-dbscan-clustering/)
 
+### AI Ethics
+
+* [Awful AI](https://github.com/daviddao/awful-ai)
+
 ### Coding lab
 
 Here are some resources to work on during our lab time. These resources are in ascending order of difficulty. Please feel
