@@ -1,17 +1,23 @@
 ---
 title: Lab Resources
 ---
+## SW 5: Unsupervised learning and ethics
 
-### Visualizations
+#### Visualizations
 
 * [Visualizing _k_-means clustering](https://www.naftaliharris.com/blog/visualizing-k-means-clustering/)
 * [Visualizing DBSCAN](https://www.naftaliharris.com/blog/visualizing-dbscan-clustering/)
 
-### AI Ethics
+#### Learning the wrong thing
+
+* [Stupid AI](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRPiprOaC3HsCf5Tuum8bRfzYUiKLRqJmbOoC-32JorNdfyTiRRsR7Ea5eWtvsWzuxo8bjOxCG84dAg/pubhtml)
+
+#### AI Ethics
 
 * [Awful AI](https://github.com/daviddao/awful-ai)
 
-### Coding lab
+---
+## SW 4: Python lab
 
 Here are some resources to work on during our lab time. These resources are in ascending order of difficulty. Please feel
 free to ask your peers and the facilitators any questions you may have!
