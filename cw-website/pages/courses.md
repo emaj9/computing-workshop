@@ -7,14 +7,12 @@ title: Courses
 On this page you will find the syllabi, lesson plans, and slides for current
 and past iterations of Computing Workshop.
 
-This page is currently a work in progress, not all materials are yet posted as
-we're still working on them. Return at a later date to see how things are coming along!
-
 
 ---
 
+### Past Courses
 
-### Software - Fall 2018
+#### Software - Fall 2018
 
 <iframe class="lp" src="lessons/F18/sw-syllabus/sw-syllabus.pdf"></iframe>
 
@@ -54,7 +52,6 @@ we're still working on them. Return at a later date to see how things are coming
 
 ---
 
-### Past Courses
 
 #### Hardware - Fall 2018
 
