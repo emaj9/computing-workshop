@@ -12,7 +12,7 @@ and past iterations of Computing Workshop.
 
 ### Past Courses
 
-#### Software - Fall 2018
+#### Software - Fall 2018 {#machine-learning}
 
 <iframe class="lp" src="lessons/F18/sw-syllabus/sw-syllabus.pdf"></iframe>
 
