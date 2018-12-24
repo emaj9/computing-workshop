@@ -1,0 +1,21 @@
+Need to return certificates:
+* Donatien
+* Danielle
+* Sage
+* Charles
+* Anne Labarre
+* Anne Liao
+* Kristin
+* Agathe
+
+Need to print certificates:
+* Mariko
+
+Have certificates:
+* Xining Chen
+* Yuting Feng
+* Philip Dumaresq
+* Caiti MacEachen
+* Vanessa Chu
+* Kevin Zhang
+* Jeremy Dawkins
