@@ -94,7 +94,9 @@ welcomeEmail = RegistrationEmail
   { regEmailSubject = const "Welcome to Computing Workshop!"
   , regEmailBody = \Registration{..} ->
     "Dear " <> TL.fromStrict registerName <> ",\n\n" <>
-    "We're pleased to have you join Computing Workshop!\n\n" <>
+    "You're receiving this email as confirmation of your registration to Computing Workshop.\n" <>
+    "Make sure to monitor this email address, " <> TL.fromStrict registerEmail <> ", " <>
+    "as we will use it to communicate with you.\n\n" <>
     "Looking forward to meeting you,\n" <>
     "Jacob & Eric\n"
   , regEmailRecipients = \Registration{..} -> [T.unpack registerEmail]
