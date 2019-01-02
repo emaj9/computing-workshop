@@ -47,6 +47,7 @@ $(function() {
             data: JSON.stringify(form),
             url: "/api/register",
             success: onRegisterRes,
+            error: registerFailed,
             contentType: 'application/json',
             dataType: 'json',
             type: 'POST',
