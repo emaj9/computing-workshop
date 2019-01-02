@@ -10,6 +10,8 @@ data Registration
     , registerEmail :: Text
     , registerBgGeneral :: Text
     , registerQuestions :: Text
+    , registerReferer :: Text
+    , registerRefererSpecific :: Text
     }
   deriving (Eq, Generic, FromJSON, ToJSON)
 

@@ -110,6 +110,8 @@ notificationEmail recps = RegistrationEmail
     , ("Email: ", registerEmail)
     , ("Background (general): ", registerBgGeneral)
     , ("Questions about computers: ", registerQuestions)
+    , ("Referer: ", registerReferer)
+    , ("Referer specific: ", registerRefererSpecific)
     ]
   } where
     f (fieldName, content) =
