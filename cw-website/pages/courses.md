@@ -10,6 +10,18 @@ and past iterations of Computing Workshop.
 
 ---
 
+## Current Courses
+
+### Machine Learning - Winter 2019
+
+Computing Workshop: Machine Learning is coming back for another iteration this winter, starting in January and ending
+mid-February. To see what past iterations of the machine learning workshop looked like, scroll down to the Software
+Fall 2018 materials. If you want to join the upcoming iteration of the workshop, [register
+here](https://computing-workshop.com/registration.html). Once the workshop gets going, all course materials will be
+posted here.
+
+---
+
 ### Past Courses
 
 #### Software - Fall 2018 {#machine-learning}
