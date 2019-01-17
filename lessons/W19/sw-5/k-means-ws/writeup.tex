@@ -1,0 +1,122 @@
+\documentclass[11pt]{article}
+
+\newcommand{\kmc}{$k$-means clustering}
+
+\title{\vspace{-3em}\kmc}
+\author{Computing Workshop: Machine Learning}
+\date{Fall 2018}
+
+\usepackage{hyperref}
+\usepackage[margin=2.0cm]{geometry}
+
+\begin{document}
+
+\maketitle
+
+\kmc{} discovers $k$ clusters of points in a plot. These clusters correspond to
+the \emph{labels} that the clustering algorithm discovers.
+\begin{enumerate}
+\item
+  $k$ points are randomly placed in the plot. These points are called the
+  \emph{centroids}.
+\item
+  Assign labels to data points in the plot according to what centroid is nearest.
+\item
+  The centroids' positions are recalculated by taking the \emph{mean} (center)
+  of the points assigned to each cluster.
+\item
+  Repeat steps 2 and 3 until the positions of the centroids are unchanging.
+  We say that the clusters have \emph{converged}.
+\end{enumerate}
+
+\section*{Questions}
+
+Visit \url{https://computing-workshop.com/lab.html} and follow the link to
+Naftali Harris's ``Visualizing K-Means Clustering'' blog post.
+Using the visualization, answer the following questions.
+
+\begin{enumerate}
+\item
+  Choose initial centroids randomly, and choose the Gaussian Mixture dataset.
+  Add four centroids by repeatedly clicking ``Add Centroid''.
+  Then click ``Go'' and ``Update Centroids'' until the algorithm converges.
+  Repeat this a few times.
+
+  \begin{enumerate}
+    \item
+      Compare and contrast the results of the simulations: what was similar and what
+      was different?
+
+      \vspace{4em}
+    \item
+      What is the significance of the initial placement of the centroids?
+      How do you think this impacts the performance of the algorithm?
+
+      \vspace{4em}
+  \end{enumerate}
+
+\item
+  Choosing initial centroids randomly, run the algorithm on the
+  ``Uniform Points'', ``Gaussian Mixture'', ``Smiley Face'', and
+  ``Packed Circles'' data sets.
+  Feel free to add centroids as the algorithm is running to find the optimal
+  number $k$.
+
+
+  Are some of these more amenable to \kmc{} than others? Why?
+
+  \vspace{3em}
+
+\item
+  Based on your experience, what are some disadvantages of \kmc?
+  How could you improve \kmc?
+
+  \vspace{4em}
+
+\end{enumerate}
+
+\section*{The DBSCAN Algorithm}
+
+Return to \url{https://computing-workshop.com/lab.html} to visit Naftali
+Harris's blog post ``Visualizing DBSCAN Clustering''.
+This is a different clustering algorithm, based on the idea that the points in a
+cluster should be densely packed.
+
+In the visualizer, choose the ``DBSCAN Rings'' dataset.
+
+\begin{enumerate}
+  \setcounter{enumi}{3}
+  \item
+    Move the right slider all the way to the right. This affects the
+    \texttt{minPoints} value in the bottom left; now the value should be
+    $6$. Press ``Go''.
+    
+    In the resulting clusters, how many points are in each cluster?
+
+    Restart the simulation and choose ``DBSCAN Rings'' again. Choose
+    \texttt{minPoints = 2} this time. Press ``Go''.
+
+    What do you think the effect of \texttt{minPoints} is?
+
+    \vspace{4em}
+
+  \item
+    Restart the simulation on the ``DBSCAN Rings'' dataset again. Play with the
+    left slider, which affects the \texttt{epsilon} value. What is the effect of
+    this parameter on the performance of the algorithm?
+
+    \vspace{4em}
+
+  \item
+    Try DBSCAN on the ``Smiley Face'' dataset.
+    Compare its performance against the \kmc{} you did before.
+
+    \vspace{4em}
+
+  \item
+    In general, when do you think it's more appropriate to use \kmc{} or DBSCAN?
+
+    \vspace{4em}
+\end{enumerate}
+
+\end{document}
