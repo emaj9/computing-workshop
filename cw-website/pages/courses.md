@@ -4,9 +4,8 @@ title: Courses
 
 ## Previous and current course content
 
-On this page you will find the syllabi, lesson plans, and slides for current
+On this page you will find the syllabi, slides, and materials for current
 and past iterations of Computing Workshop.
-
 
 ---
 
@@ -14,11 +13,11 @@ and past iterations of Computing Workshop.
 
 ### Machine Learning - Winter 2019
 
-Computing Workshop: Machine Learning is coming back for another iteration this winter, starting in January and ending
-mid-February. To see what past iterations of the machine learning workshop looked like, scroll down to the Software
-Fall 2018 materials. If you want to join the upcoming iteration of the workshop, [register
-here](https://computing-workshop.com/registration.html). Once the workshop gets going, all course materials will be
-posted here.
+* [Syllabus](lessons/W19/sw-syllabus/sw-syllabus.pdf)
+
+* Lesson 0:
+  Welcome!
+  ([slides](https://docs.google.com/presentation/d/1OeCWPHMiCmeqb4pNvjtBwCj8l-Sp_nD3nDZtQQasEn8/edit?usp=sharing))
 
 ---
 
@@ -26,7 +25,7 @@ posted here.
 
 #### Software - Fall 2018 {#machine-learning}
 
-<iframe class="lp" src="lessons/F18/sw-syllabus/sw-syllabus.pdf"></iframe>
+* [Syllabus](lessons/F18/sw-syllabus/sw-syllabus.pdf)
 
 * Lesson 0:
   Welcome!
@@ -59,7 +58,9 @@ posted here.
 * Lesson 5:
   Unsupervised learning and ethical problems of machine learning.
   ([slides](https://docs.google.com/presentation/d/1dahzC6YTbW-lYf6nqx69S8Pm_TFM64WrwDcaF7Capik/edit?usp=sharing))
+
   ([POGIL on clustering](lessons/F18/sw-5/k-means-ws/writeup.pdf))
+
   ([Specification gaming](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRPiprOaC3HsCf5Tuum8bRfzYUiKLRqJmbOoC-32JorNdfyTiRRsR7Ea5eWtvsWzuxo8bjOxCG84dAg/pubhtml))
 
 ---
@@ -67,7 +68,7 @@ posted here.
 
 #### Hardware - Fall 2018
 
-<iframe class="lp" src="lessons/F18/hw-syllabus/hw-syllabus.pdf"></iframe>
+* [Syllabus](lessons/F18/hw-syllabus/hw-syllabus.pdf)
 
 * Lesson 0:
   Welcome!
