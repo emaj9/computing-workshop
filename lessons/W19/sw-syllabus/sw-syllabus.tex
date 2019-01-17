@@ -2,8 +2,7 @@
 
 \usepackage[margin=2.0cm]{geometry}
 \usepackage{hyperref}
-
-\newcommand{\code}{\texttt}
+\usepackage{multicol}
 
 \author{%
   Eric Mayhew \& Jacob Errington%
@@ -14,13 +13,14 @@
     support!
   }
 }
-\title{Computing Workshop: Software Syllabus}
-\date{Wall 2019}
+\title{\vspace{-2em}Computing Workshop: Software Syllabus}
+\date{Winter 2019}
 
 \begin{document}
 
 \maketitle
 
+\begin{multicols}{2}
 \begin{description}
   \item[Website]
     \url{http://computing-workshop.com/}
@@ -30,24 +30,34 @@
     (Northeast corner of University street)
 
   \item[Time]
-    Monday from 2:00PM to 4:00pm on
-    \begin{itemize}
-    \item January 14, 21, 28
-    \item February 4, 11, and 18
-    \end{itemize}
-
-  \item[Learning Goals]
-    At the end of the workshop, participants will be able to:
-    \begin{itemize}
-      \item Describe at a high level what machine learning is and how it works, the uses and applications of machine learing,
-        as well as the limits and ethical implications of machine learning;
-      \item Explain in plain English the following algorithms work: k-nearest neighbour, decision trees, neural networks;
-        k-means, and DBSCAN;
-      \item Implement the following algorithms using the appropriate Python libraries: k-nearest neighbour, decision trees, and neural networks.
-    \end{itemize}
-
+    Mondays from 2:00PM to 4:00pm
 \end{description}
 
+\subsection*{Learning Goals}
+
+At the end of the workshop, participants will be able to:
+
+\begin{itemize}
+\item Describe at a high level what machine learning is and how it works, the uses and applications of machine learing,
+  as well as the limits and ethical implications of machine learning;
+\item Explain in plain English the following algorithms work: k-nearest neighbour, decision trees, neural networks;
+  k-means, and DBSCAN;
+\item Implement the following algorithms using the appropriate Python libraries: k-nearest neighbour, decision trees, and neural networks.
+\end{itemize}
+
+\subsection*{Lesson sequence}
+
+\begin{enumerate}
+    \setcounter{enumi}{-1}
+  \item (January 14) Intro to machine learning and Python
+  \item (January 21) $k$-nearest neighbours
+  \item (January 28) Decision trees
+  \item (February 4) Neural networks
+  \item (February 11) Guest speaker and lab
+  \item (February 18) Other kinds of machine learning and ethics of machine learning
+\end{enumerate}
+
+\columnbreak
 \section*{Description}
 
 This instance in Computing Workshop focuses on machine
@@ -71,17 +81,6 @@ informed as to the limitations, uses and potential misuses of these alrogithms.
 This workshop aims to provide participants with little to no coding
 background with a solid introduction to machine learning using hands on
 acitivites, laying the foundation for further exploration of the topic.
-
-\section*{Lesson sequence}
-
-\begin{enumerate}
-    \setcounter{enumi}{-1}
-  \item Intro to machine learning and Python
-  \item K-nearest neighbour
-  \item Decision trees
-  \item Neural networks
-  \item Guest speaker and lab
-  \item Other kinds of machine learning and ethics of machine learning
-\end{enumerate}
+\end{multicols}
 
 \end{document}
