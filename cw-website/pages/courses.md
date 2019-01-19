@@ -17,7 +17,14 @@ and past iterations of Computing Workshop.
 
 * Lesson 0:
   Welcome!
+  ([Types and values worksheet](/lessons/W19/ml-0/types-values-ws/types-values.pdf))
   ([slides](https://docs.google.com/presentation/d/1OeCWPHMiCmeqb4pNvjtBwCj8l-Sp_nD3nDZtQQasEn8/edit?usp=sharing))
+
+* Lesson 1:
+  _K_ nearest neighbours
+  ([KNN worksheet](/lessons/W19/ml-1/knn-ws/writeup.pdf))
+  ([Functions worksheet](/lessons/W19/ml-1/functions-ws/functions.pdf))
+  ([slides](https://docs.google.com/presentation/d/1abKR8gYCag979SVAb_cOKIlORxIOHbSiPmbarPNQsQQ/edit?usp=sharing))
 
 ---
 
