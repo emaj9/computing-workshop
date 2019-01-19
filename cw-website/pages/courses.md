@@ -13,7 +13,7 @@ and past iterations of Computing Workshop.
 
 ### Machine Learning - Winter 2019
 
-* [Syllabus](lessons/W19/sw-syllabus/sw-syllabus.pdf)
+* [Syllabus](lessons/W19/ml-syllabus/ml-syllabus.pdf)
 
 * Lesson 0:
   Welcome!
