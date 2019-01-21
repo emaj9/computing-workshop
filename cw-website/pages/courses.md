@@ -22,10 +22,11 @@ and past iterations of Computing Workshop.
 
 * Lesson 1:
   _K_ nearest neighbours
-  ([KNN worksheet](/lessons/W19/ml-1/knn-ws/writeup.pdf))
-  ([Functions worksheet](/lessons/W19/ml-1/functions-ws/functions.pdf))
-  ([KNN Jupyter Notebook](/lessons/W19/ml-1/knn.ipynb))
   ([slides](https://docs.google.com/presentation/d/1abKR8gYCag979SVAb_cOKIlORxIOHbSiPmbarPNQsQQ/edit?usp=sharing))
+  ([Types and values recap](/lessons/W19/ml-1/co-teaching-act/co-teach1.pdf))
+  ([Data structures recap](/lessons/W19/ml-1/co-teaching-act/co-teach2.pdf))
+  ([KNN worksheet](/lessons/W19/ml-1/knn-ws/writeup.pdf))
+  ([KNN Jupyter Notebook](/lessons/W19/ml-1/knn.ipynb))
 
 ---
 
