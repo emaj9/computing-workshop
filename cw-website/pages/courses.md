@@ -24,6 +24,7 @@ and past iterations of Computing Workshop.
   _K_ nearest neighbours
   ([KNN worksheet](/lessons/W19/ml-1/knn-ws/writeup.pdf))
   ([Functions worksheet](/lessons/W19/ml-1/functions-ws/functions.pdf))
+  ([KNN Jupyter Notebook](/lessons/W19/ml-1/knn.ipynb))
   ([slides](https://docs.google.com/presentation/d/1abKR8gYCag979SVAb_cOKIlORxIOHbSiPmbarPNQsQQ/edit?usp=sharing))
 
 ---
