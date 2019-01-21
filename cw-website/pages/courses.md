@@ -26,6 +26,7 @@ and past iterations of Computing Workshop.
   ([Types and values recap](/lessons/W19/ml-1/co-teaching-act/co-teach1.pdf))
   ([Data structures recap](/lessons/W19/ml-1/co-teaching-act/co-teach2.pdf))
   ([KNN worksheet](/lessons/W19/ml-1/knn-ws/writeup.pdf))
+  ([KNN interactive web site](http://vision.stanford.edu/teaching/cs231n-demos/knn/))
   ([KNN Jupyter Notebook](/lessons/W19/ml-1/knn.ipynb))
 
 ---
