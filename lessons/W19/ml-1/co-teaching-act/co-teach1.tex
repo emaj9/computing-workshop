@@ -1,0 +1,54 @@
+\documentclass[11pt]{article}
+\usepackage{listings}
+
+\author{Computing Workshop}
+\title{Co-teaching Python Review - Version A}
+\date{Winter 2019}
+
+\usepackage[margin=2.0cm]{geometry}
+
+\begin{document}
+
+\maketitle
+
+Review the following concepts and make sure you know them well enough to explain them to someone else. Read the
+following document and answer the embedded questions to assess your understanding. If something is unclear, please don't hesitate to ask for an explination.
+
+\section*{Types and values}
+
+All code has a \textbf{type} and \textbf{value}. The four primitive types are \texttt{int, float, string,} and
+\texttt{bool}. In the following table, write 2 possible values for each type.
+\\
+
+\def\arraystretch{2}
+\begin{tabular}{| c | p{34em}|} \hline
+  Type & Value \\ \hline
+  int & ~ \\ \hline
+  float & ~ \\ \hline
+  string & ~ \\ \hline
+  bool & ~ \\ \hline
+\end{tabular}
+\\
+
+Types allow us to control or restrict what we can do to data. For example, Try to subtract an \texttt{int} from a
+\texttt{string} in the interpreter. What does the interpreter tell you and why is it saying that?
+
+\section*{Variables}
+
+Variables are pointers to a value. Here is what a variable looks like in Python \texttt{time = ``2pm''}. The \texttt{=}
+operator binds a variable name on the left (in the example \texttt{time}) to value on the right (in this example, the
+string \texttt{2pm}). Now, to the computer, \texttt{time} is \emph{synonymous} with \texttt{2pm}. You can update the
+value of a variable by reassigning it, like this \texttt{time = ``2:10pm''}.
+
+Consider the following snippet of code:
+\begin{lstlisting}
+  a = 4
+  b = a + 1
+  a = a + "two"
+  print(a)
+  print(b)
+\end{lstlisting}
+
+What will the program print for \texttt{a} and \texttt{b}? Run the code in your interpreter to check your answer!
+
+\end{document}
