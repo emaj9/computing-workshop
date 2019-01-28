@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 from sklearn.datasets import load_iris
 from sklearn import tree
