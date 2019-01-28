@@ -13,4 +13,4 @@ dot_data = tree.export_graphviz(
     classifier,
     feature_names=dataset['feature_names'],
     filled=True)
-graphviz.Source(dot_data).render('tree.pdf')
+graphviz.Source(dot_data).render('tree')
