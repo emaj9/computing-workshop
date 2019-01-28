@@ -1,3 +1,3 @@
 tree.pdf: create.py
 	./create.py
-	rm tree
+	rm tree.pdf.pdf
