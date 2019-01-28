@@ -28,6 +28,12 @@ and past iterations of Computing Workshop.
   ([KNN worksheet](/lessons/W19/ml-1/knn-ws/writeup.pdf))
   ([KNN interactive web site](http://vision.stanford.edu/teaching/cs231n-demos/knn/))
   ([KNN Jupyter Notebook](/lessons/W19/ml-1/knn.ipynb))
+  
+* Lesson 2:
+  Decision trees
+  ([slides](https://docs.google.com/presentation/d/1QwolwdwSXFLinDE1L2AJzovx0ClOxEPFbdSpKpV7EZQ/edit?usp=sharing))
+  ([Decision trees notebook](/lessons/W19/ml-2/dt.ipynb))
+  ([Decision tree visualization](/lessons/W19/ml-2/graphviz/tree.pdf))
 
 ---
 
