@@ -35,6 +35,12 @@ and past iterations of Computing Workshop.
   ([Decision trees notebook](/lessons/W19/ml-2/dt.ipynb))
   ([Decision tree visualization](/lessons/W19/ml-2/graphviz/tree.pdf))
 
+* Lesson 3:
+  Neural networks
+  ([slides](https://docs.google.com/presentation/d/1IBIppvrsLAwGo2z-5Hs51TgCHdCa5lowqvv-v8fWs0A/edit?usp=sharing))
+  ([Neural network notebook](/lessons/W19/ml-3/nn-script.ipynb))
+  ([Neural network POGIL](/lessons/W19/ml-3/friday-plans/friday-plans.pdf))
+
 ---
 
 ### Past Courses
