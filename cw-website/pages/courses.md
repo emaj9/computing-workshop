@@ -40,6 +40,17 @@ and past iterations of Computing Workshop.
   ([slides](https://docs.google.com/presentation/d/1IBIppvrsLAwGo2z-5Hs51TgCHdCa5lowqvv-v8fWs0A/edit?usp=sharing))
   ([Neural network notebook](/lessons/W19/ml-3/nn-script.ipynb))
   ([Neural network POGIL](/lessons/W19/ml-3/friday-plans/friday-plans.pdf))
+  
+* Lesson 4:
+  Neural networks, and coding lab
+  ([slides](https://docs.google.com/presentation/d/1F7SnBonyo4Y-g0wy4q57ROGxWpGPKU8MUbz_mdCjVFo/edit?usp=sharing))
+  ([lab resources](/lab.html))
+  
+* Lesson 5:
+  Unsupervised learning and ML ethics
+  ([slides](https://docs.google.com/presentation/d/1MXyNmFI9Ly35TSt_5TsH7a-Fg6KT70s2qSOYoyggmwE/edit?usp=sharing))
+  ([lab resources](/lab.html))
+  ([K-means POGIL](/lessons/W19/ml-5/k-means-ws/writeup.pdf))
 
 ---
 
