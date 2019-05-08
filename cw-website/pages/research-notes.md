@@ -94,22 +94,22 @@ demands and defiances of student voices. page 13
 m. Skirpan 2018
 
 1. Orientation:
-  a. I'm reading this paper to get an idea where ethics is in cs ed, how it can
+  A. I'm reading this paper to get an idea where ethics is in cs ed, how it can
   be integrated meaningfully, and how (or if) it connects to cp
-  b. how to teach ethics in cs - is it successful? how does it look compared to
+  B. how to teach ethics in cs - is it successful? how does it look compared to
   cp?
-  c. read the background looking for a window into cs ethics education (maybe i'm
+  C. read the background looking for a window into cs ethics education (maybe i'm
   better of looking at that on its own...) found out their methods and framework
 
 2. Summary:
-  a. This paper reports on a cs class that integrated ethics in a way that was
+  A. This paper reports on a cs class that integrated ethics in a way that was
   engaging and meaningful for students. Engaging cs students in ethics is
   traditionally challenging
-  b. this paper is entering into the conversation about engaging cs students in
+  B. this paper is entering into the conversation about engaging cs students in
   ethics in a way that is authentic for the students. several studies cited in
   this paper discuss how ethics is either not covered or not covered in a
   meaningful way for students.
-  c. education cs researchers
+  C. education cs researchers
 
 3. Assessment:
   a. the evidence comes from collections of the students work in the class, as
