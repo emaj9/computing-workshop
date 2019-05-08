@@ -38,9 +38,10 @@ ture for exploring computer science. ACM Inroads, 6(3), 58–66. doi:10.1145/279
 ### Travels in Troy with Freire
 Blikstein 2008
 
-1a. how does critical pedagogy relate to computer science and cs ed?
-b. skim to look for what I need, namely how freire relates to cs
-c. avoid background on freire
+1. Orientation
+  a. how does critical pedagogy relate to computer science and cs ed?
+  b. skim to look for what I need, namely how freire relates to cs
+  c. avoid background on freire
 
 Notes:
 
