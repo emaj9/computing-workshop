@@ -35,6 +35,80 @@ doi:10.1145/2787622.2787716
 ture for exploring computer science. ACM Inroads, 6(3), 58–66. doi:10.1145/2794294
 - challenges of CP?
 
+### How can digital inclusion promote social change? Exploring two Brazilian case studies
+Sammia Poveda 2016
+
+1. Orientation
+    a. in the search of reading all things cs ed + cp, this is on the list. it
+    refernces cp directly.
+    b. how they used cp in teaching cs, as well as what is their definition of cp?
+    c. read a bit of the background to see how they taught cs critically and the
+    results comparing cp insturction to dialect instruction
+
+2. Summary
+    a. This article explores the results (and benefits) of using a critical pedagogy approach
+    in teaching ICT use over traditional pedagogy.
+    b. This enters into a converstion about inequality in Brazil and around ICT
+    use and knowledge globally, focusing on what interventions are effective and
+    useful for people
+    c. education researchers, people who care about inequality around tech
+
+3. Assessment
+    a. 2 kinds of data collection: first - longitudinal design, collecting data
+    at the beginning and end of the courses, using interviews, questionnaires,
+    and observations. second: the organization, their objects, and their
+    activities. indterviews of staff and participant observation.
+    b. this article is credible in that it uses a lot of data to come to it's
+    conclusions. If anything tho, I'm less sure what "critical pedagogy" means
+    and sometimes feel like this paper is using the term incorrectly. namely,
+    they mention how students share their experience of discrimination during a
+    typing exercise but is that really helping them understand the underlying
+    causes of racism? It's good that they are sharing and discussing but it
+    seems like only the starting point of conscietization
+    c. facilitators, staff, participants, community members. all around good!
+
+4. Use
+    a. emphasis on staying practical is important for me. also being very
+    privileged and in canada adds more distance between understanding the
+    Brazilian experience of poverty
+    b. Implications for me point to how effective cp can be when teaching cs and
+    how it should be used more often. for me, this makes me wonder: what is cp
+    in cs? so far i've seen bits and pieces of freire's vision but never a
+    complete picture of critical pedagogy, and other research suggests it's not
+    even possible!
+    c. yes!
+
+notes:
+
+- study uses capability approach and cp frameworks
+- brazil still very inequal, especially in the world of ICT (who has it, who
+  knows how to use it)
+- research question: is appluing Freire's pedagogy better at promoting
+  devlopment and social change than other traitional approaches?
+- collected data form 2 different courses with difference instructional methods
+  (one cp the other traditional)
+- course benefited students because it just gave them something to do. a lot of
+  evidence points to the fact the area the study was done in didn't have much
+  for students to do on their own time
+- ict useful to participants as they could contant others, as well as find
+  services useful to them p 6
+- use of cp: in teaching typing, participants were given a story about a man
+  being discriminated against to type out - two birds one stone kinda
+      - this raised awareness about race, and soon other participants were
+        engaging in a dialogue about how they were discriminated against and why
+        it was wrong. -> promotes conscientisation
+      - compared to the "traditional" pedagogy approach, none of this was
+        mentioned in their typing class
+- cp approach talked about social media and facebook, including social issues
+  like how to be safe - i'm disappointed there is no mention about privacy
+  concerns and would have been a perfect opportunity to talk about this p7
+- exploring gvt resources: cp approach taught how to be more engaged as a
+  citizen
+- liberating: one participants in cp approach talked about being free from being
+  a mother for a while while learning about computers. very nice!
+- in cp appraoch: participants used computers and gvt websites to enact change
+  in their communities (cleaning local park ex p 7)
+
 ### Travels in Troy with Freire
 Blikstein 2008
 
@@ -42,6 +116,33 @@ Blikstein 2008
     a. how does critical pedagogy relate to computer science and cs ed?
     b. skim to look for what I need, namely how freire relates to cs
     c. avoid background on freire
+
+2. Summary
+    a. school based implementations of freirean pedagogy should be interpreted
+    not as curiosities but as viable alternatives to prevalent pedagogy.
+    b. this piece enters the conversation about cp and how it related to
+    tech. it reiterates the use and power of cp especially for oppressed groups.
+    c. education researchers, particularly theory people and critical theory ppl
+
+3. Assessment
+    a. author uses interviews, observations of the class to base his arguments
+    on. this is adequit.
+    b. it's credible to an extent. it's important to realize this is his one
+    experience in teaching tech and seems like so much of the students were
+    captivated by the sheer "new-ness" of the technology he brought in. i feel
+    like that influenced the behaviour of the students a lot.
+    c. everyone's: students, teachers, author. it would have been nice to hear
+    more of the student voices though, i wonder if it was so successful for
+    every student - did they all enjoy it and get something out of it?
+
+4. Use
+    a. i'm inclined to believe in critical pedagogy because i want to believe
+    it's useful but at the same time I'm hesitant towards theories and how
+    not-useful they can be in the classroom
+    b. this shows a clear example how to use critical pedagogy in the class,
+    even though it's not entirely clear what cp is. opens the door for more
+    explorations of cp, its effectiveness, and ways to use it
+    c. this did give me what i needed!
 
 Notes:
 
@@ -55,6 +156,16 @@ Notes:
 - technology, and particularly the design of new digital devices, derived from math
 and science are necessary tools for fulfilling Freire’s vision of humanization and
 societal transformation.
+- teachers were resistant too - hard to break the role of "supervisor"
+- initally students felt "lost" page 20
+- "well intentioned educators can often be wrong about what matters to a
+  specific community p 22
+- technology is a tool of humanization. tech allows for creation, expression,
+  and interaction -- all very human things!
+- knowledge has no intrinsic value beyond culutral capital - bordieu
+- this example of "cp" doesn't really do as much as i thought to consciou-ize
+  the students, they didn't really do too much about their oppression IMO. cp is
+  so scattered, who decides what is and isn't?
 
 ### Why Doesn't This Feel Empowering? Working Through the Repressive Myths of Critical Pedagogy
 e ellsworth, 1990
@@ -65,6 +176,37 @@ e ellsworth, 1990
     b. what are the complaints about cp? how is it difficult to implement in the
     class? how might that affect the way cp was invisioned by freire?
     c. skim as always, look for criticism and understand them
+
+2. Summary
+    a. argues the "key assumptions, goals, and pedagogical practices fundamental
+    to the literature on critical pedagogy [...] are repressive myths that
+    perpetuate relations of domination." page 2
+    b. this paper enters a conversation about critical pedagogy and its uses (or
+    praxis). It brings these theoretical teaching philosophies into practice and
+    emphasizes some of its short comings or blind spot
+    c. educators, critical pedagoges, or critical theoritians (is that word?)
+
+3. Assessment
+    a. author bases argument off of her lived experience trying to implement a
+    critical pedagogy approach to teaching racism
+    b. its credible in that it's her experience and the claims she makes about
+    using critical pedagogy are in valid and in the text itself. ultimately
+    though this is just one experience of using critical pedagogy - there are
+    other contexts where i think the issues she is raising aren't as a
+    pronounced or as much of an issue.
+    c. the professors points of view are prominent, and also sometimes the point
+    of view of the students in her class are heard - if faintly. i'm thinking
+    around the end when she mentions the student group that came out of the
+    class.
+
+4. Use
+    a. usually i'm frustrated with theories when it comes to teaching because
+    sometimes it feels like it is not very helpful for teaching - so i'm more
+    inclined to believe the criticism of theories
+    b. this paper really shines a light on the challenges of teaching with
+    critical pedagogy and expands the conversation on how cp and be improved and
+    changed
+    c. i did get what i want - mostly - must re read this to get it all though
 
 notes:
 
