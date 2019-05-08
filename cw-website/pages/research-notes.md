@@ -22,6 +22,7 @@
 
 Reading list
 ------------
+
 -culturall susained pedagogy, Paris
 -Philip, T. M., & Azevedo, F. S. (2017). Everyday science learning and equity: Mapping the
 contested terrain. Science Education, 101(4), 526–532. doi:10.1002/sce.21286
@@ -42,6 +43,7 @@ b. skim to look for what I need, namely how freire relates to cs
 c. avoid background on freire
 
 Notes:
+
 - “proof of existence” that realizing the Freirean vision is possible even within the underprivileged settings that he
   was targeting and to reflect on some design principles that may be conducive to realizing his vision.
 - intersectino of freire and constructionism
@@ -63,6 +65,7 @@ class? how might that affect the way cp was invisioned by freire?
 c. skim as always, look for criticism and understand them
 
 notes:
+
 - ellsworth teaches a class on racism after racist incident at her uni
 - argues the "key assumptions, goals, and pedagogical practices fundamental to
   the literature on critical pedagogy [...] are repressive myths that perpetuate
@@ -119,6 +122,7 @@ crafted activities in learning.
 c. i got what i needed - critical pedagogy != ethics! although it could easily...
 
 notes:
+
 - ethics is integrated into the class, instead of a stand alone topic. makes me
   think of sepehr and his vision for cs ed
 - ok ppl know teaching cs ethics is important and issue
@@ -164,6 +168,7 @@ to what to look for
 c. i got what i wanted yes!
 
 Notes:
+
 - simlarities in game jams and critical pedagogy make them a nice fit together:
   freedom, team work, empowerment.
 - method: they used the critical pedagogy "steps" (investigation ->
@@ -218,6 +223,7 @@ for new research, as well as paths to make critical pedagogy more prominent in c
 c. yes!
 
 Notes:
+
 - cs is becoming big in k-12, look at page 2
 - questions: what are the goals and values of cs ed? how does this shape cs ed
   (curriculum and pedagogy)?
@@ -286,6 +292,7 @@ c. this paper did provide what i wanted!
 
 
 Notes:
+
 - ran an afterschool program (MAN UP) twice a month. Focused on math, cs, and
   rhetorical analysis of manhood (ram). Ran pre and post surveys to see how it
   affected students part of the study.
@@ -351,6 +358,7 @@ inclusion in cs and ways to do it (if abstractly).
 
 
 Notes:
+
 - culturally revelant pedagogy (crp) incorporates values, beliefs. customs of students into the learning
   experience. educators use topics of interest to students -> leads to more interest, inquiry, and involvement.
 - Vygotsky - ideas are negotiated and konwledge is contextual. language is the medium of negotiation for ideas. learning
@@ -375,7 +383,7 @@ Notes:
 ### None but ourselves can free our minds: critical computational literacy as a pedagogy of resistance
 Clifford Lee and Elisabeth Soep
 
-# ADD THE HOW TO READ QUESTIONS HERE
+__ADD THE HOW TO READ QUESTIONS HERE__
 
 - Critical computational literacy (CCL) -> combination of critical literacy and
 computational thinking.
@@ -450,6 +458,7 @@ justice. Expands the literature about CP in math: appications, results, so on
 4C. I think yes!
 
 Notes:
+
 - This paper contains a rich overview and references to other research about
   math and CP.
 - Teachers really made the lesson relevant to the students. For the adult
