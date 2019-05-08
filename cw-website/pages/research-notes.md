@@ -204,33 +204,37 @@ Notes:
 ### Ethics, Identity, and Political Vision: Toward a Justice-Centered Approach to Equity in Computer Science Education
 Sepehr Vakil 2018
 
-1a. What is Sepehr's idea about social justice and teaching computer science?
-how is social justice related to more equitable cs ed? is social justice a
-required element in social justice conversations?
-b. the main argument of the author and how he came to this idea.
-c. read it - avoid the background info that i already know.
+1. Orientation:
+    a. What is Sepehr's idea about social justice and teaching computer science?
+    how is social justice related to more equitable cs ed? is social justice a
+    required element in social justice conversations?
+    b. the main argument of the author and how he came to this idea.
+    c. read it - avoid the background info that i already know.
 
-2a. In this article I use critical pedagogy and critical race theory (Freire, 2000;
-Giroux, 1989; Ladson-Billings & Tate, 1995) to argue that linking the need
-for CS in schools to the interests of multinational corporations obscures the
-sociopolitical implications, relevance, and, ultimately, liberatory possibilities
-of teaching and learning CS.
-b. The conversation is about how CS is taught and its role in society. Right now, the dominant approach, isn't including
-the political and ethical dimension of tech nor the students' political identities. Adding these, will increase the
-quality of education and diversity
-c. education researchers, practioners
+2. Summary:
+    a. In this article I use critical pedagogy and critical race theory (Freire, 2000;
+    Giroux, 1989; Ladson-Billings & Tate, 1995) to argue that linking the need
+    for CS in schools to the interests of multinational corporations obscures the
+    sociopolitical implications, relevance, and, ultimately, liberatory possibilities
+    of teaching and learning CS.
+    b. The conversation is about how CS is taught and its role in society. Right now, the dominant approach, isn't including
+    the political and ethical dimension of tech nor the students' political identities. Adding these, will increase the
+    quality of education and diversity
+    c. education researchers, practioners
 
-3a + b. evidence is solid. Theory is based in big players (Grioux, Freire), analyzes curriculum (ECS, CSTA), and
-includes an interview with a student. All very solid!
-c. Includes pov of 1 student, and the ideas put forth by policy makers. missing: a discussion with teachers would be
-nice. maybe their experience with critical pedagogy, their concerns, what they need to implement cp
+3. Assessment:
+    a + b. evidence is solid. Theory is based in big players (Grioux, Freire), analyzes curriculum (ECS, CSTA), and
+    includes an interview with a student. All very solid!
+    c. Includes pov of 1 student, and the ideas put forth by policy makers. missing: a discussion with teachers would be
+    nice. maybe their experience with critical pedagogy, their concerns, what they need to implement cp
 
-4a. My experience teaching cs and including the political dimension makes me more open to this kind of research. my bias
-is to include these things but i also have limitations. not really being a person of colour being oppressed (esp by
-tech) makes it harder for me to relate.
-4b. this opens a door for ppl to student more cp in cs. it's a good push forward that opens a lot of questions and paths
-for new research, as well as paths to make critical pedagogy more prominent in cs ed.
-c. yes!
+4. Use:
+    a. My experience teaching cs and including the political dimension makes me more open to this kind of research. my bias
+    is to include these things but i also have limitations. not really being a person of colour being oppressed (esp by
+    tech) makes it harder for me to relate.
+    b. this opens a door for ppl to student more cp in cs. it's a good push forward that opens a lot of questions and paths
+    for new research, as well as paths to make critical pedagogy more prominent in cs ed.
+    c. yes!
 
 Notes:
 
@@ -267,38 +271,42 @@ Notes:
 Chapter in: Human Rights in Language and STEM Education, 55–70. 2016
 JABARI MAHIRI AND JEREMIAH SIMS
 
-1a. I'm reading this paper to see how CP is implemented in STEM classes,
-espcially the effects it has on people of colour. What are their experiences?
-What does the research say this can do for ppl of colour?
-b. Get an idea of CP with CS. Examine their method - how did they guage their
-success? What are their references, can that point me to more research on CP
-with minorities?
-c. Glance at the intro - any thinkers I didn't see? Look at the methods and
-bibliography. Read the Abstract and zone in on what I want.
+1. Orientation
+    a. I'm reading this paper to see how CP is implemented in STEM classes,
+    espcially the effects it has on people of colour. What are their experiences?
+    What does the research say this can do for ppl of colour?
+    b. Get an idea of CP with CS. Examine their method - how did they guage their
+    success? What are their references, can that point me to more research on CP
+    with minorities?
+    c. Glance at the intro - any thinkers I didn't see? Look at the methods and
+    bibliography. Read the Abstract and zone in on what I want.
 
-2a. the paper studied how critical pedagogy approaches worked with black
-students in the states learning stem, and the results were very positive and
-helpful for the students. Yay!
-b. the conversation is about the low achievement of black students in general
-for education in the states but especially in computer science. what are the
-causes of this discrepency? what can be done to improve it?
-c. teachers looking to help this situation, education reseachers? policy makers
-who care?
+2. Summary
+    a. the paper studied how critical pedagogy approaches worked with black
+    students in the states learning stem, and the results were very positive and
+    helpful for the students. Yay!
+    b. the conversation is about the low achievement of black students in general
+    for education in the states but especially in computer science. what are the
+    causes of this discrepency? what can be done to improve it?
+    c. teachers looking to help this situation, education reseachers? policy makers
+    who care?
 
-3a + b. low achievement for black students backed up with statistics from us
-bureau. pedagogy grounded in theory and a lot of recent studies. their findigns
-as a result of notes and observations, surveys, interviews. this is all pretty
-credible!
-c. the points of view of students and teachers are included in this which i
-appreciate. maybe parents and community members could have been more involved?
+3. Assessment
+    a + b. low achievement for black students backed up with statistics from us
+    bureau. pedagogy grounded in theory and a lot of recent studies. their findigns
+    as a result of notes and observations, surveys, interviews. this is all pretty
+    credible!
+    c. the points of view of students and teachers are included in this which i
+    appreciate. maybe parents and community members could have been more involved?
 
-4a. my bias towards practical application and my lack of knowledge in general
-changes my assessment of this paper. also being white i don't fully understand
-the experience of black ppl in the states with cs
-b. shows the potential for critical pedagogy and how it can be a critical
-solution to problems in education and the workforce. changes for me too because
-it clearly illustrates what cp looks like cs
-c. this paper did provide what i wanted!
+4. Use
+    a. my bias towards practical application and my lack of knowledge in general
+    changes my assessment of this paper. also being white i don't fully understand
+    the experience of black ppl in the states with cs
+    b. shows the potential for critical pedagogy and how it can be a critical
+    solution to problems in education and the workforce. changes for me too because
+    it clearly illustrates what cp looks like cs
+    c. this paper did provide what i wanted!
 
 
 Notes:
@@ -339,32 +347,36 @@ human right.
 ### A Culturally Relevant Pedagogical Approach to Computer Science Education to Increase Participation of Underrepresented Populations
 Timothy Yuen and others - 2016
 
-1a. What does CP look like in computer science? How is it different or the same from cultural relevant pedagogy?
-b. I should try and get a clearer understand of critical ped and culturally relevant ped in cs. also an idea as to how
-they collect their data, what do they use to illustrate their point.
-c. skim the intro, read the background, look at the data and results.
+1. Orientation
+    a. What does CP look like in computer science? How is it different or the same from cultural relevant pedagogy?
+    b. I should try and get a clearer understand of critical ped and culturally relevant ped in cs. also an idea as to how
+    they collect their data, what do they use to illustrate their point.
+    c. skim the intro, read the background, look at the data and results.
 
-2a. The paper identifies the issue of underrepresentation of minorities in CS and offers 5 strategies to encourage
-minoirities in CS based on culturally relevant pedagogy.
-b. the conversation is the lack of diversity in cs and how to improve it.
-c. cs educators, researchers, people lookig to make cs more diverse
+2. Summary
+    a. The paper identifies the issue of underrepresentation of minorities in CS and offers 5 strategies to encourage
+    minoirities in CS based on culturally relevant pedagogy.
+    b. the conversation is the lack of diversity in cs and how to improve it.
+    c. cs educators, researchers, people lookig to make cs more diverse
 
-3a. evidence is based on education theorists like vygotsky, freire, ladson-billings. there is no real evidence outside
-of the theories about education - no talking to professors, students, teachers, so on.
-b. the article is credible in that it cites all these theorists and other papers which is great. but its incredible to
-me in taht it's a lot of rhetoric. furthermore the ideas are great - sure have mentors that are the culture as the
-students and have all these great teachers - but the how is missing
-c. the points of view of theorists are included, as well as the of census and statistics. missing is the point of view
-of students and teachers. what do they think? do they implement these kinds of things? what are the challenges they face
-in implementing crp?
+3. Assessment
+    a. evidence is based on education theorists like vygotsky, freire, ladson-billings. there is no real evidence outside
+    of the theories about education - no talking to professors, students, teachers, so on.
+    b. the article is credible in that it cites all these theorists and other papers which is great. but its incredible to
+    me in taht it's a lot of rhetoric. furthermore the ideas are great - sure have mentors that are the culture as the
+    students and have all these great teachers - but the how is missing
+    c. the points of view of theorists are included, as well as the of census and statistics. missing is the point of view
+    of students and teachers. what do they think? do they implement these kinds of things? what are the challenges they face
+    in implementing crp?
 
-4a. I'm biased against too theory heavy research about how practionners "should" be doing their job from people who
-don't practice. Also I am sensitive to social inequalities, but as a white man I don't experience them and that
-certainly limits my understanding. I still find this topic very important tho.
-b. implications for me: really have to think carefully and emphasize students' prior knowledge in building lessons and
-curriculum, as well as incorporate socio-political elements. implications for larger community: pushing towards
-inclusion in cs and ways to do it (if abstractly).
-4c. this paper helped me understand the difference between crp and cp and clear strategies to implement crp in cs. yay!
+4. Use
+    a. I'm biased against too theory heavy research about how practionners "should" be doing their job from people who
+    don't practice. Also I am sensitive to social inequalities, but as a white man I don't experience them and that
+    certainly limits my understanding. I still find this topic very important tho.
+    b. implications for me: really have to think carefully and emphasize students' prior knowledge in building lessons and
+    curriculum, as well as incorporate socio-political elements. implications for larger community: pushing towards
+    inclusion in cs and ways to do it (if abstractly).
+    c. this paper helped me understand the difference between crp and cp and clear strategies to implement crp in cs. yay!
 
 
 Notes:
@@ -437,35 +449,39 @@ Antero David Garcia - thesis - 2012
 ### Critical Pedagogy and Teaching Mathematics for Social Justice
 David Stinson et al 2012
 
-1A. Why I'm reading this: to understand what CP looks like in mathematics. Maybe I
-can relate it to CS/give an idea as to what CS CP looks like.
-B. Try to get: concrete examples of critical pedagogy in math. Try to see how it
-can be applied to CS.
-C. Skim, look for the section talking about the research and data collected
+1. Orientation
+    a. Why I'm reading this: to understand what CP looks like in mathematics. Maybe I
+    can relate it to CS/give an idea as to what CS CP looks like.
+    b. Try to get: concrete examples of critical pedagogy in math. Try to see how it
+    can be applied to CS.
+    c. Skim, look for the section talking about the research and data collected
 
-2A. This grad-level CP class helped pre-service teachers become critical
-pedagogues.
-B. Conversation is about CP, it's applications, and effects for teachers and
-students. What does CP look like in the math class?
-C. Furture math teachers, teacher-education program teachers or program
-directors.
+2. Summary
+    a. This grad-level CP class helped pre-service teachers become critical
+    pedagogues.
+    b. Conversation is about CP, it's applications, and effects for teachers and
+    students. What does CP look like in the math class?
+    c. Furture math teachers, teacher-education program teachers or program
+    directors.
 
-3A. Evidence lies on 2 teachers experience who took the class and implemented
-teaching for social justice in their classes. Data is: ethnography of teachers,
-planning and implementing of a CP math lesson and reflection. This will do for
-evidence.
-B. Credibility: uses actual teachers in the class as well as a huge amount of
-references that really lay out the current state of math CP.
-C. Represented: teacher, some of the students, and the author (teacher of the
-math education class). Left out: none that I can think of. There is only some
-mention of students experience in the data.
+3. Assessment
+    a. Evidence lies on 2 teachers experience who took the class and implemented
+    teaching for social justice in their classes. Data is: ethnography of teachers,
+    planning and implementing of a CP math lesson and reflection. This will do for
+    evidence.
+    b. Credibility: uses actual teachers in the class as well as a huge amount of
+    references that really lay out the current state of math CP.
+    c. Represented: teacher, some of the students, and the author (teacher of the
+    math education class). Left out: none that I can think of. There is only some
+    mention of students experience in the data.
 
-4A. My bias towards practical-oriented research definitely draws me towards this
-paper.
-4B. impacts: helpful for future teachers and student teachers to see how this is
-implemented as well as the success that went with teaching math for social
-justice. Expands the literature about CP in math: appications, results, so on
-4C. I think yes!
+4. Use
+    a. My bias towards practical-oriented research definitely draws me towards this
+    paper.
+    b. impacts: helpful for future teachers and student teachers to see how this is
+    implemented as well as the success that went with teaching math for social
+    justice. Expands the literature about CP in math: appications, results, so on
+    c. I think yes!
 
 Notes:
 
