@@ -102,14 +102,14 @@ m. Skirpan 2018
   better of looking at that on its own...) found out their methods and framework
 
 2. Summary:
-  A. This paper reports on a cs class that integrated ethics in a way that was
-  engaging and meaningful for students. Engaging cs students in ethics is
-  traditionally challenging
-  B. this paper is entering into the conversation about engaging cs students in
-  ethics in a way that is authentic for the students. several studies cited in
-  this paper discuss how ethics is either not covered or not covered in a
-  meaningful way for students.
-  C. education cs researchers
+    a. This paper reports on a cs class that integrated ethics in a way that was
+    engaging and meaningful for students. Engaging cs students in ethics is
+    traditionally challenging
+    b. this paper is entering into the conversation about engaging cs students in
+    ethics in a way that is authentic for the students. several studies cited in
+    this paper discuss how ethics is either not covered or not covered in a
+    meaningful way for students.
+    c. education cs researchers
 
 3. Assessment:
   a. the evidence comes from collections of the students work in the class, as
