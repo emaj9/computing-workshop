@@ -38,7 +38,7 @@ ture for exploring computer science. ACM Inroads, 6(3), 58–66. doi:10.1145/279
 ### Travels in Troy with Freire
 Blikstein 2008
 
-1 - Orientation:
+1. Orientation:
   a. how does critical pedagogy relate to computer science and cs ed?
   b. skim to look for what I need, namely how freire relates to cs
   c. avoid background on freire
@@ -59,11 +59,12 @@ societal transformation.
 ### Why Doesn't This Feel Empowering? Working Through the Repressive Myths of Critical Pedagogy
 e ellsworth, 1990
 
-1a. I'm reading this paper to get a fuller understanding of cp, namely its
-criticism
-b. what are the complaints about cp? how is it difficult to implement in the
-class? how might that affect the way cp was invisioned by freire?
-c. skim as always, look for criticism and understand them
+1. Orientation:
+  a. I'm reading this paper to get a fuller understanding of cp, namely its
+  criticism
+  b. what are the complaints about cp? how is it difficult to implement in the
+  class? how might that affect the way cp was invisioned by freire?
+  c. skim as always, look for criticism and understand them
 
 notes:
 
@@ -92,35 +93,39 @@ demands and defiances of student voices. page 13
 ### Ethics Education in Context: A Case Study of Novel Ethics Activities for the CS Classroom
 m. Skirpan 2018
 
-1a. I'm reading this paper to get an idea where ethics is in cs ed, how it can
-be integrated meaningfully, and how (or if) it connects to cp
-b. how to teach ethics in cs - is it successful? how does it look compared to
-cp?
-c. read the background looking for a window into cs ethics education (maybe i'm
-better of looking at that on its own...) found out their methods and framework
+1. Orientation:
+  a. I'm reading this paper to get an idea where ethics is in cs ed, how it can
+  be integrated meaningfully, and how (or if) it connects to cp
+  b. how to teach ethics in cs - is it successful? how does it look compared to
+  cp?
+  c. read the background looking for a window into cs ethics education (maybe i'm
+  better of looking at that on its own...) found out their methods and framework
 
-2a. This paper reports on a cs class that integrated ethics in a way that was
-engaging and meaningful for students. Engaging cs students in ethics is
-traditionally challenging
-b. this paper is entering into the conversation about engaging cs students in
-ethics in a way that is authentic for the students. several studies cited in
-this paper discuss how ethics is either not covered or not covered in a
-meaningful way for students.
-c. education cs researchers
+2. Summary:
+  a. This paper reports on a cs class that integrated ethics in a way that was
+  engaging and meaningful for students. Engaging cs students in ethics is
+  traditionally challenging
+  b. this paper is entering into the conversation about engaging cs students in
+  ethics in a way that is authentic for the students. several studies cited in
+  this paper discuss how ethics is either not covered or not covered in a
+  meaningful way for students.
+  c. education cs researchers
 
-3a. the evidence comes from collections of the students work in the class, as
-well as a survey (post)
-b. this is a good source to base their ideas off of. being they were teachers,
-this might make the conclusion and data a little less credible (ex. students
-want to be polite to their teacher) but i don't think its a concern to the main
-point of the paper.
-c. the students pov is closely integrated in the paper which is nice, as well as
-the teachers. that's all that's needed i think
+3. Assessment:
+  a. the evidence comes from collections of the students work in the class, as
+  well as a survey (post)
+  b. this is a good source to base their ideas off of. being they were teachers,
+  this might make the conclusion and data a little less credible (ex. students
+  want to be polite to their teacher) but i don't think its a concern to the main
+  point of the paper.
+  c. the students pov is closely integrated in the paper which is nice, as well as
+  the teachers. that's all that's needed i think
 
-4b. implications are how to teach ethics successful, avoiding some of the pit
-falls outlined by the cited research. for me it shows the importance of well
-crafted activities in learning.
-c. i got what i needed - critical pedagogy != ethics! although it could easily...
+4. Use:
+  b. implications are how to teach ethics successful, avoiding some of the pit
+  falls outlined by the cited research. for me it shows the importance of well
+  crafted activities in learning.
+  c. i got what i needed - critical pedagogy != ethics! although it could easily...
 
 notes:
 
