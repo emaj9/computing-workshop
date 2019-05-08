@@ -39,9 +39,9 @@ ture for exploring computer science. ACM Inroads, 6(3), 58–66. doi:10.1145/279
 Blikstein 2008
 
 1. Orientation:
-  a. how does critical pedagogy relate to computer science and cs ed?
-  b. skim to look for what I need, namely how freire relates to cs
-  c. avoid background on freire
+    a. how does critical pedagogy relate to computer science and cs ed?
+    b. skim to look for what I need, namely how freire relates to cs
+    c. avoid background on freire
 
 Notes:
 
@@ -60,11 +60,11 @@ societal transformation.
 e ellsworth, 1990
 
 1. Orientation:
-  a. I'm reading this paper to get a fuller understanding of cp, namely its
-  criticism
-  b. what are the complaints about cp? how is it difficult to implement in the
-  class? how might that affect the way cp was invisioned by freire?
-  c. skim as always, look for criticism and understand them
+    a. I'm reading this paper to get a fuller understanding of cp, namely its
+    criticism
+    b. what are the complaints about cp? how is it difficult to implement in the
+    class? how might that affect the way cp was invisioned by freire?
+    c. skim as always, look for criticism and understand them
 
 notes:
 
@@ -94,12 +94,12 @@ demands and defiances of student voices. page 13
 m. Skirpan 2018
 
 1. Orientation:
-  A. I'm reading this paper to get an idea where ethics is in cs ed, how it can
-  be integrated meaningfully, and how (or if) it connects to cp
-  B. how to teach ethics in cs - is it successful? how does it look compared to
-  cp?
-  C. read the background looking for a window into cs ethics education (maybe i'm
-  better of looking at that on its own...) found out their methods and framework
+    A. I'm reading this paper to get an idea where ethics is in cs ed, how it can
+    be integrated meaningfully, and how (or if) it connects to cp
+    B. how to teach ethics in cs - is it successful? how does it look compared to
+    cp?
+    C. read the background looking for a window into cs ethics education (maybe i'm
+    better of looking at that on its own...) found out their methods and framework
 
 2. Summary:
     a. This paper reports on a cs class that integrated ethics in a way that was
@@ -112,20 +112,20 @@ m. Skirpan 2018
     c. education cs researchers
 
 3. Assessment:
-  a. the evidence comes from collections of the students work in the class, as
-  well as a survey (post)
-  b. this is a good source to base their ideas off of. being they were teachers,
-  this might make the conclusion and data a little less credible (ex. students
-  want to be polite to their teacher) but i don't think its a concern to the main
-  point of the paper.
-  c. the students pov is closely integrated in the paper which is nice, as well as
-  the teachers. that's all that's needed i think
+    a. the evidence comes from collections of the students work in the class, as
+    well as a survey (post)
+    b. this is a good source to base their ideas off of. being they were teachers,
+    this might make the conclusion and data a little less credible (ex. students
+    want to be polite to their teacher) but i don't think its a concern to the main
+    point of the paper.
+    c. the students pov is closely integrated in the paper which is nice, as well as
+    the teachers. that's all that's needed i think
 
 4. Use:
-  b. implications are how to teach ethics successful, avoiding some of the pit
-  falls outlined by the cited research. for me it shows the importance of well
-  crafted activities in learning.
-  c. i got what i needed - critical pedagogy != ethics! although it could easily...
+    b. implications are how to teach ethics successful, avoiding some of the pit
+    falls outlined by the cited research. for me it shows the importance of well
+    crafted activities in learning.
+    c. i got what i needed - critical pedagogy != ethics! although it could easily...
 
 notes:
 
@@ -145,33 +145,37 @@ notes:
 ### Game Jams as a Space to Tackle Social Issues: an Approach Based on the Critical Pedagogy
 Christina Myers 2018
 
-1a. I'm reading this paper because its one of the few papers in the acm library
-that explicitly talks about cp, as well as being the best paper for 2018!
-b. I want to see how they apply critical pedagogy to a learning environment in
-CS.
-c. avoid the background on freire, look at the methods, restuls, and conclusion
+1. Orientation:
+    a. I'm reading this paper because its one of the few papers in the acm librar
+    that explicitly talks about cp, as well as being the best paper for 2018
+    b. I want to see how they apply critical pedagogy to a learning environment i
+    CS
+    c. avoid the background on freire, look at the methods, restuls, and conclusion
 
-2a. the article pilots a game jam using critical pedagogy framework to engage
-participants to create a game that is critical and meaningful for the participants
-b. the paper is entering into a conversation about teaching and working with
-diverse people in computer science? mainly theoretical frameworks to use when
-teaching, and how critical pedagogy is and can be successful to working with
-diverse students
-c. education cs researchers
+2. Summary:
+    a. the article pilots a game jam using critical pedagogy framework to engage
+    participants to create a game that is critical and meaningful for the participants
+    b. the paper is entering into a conversation about teaching and working with
+    diverse people in computer science? mainly theoretical frameworks to use when
+    teaching, and how critical pedagogy is and can be successful to working with
+    diverse students
+    c. education cs researchers
 
-3a. the evidence on the trail comes from a questionnaire given to participants
-of the study. theory is grounded in well theory
-b. i can't really judge the evidence because i don't understand the stats that
-well. otherwise the questionnaire seems good and comprehensive.
-c. the points of view of the participants are considered. that's all that's
-necessary i believe
+3. Assessment:
+    a. the evidence on the trail comes from a questionnaire given to participants
+    of the study. theory is grounded in well theory
+    b. i can't really judge the evidence because i don't understand the stats that
+    well. otherwise the questionnaire seems good and comprehensive.
+    c. the points of view of the participants are considered. that's all that's
+    necessary i believe
 
-4a. i have a bias towards cp and thinking its a good theoretical framework to
-work off of
-b. implications show the successes and uses of critical pedagogy which i really
-like! for myself, this is a great model for using cp in cs ed and makes me atune
-to what to look for
-c. i got what i wanted yes!
+4. Use:
+    a. i have a bias towards cp and thinking its a good theoretical framework to
+    work off of
+    b. implications show the successes and uses of critical pedagogy which i really
+    like! for myself, this is a great model for using cp in cs ed and makes me atune
+    to what to look for
+    c. i got what i wanted yes!
 
 Notes:
 
