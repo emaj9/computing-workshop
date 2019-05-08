@@ -23,15 +23,15 @@
 Reading list
 ------------
 
--culturall susained pedagogy, Paris
--Philip, T. M., & Azevedo, F. S. (2017). Everyday science learning and equity: Mapping the
+- culturall susained pedagogy, Paris
+- Philip, T. M., & Azevedo, F. S. (2017). Everyday science learning and equity: Mapping the
 contested terrain. Science Education, 101(4), 526–532. doi:10.1002/sce.21286
     - how science ed is fought over, and sometimes used for bad things!
--Lewis, C. M., & Shah, N. (2015, July). How equity and inequity can emerge in pair pro-
+- Lewis, C. M., & Shah, N. (2015, July). How equity and inequity can emerge in pair pro-
 gramming. In Proceedings of the eleventh annual conference on international com-
 puting education research (pp. 41–50). Association for Computing Machiner y.
 doi:10.1145/2787622.2787716
--Margolis, J., Goode, J., & Chapman, G. (2015). An equity lens for scaling: A critical junc-
+- Margolis, J., Goode, J., & Chapman, G. (2015). An equity lens for scaling: A critical junc-
 ture for exploring computer science. ACM Inroads, 6(3), 58–66. doi:10.1145/2794294
 - challenges of CP?
 
@@ -94,11 +94,11 @@ demands and defiances of student voices. page 13
 m. Skirpan 2018
 
 1. Orientation:
-    A. I'm reading this paper to get an idea where ethics is in cs ed, how it can
+    a. I'm reading this paper to get an idea where ethics is in cs ed, how it can
     be integrated meaningfully, and how (or if) it connects to cp
-    B. how to teach ethics in cs - is it successful? how does it look compared to
+    b. how to teach ethics in cs - is it successful? how does it look compared to
     cp?
-    C. read the background looking for a window into cs ethics education (maybe i'm
+    c. read the background looking for a window into cs ethics education (maybe i'm
     better of looking at that on its own...) found out their methods and framework
 
 2. Summary:
@@ -223,8 +223,9 @@ Sepehr Vakil 2018
     c. education researchers, practioners
 
 3. Assessment:
-    a + b. evidence is solid. Theory is based in big players (Grioux, Freire), analyzes curriculum (ECS, CSTA), and
+    a. evidence is solid. Theory is based in big players (Grioux, Freire), analyzes curriculum (ECS, CSTA), and
     includes an interview with a student. All very solid!
+    b. see above
     c. Includes pov of 1 student, and the ideas put forth by policy makers. missing: a discussion with teachers would be
     nice. maybe their experience with critical pedagogy, their concerns, what they need to implement cp
 
@@ -292,10 +293,11 @@ JABARI MAHIRI AND JEREMIAH SIMS
     who care?
 
 3. Assessment
-    a + b. low achievement for black students backed up with statistics from us
+    a. low achievement for black students backed up with statistics from us
     bureau. pedagogy grounded in theory and a lot of recent studies. their findigns
     as a result of notes and observations, surveys, interviews. this is all pretty
     credible!
+    b. see above
     c. the points of view of students and teachers are included in this which i
     appreciate. maybe parents and community members could have been more involved?
 
