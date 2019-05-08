@@ -8,11 +8,6 @@ Welcome to the Computing Workshop website!
 On this site, you'll find the details of the workshop itself, along with all
 the materials necessary to run this workshop.
 
-Registration is now open for the winter 2019 machine learning workshops! To
-learn more about the courses, head to the courses page to read each workshops'
-syllabus and available lesson plans. To secure your spot in the upcoming
-workshop, register using the registration form!
-
 We look forward to learning with you!
 
 ## Meet the facilitators!
