@@ -20,6 +20,29 @@
     C. Did this paper provide what you wanted out of it? If not, did you have
     reasonable expectations for it?
 
+notes with eliz
+
+sure there are ppl using elems of cp, lie cs for social good -- using cp but not
+knowing!! finding the researches -- as michael goldweber to find these kinds of
+papers.
+
+1 project: classification system of literature
+another: talking to people about what they're doing - might be more interesting
+project
+    - if you were a reporter askign about professors pedagogy - you don't need
+      ethics to do that! although jounralists have their own set of ethis
+    - don't worry about research ethics yet - don't let it get in the way of
+      ethics yet - imagine reporter - what questions would you be asking?
+    - 5 to 10 questions - first work on them together - then roleplay!! then
+      role play the other way around. roleplaying is good!
+    - objective: looking at practioners how are they implementing
+    - what elements of critical pedagogy are they implementing?
+    - not the critical pedagogy master will implement it
+    - suggest i do: brainstorm of lists (rough) of what are the elements of cp
+      that i see -
+    - for next time expecting: draft list of questions, and a draft list of
+      elements of critical pedagogy
+
 Reading list
 ------------
 
@@ -27,13 +50,25 @@ Reading list
 - Philip, T. M., & Azevedo, F. S. (2017). Everyday science learning and equity: Mapping the
 contested terrain. Science Education, 101(4), 526–532. doi:10.1002/sce.21286
     - how science ed is fought over, and sometimes used for bad things!
-- Lewis, C. M., & Shah, N. (2015, July). How equity and inequity can emerge in pair pro-
-gramming. In Proceedings of the eleventh annual conference on international com-
-puting education research (pp. 41–50). Association for Computing Machiner y.
-doi:10.1145/2787622.2787716
-- Margolis, J., Goode, J., & Chapman, G. (2015). An equity lens for scaling: A critical junc-
-ture for exploring computer science. ACM Inroads, 6(3), 58–66. doi:10.1145/2794294
+- computing for the social good - relationships to cs ed ?
 - challenges of CP?
+
+### Computer Science Education for Social Good
+m goldweber & elizabeth! 2013
+
+1. Orientation
+    a. this paper talks about "social good" - maybe that's realted to cp? after
+    all cp is about improving society
+    b. intro to computing for the social good - what is it all about? where can
+    i learn more about this idea? and ideally connect to my understanding of cp
+    c. read it all and read the references
+
+2. Summary
+    a.
+
+notes:
+
+-
 
 ### How can digital inclusion promote social change? Exploring two Brazilian case studies
 Sammia Poveda 2016
