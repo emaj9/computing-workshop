@@ -43,6 +43,62 @@ project
     - for next time expecting: draft list of questions, and a draft list of
       elements of critical pedagogy
 
+interview questions
+-------------------
+0. what is your teaching background? (where you teach, so on)
+1. what is cp to you? what does it look like in the class?j
+1. describe a really positive cp class/lesson
+2. where did you first learn about cp?
+   - after learning about cp, did you implement it right away, or wait a bit? why?
+3. why do you use cp?
+4. on the whole do you think students respond positively or negatively to cp? why?
+5. what about your teaching changed as a result of cp?
+6. how to implement cp:
+   a. how do you implement cp in your instruction?
+       or
+       tell me about your best/favourite/most impactful class/lesson using cp. what was it? why did it go so well?
+   b. how does cp influence your assessment?
+7. to someone looking to teach a cs class with cp, what advice would you give them?
+8. does the nature of cs content make teaching with cp easy or hard?
+
+ideal question:
+what is the ideal learning environment for cp?
+ideal material, lesson, topic for cp?
+what is needed for a successful cp class/lesson?
+
+interpretive question:
+what were you not expecting in implmenet cp?
+
+
+elements of critical pedagogy:
+------------------------------
+steps to critical pedagogy => around pages 100s
+1. raising awareness and investigation
+
+- oppressed have many hurdles to face, like internalized hatred
+- first job is to understand ways of oppression in lived reality through **dialogue** with students
+- the dialogue looks to find the structures of oppressioned through the **students** lived experiences
+  - "The starting point for organizing the program content of education
+    or political action must be the present, existential, concrete situ­
+    ation, reflecting the aspirations of the people."
+  - dialogue is of course in the language of the students
+  - also requires a reflection on ppls thinking -> catch internalized oppression
+
+2. finding generative themes
+- objectifying the world, connecting people's lived experiences to understand the reality of society
+  - looking for: themes, patterns, contradictions, problems in society
+- decoding can be used to help identify themes that are harder to see - this makes me think of like coded racial
+  language in politics (ex. "tough on crime", "clean up the streets" -> coded race, to look like a potential president
+  -> coded gender) look at p 114
+- these themes are established by the students (its their lived experience after all) and becomes the focus of study
+
+3. problemize and act
+- looking at the issues and theme presented in the investigation and finding solutions that could fix it as well as
+  consequences for choices
+- finally the students create a solution that works to solve the issue by transforming reality with students and teacher
+
+other considerations:
+
 Reading list
 ------------
 
