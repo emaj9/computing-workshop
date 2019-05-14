@@ -20,64 +20,50 @@
     C. Did this paper provide what you wanted out of it? If not, did you have
     reasonable expectations for it?
 
-notes with eliz
-
-sure there are ppl using elems of cp, lie cs for social good -- using cp but not
-knowing!! finding the researches -- as michael goldweber to find these kinds of
-papers.
-
-1 project: classification system of literature
-another: talking to people about what they're doing - might be more interesting
-project
-    - if you were a reporter askign about professors pedagogy - you don't need
-      ethics to do that! although jounralists have their own set of ethis
-    - don't worry about research ethics yet - don't let it get in the way of
-      ethics yet - imagine reporter - what questions would you be asking?
-    - 5 to 10 questions - first work on them together - then roleplay!! then
-      role play the other way around. roleplaying is good!
-    - objective: looking at practioners how are they implementing
-    - what elements of critical pedagogy are they implementing?
-    - not the critical pedagogy master will implement it
-    - suggest i do: brainstorm of lists (rough) of what are the elements of cp
-      that i see -
-    - for next time expecting: draft list of questions, and a draft list of
-      elements of critical pedagogy
 
 interview questions
 -------------------
 0. what is your teaching background? (where you teach, so on)
-1. what is cp to you? what does it look like in the class?j
-1. describe a really positive cp class/lesson
+1. what is cp to you?
 2. where did you first learn about cp?
    - after learning about cp, did you implement it right away, or wait a bit? why?
 3. why do you use cp?
-4. on the whole do you think students respond positively or negatively to cp? why?
-5. what about your teaching changed as a result of cp?
-6. how to implement cp:
-   a. how do you implement cp in your instruction?
-       or
-       tell me about your best/favourite/most impactful class/lesson using cp. what was it? why did it go so well?
-   b. how does cp influence your assessment?
-7. to someone looking to teach a cs class with cp, what advice would you give them?
-8. does the nature of cs content make teaching with cp easy or hard?
+
+4. how do you implement your understanding cp in your classes?
+5. how has the way you taught changed as a result of cp?
+5. what is needed for a successful cp class/lesson?
+
+6. what were you not expecting when implmenet cp in your xp?
+   or
+7. what do you wish you knew before using cp in your cs class?
+8. to someone looking to teach a cs class with cp, what advice would you give them?
+
+9. describe a really successful cp class/lesson?
+10. describe a really unsuccessful cp lesson?
+
+11. on the whole do you think students respond positively or negatively to cp? why?
+
+12. does the nature of cs content make teaching with cp easy or hard?
+    or
+   how does cs content compliment cp in your experience?
+   how does cs content make teaching through cp more difficult?
 
 ideal question:
 what is the ideal learning environment for cp?
 ideal material, lesson, topic for cp?
-what is needed for a successful cp class/lesson?
 
-interpretive question:
-what were you not expecting in implmenet cp?
 
 
 elements of critical pedagogy:
 ------------------------------
-steps to critical pedagogy => around pages 100s
+**Critical Consciousness**
+steps to critical pedagogy (around pages 100s)
+
 1. raising awareness and investigation
 
-- oppressed have many hurdles to face, like internalized hatred
-- first job is to understand ways of oppression in lived reality through **dialogue** with students
-- the dialogue looks to find the structures of oppressioned through the **students** lived experiences
+- students have many hurdles to face, like internalized oppression
+- first job is to understand forms of oppression in lived reality of students through **dialogue** with students
+- the dialogue looks to find the structures of oppressioned through the **student's** lived experiences
   - "The starting point for organizing the program content of education
     or political action must be the present, existential, concrete situ­
     ation, reflecting the aspirations of the people."
@@ -85,6 +71,7 @@ steps to critical pedagogy => around pages 100s
   - also requires a reflection on ppls thinking -> catch internalized oppression
 
 2. finding generative themes
+
 - objectifying the world, connecting people's lived experiences to understand the reality of society
   - looking for: themes, patterns, contradictions, problems in society
 - decoding can be used to help identify themes that are harder to see - this makes me think of like coded racial
@@ -92,12 +79,24 @@ steps to critical pedagogy => around pages 100s
   -> coded gender) look at p 114
 - these themes are established by the students (its their lived experience after all) and becomes the focus of study
 
-3. problemize and act
+3. problematize and act
+
 - looking at the issues and theme presented in the investigation and finding solutions that could fix it as well as
   consequences for choices
 - finally the students create a solution that works to solve the issue by transforming reality with students and teacher
+- cnx to cs readings: students developing software that addresses their issue they found
+  - i suppose a lot of learning cs content knowledge happens here, thru design and implementation
 
-other considerations:
+**other features**
+acknowledging and breaking down the power structures in the class
+    => be upfront of authority as a teacher
+    => make the class a more even playing field between teacher and student
+    => teacher's don't act like they know everything, explore content with the students
+
+responsibility of the teacher:
+    - guide inquiry though the content
+    - support students in identifying genereative themes, decoding
+    - facilitate student's learning process
 
 Reading list
 ------------
