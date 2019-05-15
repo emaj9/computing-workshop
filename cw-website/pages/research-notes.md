@@ -23,46 +23,126 @@
 
 interview questions
 -------------------
-0. what is your teaching background? (where you teach, so on)
-1. what is cp to you?
+
+grand tour question
+-------------------
+next time:
+checklists!!! of both
+
+thursday or next tuesday
+
+finding people -> doing ethics first
+
+make the questions targetting and close with checklist
+without ethics don't push it
+bring up what do you not include in cp?
+*semi-structure*
+1. what is your understanding of cp?
+   a. (prompt) what is not
+   b. when did you learn about cp?
+2. all your cs teaching xp
+3. for each of those, how has cp influenced/informed your teaching?
+4. prompt/follow up: ask pointed questions about pillars of cp. what have they chosen what haven'y they chosen
+   - non-confrontational; do you do anything with [thing missing]? why not?
+
+what should i add to this:
+    keep it towards the how it plays out in your classroom
+    questions about why haven't you done x -> more likely to steer into ethics territory
+
+follow up study: ppl who are already implementing it and don't know. requires a checklist, survey form
+
+re:style of teaching assoc with fiere, and others. about: empowering students and rasigin critical consciousness in
+their world
+
+early question: your teaching experience -> where have you been a teacher? list all the forms you've taught.
+then questions: for each of these: did you have anything related to cp?
+
+
 2. where did you first learn about cp?
-   - after learning about cp, did you implement it right away, or wait a bit? why?
-3. why do you use cp?
+re: when i was a grad student taking courses oyse - at u of t
+**added**: what was your first reponse -> i felt i was the problem - i had been teaching for a banking model
+-> don't ask leading questions, sjust ask what was you first impression
 
-4. how do you implement your understanding cp in your classes?
-5. how has the way you taught changed as a result of cp?
-5. what is needed for a successful cp class/lesson?
+4. **how do you implement your understanding cp in your classes?**
+--long answer
+re: i don't think i have, certain things associated: teach cs 1 -> uses contextualized projects, has a week - 3 with
+student directed classes voting on student topics and interests!, menu of options to choose from (with a brief
+description),
+    **added question: are there any other ways you partially implement cp?**
+    - do a lot of surveying students -> weekly feedback process (mycourses), give them credit
+    - makes mistakes in fron tof class a lot ->
+    - counter to cp: set myself as an authority. as a young woman i'm not seen as an authority by my
+      students. complicated dance of presenting myself increasing social distance while being approachable. a lot easier
+      for an old white guy.
+    **added question: more pointed questions: did you teach about oppression? power? socipoitical?**
+    - i felt nervous implementing social stuff -? expectations of teacher evaluations from students being very negative
+      -> "she's too poolitical" this thereatens tenure tracka nd their stuff- > system incentivizing away from that
+    - your responsibility in society. if you write code that hurts people, i will take time to tlak about this.
+    - bring in quest lectureres that have status they wont get as questioned. -> using other as more authorotative,
+      learn what i want you to learn that won't absorb form me
 
-6. what were you not expecting when implmenet cp in your xp?
-   or
-7. what do you wish you knew before using cp in your cs class?
-8. to someone looking to teach a cs class with cp, what advice would you give them?
+5. **how has the way you taught changed as a result of cp?**
+-> redundant!!!
 
-9. describe a really successful cp class/lesson?
-10. describe a really unsuccessful cp lesson?
-
-11. on the whole do you think students respond positively or negatively to cp? why?
-
-12. does the nature of cs content make teaching with cp easy or hard?
-    or
-   how does cs content compliment cp in your experience?
-   how does cs content make teaching through cp more difficult?
-
-ideal question:
-what is the ideal learning environment for cp?
-ideal material, lesson, topic for cp?
+5. **what is needed for a successful cp class/lesson?**
+one question at a time!!
+re: academic freedom, job security. if you talk about political structures of cs and not get fired.
+student evaluations of teaching are not the only form of evaluation: trying to teach students politics matter and
+sometimes they're not ready to talk about this. job perfomrance rewards doing what you think is best for the students.
+- forgiveness to yourself you're not going to do it all
+  - teaching assistants and support. projects with open ended qurstions requires a lot of marking - when you have 1--
+    students in your class. you don't need nay TA - you need prepared tas to deal with these questions. ta's just want a
+    right answers! these tas are usually trying to climb to the top of the system. time training ta's.
+- admin support: if some students relalyl go out of the way to get at you - you need your chair to be helping you and
+  supporting you
 
 
+**added question: what don't you implement for cp?**
+- i don't feel like i do enough consciousness raising
+- i'm teaching 100s of students, i dont have relationships with them
+- one on one relationship necessary for cp - you don't get that in cs.
+- contradiction of how i position myself -> authority not on the same playing field
+- you need to learn about politics- its' good for you
+
+6. **what were you not expecting when implmenet cp in your xp?**
+the degree of student resistance. to a lot of students, cs is apolitical - i'm here to learn how to code not
+politics. they don't engage with it and don't care. i'm putting in what i think they should learn about.
+
+9. **describe a really successful cp class/lesson?** -> go neutral. not "best", just any
+first one to come to mind: students wanted to learn about how the internet works -> broke up song lyrics and apread them
+across the class -> friday by rebecca black, meme-type songs. good vibe: students wants to learn about, everyone was
+engaged, no question sabout it on the final so i don't know how much tey learned.
+**add** digging deeper-> what about socio-political successful traditional CS class? what's a successful one?
+    - one class spend the whole class on it -> bringing it in 5 minutes at a time, applying context and this. more in
+      passing than an entire lecture in -> post political acticles online, assiggment where students did a forest fire
+      simulation -> climate change
+
+**how do you talk about sociopolitical context in your teaching?**
+
+**how do you teach raising consciousness? if no -> why not?**
+- never felt equipped to do it while i was at toronto
+  what would you need to feel equipped? a police force that protects
+
+**have you ever had an students change their world and their society? word this better**
+- had an open ended project. some would create things that were like making an alarm clock for myself. maybe doesn't
+  remember
+
+~~8. to someone looking to teach a cs class with cp, what advice would you give them?~~
 
 elements of critical pedagogy:
 ------------------------------
 **Critical Consciousness**
 steps to critical pedagogy (around pages 100s)
 
+-> seems abstract - break it down
+-> likert questionnaire
+
 1. raising awareness and investigation
 
 - students have many hurdles to face, like internalized oppression
-- first job is to understand forms of oppression in lived reality of students through **dialogue** with students
+  1. first job is to understand forms of oppression in lived reality of students through **dialogue** with students
+  2. student previeced or actual oppression for student (in discussion)
+  3.
 - the dialogue looks to find the structures of oppressioned through the **student's** lived experiences
   - "The starting point for organizing the program content of education
     or political action must be the present, existential, concrete situ­
@@ -91,12 +171,15 @@ steps to critical pedagogy (around pages 100s)
 acknowledging and breaking down the power structures in the class
     => be upfront of authority as a teacher
     => make the class a more even playing field between teacher and student
-    => teacher's don't act like they know everything, explore content with the students
+    => teacher's don't act like they know everything, explore content with the students - break down
+
 
 responsibility of the teacher:
     - guide inquiry though the content
     - support students in identifying genereative themes, decoding
     - facilitate student's learning process
+
+student directed, student responsive
 
 Reading list
 ------------
