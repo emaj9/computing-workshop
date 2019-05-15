@@ -20,23 +20,28 @@
     C. Did this paper provide what you wanted out of it? If not, did you have
     reasonable expectations for it?
 
+TO-DO
+=====
+- make interview question checklist
+- make cp checklist
+- reach out to professors to ask about cp
+- ask elizabeth about ICER
+  - what will my lightning talk be about?
+- will i apply for ethics?
+- update shape cite
 
 interview questions
 -------------------
 
-grand tour question
--------------------
 next time:
 checklists!!! of both
 
 thursday or next tuesday
 
-finding people -> doing ethics first
-
 make the questions targetting and close with checklist
 without ethics don't push it
 bring up what do you not include in cp?
-*semi-structure*
+
 1. what is your understanding of cp?
    a. (prompt) what is not
    b. when did you learn about cp?
