@@ -27,7 +27,7 @@ TO-DO
 ~~- reach out to professors to ask about cp~~
 - ask elizabeth about ICER
   - what will my lightning talk be about?
-- will i apply for ethics?
+~~- will i apply for ethics?~~ NO
 ~~- update shape cite~~
 
 interview questions
@@ -45,16 +45,20 @@ bring up what do you not include in cp?
 grand tour question
 -------------------
 
-1. what is your understanding of cp?
-   a. (prompt) what is not part of your understanding of cp?
-   b. (prompt) when did you learn about cp?
+1. what is your understanding of critical pedagogy?
+    a. [follow up] what is not part of your understanding of cp?
+    b. [follow up] when did you first learn about cp?
 2. please list all your cs teaching experience.
-   a. in which of these teaching experiences have you incorporated cp?
-3. for each of those, illustrate how you used critical pedagogy in those classes.
-   a. follow up: ask questions about key elements of cp.
-       - do you do anything with [missing element]? -> if no, why not?
-   b. how did you assess students?
-5. What advice would you give other teachers interested in incorporating
+    a. in which of these teaching experiences have you incorporated cp?
+3. for each teaching experience that you incorporated cp in your teaching, describe to me how you implemented cp in your
+class.
+    [if not covered in their response, ask:]
+    a. how did you assess students?
+    b. how did the students respond?
+    [follow up questions exploring what elements of cp were *not* included in their teaching using cp]
+    c. do you do anything with [missing element]?
+        -> if no, why not?
+4. What advice would you give other teachers interested in incorporating
    critical pedagogy in their teaching?
 
 what should i add to this:
@@ -63,97 +67,25 @@ what should i add to this:
 
 follow up study: ppl who are already implementing it and don't know. requires a checklist, survey form
 
-2. where did you first learn about cp?
-re: when i was a grad student taking courses oyse - at u of t
-**added**: what was your first reponse -> i felt i was the problem - i had been teaching for a banking model
--> don't ask leading questions, sjust ask what was you first impression
-
-4. **how do you implement your understanding cp in your classes?**
---long answer
-re: i don't think i have, certain things associated: teach cs 1 -> uses contextualized projects, has a week - 3 with
-student directed classes voting on student topics and interests!, menu of options to choose from (with a brief
-description),
-    **added question: are there any other ways you partially implement cp?**
-    - do a lot of surveying students -> weekly feedback process (mycourses), give them credit
-    - makes mistakes in fron tof class a lot ->
-    - counter to cp: set myself as an authority. as a young woman i'm not seen as an authority by my
-      students. complicated dance of presenting myself increasing social distance while being approachable. a lot easier
-      for an old white guy.
-    **added question: more pointed questions: did you teach about oppression? power? socipoitical?**
-    - i felt nervous implementing social stuff -? expectations of teacher evaluations from students being very negative
-      -> "she's too poolitical" this thereatens tenure tracka nd their stuff- > system incentivizing away from that
-    - your responsibility in society. if you write code that hurts people, i will take time to tlak about this.
-    - bring in quest lectureres that have status they wont get as questioned. -> using other as more authorotative,
-      learn what i want you to learn that won't absorb form me
-
-5. **how has the way you taught changed as a result of cp?**
--> redundant!!!
-
-5. **what is needed for a successful cp class/lesson?**
-one question at a time!!
-re: academic freedom, job security. if you talk about political structures of cs and not get fired.
-student evaluations of teaching are not the only form of evaluation: trying to teach students politics matter and
-sometimes they're not ready to talk about this. job perfomrance rewards doing what you think is best for the students.
-- forgiveness to yourself you're not going to do it all
-  - teaching assistants and support. projects with open ended qurstions requires a lot of marking - when you have 1--
-    students in your class. you don't need nay TA - you need prepared tas to deal with these questions. ta's just want a
-    right answers! these tas are usually trying to climb to the top of the system. time training ta's.
-- admin support: if some students relalyl go out of the way to get at you - you need your chair to be helping you and
-  supporting you
-
-
-**added question: what don't you implement for cp?**
-- i don't feel like i do enough consciousness raising
-- i'm teaching 100s of students, i dont have relationships with them
-- one on one relationship necessary for cp - you don't get that in cs.
-- contradiction of how i position myself -> authority not on the same playing field
-- you need to learn about politics- its' good for you
-
-6. **what were you not expecting when implmenet cp in your xp?**
-the degree of student resistance. to a lot of students, cs is apolitical - i'm here to learn how to code not
-politics. they don't engage with it and don't care. i'm putting in what i think they should learn about.
-
-9. **describe a really successful cp class/lesson?** -> go neutral. not "best", just any
-first one to come to mind: students wanted to learn about how the internet works -> broke up song lyrics and apread them
-across the class -> friday by rebecca black, meme-type songs. good vibe: students wants to learn about, everyone was
-engaged, no question sabout it on the final so i don't know how much tey learned.
-**add** digging deeper-> what about socio-political successful traditional CS class? what's a successful one?
-    - one class spend the whole class on it -> bringing it in 5 minutes at a time, applying context and this. more in
-      passing than an entire lecture in -> post political acticles online, assiggment where students did a forest fire
-      simulation -> climate change
-
-**how do you talk about sociopolitical context in your teaching?**
-
-**how do you teach raising consciousness? if no -> why not?**
-- never felt equipped to do it while i was at toronto
-  what would you need to feel equipped? a police force that protects
-
-**have you ever had an students change their world and their society? word this better**
-- had an open ended project. some would create things that were like making an alarm clock for myself. maybe doesn't
-  remember
-
-~~8. to someone looking to teach a cs class with cp, what advice would you give them?~~
-
 elements of critical pedagogy:
 ------------------------------
-**Critical Consciousness**
 steps to critical pedagogy (around pages 100s)
 
--> likert questionnaire
-
-In my teaching, I:
-**Engages students' interests and experiences**
-1. Help students reflect on their experiences and through dialogue with studens,
-   explore students' precieved or actual lived experiences of oppression.
-2. Ground students' experience of oppression as the focus of study.
+**Engages and incorporate students' interests and experiences in teaching**
+1. Listen and help students reflect on their experiences and interets through dialogue with studens,
+   exploring students' precieved or actual lived experiences of oppression.
+2. Focus the content of your class based on dialogue with students.
 
 **Fostering critical consciousness**
-1. Help students objectify society to identify contradictions and problems in
-   society connected to their lived experiences.
-2. Help students decode their experiences, artifacts, and other coded instances
-   of oppression.
-3. Help students thoroughly research and learn about the oppression that affects
-   them.
+1. Help students objectify and analyze society and their experiences to identify contradictions and problems in the
+   world.
+2. Help students decode their experiences, artifacts, and other coded instances of oppression.
+3. Help students thoroughly research and learn about forms of oppression that affect them.
+
+**Helping students make a change in the world**
+1. Help students brainstorm possible solutions to the issues they researched.
+2. Help students articulate outcomes and consequences of the actions they came up with.
+3. Help student implement a solution they came up with, thereby transforming their reality.
 
 **Connecting content to society**
 4. Explicitly incorporate the socio-political factors that shaped the computer
@@ -161,71 +93,15 @@ In my teaching, I:
 5. Explicitly discuss the socio-political implications of the computer science
    content you're teaching.
 
-**Activism**
-1. Help students brainstorms possible solutions to the issues they researched.
-2. Help students articulate outcomes and consequences of the actions they came up with.
-3. Help student implement a solution they came up with, thereby transforming their reality.
-
-**Student-teacher relationships**
-1. Acknowledge and relinquish authority over truth as a teacher.
-2. Provide space for students to reflect on their experiences and direct their
+**Fairer student-teacher relationships**
+1. Reject the idea that as the teacher, you are the sole "provider" of "knowledge" and acknowlede, respect, and
+   value the knowledge your students already have.
+2. Provide a safe and democractic space for students to reflect on their experiences and direct their
    own learning.
-3. Model democratic and fair relationships with your students.
-4. Use the type of language I hear my students speak when I teach.
-
-1. raising awareness and investigation
-
-- students have many hurdles to face, like internalized oppression
-  1. first job is to understand forms of oppression in lived reality of students through **dialogue** with students
-  2. student previeced or actual oppression for student (in discussion)
-
-- the dialogue looks to find the structures of oppressioned through the **student's** lived experiences
-  - "The starting point for organizing the program content of education
-    or political action must be the present, existential, concrete situ­
-    ation, reflecting the aspirations of the people."
-  - dialogue is of course in the language of the students
-  - also requires a reflection on ppls thinking -> catch internalized oppression
-
-2. finding generative themes
-
-- objectifying the world, connecting people's lived experiences to understand the reality of society
-  - looking for: themes, patterns, contradictions, problems in society
-- decoding can be used to help identify themes that are harder to see - this makes me think of like coded racial
-  language in politics (ex. "tough on crime", "clean up the streets" -> coded race, to look like a potential president
-  -> coded gender) look at p 114
-- these themes are established by the students (its their lived experience after all) and becomes the focus of study
-
-3. problematize and act
-
-- looking at the issues and theme presented in the investigation and finding solutions that could fix it as well as
-  consequences for choices
-- finally the students create a solution that works to solve the issue by transforming reality with students and teacher
-- cnx to cs readings: students developing software that addresses their issue they found
-  - i suppose a lot of learning cs content knowledge happens here, thru design and implementation
-
-**other features**
-acknowledging and breaking down the power structures in the class
-    => be upfront of authority as a teacher
-    => make the class a more even playing field between teacher and student
-    => teacher's don't act like they know everything, explore content with the students - break down
-
-
-responsibility of the teacher:
-    - guide inquiry though the content
-    - support students in identifying genereative themes, decoding
-    - facilitate student's learning process
-
-student directed, student responsive
+3. Use the same type of language your students speak while teaching.
 
 Reading list
 ------------
-
-- culturall susained pedagogy, Paris
-- Philip, T. M., & Azevedo, F. S. (2017). Everyday science learning and equity: Mapping the
-contested terrain. Science Education, 101(4), 526–532. doi:10.1002/sce.21286
-    - how science ed is fought over, and sometimes used for bad things!
-- computing for the social good - relationships to cs ed ?
-- challenges of CP?
 
 ### Computer Science Education for Social Good
 m goldweber & elizabeth! 2013
@@ -242,7 +118,7 @@ m goldweber & elizabeth! 2013
 
 notes:
 
--
+- good place to start for other research idea: finding and classifying ppl using cp in teaching cs without knowing it.
 
 ### How can digital inclusion promote social change? Exploring two Brazilian case studies
 Sammia Poveda 2016
