@@ -1,6 +1,7 @@
 
 TO-DO
 =====
+
 ~~- make interview question checklist~~
 ~~- make cp checklist~~
 ~~- reach out to professors to ask about cp~~
@@ -11,6 +12,10 @@ TO-DO
 
 interview questions
 -------------------
+
+- keep it towards the how it plays out in your classroom
+- questions about why haven't you done x -> more likely to steer into ethics
+territory
 
 1. what is your understanding of critical pedagogy?
     a. [follow up] what is not part of your understanding of cp?
@@ -23,46 +28,44 @@ class.
     a. how did you assess students?
     b. how did the students respond?
 
-4. *[follow up questions exploring what elements of cp were *not* included in any
-    of their teaching using cp]*
-    do you do anything with [missing element]?
+*[follow up questions exploring what elements of cp were not included in
+    any of their teaching using cp. for list of elements, look below]*
+4. do you do anything with [missing element]?
          -> if no, why not?
 5. What advice would you give other teachers interested in incorporating
    critical pedagogy in their teaching?
 
-what should i add to this:
-    keep it towards the how it plays out in your classroom
-    questions about why haven't you done x -> more likely to steer into ethics territory
-
-follow up study: ppl who are already implementing it and don't know. requires a checklist, survey form
-
 elements of critical pedagogy:
 ------------------------------
-steps to critical pedagogy (around pages 100s)
 
 **Engages and incorporate students' interests and experiences in teaching**
+
 1. Listen and help students reflect on their experiences and interets through dialogue with studens,
    exploring students' precieved or actual lived experiences of oppression.
 2. Focus the content of your class based on dialogue with students.
 
 **Fostering critical consciousness**
+
 1. Help students objectify and analyze society and their experiences to identify contradictions and problems in the
    world.
 2. Help students decode their experiences, artifacts, and other coded instances of oppression.
 3. Help students thoroughly research and learn about forms of oppression that affect them.
 
 **Helping students make a change in the world**
+
 1. Help students brainstorm possible solutions to the issues they researched.
 2. Help students articulate outcomes and consequences of the actions they came up with.
 3. Help student implement a solution they came up with, thereby transforming their reality.
 
 **Connecting content to society**
+
 1. Explicitly incorporate the socio-political factors that shaped the computer
    science content you're teaching.
 2. Explicitly discuss the socio-political implications of the computer science
    content you're teaching.
 
 **Fairer student-teacher relationships**
+
 1. Reject the idea that as the teacher, you are the sole "provider" of "knowledge" and acknowlede, respect, and
    value the knowledge your students already have.
 2. Provide a safe and democractic classroom environment for students to reflect on their experiences and direct their
