@@ -1,29 +1,8 @@
-1. Orienting yourself:
-    A. Why am I reading this paper? If the paper is assigned for a course or
-    reading group, why do you think the instructor/facilitator chose this paper?
-    B. What should I try to get out of reading this paper?
-    C. How can I most efficiently get what I need out of this paper?
-
-2. What is this paper about?
-    A. Main point of article or reading (1 sentence)
-    B. The "Conversation" (intellectual/political context) article/chapter is entering or responding to
-    C. Intended audience
-
-3. Critical assessment of the paper
-    A. Evidence (if any) the author bases argument(s) on; adequacy of evidence for claims
-    B. Credibility of article. What makes it credible and/or incredible? (can be both)
-    C. What point(s) of view is/are represented? Which/whose are missing?
-
-4. Your use and reaction to the paper
-    A. As reader, what experiences, information, or exposure influence your assessment of this article?
-    B. Practical and/or intellectual implications – for whom? For you?
-    C. Did this paper provide what you wanted out of it? If not, did you have
-    reasonable expectations for it?
 
 TO-DO
 =====
-- make interview question checklist
-- make cp checklist
+~~- make interview question checklist~~
+~~- make cp checklist~~
 ~~- reach out to professors to ask about cp~~
 - ask elizabeth about ICER
   - what will my lightning talk be about?
@@ -33,32 +12,22 @@ TO-DO
 interview questions
 -------------------
 
-next time:
-checklists!!! of both
-
-thursday or next tuesday
-
-make the questions targetting and close with checklist
-without ethics don't push it
-bring up what do you not include in cp?
-
-grand tour question
--------------------
-
 1. what is your understanding of critical pedagogy?
     a. [follow up] what is not part of your understanding of cp?
     b. [follow up] when did you first learn about cp?
-2. please list all your cs teaching experience.
+2. please list all your cs teaching experience(s), including where/when/who you taught.
     a. in which of these teaching experiences have you incorporated cp?
 3. for each teaching experience that you incorporated cp in your teaching, describe to me how you implemented cp in your
 class.
     [if not covered in their response, ask:]
     a. how did you assess students?
     b. how did the students respond?
-    [follow up questions exploring what elements of cp were *not* included in their teaching using cp]
-    c. do you do anything with [missing element]?
-        -> if no, why not?
-4. What advice would you give other teachers interested in incorporating
+
+4. *[follow up questions exploring what elements of cp were *not* included in any
+    of their teaching using cp]*
+    do you do anything with [missing element]?
+         -> if no, why not?
+5. What advice would you give other teachers interested in incorporating
    critical pedagogy in their teaching?
 
 what should i add to this:
@@ -88,15 +57,15 @@ steps to critical pedagogy (around pages 100s)
 3. Help student implement a solution they came up with, thereby transforming their reality.
 
 **Connecting content to society**
-4. Explicitly incorporate the socio-political factors that shaped the computer
+1. Explicitly incorporate the socio-political factors that shaped the computer
    science content you're teaching.
-5. Explicitly discuss the socio-political implications of the computer science
+2. Explicitly discuss the socio-political implications of the computer science
    content you're teaching.
 
 **Fairer student-teacher relationships**
 1. Reject the idea that as the teacher, you are the sole "provider" of "knowledge" and acknowlede, respect, and
    value the knowledge your students already have.
-2. Provide a safe and democractic space for students to reflect on their experiences and direct their
+2. Provide a safe and democractic classroom environment for students to reflect on their experiences and direct their
    own learning.
 3. Use the same type of language your students speak while teaching.
 
@@ -112,11 +81,6 @@ m goldweber & elizabeth! 2013
     b. intro to computing for the social good - what is it all about? where can
     i learn more about this idea? and ideally connect to my understanding of cp
     c. read it all and read the references
-
-2. Summary
-    a.
-
-notes:
 
 - good place to start for other research idea: finding and classifying ppl using cp in teaching cs without knowing it.
 
