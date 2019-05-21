@@ -28,9 +28,9 @@ class.
     a. how did you assess students?
     b. how did the students respond?
 
-*[follow up questions exploring what elements of cp were not included in
+4. *[follow up questions exploring what elements of cp were not included in
     any of their teaching using cp. for list of elements, look below]*
-4. do you do anything with [missing element]?
+    do you do anything with [missing element]?
          -> if no, why not?
 5. What advice would you give other teachers interested in incorporating
    critical pedagogy in their teaching?
