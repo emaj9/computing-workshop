@@ -47,40 +47,42 @@ class.
 elements of critical pedagogy:
 ------------------------------
 
-**Engages and incorporate students' interests and experiences in teaching**
+**Engages and incorporates students' interests and experiences in teaching**
 
-1. Listen and help students reflect on their experiences and interets through dialogue with studens,
-   exploring students' precieved or actual lived experiences of oppression.
-^make this two points^
-2. Focus the content of your class based on interests and experiences of students.
+1. Listen and help students reflect on their experiences and interets through
+   dialogue with students.
+2. Exploring students' precieved or actual lived experiences of oppression.
+3. Focus the content of your class based on interests and experiences of students.
 
 **Fostering critical consciousness**
 
-1. Help students objectify and analyze society and their experiences to identify contradictions and problems in the
+1. Help students objectify and analyze society to identify contradictions and problems in the
    world.
-2. Help students decode their experiences, artifacts, and other coded instances
-   of oppression to better understand social issues and contradictions in society.
+2. Help students decode and connect their experiences, artifacts, and other coded instances
+   of oppression to social issues and contradictions in society.
 3. Help students thoroughly research and learn about forms of oppression that
    interest and affect them.
 
-**Helping students make a change in the world**
+**Activism**
 
 1. Help students brainstorm possible solutions to the issues they researched.
 2. Help students articulate outcomes and consequences of the actions they came up with.
-3. Help student implement a solution they came up with.
+3. Help student implement a solution they deem most useful and impactful.
 
 **Connecting content to society**
 
-1. Explicitly incorporate the socio-political factors that shaped the content you're teaching.
+1. Explicitly incorporate the socio-political factors that shaped the course
+   content in your teaching.
 2. Explicitly discuss the socio-political implications of the content you're teaching.
 
 **Rethinking student-teacher relationships**
 
-1. Reject the idea that as the teacher, you are the sole "provider" of "knowledge" and acknowlede, respect, and
-   value the knowledge your students already have.
+1. Reject the concept the teacher is the sole authority and source of knowledge through acknowledging, respecting, and
+   valuing the knowledge your students already have.
 2. Provide a safe and democractic classroom environment for students to reflect on their experiences and direct their
    own learning.
-3. Use the same type of language your students speak while teaching.
+3. Approach your teaching and relationship from a way that is familiar and
+   comfortable for students.
 
 Reading list
 ------------
