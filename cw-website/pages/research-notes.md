@@ -2,9 +2,10 @@
 TO-DO
 =====
 
-- meet with dr. howard
-- continue to work on elements of cp
+~~- meet with dr. howard~~
+~~- continue to work on elements of cp~~
 - finish icer app (due june 15!!)
+- make a list of ppl you'd like to interview
 
 
 interview questions
@@ -41,8 +42,13 @@ class.
     any of their teaching using cp. for list of elements, look below]*
     do you do anything with [missing element]?
          -> if no, why not?
-    a. [optional]: what advice would you give to someone trying to implement this element of cp?
 5. Is there anything else you would like to share with me?
+
+### potential interviewees
+
+techactivist.org
+riseup.net
+
 
 elements of critical pedagogy:
 ------------------------------
