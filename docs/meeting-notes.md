@@ -1,3 +1,18 @@
+May 30th - dr howard
+--------------------
+
+talk to ppl outside of the normal schooling -- think techactivist.org!! these
+ppl will do real cp bc they work with the communities
+
+why are you doing this research? what's in it for you?
+
+research might go in one of two places:
+- bashing ppl who are trying to teach
+- commending ppl who aren't really doing cp
+
+-> in conclusion, analysis, worth talking about the feasibility of cp
+is it possibel?
+
 May  14th - mock interview
 --------------------------
 
