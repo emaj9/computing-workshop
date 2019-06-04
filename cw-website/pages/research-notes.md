@@ -2,24 +2,23 @@
 TO-DO
 =====
 
-~~- meet with dr. howard~~
-~~- continue to work on elements of cp~~
-- finish icer app (due june 15!!)
-- make a list of ppl you'd like to interview
+- get Elizabeth to look over my interview questions and abstract for ICER
+- make a consent form (ask Elizabeth for an example)
+- find out what's left to do before interviews
 
 
 interview questions
 -------------------
 
-__TOC:__
-Please note this interview has not been approved for ethics.
-    - If any questions makes you feel uncomfortable, you are not required to
-    answer it.
-    - If during the interview you feel uncomfortable, feel free to stop the interview.
+__T&C:__
 
-Nothing you say here is confidential.
-    - Data will be treated respectfully carefully
-    - Any quotes I use from our interview, I will run past you first to make
+- Please note this interview has not been approved for ethics.
+- If any questions makes you feel uncomfortable, you are not required to
+    answer it.
+- If during the interview you feel uncomfortable, feel free to stop the interview.
+- Nothing you say here is confidential.
+- Data will be treated respectfully carefully
+- Any quotes I use from our interview, I will run past you first to make
       sure I don't misrepresent you
 
 Interviews are a great way to reflect on your teaching and share your
@@ -46,9 +45,11 @@ class.
 
 ### potential interviewees
 
-techactivist.org
-riseup.net
-
+- techactivist.org
+- riseup.net
+- Youth radio
+- Digital youth network, nichole pinkard
+- code510 sarah van wart
 
 elements of critical pedagogy:
 ------------------------------
