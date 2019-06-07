@@ -1,38 +1,72 @@
 Our pedagogical practices
 =========================
 
-This page outlines the teaching philosophy and pedagogical research used in our teaching and planning at Computing
-Workshop.
+This page outlines the educational philosophy and teaching practices of Computing Workshop. You'll also find the
+computer science education research that informs the pedagogy we use at Computing Workshop.
 
 ### Teaching philosophy
 
-At Computing Workshop, we aim to minimize teacher-centered learning pedagogy (like lectures) in favour of group work
-and co-constructing knowledge with participants. In order to movtivate learning and engage participants, we ask
-participants in their registration what they want to learn about and make that the focus of the module we'll do
-together. Once the participants tell us what they want to learn about, out job is to find create pedagogical techniques to encourage
-participation and learning that are also backed by research and evidence of efficacy. Listed below are some of the
-resesarch that influences our teaching practices at Computing Workshop and why.
+At Computing Workshop, we aim to minimize teacher-centered learning activities, such as lectures, and prefer student-centered
+learning ones, such as group work, problem solving, and discussion. We strive to make safe, open, democractic classrooms where
+participants are active members of the workshops.
 
-### Peer instruction
+We believe that knowledge isn't simply "transfered" from the teacher to the
+student, where the student passively absorb the content. Instead our we subscribe to the
+[social constructivist](https://en.wikipedia.org/wiki/Social_constructivism) theory of knowledge: knowledge is a construct and
+individuals learn by constructing their understanding of something.
 
-Peer instruction (PI) is a common student-centered form of pedagogy slowly taking root in university STEM programs. PI
-follows the following steps:
+Accordingly, our teaching focuses on providing participants
+with opportunitues to actively create their understanding of computers and software through collaborative, hands on
+activities. A few of the ways we implement student-centered learning and the research verifying these approaches work are
+outlined below.
+
+### Teaching methods
+
+#### Peer instruction
+
+[Peer instruction](https://en.wikipedia.org/wiki/Peer_instruction) is a simple and effective student-centered form of
+pedagogy popular in STEM education. Peer instruction has the following steps :
 
 1. Instructor poses a difficult question based on students' prior knowledge
-2. Students reflect on the question
-3. Students commit to an individual answer (often through voting)
+2. Students reflect on the question and vote with answer (often through polling)
 4. Instructor reviews student responses
 5. Students discuss their thinking and answers with their peers
-6. Students then commit again to an individual answer
-7. The instructor again reviews responses and decides whether more explanation is needed before moving on to the next concept.
+6. Students then vote again
+7. The instructor again reviews responses
+*adapted from the [wikipedia article](https://en.wikipedia.org/wiki/Peer_instruction)*
 
-This pedagogical technique has shown to be very powerful in computer science ..
+There is a plethora of research proving this pedagogical technique is more effective than lecturing. Computer science is
+no exception with research showing that peer instruction [can halve fail rates in undergraduate computer science
+classes compared to lecturing](https://dl.acm.org/citation.cfm?id=2445250).
 
-### POGIL
+#### POGIL
 
-POGIL (peer oriented guided inquiry learning)
+Another common teaching tool used at Computing Workshop are Peer Oriented Guided Inquiry Learning (POGIL)
+activities. [POGIL](https://pogil.org/about-pogil/what-is-pogil) activities at Computing Workshop are often short worksheets presenting problems or activities for students to complete in
+self-managed teams. Some POGILs [we create
+ourselves](https://www.computing-workshop.com/lessons/W19/ml-1/knn-ws/writeup.pdf), and others we use (with
+aknowledgement) from https://cspogil.org.
 
-### Pair programming
+As these activities are collaborative, student lead activities, there is still a [wealth of research
+highlighting the effectiveness of POGIL in promoting student-centered learning](https://dl.acm.org/results.cfm?query=POGIL&Go.x=0&Go.y=0).
 
-Pair programming is a pedagogical technique where students work in pairs while coding, only using one laptop between the
-two of them. One student is the "drier", they use the computer and write the code, while the other student is the "???"
+#### Pair programming
+
+[Pair programming](https://en.wikipedia.org/wiki/Pair_programming) is an effective software development technique that is just as useful in an educational setting. In
+pair programming, students work in pairs using one laptop to solve a given problem or task. One student (called
+the "driver") is at the keyboard, using the computer to code, while the other student (called the "navigator") reviews the code. The navigator helps
+develop the strategic direction of the work while the driver works on the implementation.
+
+[Research at the University of California](https://dl.acm.org/citation.cfm?id=1060071.1060075) has shown that pair
+programming can improve student confidence, lower fail rates, and keep students in computer science programs. Women
+seem to benefit the most from pair programming as it dispels the misconception that programming is a solitary endeavour.
+
+### Connecting the social and the computational
+
+As you can see from our philosophy of education and pedagogical practices, we emphasize a social dimension in teaching computer
+science. Team work, collaboration, and student-lead learning are at the heart of our teaching. This is no coincidence,
+as computer science is a very social field despite the [myth of the lone genuis
+programmer](https://www.nytimes.com/2017/08/12/upshot/techs-damaging-myth-of-the-loner-genius-nerd.html). Often,
+software development involves large diverse teams of individuals and requires teamwork and collaboration. Furthermore,
+as access to computer science knowledge proliferates on the web, communication skills are key to learning computer
+science.
