@@ -33,11 +33,11 @@ pedagogy popular in STEM education. Peer instruction has the following steps :
 5. Students discuss their thinking and answers with their peers
 6. Students then vote again
 7. The instructor again reviews responses
+<\br>
 *adapted from the [wikipedia article](https://en.wikipedia.org/wiki/Peer_instruction)*
 
 There is a plethora of research proving this pedagogical technique is more effective than lecturing. Computer science is
-no exception with research showing that peer instruction [can halve fail rates in undergraduate computer science
-classes compared to lecturing](https://dl.acm.org/citation.cfm?id=2445250).
+no exception with research showing that [undergraduate computer science students in classes using peer instuction are 50% less likely to fail than their peers in lecture based classes.](https://dl.acm.org/citation.cfm?id=2445250).
 
 #### POGIL
 
@@ -45,9 +45,9 @@ Another common teaching tool used at Computing Workshop are Peer Oriented Guided
 activities. [POGIL](https://pogil.org/about-pogil/what-is-pogil) activities at Computing Workshop are often short worksheets presenting problems or activities for students to complete in
 self-managed teams. Some POGILs [we create
 ourselves](https://www.computing-workshop.com/lessons/W19/ml-1/knn-ws/writeup.pdf), and others we use (with
-aknowledgement) from https://cspogil.org.
+aknowledgement) from <https://cspogil.org>.
 
-As these activities are collaborative, student lead activities, there is still a [wealth of research
+As POGILS are collaborative, student lead activities, there is still a [wealth of research
 highlighting the effectiveness of POGIL in promoting student-centered learning](https://dl.acm.org/results.cfm?query=POGIL&Go.x=0&Go.y=0).
 
 #### Pair programming
