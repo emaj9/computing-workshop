@@ -12,12 +12,18 @@ interview questions
 
 __T&C:__
 
-- Please note this interview has not been approved for ethics.
+- We are doing this interview to understand how cs teachers implement critical
+  pedagogy in their teaching
 - If any questions makes you feel uncomfortable, you are not required to
     answer it.
 - If during the interview you feel uncomfortable, feel free to stop the interview.
 - Nothing you say here is confidential.
-- Data will be treated respectfully carefully
+- Data will be treated respectfully carefully. you will be anonymized for the
+  paper and given a code, which you will be made aware of. recording of our call
+  and transcription will reside on an encrypted hd. anytime data is transmitted
+  between me and my supervisor,
+  it will be done so with end to end encryption. we will hold on to the data for
+  2 years then destroy it.
 - Any quotes I use from our interview, I will run past you first to make
       sure I don't misrepresent you
 
@@ -46,10 +52,16 @@ class.
 ### potential interviewees
 
 - techactivist.org
-- riseup.net
+~~- riseup.net~~
 - Youth radio
 - Digital youth network, nichole pinkard
 - code510 sarah van wart
+- Antero David Garcia - thesis: good recption utilizing mobile media and games
+  to dev dricial inner-city agents of social change
+- jabari mahiri and jeremiah sims - engineering equity
+- sepehr vakil
+- christina myers
+- blikstein - travels in troy
 
 elements of critical pedagogy:
 ------------------------------
