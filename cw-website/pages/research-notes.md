@@ -2,9 +2,7 @@
 TO-DO
 =====
 
-- get Elizabeth to look over my interview questions and abstract for ICER
-- make a consent form (ask Elizabeth for an example)
-- find out what's left to do before interviews
+-email ppl!
 
 
 interview questions
@@ -51,13 +49,12 @@ class.
 
 ### potential interviewees
 
-- techactivist.org
+- techactivist.org idalin Bobe
 ~~- riseup.net~~
 - Youth radio
-- Digital youth network, nichole pinkard
-- code510 sarah van wart
-- Antero David Garcia - thesis: good recption utilizing mobile media and games
-  to dev dricial inner-city agents of social change
+~~- Digital youth network, nichole pinkard~~
+~~- code510 sarah van wart~~
+~~- Antero David Garcia - thesis: good recption utilizing mobile media and games~~
 - jabari mahiri and jeremiah sims - engineering equity
 - sepehr vakil
 - christina myers
