@@ -49,16 +49,17 @@ class.
 
 ### potential interviewees
 
-- techactivist.org idalin Bobe
+~~- techactivist.org idalin Bobe~~
 ~~- riseup.net~~
-- Youth radio
 ~~- Digital youth network, nichole pinkard~~
 ~~- code510 sarah van wart~~
 ~~- Antero David Garcia - thesis: good recption utilizing mobile media and games~~
+- Youth radio
 - jabari mahiri and jeremiah sims - engineering equity
 - sepehr vakil
-- christina myers
-- blikstein - travels in troy
+~~- christina myers~~
+~~- blikstein - travels in troy~~
+~~Sammia Proveda~~
 
 elements of critical pedagogy:
 ------------------------------
