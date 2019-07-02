@@ -56,7 +56,14 @@ class.
 ~~- Antero David Garcia - thesis: good recption utilizing mobile media and games~~
 - Youth radio
 - jabari mahiri and ~~jeremiah sims~~ - engineering equity
+<<<<<<< HEAD
 - sepehr vakil
+=======
+- elisabeth soep
+- vivian chavez? investigate this more
+~~- clifford lee~~
+~~- sepehr vakili (tweet)~~
+>>>>>>> updates?
 ~~- christina myers~~
 ~~- blikstein - travels in troy~~
 ~~Sammia Proveda~~
