@@ -2,7 +2,21 @@
 TO-DO
 =====
 
--email ppl!
+write a state of cp is cs ed:
+- what is cp?
+  - present rough framework
+- current state of cp in cs:
+  - not enough
+  - summarize relevant papers
+- unique challenges of cp in cs
+  - traditional cs ed in opposition to cp
+    - cs = apolitical
+    - student resistence
+    - Sam Breslin's thesis
+    - MCCs
+    - Artificial Unintelligence
+- uniques opportunities for cp in cs??
+
 
 
 interview questions
@@ -22,9 +36,9 @@ __T&C:__
   be encrypted. You will be coded in our data analysis and made aware of your code. We will hold on to this data for 2
   years then destory it.
 - There is a possibility that at somepoint during the interview you may feel uncomfortable. In such a case, you may
-  refuse to answer any question and you are free to stop the interview at any time.
-- Interviews are a great way to reflect on your teaching and share your experiences with others. Thanks for taking the
-  time to be part of this research.
+  refuse to answer any questions and you are free to stop the interview at any time.
+- Interviews are a great way to reflect on your teaching and share your
+  experiences with others. Thanks again for taking the time to be part of this research.
 
 Before we begin, do you have any questions for me?
 
@@ -54,19 +68,16 @@ class.
 ~~- Digital youth network, nichole pinkard~~
 ~~- code510 sarah van wart~~
 ~~- Antero David Garcia - thesis: good recption utilizing mobile media and games~~
-- Youth radio
+~~- Youth radio~~
 - jabari mahiri and ~~jeremiah sims~~ - engineering equity
-<<<<<<< HEAD
-- sepehr vakil
-=======
-- elisabeth soep
-- vivian chavez? investigate this more
+~~- elisabeth soep~~
+~~- vivian chavez? investigate this more~~
 ~~- clifford lee~~
 ~~- sepehr vakili (tweet)~~
->>>>>>> updates?
 ~~- christina myers~~
 ~~- blikstein - travels in troy~~
 ~~Sammia Proveda~~
+- Kaliman Priforce (get linkedin info)
 
 elements of critical pedagogy:
 ------------------------------
