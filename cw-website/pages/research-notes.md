@@ -10,25 +10,25 @@ interview questions
 
 __T&C:__
 
-- We are doing this interview to understand how cs teachers implement critical
-  pedagogy in their teaching
-- If any questions makes you feel uncomfortable, you are not required to
-    answer it.
-- If during the interview you feel uncomfortable, feel free to stop the interview.
-- Nothing you say here is confidential.
-- Data will be treated respectfully carefully. you will be anonymized for the
-  paper and given a code, which you will be made aware of. recording of our call
-  and transcription will reside on an encrypted hd. anytime data is transmitted
-  between me and my supervisor,
-  it will be done so with end to end encryption. we will hold on to the data for
-  2 years then destroy it.
-- Any quotes I use from our interview, I will run past you first to make
-      sure I don't misrepresent you
-
-Interviews are a great way to reflect on your teaching and share your
-experiences with others. Thanks for taking the time to be part of this research.
+- First off, thanks for participating in this interview. Critical pedagogy (CP) in CS education is a rather small
+  community so I really appreicate you taking the time to participate in this interview.
+- We are doing this interview to understand how cs teachers understand and implement critical pedagogy in their
+  teaching.
+- [if consented to recording call] As you agreed to in the consent form, this call is recorded to help me remember
+  what was said. This conversation will be transcribed by me and a copy of the transcription will be sent to you to make
+  sure I properly captured what was said during the interview.
+- I will [also] be taking notes during this call.
+- All materials will be kept on an encypted, pass protected hard drive, and if sent between me and my supervisor it will
+  be encrypted. You will be coded in our data analysis and made aware of your code. We will hold on to this data for 2
+  years then destory it.
+- There is a possibility that at somepoint during the interview you may feel uncomfortable. In such a case, you may
+  refuse to answer any question and you are free to stop the interview at any time.
+- Interviews are a great way to reflect on your teaching and share your experiences with others. Thanks for taking the
+  time to be part of this research.
 
 Before we begin, do you have any questions for me?
+
+Let's begin:
 
 1. what is your understanding of critical pedagogy?
     a. [follow up] what is not part of your understanding of cp?
@@ -55,7 +55,7 @@ class.
 ~~- code510 sarah van wart~~
 ~~- Antero David Garcia - thesis: good recption utilizing mobile media and games~~
 - Youth radio
-- jabari mahiri and jeremiah sims - engineering equity
+- jabari mahiri and ~~jeremiah sims~~ - engineering equity
 - sepehr vakil
 ~~- christina myers~~
 ~~- blikstein - travels in troy~~
