@@ -109,4 +109,51 @@ viral dance challenge how a dance challenge becomes a dance challenge. So it's a
 works: there is a dnace, artists, someone recording, then that media is shared on a social media platform assoicated
 with a hashtag, and the algorithms within ig and yt compile these media pieces that compile and display these pieces of
 media. That's how the algorithms within these platforms are working and functioning - there are multiple levels of
-perspectives algorithms. 38 mins
+perspectives that are decomposed and abstracted in these technological concept.
+
+> ME:
+So you talk about algorithms while making the dance to introduce them to it,
+then you circle back and talk to them about alrogithms at the end of their
+production to talk about how their dance video is distributed on this platform -
+how algorithms and hastags work together to share this kind of stuff. Am i
+understanding correctly?
+
+You got it. One of the facsinating things we've learned is that we partnered
+with other coding organizations focused on coding and teaching coding to young
+people, and one thing they struggle with is students can code and build what
+they want in programming languages - but just because they can code, they can't
+give a definition of an algorithm - they don't know what an alogrithm is. We've
+been meeting with HR professionals, engineering folks who hire, for example one
+of our advisors is a VP of a big engineering company in NY, and time and time
+again to the people we talk to say that these coding bootcamps (general
+assemble, apple academy, so on all these coding bootcamps that have developed to
+meet the demands of the market) are developing coders who are sufficient in one
+language (python, ruby), and they come out with the hard technical skills to
+pull things off fast but have two major problems: the second they step out of
+their scripting language their lost and second once you add critical problem
+solving and innovation thinking, they're in deep water - they don't know how to
+engage in taht process. However they can get a specfic function to work in a
+specific way becuase they are technically trained to execute the task at hand,
+but the problem solving and analytical skills are completely void from those
+experiences. We bring that whole ciritcal lense and perspective - not just the
+how - how do you do this, but also the why and the what - what is this used for?
+how can you use this in your community? It's a tool at the end of the day, and
+so much at the end of these teaching programs is devoid of humanity even though
+so much of it is user centered, like scrum. but it's user centered to create a
+great experience for a monetary game - its not to impact or change elements of
+our society or critically analyze or have new perspective. It's not about that.
+
+Q: Can you tell me more about the - and this can be brief - the specifics at the
+organization you work with? Where are you working, who are you teaching, what
+ages?
+
+I co-founded code society 2 years ago. My co founder is Jenith. We were former
+colleagues at a non-profit org that has since fallen apart. We identified this
+unique opportunity: 1 we established a strong and authentic relationship. We
+created a creative education agency where we're using emmerging technology to
+build an interactive learning experiences, using VR and AR for museums. Code
+society started as a project within that creative agency. When we started
+testing and engaging different spaces, we saw there was a high interest and need
+for this lense of teaching in the tech space. We spun it out and formed an
+independent entity around: code society was incorporated in May. We've been
+building it from scratch.
