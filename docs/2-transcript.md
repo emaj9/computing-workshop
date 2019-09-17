@@ -112,11 +112,11 @@ media. That's how the algorithms within these platforms are working and function
 perspectives that are decomposed and abstracted in these technological concept.
 
 > ME:
-So you talk about algorithms while making the dance to introduce them to it,
-then you circle back and talk to them about alrogithms at the end of their
-production to talk about how their dance video is distributed on this platform -
-how algorithms and hastags work together to share this kind of stuff. Am i
-understanding correctly?
+# So you talk about algorithms while making the dance to introduce them to it,
+# then you circle back and talk to them about alrogithms at the end of their
+# production to talk about how their dance video is distributed on this platform -
+# how algorithms and hastags work together to share this kind of stuff. Am i
+# understanding correctly?
 
 You got it. One of the facsinating things we've learned is that we partnered
 with other coding organizations focused on coding and teaching coding to young
@@ -143,9 +143,9 @@ so much of it is user centered, like scrum. but it's user centered to create a
 great experience for a monetary game - its not to impact or change elements of
 our society or critically analyze or have new perspective. It's not about that.
 
-Q: Can you tell me more about the - and this can be brief - the specifics at the
-organization you work with? Where are you working, who are you teaching, what
-ages?
+# Q: Can you tell me more about the - and this can be brief - the specifics at the
+# organization you work with? Where are you working, who are you teaching, what
+# ages?
 
 I co-founded code society 2 years ago. My co founder is Jenith. We were former
 colleagues at a non-profit org that has since fallen apart. We identified this
@@ -157,3 +157,25 @@ testing and engaging different spaces, we saw there was a high interest and need
 for this lense of teaching in the tech space. We spun it out and formed an
 independent entity around: code society was incorporated in May. We've been
 building it from scratch.
+
+Our sweet spot is middle school and high school, looking at how do we cast a wider net for diverse learners to engage
+and enter into this space. Ultimately our goal is to sell our product, our curriculum, media, content, so on to other
+organizations. Our view is we are not trying to compete with other coding organizations - they're all doing great work -
+but they're missing some key parts and we want to fill that void. We're trying to sell our curriculum to help coding
+organizations engage a wider community of young people to bring them into their pipeline which provides students with
+solid techincal knowledge. We want to address as well their atrition rate which is a huge problem for npo. We also work
+with upper-elementary, like 5 to 6th grader which the students really enjoyed. We've also found that adults learners who
+are exploring the possibility of going to a coding bootcamp and are interested in what our curriculum has to offer. Many
+adults told us they learned so much from School house Rock, and if this is a school house rock for computer science -
+where can I sign up?
+
+# And where are you operating right now? Colorado?
+
+I'm orginially from Denver, CO but I moved out to NY nearly a decade ago. We are based out of NYC. We have a instituion
+here called the New Museum which we work under.
+
+# Do you talk about a lot of different facets of critical pedagogy, one that I want to more about is around the
+# relationship between the students and the teachers. Can you describe to me what kind of relationship they have?
+
+Great question and this is a big question we're trying to answer. What we're trying to address is figure out how to
+scale cp and maintian student-teacher relationships. min 57
