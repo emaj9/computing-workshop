@@ -178,4 +178,105 @@ here called the New Museum which we work under.
 # relationship between the students and the teachers. Can you describe to me what kind of relationship they have?
 
 Great question and this is a big question we're trying to answer. What we're trying to address is figure out how to
-scale cp and maintian student-teacher relationships. min 57
+scale cp and maintian student-teacher relationships. [57] Our backgrounds have been in program design, development,
+administration, fundriasing and in the classroom itself. I'm not a lisenced teacher but I have been in the classroom for
+over 15 years teaching student arts based and technology based content. Something we find very interesting is we embody
+this world view (critical perspective, cp, interpersonal aspect of how to build rapport in a classroom) and leverage
+that to meet students where they are and open them up to the possibility of learning. We are experts of that, and do
+that in a whole range of content. What we're trying to figure out is - there is a lot of control when we're in the
+classroom, but even when we're there we find the relationship between students and teachers are deeply problematic and
+dysfunctional. An example, and this is confidential, comes from the classroom management practices of the teacher with
+the 4th and 5th graders. Firstly, there was a significant racial different. Both of the teachers were white, where as
+all of their students were black or latinx. Secondly, the teachers weren't from nYC, they were from long island and
+other places. There were already significant culutral barriers. The classroom management mirrored Pavlov's experiment
+with the dog and ringing the bell. They had a bell that was supposed to be a call and response mechanism (like if you
+can hear me call once...) but they just rang this bell thikning students would calm down, or be attentive, or be back on
+task. So this bell was constantly being rung in the classroom which we fonud was deeply problematic and fundamentally
+contradictory to how we facilitate and create space for students. That posed an interesting question for us: if we are
+baking in all these different elements that are rooted deeply in cp and pedagogy of the oppressed, as well as social and
+emtional learning theories, how do we maintain the authenticity of that when we are not in the classroom? What we're
+working on is what does it look like to do world and have avatars and characters in this universe through media that can
+ultimately replace our selves and lend a critical perspective by adding those explicit voices in coded languages in a
+way that resonates with teachers and supports teachers. While we have fundamental belief differences with so much of
+education across this hemisphere, teachers are our allies and we are trying to figure out a way to engage and inspire
+teachers in their own practice to bring in crp and cp into their practice. That is a great question that we are focusing
+on. One of our strategies is build the software with the media that can replace us in the classroom and support teachers
+and two: sell add-ons or other packages that offer professional development to teachers to train them in cp: shift from
+teacher being at the center of the class to being on the side and facilitator of experience. That's interesting too
+because so many teachers are intimidated by technology and cs. They feel like they don't know or can't teach it. And we
+think, you don't have to teach it, you have to facilitate. THat's part of the process and experience at the center of
+what we're doing.
+
+1:10
+
+# I have a questions about engaging and incorporating students interests and experience in the curriculum and the
+# teaching. I'm wondering: how do you go about engage these students interests and incorporating those in the pedagogy of
+# your program?
+
+Firstly, we are at code society are artists - from music (song writers, singers, djs) to performing to visual/digital
+art, full spectrum of professional artists. We've worked together for the last several years and refined a hip-hop
+pedagogy approach. We are deeply and authentically tapped in to youth culture at what is happening. We are very
+intentional about asking students (through surveys, our pilots) what are you using? what are you listening to? what's
+the latest meme you laughed at? how do you communicate this in an emoji? We're constantly asking those questions about
+the digital world that young people are immersed in. we are then leveraging those trends, what's happened, and pulling
+those into an educational context, using that as a translation mechanism for technical concepts. Example: in the context
+of abstraction, a lot of students struggle with this. We leverage and use emojis as a form of abstraction, going all the
+way down to binary. what are the different sequences inside of that, then we say how does ig or snapchat, what are
+celebrities and celebrity profiles displaying? what are they not displaying? So how do we abstract - use different kinds
+of elements and levels - and draw the correlation between compiling machines and mechanisms, and programming languages,
+saying ultimately HTML displays this at the forefront. So it's like an abstracted relationship we use and leverage and
+refence memes, emojis, all the things, you know, that are prominent in popular culture and youth culture. So hip hop is
+a language and musical form - one of the critiques or questions we get is, great it's hip hop, but what is a student
+doesn't like hiphop? We'll that's not the point, it's not rooted in hip hop. THe musical choice and genre is hip hop,
+but the learning experience is rooted in youth culture as a whole. Hip hop is inseperable from youth culture right now -
+that's a fundamental connection. Whether someone is interested more in pop, or country, there is hip hop influence in
+every single one of those genres. It's not about that - that's just a mechanism and transcendant beyond language and
+culture, and is international in every sense of the word - but it's really tapping into the youth culture aspect - the
+trends, the memes, and the things that are happening right now.
+
+# I want to clarify to make sure I understand. Students create their own songs our dance routines that are related to
+# problems or contradictions they see in their society at any level (from local to global issues). THey thing about
+# these issues that afftect them and translate it and explain it through a media like a dance routine?
+
+Yea, that's an example, it's not their entire model but it's an example. Creating a viral dance challenge in response to
+a specific problem is one project based strategy within one signle unit of instruction. We have a whole range of tactic
+strategiges that are fundamentally project based that express a whole range of differet things. We've had young people
+create - actually spec out and wireframe real solutions. We had young people a strategy game that commmunicate the
+concept of abstraction. We had people create videos, press conferences, or music. One of the features we want to build
+is that we create all the music and use that as the hook and the delivery mechanism for not only the critical
+persepctive - because what we do in the music is also highlight underrepresented voices in this technology space,
+including people of colour and their contributions to technology, we call them out in our lyrics bringing the critical
+perspective in the music. So we create the music and that's the hook and delivery mechanism for so much of the content,
+but a feature we're building in software/figuring out how to do in a resource supported way is for students to remix our
+music and create new verses. We're trying to figure out how we can create that in software, where students can create
+and share their own works and creating a robust community of educators and students who are creating and sharing content
+in this space. Educators can create their own lessons and share them on this platform and acrew value. Students can also
+create their own responses and ways of teaching and learning certain cs concepts or problems and acrew value through
+this space. We're looking at blockchain solutions where the value students create on this platform can be transfered to
+other platforms, like Fornite example where you can get a new avatar or outfit. This makes a learning environment where
+you're learning these cs concepts and making value with your music and creations, then transfering to other platforms
+for other forms of value. That's a little further down the road for us. We've also created a digital badge system where
+students can accrue badges and share them on linkedin profiles - these are all parts of how we can articulate the
+knowledge base students are learning and transfer that outside the environment we have. That's coming! But not here yet
+at all.
+
+# Just to clarify, this is an after school program?
+
+This is a product itself. We sit outside of nonprofit. We are trying to step away from the direct services model and
+employing our products in many different spaces as possible - after school, at integrated in class time, churches, and
+community spaces. We are trying to provide out of box solutions for demands for meaningful CS education. This takes the
+burden off of teachers to create these materials (especially if they don't have the content knowledge).
+
+# So your struggles with maintaining student-teacher relationships is that you have no oversight of how the teachers
+# using your products are teaching students, right?
+
+Yes, we don't have authority over teachers.
+
+# We're at the end of our time now - is there any questions you would like to ask me or anything you would like to
+# tell me?
+
+I'm super interested in your research, what you see long term, and your conversation. What I would to see is creating a
+community of folks to engage and connect. If you're interviewing other folks in the intersection of CP and CS we would
+love to connect with them to collaborate, explore, and discuss. We love talking about this and engaging in
+this. Otherwise thank you for doing this research and stepping into this space which has a lot of resistance and lack of
+knowledge about CP.
