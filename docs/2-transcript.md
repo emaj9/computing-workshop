@@ -1,6 +1,6 @@
-interview 2
+INTERVIEW 2
 
-what is your understanding of critical pedagogy?
+# what is your understanding of critical pedagogy?
 
 Good question. Both of my parents are university professors and immigrated to the US from Mexico in their late teens and
 were the only ones in their family to have graduate from high school. My mom comes from a family of 5 siblings, my dad a
@@ -21,11 +21,11 @@ about using emerging technology to engage in critical dialogue, to expose, explo
 different societal issues - making the convergence between the physcial and the virtual in so many spaces and how
 technology enhances, accelerates, or impacts (negatively or positively) how we as people live in this world and create
 equitable space, advocate for unrepresented and marginalized communities, how we engage educational practices as a
-mechanism and vehicle for liberation and how tech can accelorate and amplify so many of these things - not only in the
+mechanism and vehicle for liberation and how tech can accelerate and amplify so many of these things - not only in the
 use of this technology as a consumer and creator of technology. It's about being able to create and build technology
-that ultimately solves problems in our community and expands beyond commerical viability. For us, our ongoing mission in
+that ultimately solves problems in our community and expands beyond commercial viability. For us, our ongoing mission in
 our company and products called Code Society, this is the theoretical foundation and the whole formation of how we build
-curricula and all of our work.  For us as entrepenuers, we're not creating the next pizza delivery app, it's not about
+curricula and all of our work.  For us as entrepreneurs, we're not creating the next pizza delivery app, it's not about
 building some tool that eases the feasibility of whatever kind of consummer goal. It's about using technology to have a
 critical impact to transform our community from the inside out and teach these concepts through a critical
 perspective. The computer science and technology space is so fundamentally devoid of the liberals and critical space the
@@ -44,8 +44,8 @@ context. Contextually, humans have existed on a historical timeline whether that
 what has happened before and what will happen after. The belief that things happen in isolation or spontaneously arrive
 like manifested out of no where, that is fundamentally not at all critical perspective.
 
-Questining what we believe is true, what is fact. In the technical space (CS and engineering), so much of what science
-is is fundamentally based on facts - what has existed before. That's why it contributes to this [dismay?]. That's one
+Questioning what we believe is true, what is fact. In the technical space (CS and engineering), so much of what science
+is fundamentally based on facts - what has existed before. That's why it contributes to this [dismay?]. That's one
 thing, that things always exist in context and if you don't teach or engage in a piece of information in that lense then
 you're not engaging in any kind of critical persepective or cp. If as an educator you're not encouraging students to
 challenge and questions and derive their own answers and ulimately step out of the way so you're not the one departing
@@ -57,20 +57,17 @@ Related to that is to know that we live in a racialized, gendered, so many diffe
 is our context and our environment. There is a racial and gendered foundation and sexual identity, religious, foundation
 to all of our institutions and we exist in these institutions. If you're not critically building a relationship with
 those institutions and how these institutions infleunce us as individuals and fields of study and entire technology
-space (like different types of veritcals and business space) - if we assume those institutions are pure and biasless,
+space (like different types of verticals and business space) - if we assume those institutions are pure and biasless,
 then that's doing a major disservice to our community and country.
 
-Q: You say we live in a racialized and gendered society, that is the context we are living and teaching in, how does keeping that
--
-context in mind influence the way you teach? How does that change the way you teach if you know in the back of your head
--
-that we live in this racialized and gendered society?
--
+# Q: You say we live in a racialized and gendered society, that is the context we are living and teaching in, how does keeping that
+# context in mind influence the way you teach? How does that change the way you teach if you know in the back of your head
+# that we live in this racialized and gendered society?
 
 Great question, I think what we do is we design experiences where young people are able to engage in content and find
-and make connections in their own way. THe fundamental way we do this is in our teaching practice. For example, with
+and make connections in their own way. The fundamental way we do this is in our teaching practice. For example, with
 code society we use original hip hop music to teach computational thinking concepts. Imagine a school house rock for
-computer science. These are pre-coding concepts - so we are not teaching syntaax like python, js, html. These are
+computer science. These are pre-coding concepts - so we are not teaching syntax like python, js, html. These are
 pre-coding concepts that are forming the fundamentals. This is a testament to what the field has witnessed in its
 eduaction practice: so much of it was so technical focused that they realized there needs to be a step before that and
 that's where we've seen this explosion in computational thinking and conversations around that. That is proven by the
@@ -79,15 +76,15 @@ field itself.
 We engage ct concepts and translate them using popular culture references, youth culutre references, all delivered
 through original lyrics in musical form. We have a song and unit, for example, called "algorithm". We use a couple
 different frameworks, we use the NYC blue print for CS as well as the AP CS principles, to establish key concepts. In
-the blueprint there are 5 key primary ct concepts with a series of subconcepts tied to each one of those - algorithm is
-one of those concepts. We've got all these individual standards, definitions of algoithms, sub concepts of algorithms
+the blueprint there are 5 key primary ct concepts with a series of sub-concepts tied to each one of those - algorithm is
+one of those concepts. We've got all these individual standards, definitions of algorithms, sub concepts of algorithms
 (composition, pattern recognizion, I/O, etc), these are all concepts that a bit abstract if you don't have that
 technical foundations, and we write original lyrics that translate those and put those into musical forms. Students are
 literally signing the definition of these concepts through this song. More importantly, we build interactive, project
 based lerning experiences around that which contextualizes that into a practical form - taking concepts from theoretical
-to practical form. One way we do that is through viral dance challenges. There was a really famous one taht happened a
-few years ago. Drake the artists created a song called "create me feelings" and created a dance challenge. There were
-many challenges like get out of a car and dance, it was this whole pop culture phenominon. Students, young people, if
+to practical form. One way we do that is through viral dance challenges. There was a really famous one that happened a
+few years ago. Drake the artists created a song called "in my feelings" and created a dance challenge. There were
+many challenges like get out of a car and dance, it was this whole pop culture phenomenon. Students, young people, if
 you play that song anywhere, young people will dance the dance. It's amazing the power of popular culture and the
 virality of pop culture and how a connected world through devices magnifies this to levels we could never imagine.
 
@@ -99,14 +96,14 @@ insecurities etc). This puts students prior experience and knolwedge front and c
 through design thinking practices, we ask students to take a step back and identify problems in different levels on
 their world. It could be in their family, school, community, country, world, so on, it could be different problems
 depending on their age. We've heard of everything from gun violence, to bully, to depression, to suicide, to food
-deserts, wanting to solve the crisis in venezula. We ask students to identify a whole range of issues then ask them to
+deserts, wanting to solve the crisis in Venezuela. We ask students to identify a whole range of issues then ask them to
 break that problem down - if they were to solve that problem, even if it is high level and abstract, break down that
 problem into steps and sequences they would need to do to solve this problem. Then we ask students to define dance moves
 or steps that illustrate or capture each one of the steps (in the solution). The students are ultimately making a viral
 dance challenge that is solving the steps to the problem they have identified. That's using a critical lense to solve
 problems using critical thinking skills. None of our dances have gone viral at this point, but we contextualize how the
 viral dance challenge how a dance challenge becomes a dance challenge. So it's about composition and how technology
-works: there is a dnace, artists, someone recording, then that media is shared on a social media platform assoicated
+works: there is a dance, artists, someone recording, then that media is shared on a social media platform assoicated
 with a hashtag, and the algorithms within ig and yt compile these media pieces that compile and display these pieces of
 media. That's how the algorithms within these platforms are working and functioning - there are multiple levels of
 perspectives that are decomposed and abstracted in these technological concept.
@@ -132,7 +129,7 @@ language (python, ruby), and they come out with the hard technical skills to
 pull things off fast but have two major problems: the second they step out of
 their scripting language their lost and second once you add critical problem
 solving and innovation thinking, they're in deep water - they don't know how to
-engage in taht process. However they can get a specfic function to work in a
+engage in that process. However they can get a specfic function to work in a
 specific way becuase they are technically trained to execute the task at hand,
 but the problem solving and analytical skills are completely void from those
 experiences. We bring that whole ciritcal lense and perspective - not just the
@@ -140,7 +137,7 @@ how - how do you do this, but also the why and the what - what is this used for?
 how can you use this in your community? It's a tool at the end of the day, and
 so much at the end of these teaching programs is devoid of humanity even though
 so much of it is user centered, like scrum. but it's user centered to create a
-great experience for a monetary game - its not to impact or change elements of
+great experience for a monetary gain - its not to impact or change elements of
 our society or critically analyze or have new perspective. It's not about that.
 
 # Q: Can you tell me more about the - and this can be brief - the specifics at the
@@ -154,8 +151,8 @@ created a creative education agency where we're using emmerging technology to
 build an interactive learning experiences, using VR and AR for museums. Code
 society started as a project within that creative agency. When we started
 testing and engaging different spaces, we saw there was a high interest and need
-for this lense of teaching in the tech space. We spun it out and formed an
-independent entity around: code society was incorporated in May. We've been
+for this lens of teaching in the tech space. We spun it out and formed an
+independent entity around it: code society was incorporated in May. We've been
 building it from scratch.
 
 Our sweet spot is middle school and high school, looking at how do we cast a wider net for diverse learners to engage
@@ -163,7 +160,7 @@ and enter into this space. Ultimately our goal is to sell our product, our curri
 organizations. Our view is we are not trying to compete with other coding organizations - they're all doing great work -
 but they're missing some key parts and we want to fill that void. We're trying to sell our curriculum to help coding
 organizations engage a wider community of young people to bring them into their pipeline which provides students with
-solid techincal knowledge. We want to address as well their atrition rate which is a huge problem for npo. We also work
+solid techincal knowledge. We want to address as well their attrition rate which is a huge problem for npo. We also work
 with upper-elementary, like 5 to 6th grader which the students really enjoyed. We've also found that adults learners who
 are exploring the possibility of going to a coding bootcamp and are interested in what our curriculum has to offer. Many
 adults told us they learned so much from School house Rock, and if this is a school house rock for computer science -
@@ -178,8 +175,8 @@ here called the New Museum which we work under.
 # relationship between the students and the teachers. Can you describe to me what kind of relationship they have?
 
 Great question and this is a big question we're trying to answer. What we're trying to address is figure out how to
-scale cp and maintian student-teacher relationships. [57] Our backgrounds have been in program design, development,
-administration, fundriasing and in the classroom itself. I'm not a lisenced teacher but I have been in the classroom for
+scale cp and maintian student-teacher relationships. Our backgrounds have been in program design, development,
+administration, fundriasing and in the classroom itself. I'm not a licensed teacher but I have been in the classroom for
 over 15 years teaching student arts based and technology based content. Something we find very interesting is we embody
 this world view (critical perspective, cp, interpersonal aspect of how to build rapport in a classroom) and leverage
 that to meet students where they are and open them up to the possibility of learning. We are experts of that, and do
@@ -187,14 +184,14 @@ that in a whole range of content. What we're trying to figure out is - there is 
 classroom, but even when we're there we find the relationship between students and teachers are deeply problematic and
 dysfunctional. An example, and this is confidential, comes from the classroom management practices of the teacher with
 the 4th and 5th graders. Firstly, there was a significant racial different. Both of the teachers were white, where as
-all of their students were black or latinx. Secondly, the teachers weren't from nYC, they were from long island and
-other places. There were already significant culutral barriers. The classroom management mirrored Pavlov's experiment
+all of their students were black or latinx. Secondly, the teachers weren't from NYC, they were from long island and
+other places. There were already significant cultural barriers. The classroom management mirrored Pavlov's experiment
 with the dog and ringing the bell. They had a bell that was supposed to be a call and response mechanism (like if you
-can hear me call once...) but they just rang this bell thikning students would calm down, or be attentive, or be back on
-task. So this bell was constantly being rung in the classroom which we fonud was deeply problematic and fundamentally
+can hear me clap once...) but they just rang this bell thinking students would calm down, or be attentive, or be back on
+task. So this bell was constantly being rung in the classroom which we found was deeply problematic and fundamentally
 contradictory to how we facilitate and create space for students. That posed an interesting question for us: if we are
 baking in all these different elements that are rooted deeply in cp and pedagogy of the oppressed, as well as social and
-emtional learning theories, how do we maintain the authenticity of that when we are not in the classroom? What we're
+emotional learning theories, how do we maintain the authenticity of that when we are not in the classroom? What we're
 working on is what does it look like to do world and have avatars and characters in this universe through media that can
 ultimately replace our selves and lend a critical perspective by adding those explicit voices in coded languages in a
 way that resonates with teachers and supports teachers. While we have fundamental belief differences with so much of
@@ -204,10 +201,8 @@ on. One of our strategies is build the software with the media that can replace 
 and two: sell add-ons or other packages that offer professional development to teachers to train them in cp: shift from
 teacher being at the center of the class to being on the side and facilitator of experience. That's interesting too
 because so many teachers are intimidated by technology and cs. They feel like they don't know or can't teach it. And we
-think, you don't have to teach it, you have to facilitate. THat's part of the process and experience at the center of
+think, you don't have to teach it, you have to facilitate. That's part of the process and experience at the center of
 what we're doing.
-
-1:10
 
 # I have a questions about engaging and incorporating students interests and experience in the curriculum and the
 # teaching. I'm wondering: how do you go about engage these students interests and incorporating those in the pedagogy of
@@ -227,21 +222,21 @@ of elements and levels - and draw the correlation between compiling machines and
 saying ultimately HTML displays this at the forefront. So it's like an abstracted relationship we use and leverage and
 refence memes, emojis, all the things, you know, that are prominent in popular culture and youth culture. So hip hop is
 a language and musical form - one of the critiques or questions we get is, great it's hip hop, but what is a student
-doesn't like hiphop? We'll that's not the point, it's not rooted in hip hop. THe musical choice and genre is hip hop,
-but the learning experience is rooted in youth culture as a whole. Hip hop is inseperable from youth culture right now -
+doesn't like hiphop? We'll that's not the point, it's not rooted in hip hop. The musical choice and genre is hip hop,
+but the learning experience is rooted in youth culture as a whole. Hip hop is inseparable from youth culture right now -
 that's a fundamental connection. Whether someone is interested more in pop, or country, there is hip hop influence in
 every single one of those genres. It's not about that - that's just a mechanism and transcendant beyond language and
 culture, and is international in every sense of the word - but it's really tapping into the youth culture aspect - the
 trends, the memes, and the things that are happening right now.
 
 # I want to clarify to make sure I understand. Students create their own songs our dance routines that are related to
-# problems or contradictions they see in their society at any level (from local to global issues). THey thing about
+# problems or contradictions they see in their society at any level (from local to global issues). They think about
 # these issues that afftect them and translate it and explain it through a media like a dance routine?
 
 Yea, that's an example, it's not their entire model but it's an example. Creating a viral dance challenge in response to
-a specific problem is one project based strategy within one signle unit of instruction. We have a whole range of tactic
-strategiges that are fundamentally project based that express a whole range of differet things. We've had young people
-create - actually spec out and wireframe real solutions. We had young people a strategy game that commmunicate the
+a specific problem is one project based strategy within one single unit of instruction. We have a whole range of tactic
+strategiges that are fundamentally project based that express a whole range of different things. We've had young people
+create - actually spec out and wire-frame real solutions. We had young people a strategy game that communicate the
 concept of abstraction. We had people create videos, press conferences, or music. One of the features we want to build
 is that we create all the music and use that as the hook and the delivery mechanism for not only the critical
 persepctive - because what we do in the music is also highlight underrepresented voices in this technology space,
@@ -253,8 +248,8 @@ and share their own works and creating a robust community of educators and stude
 in this space. Educators can create their own lessons and share them on this platform and acrew value. Students can also
 create their own responses and ways of teaching and learning certain cs concepts or problems and acrew value through
 this space. We're looking at blockchain solutions where the value students create on this platform can be transfered to
-other platforms, like Fornite example where you can get a new avatar or outfit. This makes a learning environment where
-you're learning these cs concepts and making value with your music and creations, then transfering to other platforms
+other platforms, like Fornite for example where you can get a new avatar or outfit. This makes a learning environment where
+you're learning these cs concepts and making value with your music and creations, then transferring to other platforms
 for other forms of value. That's a little further down the road for us. We've also created a digital badge system where
 students can accrue badges and share them on linkedin profiles - these are all parts of how we can articulate the
 knowledge base students are learning and transfer that outside the environment we have. That's coming! But not here yet
@@ -268,7 +263,7 @@ community spaces. We are trying to provide out of box solutions for demands for 
 burden off of teachers to create these materials (especially if they don't have the content knowledge).
 
 # So your struggles with maintaining student-teacher relationships is that you have no oversight of how the teachers
-# using your products are teaching students, right?
+# using your products and teaching students, right?
 
 Yes, we don't have authority over teachers.
 
