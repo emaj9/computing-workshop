@@ -1,9 +1,0 @@
-{
-    "dependencies": {
-        "express": "latest",
-        "pug": "latest",
-        "socket.io": "latest",
-        "underscore": "latest",
-        "body-parser": "latest"
-    }
-}
