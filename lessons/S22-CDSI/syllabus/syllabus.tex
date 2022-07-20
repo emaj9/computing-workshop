@@ -1,0 +1,87 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=2.0cm]{geometry}
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{listings}
+
+\lstset{
+  basicstyle=\ttfamily
+}
+
+\author{%
+  Jacob Errington \& Eric Mayhew%
+  \footnote{%
+  Funding and venue is kindly provided by McGill's Computational and Data Systems Initiative (CDSI), \url{https://mcgill.ca/cdsi}
+  }
+}
+\title{\vspace{-2em}Computing Workshop: Intro Python -- Syllabus}
+\date{Summer 2022}
+
+\begin{document}
+
+\maketitle
+
+\begin{multicols}{2}
+  \begin{description}
+    \item[Website]
+      \url{https://computing-workshop.com/}
+    \item[Location]
+      Burnside Hall, 5th floor, Geographic Information Center (GIC)
+    \item[Time]
+      15 - 19 August, 10~am - 3~pm with lunchbreak noon - 1~pm
+    \item[Audience]
+      Incoming graduate students without background in computer science,
+      interested in using Python for their research
+  \end{description}
+
+  \subsection*{Learning Goals}
+
+  At the end of the workshop, a participant will be able to:
+
+  \begin{itemize}
+  \item Use control flow mechanisms, e.g. \lstinline!if!- and \lstinline!for!-statements.
+  \item Organize a program into functions; follow the Single Responsibility Principle.
+  \item Use common I/O mechanisms: standard input/output, files, HTTP.
+  \item Run Python scripts on their computer.
+  \item Justify/critique the use of software in solving real-world problems.
+  \end{itemize}
+
+  \subsection*{Lesson sequence}
+
+  \begin{description}
+  \item[15 Aug.] Welcome! Land acknowledgement. Statements, expressions, types,
+    and values. Program execution. Compilation vs interpretation.
+  \item[16 Aug.] Control flow: conditions, loops, functions.
+  \item[17 Aug.] Data structures: lists, dictionaries, trees, graphs.
+  \item[18 Aug.] The environment: filesystem, network, standard I/O. Batch vs interactive.
+  \item[19 Aug.] Applications: basic data science with NumPy, SciPy.
+  \end{description}
+
+  \columnbreak
+  \section*{Description}
+
+  Software is created by writing a program in a \emph{programming language.} This course
+  provides a guided first step towards software development by equipping you
+  with fundamental skills in a very popular and beginner-friendly programming
+  language, \emph{Python.} These fundamentals are easily transferrable to other
+  programming languages, too!
+
+  This is a five-session, one-week intensive workshop, consisting of twenty total
+  hours of classtime. Each day will consist of a 2-hour morning session and a
+  2-hour afternoon session. The morning session will lean more on the
+  theoretical side, with lectures punctuated by small group discussions and
+  worksheets. The afternoon session will lean more on the practical side, where
+  you will work on coding problems in pairs to cement your understanding of the
+  morning material.
+
+  This course aims to give a foundation for further study of popular kinds of
+  Python software development, in particular machine learning and data science.
+  At the same time, we aim to impart to you a critical understanding of software
+  development, and especially of machine learning: you must think not only of
+  whether software \emph{can} solve a problem, but especially of whether it
+  \emph{should.} Expect to make ethical considerations before and alongside the
+  software development you will undertake in solving problems in this course!
+\end{multicols}
+
+\end{document}
