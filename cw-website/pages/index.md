@@ -12,15 +12,17 @@ We look forward to learning with you!
 
 ## Meet the facilitators!
 
-### [Eric Mayhew](https://emayhew.com/)
-
- * _Education:_ B.Ed. Secondary Education, McGill (2019).
- * _Passion:_ The news.
- * _Favourite orchestral instrument_: Viola.
-
 ### [Jacob Errington](https://jerrington.me/)
 
+ * [Faculty Lecturer](https://www.cs.mcgill.ca/people/faculty/#faculty-lecturers)
+   in Computer Science at McGill.
  * _Education:_ B.Sc. Mathematics & Computer Science (2017),
-   M.Sc. Computer science, McGill (2019).
+   M.Sc. Computer science, McGill (2020).
  * _Passion:_ Programming languages.
  * _Favourite orchestral instrument_: French horn.
+
+### Eric Mayhew
+
+ * _Education:_ B.Ed. Secondary Education (2019), M.Sc. Computer Science, McGill (2022).
+ * _Passion:_ Gardening.
+ * _Favourite orchestral instrument_: Viola.
