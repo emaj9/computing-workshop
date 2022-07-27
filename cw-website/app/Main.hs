@@ -4,8 +4,8 @@
 module Main where
 
 import Data.Aeson
+import qualified Data.Aeson.KeyMap as A
 import Data.Bool ( bool )
-import qualified Data.HashMap.Lazy as M
 import Data.Monoid ( (<>) )
 import System.FilePath
 import Text.Pandoc
@@ -52,6 +52,6 @@ infixl 1 <#>
 -- target (i.e. should not be processed with pandoc)
 isVerbatim :: Compiler Bool
 isVerbatim =
-  getUnderlying >>= getMetadata <#> M.lookup "verbatim" <#> \case
+  getUnderlying >>= getMetadata <#> A.lookup "verbatim" <#> \case
     Just (Bool True) -> True
     _ -> False
