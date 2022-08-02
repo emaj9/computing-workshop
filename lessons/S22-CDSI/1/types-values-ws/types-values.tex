@@ -1,0 +1,95 @@
+\documentclass[11pt]{article}
+
+\author{Computing Workshop}
+\title{Worksheet \#1} 
+\date{Winter 2019}
+
+\usepackage{listings}
+\usepackage[margin=2.0cm]{geometry}
+
+\lstset{
+  basicstyle=\ttfamily
+}
+
+\begin{document}
+
+\maketitle
+
+\section*{Types and values}
+
+For the following expressions:
+\begin{enumerate}
+  \item
+    Guess the type and result of evaluating the snippet.
+  \item
+    Test the snippet in the Python REPL.
+  \item
+    Did you get the right answer? If not, why?
+\end{enumerate}
+
+\begin{center}
+\renewcommand{\arraystretch}{3.5}
+% The thing in braces after tabular are the column specifications.
+% The first column is a fixed width column (14 em wide)
+% The second column will be big enough to wrap its contents and will
+% center-align text.
+% The pipe symbols specify that there should be lines between the columns.
+\begin{tabular}{| c | p{5em}| p{5em} | p{21em} |}
+    \hline % Use hline to make horizontal lines between rows.
+    \textbf{Expression} & \textbf{Expected output}
+    & \textbf{Expected output type} & \textbf{Were you right or wrong? Why?} \\ \hline
+    % Use tilde "~" to create a blank cell.
+    % Use & to separate cells.
+    ``5'' + 5 & ~ & ~ & ~ \\ \hline
+    ``5 + 5'' & ~ & ~ & ~ \\ \hline
+    ``five'' + ``five'' & ~ & ~ & ~ \\ \hline
+    ``hello'' * 5 & ~ & ~ & ~ \\ \hline
+    not (True == True) & ~ & ~ & ~ \\ \hline
+    5 + 5.0 & ~ & ~ & ~ \\ \hline
+    2/3 & ~ & ~ & ~ \\ \hline
+\end{tabular}
+\end{center}
+
+\newpage
+
+\section*{Variables \& data structures}
+
+For each code snippet:
+\begin{enumerate}
+  \item
+    Guess the type and result of evaluating the snippet.
+  \item
+    Test the snippet in the Python REPL.
+  \item
+    Did you get the right answer? If not, why?
+\end{enumerate}
+%
+Consider these code snippets:
+\begin{enumerate}
+  \item
+    \lstinputlisting{snippet1.py}
+
+  \item
+    \lstinputlisting{snippet2.py}
+
+  \item
+    \lstinputlisting{snippet3.py}
+
+  \item
+    \lstinputlisting{snippet4.py}
+\end{enumerate}
+
+\renewcommand{\arraystretch}{3.5}
+\begin{tabular}{| c | p{5em}| p{5em} | p{21em} |}
+    \hline % Use hline to make horizontal lines between rows.
+    \textbf{Snippet} & \textbf{Expected output}
+    & \textbf{Expected output type} & \textbf{Were you right or wrong? Why?} \\ \hline
+    % Use tilde "~" to create a blank cell.
+    % Use & to separate cells.
+    Snippet \#1 & ~ & ~ & ~ \\ \hline
+    Snippet \#2 & ~ & ~ & ~ \\ \hline
+    Snippet \#3 & ~ & ~ & ~ \\ \hline
+    Snippet \#4 & ~ & ~ & ~ \\ \hline
+\end{tabular}
+
+\end{document}
