@@ -115,5 +115,6 @@ Jake away for endocrinology appt
 
 ### Afternoon
 
+- [Community, Criticality, Citizenship](https://drive.google.com/drive/folders/1euRkzEpsg0X9jGqwduDWrTpBgvw9XG4G) p.454 last paragraph.
 - stupid AI
 - AI ethics: recidivism prediction, facial recognition
