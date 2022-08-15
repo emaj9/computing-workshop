@@ -7,6 +7,7 @@ import random
 RED, GREEN, YELLOW, BLUE, BLACK = "red", "green", "yellow", "blue", "black"
 PLUS2, REVERSE, SKIP, PLUS4, WILD = "+2", "reverse", "skip", "+4", "wild"
 
+# Don't worry about this syntax:
 deck = [
     (color, value)
     for color in [RED, GREEN, YELLOW, BLUE]
@@ -49,9 +50,6 @@ last_black_color = None
 # last card played is a black card, then we need to know what color was chosen
 # by the player who played that black card.
 # This variable represents that choice.
-# A consequence is that `can_follow` is now asymmetrical: a black card can
-# follow any card, but for a card C to follow a black card, the color of C must
-# match the color indicated in this variable.
 
 def flip_direction():
     global current_direction
@@ -61,10 +59,13 @@ def flip_direction():
         current_direction = "forward"
 
 def go_to_next_player():
+    """Changes the current player to be the next player."""
     global current_player_i
     current_player_i = next_player_i()
 
 def next_player_i():
+    """Computes the list index of the _next_ player to play, according to the
+    game flow."""
     global current_player_i, current_direction
     if current_direction == "forward":
         return (current_player_i + 1) % len(players)
@@ -92,6 +93,13 @@ def deal():
         deck = deck[:-7]
     discard.append(deck.pop())
 
+# Cards are tuples, which means we can access the color and value of the card
+# using to indices.
+# However, it's easy to forget whether its the color or the value that goes
+# first or second!
+# The following functions give specific names, in the form of functions, to
+# those indices.
+
 def color_of(card):
     return card[0]
 
@@ -108,7 +116,15 @@ def card_str(card):
     # Those need to be converted to strings.
     return color_of(card) + " " + str(value_of(card))
 
-# EXERCISE:
+# EXERCISE: Write the following function `can_follow` which decides whether
+# `card1` may be played after `card2`.
+# UNO rules:
+# - The card you play must match either the color or the value of the previous
+#   card.
+# - A black card can follow any card.
+# - If the last card played is a black card, then the player who played it must
+#   have chosen a color (see `last_black_card` above). Only cards of the chosen
+#   color (or another black card) can follow in this case.
 def can_follow(card1, card2):
     """Decides whether `card1` may be played on top of `card2`."""
     return any([
@@ -118,6 +134,19 @@ def can_follow(card1, card2):
         color_of(card1) == color_of(card2),
     ])
 
+# EXERCISE: Write the following function `interpret_card` which performs the
+# effect of the given card.
+# UNO rules:
+# - When the card is a `+2`, the next player  picks up two cards.
+#   See `next_player_i` and `draw` above.
+# - When the card is a `skip`, the next player loses their turn
+#   See `go_to_next_turn` above.
+# - When the card is a `reverse`, the direction of play is flipped
+#   See `flip_direction` above.
+# - When the card played is a `+4` or `wild` card, prompt the user for the
+#   color that goes next.
+#   See `last_black_color` above.
+# - When the card played is a number, then there is nothing special to do.
 def interpret_card(card):
     """Performs the effect of a given card."""
     global last_black_color
@@ -156,11 +185,15 @@ def shuffle():
     global deck
     deck = random.choices(deck, k=len(deck))
 
+# EXERCISE:
 def draw():
     """Draws a card from the deck and returns it."""
     global deck, discard
-    # Trying to draw from an empty deck would produce an error.
-    # When the deck is empty, we shuffle _all but the last_ discarded card to produce a new deck.
+    # Trying to draw from an empty deck would produce an error!
+    # We don't want that. So trying to draw from an empty deck triggers a
+    # shuffling of _all but the last_ discarded card to produce a new deck.
+    # Use the function `shuffle` once you've appropriately moved cards from
+    # `discard` into `deck`.
     if len(deck) == 0:
         deck = discard[:-1]
         discard = [discard[-1]]
