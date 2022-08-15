@@ -1,0 +1,36 @@
+\documentclass[11pt]{article}
+\usepackage{listings}
+
+\author{Computing Workshop}
+\title{Co-teaching Python Review - Version B}
+\date{Summer 2022}
+
+\usepackage[margin=2.0cm]{geometry}
+
+\begin{document}
+
+\maketitle
+
+Review the following concepts and make sure you know them well enough to explain them to someone else. Read the
+following document and answer the embedded questions to assess your understanding. If something is unclear, please don't hesitate to ask for an explination.
+
+\section*{Data structures}
+
+\emph{Data structures} are a piece of data that holds more data in it.
+Lists, for example, are the most common data structure in programming. The name of a list is on the left hand side of the \texttt{=}
+and the contents are on the right, surrounded by square brakets and each element of the list is comma separated. Consider the following list:
+
+\begin{lstlisting}
+  prime_colours = [``red'', ``yellow'', ``blue'']
+\end{lstlisting}
+~
+
+You can access an element of a list through its \emph{index}. The index is the order the list is in, from left to right,
+but be careful as computers start counting at zero! Here is how we would get the first index of the \texttt{prime\_colours}
+list: \texttt{prime\_colour[0]}.
+
+Test your understanding by coding your own list with at least 3 big numbers (at least 7 digits each) in it using repl.it. Once you have successfully
+coded your list, sum the number of the first and last element of the list by accessing it through the list indexs.
+
+
+\end{document}
