@@ -110,7 +110,11 @@ def value_of(card):
 # e.g. ("blue", "+2") --> "blue +2"
 # ("blue", 4) --> "blue 4"
 def card_str(card):
-    pass # Replace this line and fill in here!
+    # Difficulty: this would be the most obvious implementation:
+    # return color_of(card) + " " + value_of(card)
+    # but it's slightly incorrect because of cards with integer values.
+    # Those need to be converted to strings.
+    return color_of(card) + " " + str(value_of(card))
 
 # EXERCISE: Write the following function `can_follow` which decides whether
 # `card1` may be played after `card2`.
@@ -123,7 +127,11 @@ def card_str(card):
 #   color (or another black card) can follow in this case.
 def can_follow(card1, card2):
     """Decides whether `card1` may be played on top of `card2`."""
-    pass # Replace this line and fill in here!
+    if BLACK == color_of(card1): return True
+    if color_of(card2) == BLACK and last_black_color == color_of(card1): return True
+    if value_of(card1) == value_of(card2): return True
+    if color_of(card1) == color_of(card2): return True
+    return False
 
 # EXERCISE: Write the following function `interpret_card` which performs the
 # effect of the given card.
@@ -142,23 +150,39 @@ def interpret_card(card):
     """Performs the effect of a given card."""
     global last_black_color
 
-    pass # Replace this line and fill in here!
+    v = value_of(card)
+    if type(v) == int:
+        pass # Numeric cards have no effect.
+    elif v == SKIP:
+        go_to_next_player()
+    elif v == REVERSE:
+        flip_direction()
+    elif v == PLUS2:
+        players[next_player_i()].extend([draw(), draw()])
+    elif v == PLUS4:
+        players[next_player_i()].extend([draw(), draw(), draw(), draw()])
+        last_black_color = input("What color goes next? ")
+    elif v == WILD:
+        last_black_color = input("What color goes next? ")
+    else:
+        raise RuntimeError("impossible card value: " + v)
 
 # EXCERCISE:
 def winner():
     """Decides if anybody won the game, i.e. their hand is empty. Returns the
     index of the winner player if any, or None."""
     global players
-
-    pass # Replace this line and fill in here!
+    for i, player in enumerate(players):
+        if len(player) == 0:
+            return i
+    return None
 
 # EXERCISE:
 # Find a way to shuffle the deck using the docs for the random module
 # or by looking at stackoverflow and _understanding_ what is written there.
 def shuffle():
     global deck
-
-    pass # Replace this line and fill in here!
+    deck = random.choices(deck, k=len(deck))
 
 # EXERCISE:
 def draw():
@@ -169,8 +193,11 @@ def draw():
     # shuffling of _all but the last_ discarded card to produce a new deck.
     # Use the function `shuffle` once you've appropriately moved cards from
     # `discard` into `deck`.
-
-    pass # Replace this line and fill in here!
+    if len(deck) == 0:
+        deck = discard[:-1]
+        discard = [discard[-1]]
+        shuffle()
+    return deck.pop()
 
 def game():
     global discard
