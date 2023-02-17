@@ -19,7 +19,7 @@ and past iterations of Computing Workshop.
   Welcome!
   ([slides](https://docs.google.com/document/d/1uOwCdZqsoqeVLem9ce5wcoQ_pN40cuVUMYafoan3vGo/edit#heading=h.njq1a6zczp57))
   ([KNN worksheet](/lessons/W19/ml-1/knn-ws/writeup.pdf))
-  ([KNN Jupyter Notebook](/lessons/W23/ml-0/knn.ipynb))
+  ([KNN Jupyter Notebook](/lessons/W23-CDSI/ml-0/knn.ipynb))
 
 ---
 
