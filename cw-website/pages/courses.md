@@ -11,14 +11,25 @@ and past iterations of Computing Workshop.
 
 ## Current Courses
 
-No courses are currently being held - but stay tuned because Computing Workshop
-will be returning!
+### Fundamentals of Machine Learning with Python - Winter 2023
+
+* [Syllabus](https://docs.google.com/document/d/1uOwCdZqsoqeVLem9ce5wcoQ_pN40cuVUMYafoan3vGo/edit#heading=h.njq1a6zczp57)
+
+* Lesson 0:
+  Welcome!
+  ([slides](https://docs.google.com/document/d/1uOwCdZqsoqeVLem9ce5wcoQ_pN40cuVUMYafoan3vGo/edit#heading=h.njq1a6zczp57))
+  ([KNN worksheet](/lessons/W19/ml-1/knn-ws/writeup.pdf))
+  ([KNN Jupyter Notebook](/lessons/W23/ml-0/knn.ipynb))
 
 ---
 
-### Past Courses
+## Past Courses
 
-#### Machine Learning - Winter 2019
+### Intro Python (CDSI) - Summer 2022
+
+* [Syllabus](lessons/S22-CDSI/syllabus/syllabus.pdf)
+
+### Machine Learning - Winter 2019
 
 * [Syllabus](lessons/W19/ml-syllabus/ml-syllabus.pdf)
 
@@ -59,7 +70,7 @@ will be returning!
   ([lab resources](/lab.html))
   ([K-means POGIL](/lessons/W19/ml-5/k-means-ws/writeup.pdf))
 
-#### Software - Fall 2018 {#machine-learning}
+### Software - Fall 2018 {#machine-learning}
 
 * [Syllabus](lessons/F18/sw-syllabus/sw-syllabus.pdf)
 
@@ -100,7 +111,7 @@ will be returning!
   ([Specification gaming](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRPiprOaC3HsCf5Tuum8bRfzYUiKLRqJmbOoC-32JorNdfyTiRRsR7Ea5eWtvsWzuxo8bjOxCG84dAg/pubhtml))
 
 
-#### Hardware - Fall 2018
+### Hardware - Fall 2018
 
 * [Syllabus](lessons/F18/hw-syllabus/hw-syllabus.pdf)
 
@@ -122,7 +133,7 @@ will be returning!
 * Lesson 5: Operating systems
   ([slides](https://docs.google.com/presentation/d/1hehTrS_bif7IcSZ5yxxYBHyq69-VKXZb0oxvZ5OAVkI/edit?usp=sharing))
 
-#### Computing Workshop - Fall 2017
+### Computing Workshop - Fall 2017
 
 * [Syllabus](/lessons/F17/syllabus/syllabus.pdf)
 
