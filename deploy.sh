@@ -3,4 +3,4 @@
 set -e
 
 echo ">>> DEPLOYING STATIC CONTENT"
-rsync -r cw-website/_site/ /srv/http/computing-workshop/
+rsync -r cw-website/_site/ computing-workshop.com:/srv/http/computing-workshop/
