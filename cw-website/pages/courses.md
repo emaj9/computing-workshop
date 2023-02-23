@@ -10,7 +10,7 @@ This is a record of all the courses that have been taught under the Computing Wo
 
 ### Fundamentals of Machine Learning with Python (CDSI) - Winter 2023
 
-This course was taught in a weekly format with 2 hours of instruction per session, in collaboration
+This course is taught in a weekly format with 2 hours of instruction per session, in collaboration
 with [McGill's CDSI][cdsi].
 
 * [Syllabus](https://docs.google.com/document/d/1uOwCdZqsoqeVLem9ce5wcoQ_pN40cuVUMYafoan3vGo/edit#heading=h.njq1a6zczp57)
