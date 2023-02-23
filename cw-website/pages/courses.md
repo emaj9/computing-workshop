@@ -24,7 +24,8 @@ with [McGill's CDSI][cdsi].
 * Lesson 1:
     Data cleaning, regression, and decision trees
     ([slides](https://docs.google.com/presentation/d/1fAs0po5zK0sbXkCPTFKZaihwFsjprZ0i8mWUH2b5mYc/edit?usp=sharing))
-    ([sample dataset](https://drive.google.com/file/d/1hQbtKp4yohNfW0elt6JnWsQ2QxuWA60t/view))
+    ([sample dataset](https://drive.google.com/file/d/1hQbtKp4yohNfW0elt6JnWsQ2QxuWA60t/view),
+    courtesy of [Obviously AI][obvs-ai])
 
 ---
 
@@ -178,3 +179,4 @@ with [McGill's Building21][b21].
 
 [cdsi]: https://mcgill.ca/cdsi
 [b21]: https://building21.ca/
+[obvs-ai]: https://www.obviously.ai/post/data-cleaning-in-machine-learning
