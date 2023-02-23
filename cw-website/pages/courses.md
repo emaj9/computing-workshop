@@ -2,24 +2,38 @@
 title: Courses
 ---
 
-## Previous and current course content
-
-On this page you will find the syllabi, slides, and materials for current
-and past iterations of Computing Workshop.
+This is a record of all the courses that have been taught under the Computing Workshop banner.
 
 ---
 
 ## Current Courses
 
-### Fundamentals of Machine Learning with Python - Winter 2023
+### Fundamentals of Machine Learning with Python (CDSI) - Winter 2023
+
+This course was taught in a weekly format with 2 hours of instruction per session, in collaboration
+with [McGill's CDSI][cdsi].
 
 * [Syllabus](https://docs.google.com/document/d/1uOwCdZqsoqeVLem9ce5wcoQ_pN40cuVUMYafoan3vGo/edit#heading=h.njq1a6zczp57)
 
 * Lesson 0:
-  Welcome!
-  ([slides](https://docs.google.com/document/d/1uOwCdZqsoqeVLem9ce5wcoQ_pN40cuVUMYafoan3vGo/edit#heading=h.njq1a6zczp57))
-  ([KNN worksheet](/lessons/W19/ml-1/knn-ws/writeup.pdf))
-  ([KNN Jupyter Notebook](/lessons/W23-CDSI/ml-0/knn.ipynb))
+    Welcome! ML pipeline overview, appropriateness of ML, k-nearest neighbours
+    ([slides](https://docs.google.com/presentation/d/1674pRe4jEsQwHvjNp2myhnd5yVE3BKKbibCnutqyJ5U/edit?usp=sharing))
+    ([KNN worksheet](/lessons/W19/ml-1/knn-ws/writeup.pdf))
+    ([KNN Jupyter Notebook](/lessons/W23-CDSI/ml-0/knn.ipynb))
+
+* Lesson 1:
+    Data cleaning, regression, and decision trees
+    ([slides](https://docs.google.com/presentation/d/1fAs0po5zK0sbXkCPTFKZaihwFsjprZ0i8mWUH2b5mYc/edit?usp=sharing))
+    ([sample dataset](https://drive.google.com/file/d/1hQbtKp4yohNfW0elt6JnWsQ2QxuWA60t/view))
+
+---
+
+## Upcoming courses
+
+### Fundamentals of Machine Learning with Python (CDSI) - Summer 2023
+
+Computing Workshop is planning to return to McGill thanks to CDSI this summer for an intensive
+series on ML in Python.
 
 ---
 
@@ -27,9 +41,15 @@ and past iterations of Computing Workshop.
 
 ### Intro Python (CDSI) - Summer 2022
 
+This course was taught in an intensive one-week format with 4 hours of instruction per day, in
+collaboration with [McGill's CDSI][cdsi].
+
 * [Syllabus](lessons/S22-CDSI/syllabus/syllabus.pdf)
 
-### Machine Learning - Winter 2019
+### Machine Learning (B21) - Winter 2019
+
+This course was taught in a weekly format with 2 hours of instruction per session, in collaboration
+with [McGill's Building21][b21].
 
 * [Syllabus](lessons/W19/ml-syllabus/ml-syllabus.pdf)
 
@@ -70,7 +90,10 @@ and past iterations of Computing Workshop.
   ([lab resources](/lab.html))
   ([K-means POGIL](/lessons/W19/ml-5/k-means-ws/writeup.pdf))
 
-### Software - Fall 2018 {#machine-learning}
+### Software (B21) - Fall 2018 {#machine-learning}
+
+This course was taught in a weekly format with 2 hours of instruction per session, in collaboration
+with [McGill's Building21][b21].
 
 * [Syllabus](lessons/F18/sw-syllabus/sw-syllabus.pdf)
 
@@ -110,8 +133,10 @@ and past iterations of Computing Workshop.
 
   ([Specification gaming](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRPiprOaC3HsCf5Tuum8bRfzYUiKLRqJmbOoC-32JorNdfyTiRRsR7Ea5eWtvsWzuxo8bjOxCG84dAg/pubhtml))
 
+### Hardware (B21) - Fall 2018
 
-### Hardware - Fall 2018
+This course was taught in a weekly format with 2 hours of instruction per session, in collaboration
+with [McGill's Building21][b21].
 
 * [Syllabus](lessons/F18/hw-syllabus/hw-syllabus.pdf)
 
@@ -133,7 +158,10 @@ and past iterations of Computing Workshop.
 * Lesson 5: Operating systems
   ([slides](https://docs.google.com/presentation/d/1hehTrS_bif7IcSZ5yxxYBHyq69-VKXZb0oxvZ5OAVkI/edit?usp=sharing))
 
-### Computing Workshop - Fall 2017
+### Computing Workshop (B21) - Fall 2017
+
+This course was taught in a weekly format with 2 hours of instruction per session, in collaboration
+with [McGill's Building21][b21].
 
 * [Syllabus](/lessons/F17/syllabus/syllabus.pdf)
 
@@ -147,3 +175,6 @@ and past iterations of Computing Workshop.
 * [Lesson 7](/lessons/F17/7/plan/7-lp.pdf): Web design with CSS ([slides](/lessons/F17/7/slides.pdf))
 * Lesson 8: Remedial web development work (no slides or lesson plan)
 * [Lesson 9](/lessons/F17/9/plan/9-lp.pdf): Conclusion ([slides](/lessons/F17/9/slides.pdf))
+
+[cdsi]: https://mcgill.ca/cdsi
+[b21]: https://building21.ca/
