@@ -22,7 +22,7 @@ We look forward to learning with you!
 
 ### Eric Mayhew
 
- * [Professor][dawson-staff] in Computer Science at Dawson College
+ * _[Professeur][dawson-staff]_ in Computer Science at Dawson College
  * _Education:_ B.Ed. Secondary Education (2019), M.Sc. Computer Science, McGill (2022).
  * _Passion:_ Gardening.
  * _Favourite orchestral instrument_: Viola.
