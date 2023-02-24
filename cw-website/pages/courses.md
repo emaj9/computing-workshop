@@ -26,6 +26,8 @@ with [McGill's CDSI][cdsi].
     ([slides](https://docs.google.com/presentation/d/1fAs0po5zK0sbXkCPTFKZaihwFsjprZ0i8mWUH2b5mYc/edit?usp=sharing))
     ([sample dataset](https://drive.google.com/file/d/1hQbtKp4yohNfW0elt6JnWsQ2QxuWA60t/view),
     courtesy of [Obviously AI][obvs-ai])
+    ([data exploration notebook](/lessons/W23-CDSI/ml-1/data-exploration.ipynb))
+    ([decision tree notebook](/lessons/W23-CDSI/ml-1/dt-student.ipynb))
 
 ---
 
