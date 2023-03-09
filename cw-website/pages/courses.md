@@ -13,21 +13,32 @@ This is a record of all the courses that have been taught under the Computing Wo
 This course is taught in a weekly format with 2 hours of instruction per session, in collaboration
 with [McGill's CDSI][cdsi].
 
-* [Syllabus](https://docs.google.com/document/d/1uOwCdZqsoqeVLem9ce5wcoQ_pN40cuVUMYafoan3vGo/edit#heading=h.njq1a6zczp57)
+* [Syllabus][w23-ml-syllabus]
 
 * Lesson 0:
     Welcome! ML pipeline overview, appropriateness of ML, k-nearest neighbours
-    ([slides](https://docs.google.com/presentation/d/1674pRe4jEsQwHvjNp2myhnd5yVE3BKKbibCnutqyJ5U/edit?usp=sharing))
+    ([slides][w23-ml-0-slides])
     ([KNN worksheet](/lessons/W19/ml-1/knn-ws/writeup.pdf))
     ([KNN Jupyter Notebook](/lessons/W23-CDSI/ml-0/knn.ipynb))
 
 * Lesson 1:
     Data cleaning, regression, and decision trees
-    ([slides](https://docs.google.com/presentation/d/1fAs0po5zK0sbXkCPTFKZaihwFsjprZ0i8mWUH2b5mYc/edit?usp=sharing))
+    ([slides][w23-ml-1-slides])
     ([sample dataset](https://drive.google.com/file/d/1hQbtKp4yohNfW0elt6JnWsQ2QxuWA60t/view),
     courtesy of [Obviously AI][obvs-ai])
     ([data exploration notebook](/lessons/W23-CDSI/ml-1/data-exploration.ipynb))
     ([decision tree notebook](/lessons/W23-CDSI/ml-1/dt-student.ipynb))
+
+* Lesson 2:
+    Unsupervised learning and model validation
+    ([slides][w23-ml-2-slides])
+    ([clustering worksheet](/lessons/W19/ml-5/k-means-ws/writeup.pdf))
+    ([lab resources](/lab.html))
+
+[w23-ml-syllabus]: https://docs.google.com/document/d/1uOwCdZqsoqeVLem9ce5wcoQ_pN40cuVUMYafoan3vGo/edit#heading=h.njq1a6zczp57
+[w23-ml-0-slides]: https://docs.google.com/presentation/d/1674pRe4jEsQwHvjNp2myhnd5yVE3BKKbibCnutqyJ5U/edit?usp=sharing
+[w23-ml-1-slides]: https://docs.google.com/presentation/d/1fAs0po5zK0sbXkCPTFKZaihwFsjprZ0i8mWUH2b5mYc/edit?usp=sharing
+[w23-ml-2-slides]: https://docs.google.com/presentation/d/1gR_CY2ccn723Zk7J9FNfCwGWqxNgM4-feejxc_gLV8Q/edit?usp=sharing
 
 ---
 
