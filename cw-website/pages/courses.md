@@ -2,10 +2,6 @@
 title: Courses
 ---
 
-This is a record of all the courses that have been taught under the Computing Workshop banner.
-
----
-
 ## Current Courses
 
 ### Fundamentals of Machine Learning with Python (CDSI) - Winter 2023
