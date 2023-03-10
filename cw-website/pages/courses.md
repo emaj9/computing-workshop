@@ -30,6 +30,7 @@ with [McGill's CDSI][cdsi].
     ([slides][w23-ml-2-slides])
     ([clustering worksheet](/lessons/W19/ml-5/k-means-ws/writeup.pdf))
     ([lab resources](/lab.html))
+    ([DBSCAN notebook](/lessons/W23-CDSI/ml-2/dbscan.ipynb))
 
 [w23-ml-syllabus]: https://docs.google.com/document/d/1uOwCdZqsoqeVLem9ce5wcoQ_pN40cuVUMYafoan3vGo/edit#heading=h.njq1a6zczp57
 [w23-ml-0-slides]: https://docs.google.com/presentation/d/1674pRe4jEsQwHvjNp2myhnd5yVE3BKKbibCnutqyJ5U/edit?usp=sharing
