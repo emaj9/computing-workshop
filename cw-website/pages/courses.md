@@ -32,10 +32,17 @@ with [McGill's CDSI][cdsi].
     ([lab resources](/lab.html))
     ([DBSCAN notebook](/lessons/W23-CDSI/ml-2/dbscan.ipynb))
 
+* Lesson 3:
+    Neural networks and model training
+    ([slides][w23-ml-3-slides])
+    ([Neural networks notebook][w23-ml-3-notebook])
+
 [w23-ml-syllabus]: https://docs.google.com/document/d/1uOwCdZqsoqeVLem9ce5wcoQ_pN40cuVUMYafoan3vGo/edit#heading=h.njq1a6zczp57
 [w23-ml-0-slides]: https://docs.google.com/presentation/d/1674pRe4jEsQwHvjNp2myhnd5yVE3BKKbibCnutqyJ5U/edit?usp=sharing
 [w23-ml-1-slides]: https://docs.google.com/presentation/d/1fAs0po5zK0sbXkCPTFKZaihwFsjprZ0i8mWUH2b5mYc/edit?usp=sharing
 [w23-ml-2-slides]: https://docs.google.com/presentation/d/1gR_CY2ccn723Zk7J9FNfCwGWqxNgM4-feejxc_gLV8Q/edit?usp=sharing
+[w23-ml-3-slides]: https://docs.google.com/presentation/d/1T13lEf1HaLg761IZD83ZwETgjZKT7bjuXRNNLJixLjk/edit?usp=sharing
+[w23-ml-3-notebook]: /lessons/W23-CDSI/ml-3/nn.ipynb
 
 ---
 
