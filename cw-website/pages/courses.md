@@ -4,6 +4,68 @@ title: Courses
 
 ## Current Courses
 
+### Fundamentals of Machine Learning with Python (CDSI) - Summer 2023
+
+This course is taught in an intensive one-week summer school format with 4 hours of instruction per
+day, split into a morning and an afternoon session. This instalment of Computing Workshop is
+presented in collaboration with [McGill's CDSI][cdsi].
+
+* [Syllabus][s23-ml-syllabus]
+
+* Lesson 0:
+    Welcome! ML pipeline overview, appropriateness of ML, k-nearest neighbours
+    ([slides][s23-ml-0-slides])
+    ([KNN worksheet][s23-ml-0-knn-worksheet])
+    ([KNN Jupyter Notebook][s23-ml-0-knn-notebook])
+
+* Lesson 1:
+    Data cleaning and decision trees
+    ([slides][s23-ml-1-slides])
+    ([sample dataset][s23-ml-1-sample-dataset],
+    courtesy of [Obviously AI][obvs-ai])
+    ([data exploration notebook][s23-ml-1-data-notebook])
+    ([decision tree notebook][s23-ml-1-dt-notebook])
+
+* Lesson 2:
+    Unsupervised learning and model validation
+    ([slides][s23-ml-2-slides])
+    ([clustering worksheet][s23-ml-2-clustering])
+    ([lab resources](/lab.html))
+    ([DBSCAN notebook][s23-ml-2-dbscan])
+
+* Lesson 3:
+    Neural networks and model training
+    ([slides][s23-ml-3-slides])
+    ([Neural networks notebook][s23-ml-3-notebook])
+
+* Lesson 4:
+    More neural networks, stupid AI, reflections for the future
+    ([slides][s23-ml-4-slides])
+
+[s23-ml-syllabus]: https://docs.google.com/document/d/13bw4T-ZZpUOAg1_hVyCh7j0XfLxv4AE8TkSpeYby8JI
+
+[s23-ml-0-slides]: https://docs.google.com/presentation/d/1Gdy9yjZ6p7IFjNfyKnRY4gvxi5RgAYOSgXv3E8R-TwI
+[s23-ml-0-knn-worksheet]: /lessons/W19/ml-1/knn-ws/writeup.pdf
+[s23-ml-0-knn-notebook]: /lessons/S23-CDSI/ml-0/knn.ipynb
+
+[s23-ml-1-slides]: https://docs.google.com/presentation/d/1pZPejW2Ud4nPPK4kiieqy4-Qte8xjlS2YTQrksxGX8s
+[s23-ml-1-data-notebook]: /lessons/S23-CDSI/ml-1/data-exploration.ipynb
+[s23-ml-1-dt-notebook]: /lessons/S23-CDSI/ml-1/dt-student.ipynb
+[s23-ml-1-sample-dataset]: https://drive.google.com/file/d/1hQbtKp4yohNfW0elt6JnWsQ2QxuWA60t/view
+
+[s23-ml-2-slides]: https://docs.google.com/presentation/d/1KDO_kvz4zeQi47e_b0Z-mtDJjOs63z3N506-_8M32pQ
+[s23-ml-2-clustering]: /lessons/W19/ml-5/k-means-ws/writeup.pdf
+[s23-ml-2-dbscan]: /lessons/S23-CDSI/ml-2/dbscan.ipynb
+
+[s23-ml-3-slides]: https://docs.google.com/presentation/d/1AlCDZ5rTUVF5YKUOGvxJuGVMitWOCNXkurgKU3I9Ei0
+[s23-ml-3-notebook]: /lessons/S23-CDSI/ml-3/nn.ipynb
+
+[s23-ml-4-slides]: https://docs.google.com/presentation/d/1wfD7VVrWRGrfqBVgI0RVHCf45VfIT-_Bcw7SCahaKxc
+
+---
+
+## Past Courses
+
 ### Fundamentals of Machine Learning with Python (CDSI) - Winter 2023
 
 This course is taught in a weekly format with 2 hours of instruction per session, in collaboration
@@ -43,19 +105,6 @@ with [McGill's CDSI][cdsi].
 [w23-ml-2-slides]: https://docs.google.com/presentation/d/1gR_CY2ccn723Zk7J9FNfCwGWqxNgM4-feejxc_gLV8Q/edit?usp=sharing
 [w23-ml-3-slides]: https://docs.google.com/presentation/d/1T13lEf1HaLg761IZD83ZwETgjZKT7bjuXRNNLJixLjk/edit?usp=sharing
 [w23-ml-3-notebook]: /lessons/W23-CDSI/ml-3/nn.ipynb
-
----
-
-## Upcoming courses
-
-### Fundamentals of Machine Learning with Python (CDSI) - Summer 2023
-
-Computing Workshop is planning to return to McGill thanks to CDSI this summer for an intensive
-series on ML in Python.
-
----
-
-## Past Courses
 
 ### Intro Python (CDSI) - Summer 2022
 
