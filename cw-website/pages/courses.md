@@ -10,37 +10,38 @@ This course is taught in an intensive one-week summer school format with 4 hours
 day, split into a morning and an afternoon session. This instalment of Computing Workshop is
 presented in collaboration with [McGill's CDSI][cdsi].
 
+* Lesson 0:
+    Welcome! ML pipeline overview, appropriateness of ML, Python refresher
+    ([slides][s23-ml-0-slides])
+
+<div style="display: none">
 * [Syllabus][s23-ml-syllabus]
 
-* Lesson 0:
-    Welcome! ML pipeline overview, appropriateness of ML, k-nearest neighbours
-    ([slides][s23-ml-0-slides])
+* Lesson 1:
+    Data acquisition and k-nearest neighbours
+    ([slides][s23-ml-1-slides])
     ([KNN worksheet][s23-ml-0-knn-worksheet])
     ([KNN Jupyter Notebook][s23-ml-0-knn-notebook])
 
-* Lesson 1:
+* Lesson 2:
     Data cleaning and decision trees
-    ([slides][s23-ml-1-slides])
     ([sample dataset][s23-ml-1-sample-dataset],
     courtesy of [Obviously AI][obvs-ai])
     ([data exploration notebook][s23-ml-1-data-notebook])
     ([decision tree notebook][s23-ml-1-dt-notebook])
 
-* Lesson 2:
+* Lesson 3:
     Unsupervised learning and model validation
     ([slides][s23-ml-2-slides])
     ([clustering worksheet][s23-ml-2-clustering])
     ([lab resources](/lab.html))
     ([DBSCAN notebook][s23-ml-2-dbscan])
 
-* Lesson 3:
-    Neural networks and model training
+* Lesson 4:
+    Neural networks and model training, reflecting on AI
     ([slides][s23-ml-3-slides])
     ([Neural networks notebook][s23-ml-3-notebook])
-
-* Lesson 4:
-    More neural networks, stupid AI, reflections for the future
-    ([slides][s23-ml-4-slides])
+</div>
 
 [s23-ml-syllabus]: https://docs.google.com/document/d/13bw4T-ZZpUOAg1_hVyCh7j0XfLxv4AE8TkSpeYby8JI
 
