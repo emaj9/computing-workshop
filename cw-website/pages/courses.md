@@ -14,15 +14,14 @@ presented in collaboration with [McGill's CDSI][cdsi].
     Welcome! ML pipeline overview, appropriateness of ML, Python refresher
     ([slides][s23-ml-0-slides])
 
-<div style="display: none">
-* [Syllabus][s23-ml-syllabus]
-
 * Lesson 1:
     Data acquisition and k-nearest neighbours
     ([slides][s23-ml-1-slides])
     ([KNN worksheet][s23-ml-0-knn-worksheet])
     ([KNN Jupyter Notebook][s23-ml-0-knn-notebook])
 
+<div style="display: none">
+* [Syllabus][s23-ml-syllabus]
 * Lesson 2:
     Data cleaning and decision trees
     ([sample dataset][s23-ml-1-sample-dataset],
