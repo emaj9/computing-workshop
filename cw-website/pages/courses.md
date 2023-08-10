@@ -20,8 +20,6 @@ presented in collaboration with [McGill's CDSI][cdsi].
     ([KNN worksheet][s23-ml-0-knn-worksheet])
     ([KNN Jupyter Notebook][s23-ml-0-knn-notebook])
 
-<div style="display: none">
-* [Syllabus][s23-ml-syllabus]
 * Lesson 2:
     Data cleaning and decision trees
     ([sample dataset][s23-ml-1-sample-dataset],
@@ -29,6 +27,7 @@ presented in collaboration with [McGill's CDSI][cdsi].
     ([data exploration notebook][s23-ml-1-data-notebook])
     ([decision tree notebook][s23-ml-1-dt-notebook])
 
+<div style="display: none">
 * Lesson 3:
     Unsupervised learning and model validation
     ([slides][s23-ml-2-slides])
@@ -40,6 +39,8 @@ presented in collaboration with [McGill's CDSI][cdsi].
     Neural networks and model training, reflecting on AI
     ([slides][s23-ml-3-slides])
     ([Neural networks notebook][s23-ml-3-notebook])
+
+* [Syllabus][s23-ml-syllabus]
 </div>
 
 [s23-ml-syllabus]: https://docs.google.com/document/d/13bw4T-ZZpUOAg1_hVyCh7j0XfLxv4AE8TkSpeYby8JI
