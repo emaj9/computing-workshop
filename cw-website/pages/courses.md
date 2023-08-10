@@ -17,24 +17,25 @@ presented in collaboration with [McGill's CDSI][cdsi].
 * Lesson 1:
     Data acquisition and k-nearest neighbours
     ([slides][s23-ml-1-slides])
-    ([KNN worksheet][s23-ml-0-knn-worksheet])
-    ([KNN Jupyter Notebook][s23-ml-0-knn-notebook])
+    ([KNN worksheet][s23-ml-1-knn-worksheet])
+    ([KNN Jupyter Notebook][s23-ml-1-knn-notebook])
 
 * Lesson 2:
     Data cleaning and decision trees
-    ([sample dataset][s23-ml-1-sample-dataset],
+    ([slides][s23-ml-2-slides])
+    ([sample dataset][s23-ml-2-sample-dataset],
     courtesy of [Obviously AI][obvs-ai])
-    ([data exploration notebook][s23-ml-1-data-notebook])
-    ([decision tree notebook][s23-ml-1-dt-notebook])
+    ([data exploration notebook][s23-ml-2-data-notebook])
+    ([decision tree notebook][s23-ml-2-dt-notebook])
 
-<div style="display: none">
 * Lesson 3:
     Unsupervised learning and model validation
-    ([slides][s23-ml-2-slides])
-    ([clustering worksheet][s23-ml-2-clustering])
+    ([slides][s23-ml-3-slides])
+    ([clustering worksheet][s23-ml-3-clustering])
     ([lab resources](/lab.html))
     ([DBSCAN notebook][s23-ml-2-dbscan])
 
+<div style="display: none">
 * Lesson 4:
     Neural networks and model training, reflecting on AI
     ([slides][s23-ml-3-slides])
@@ -46,22 +47,22 @@ presented in collaboration with [McGill's CDSI][cdsi].
 [s23-ml-syllabus]: https://docs.google.com/document/d/13bw4T-ZZpUOAg1_hVyCh7j0XfLxv4AE8TkSpeYby8JI
 
 [s23-ml-0-slides]: https://docs.google.com/presentation/d/1Gdy9yjZ6p7IFjNfyKnRY4gvxi5RgAYOSgXv3E8R-TwI
-[s23-ml-0-knn-worksheet]: /lessons/W19/ml-1/knn-ws/writeup.pdf
-[s23-ml-0-knn-notebook]: /lessons/S23-CDSI/ml-0/knn.ipynb
 
 [s23-ml-1-slides]: https://docs.google.com/presentation/d/1pZPejW2Ud4nPPK4kiieqy4-Qte8xjlS2YTQrksxGX8s
-[s23-ml-1-data-notebook]: /lessons/S23-CDSI/ml-1/data-exploration.ipynb
-[s23-ml-1-dt-notebook]: /lessons/S23-CDSI/ml-1/dt-student.ipynb
-[s23-ml-1-sample-dataset]: https://drive.google.com/file/d/1hQbtKp4yohNfW0elt6JnWsQ2QxuWA60t/view
+[s23-ml-1-knn-worksheet]: /lessons/W19/ml-1/knn-ws/writeup.pdf
+[s23-ml-1-knn-notebook]: /lessons/S23-CDSI/ml-0/knn.ipynb
 
 [s23-ml-2-slides]: https://docs.google.com/presentation/d/1KDO_kvz4zeQi47e_b0Z-mtDJjOs63z3N506-_8M32pQ
-[s23-ml-2-clustering]: /lessons/W19/ml-5/k-means-ws/writeup.pdf
-[s23-ml-2-dbscan]: /lessons/S23-CDSI/ml-2/dbscan.ipynb
+[s23-ml-2-data-notebook]: /lessons/S23-CDSI/ml-1/data-exploration.ipynb
+[s23-ml-2-dt-notebook]: /lessons/S23-CDSI/ml-1/dt-student.ipynb
+[s23-ml-2-sample-dataset]: https://drive.google.com/file/d/1hQbtKp4yohNfW0elt6JnWsQ2QxuWA60t/view
 
 [s23-ml-3-slides]: https://docs.google.com/presentation/d/1AlCDZ5rTUVF5YKUOGvxJuGVMitWOCNXkurgKU3I9Ei0
-[s23-ml-3-notebook]: /lessons/S23-CDSI/ml-3/nn.ipynb
+[s23-ml-3-dbscan]: /lessons/S23-CDSI/ml-3/dbscan.ipynb
+[s23-ml-3-clustering]: /lessons/W19/ml-5/k-means-ws/writeup.pdf
 
 [s23-ml-4-slides]: https://docs.google.com/presentation/d/1wfD7VVrWRGrfqBVgI0RVHCf45VfIT-_Bcw7SCahaKxc
+[s23-ml-4-notebook]: /lessons/S23-CDSI/ml-4/nn-ipynb
 
 ---
 
