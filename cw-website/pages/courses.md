@@ -33,7 +33,7 @@ presented in collaboration with [McGill's CDSI][cdsi].
     ([slides][s23-ml-3-slides])
     ([clustering worksheet][s23-ml-3-clustering])
     ([lab resources](/lab.html))
-    ([DBSCAN notebook][s23-ml-2-dbscan])
+    ([DBSCAN notebook][s23-ml-3-dbscan])
 
 <div style="display: none">
 * Lesson 4:
