@@ -35,14 +35,11 @@ presented in collaboration with [McGill's CDSI][cdsi].
     ([lab resources](/lab.html))
     ([DBSCAN notebook][s23-ml-3-dbscan])
 
-<div style="display: none">
 * Lesson 4:
     Neural networks and model training, reflecting on AI
-    ([slides][s23-ml-3-slides])
-    ([Neural networks notebook][s23-ml-3-notebook])
+    ([slides][s23-ml-4-slides])
+    ([Neural networks notebook][s23-ml-4-notebook])
 
-* [Syllabus][s23-ml-syllabus]
-</div>
 
 [s23-ml-syllabus]: https://docs.google.com/document/d/13bw4T-ZZpUOAg1_hVyCh7j0XfLxv4AE8TkSpeYby8JI
 
