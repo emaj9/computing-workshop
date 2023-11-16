@@ -4,6 +4,12 @@ title: Courses
 
 ## Current Courses
 
+Computing Workshop is not currrently offering any courses.
+
+---
+
+## Past Courses
+
 ### Fundamentals of Machine Learning with Python (CDSI) - Summer 2023
 
 This course is taught in an intensive one-week summer school format with 4 hours of instruction per
@@ -40,9 +46,6 @@ presented in collaboration with [McGill's CDSI][cdsi].
     ([slides][s23-ml-4-slides])
     ([Neural networks notebook][s23-ml-4-notebook])
 
-
-[s23-ml-syllabus]: https://docs.google.com/document/d/13bw4T-ZZpUOAg1_hVyCh7j0XfLxv4AE8TkSpeYby8JI
-
 [s23-ml-0-slides]: https://docs.google.com/presentation/d/1Gdy9yjZ6p7IFjNfyKnRY4gvxi5RgAYOSgXv3E8R-TwI
 
 [s23-ml-1-slides]: https://docs.google.com/presentation/d/1pZPejW2Ud4nPPK4kiieqy4-Qte8xjlS2YTQrksxGX8s
@@ -60,10 +63,6 @@ presented in collaboration with [McGill's CDSI][cdsi].
 
 [s23-ml-4-slides]: https://docs.google.com/presentation/d/1wfD7VVrWRGrfqBVgI0RVHCf45VfIT-_Bcw7SCahaKxc
 [s23-ml-4-notebook]: /lessons/S23-CDSI/ml-4/nn-ipynb
-
----
-
-## Past Courses
 
 ### Fundamentals of Machine Learning with Python (CDSI) - Winter 2023
 
