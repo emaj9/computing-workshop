@@ -50,7 +50,7 @@ presented in collaboration with [McGill's CDSI][cdsi].
 
 [s23-ml-1-slides]: https://docs.google.com/presentation/d/1pZPejW2Ud4nPPK4kiieqy4-Qte8xjlS2YTQrksxGX8s
 [s23-ml-1-knn-worksheet]: /lessons/W19/ml-1/knn-ws/writeup.pdf
-[s23-ml-1-knn-notebook]: /lessons/S23-CDSI/ml-0/knn.ipynb
+[s23-ml-1-knn-notebook]: /lessons/S23-CDSI/ml-1/knn.ipynb
 
 [s23-ml-2-slides]: https://docs.google.com/presentation/d/1KDO_kvz4zeQi47e_b0Z-mtDJjOs63z3N506-_8M32pQ
 [s23-ml-2-data-notebook]: /lessons/S23-CDSI/ml-1/data-exploration.ipynb
