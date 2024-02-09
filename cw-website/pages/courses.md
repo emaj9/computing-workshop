@@ -4,7 +4,33 @@ title: Courses
 
 ## Current Courses
 
-Computing Workshop is not currrently offering any courses.
+### Fundamentals of Machine Learning with Python (CDSI) - Winter 2024
+
+This course is taught across five two-hour sessions, once weekly.
+
+* 2 February - Lesson 0:
+    Welcome! ML pipeline overview, appropriateness of ML, K-nearest neighbours algorithm
+    - [slides][w24-ml-0-slides]
+    - [KNN Jupyter Notebook][w24-ml-0-knn-notebook]
+    - [KNN intuition visualization][knn-viz]
+
+<!--
+* 9 February - Lesson 1:
+    Data acquisition and decision trees
+    ([slides][w24-ml-1-slides])
+* 16 February - Lesson 2:
+    Unsupervised learning and model validation
+    ([slides][w24-ml-2-slides])
+* 23 February - Lesson 3:
+    Neural networks, data leakage, the train/test split
+    ([slides][w24-ml-3-slides])
+* 1 March - Lesson 4:
+    Neural networks part 2 and AI ethics
+    ([slides][w24-ml-4-slides])
+    -->
+
+[w24-ml-0-slides]: https://docs.google.com/presentation/d/1_YBxMpK5qZtCZFND7G55yP6unelgpL0FyfBX8PlwfJQ/edit?usp=sharing
+[w24-ml-0-knn-notebook]: /lessons/W24-CDSI/ml-0/knn.ipynb
 
 ---
 
@@ -244,3 +270,4 @@ with [McGill's Building21][b21].
 [cdsi]: https://mcgill.ca/cdsi
 [b21]: https://building21.ca/
 [obvs-ai]: https://www.obviously.ai/post/data-cleaning-in-machine-learning
+[knn-viz]: http://vision.stanford.edu/teaching/cs231n-demos/knn/
