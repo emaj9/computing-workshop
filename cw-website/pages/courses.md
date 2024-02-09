@@ -13,11 +13,14 @@ This course is taught across five two-hour sessions, once weekly.
     - [slides][w24-ml-0-slides]
     - [KNN Jupyter Notebook][w24-ml-0-knn-notebook]
     - [KNN intuition visualization][knn-viz]
-
-<!--
 * 9 February - Lesson 1:
     Data acquisition and decision trees
-    ([slides][w24-ml-1-slides])
+    - [slides][w24-ml-1-slides]
+    - [sample dataset][obvs-ai-sample-dataset], courtesy of [Obviously AI][obvs-ai]
+    - [data exploration notebook][w24-ml-1-data-notebook]
+    - [decision tree notebook][w24-ml-1-dt-notebook]
+
+<!--
 * 16 February - Lesson 2:
     Unsupervised learning and model validation
     ([slides][w24-ml-2-slides])
@@ -31,6 +34,9 @@ This course is taught across five two-hour sessions, once weekly.
 
 [w24-ml-0-slides]: https://docs.google.com/presentation/d/1_YBxMpK5qZtCZFND7G55yP6unelgpL0FyfBX8PlwfJQ/edit?usp=sharing
 [w24-ml-0-knn-notebook]: /lessons/W24-CDSI/ml-0/knn.ipynb
+[w24-ml-1-slides]: https://docs.google.com/presentation/d/1UgCkfCaIp2rgXII2ZQ1UPP7lF2z14lBmgU5X1gXyxVA/edit?usp=sharing
+[w24-ml-1-data-notebook]: /lessons/W24-CDSI/ml-1/data-exploration.ipynb
+[w24-ml-1-dt-notebook]: /lessons/W24-CDSI/ml-1/dt-student.ipynb
 
 ---
 
@@ -55,7 +61,7 @@ presented in collaboration with [McGill's CDSI][cdsi].
 * Lesson 2:
     Data cleaning and decision trees
     ([slides][s23-ml-2-slides])
-    ([sample dataset][s23-ml-2-sample-dataset],
+    ([sample dataset][obvs-ai-sample-dataset],
     courtesy of [Obviously AI][obvs-ai])
     ([data exploration notebook][s23-ml-2-data-notebook])
     ([decision tree notebook][s23-ml-2-dt-notebook])
@@ -81,7 +87,6 @@ presented in collaboration with [McGill's CDSI][cdsi].
 [s23-ml-2-slides]: https://docs.google.com/presentation/d/1KDO_kvz4zeQi47e_b0Z-mtDJjOs63z3N506-_8M32pQ
 [s23-ml-2-data-notebook]: /lessons/S23-CDSI/ml-1/data-exploration.ipynb
 [s23-ml-2-dt-notebook]: /lessons/S23-CDSI/ml-1/dt-student.ipynb
-[s23-ml-2-sample-dataset]: https://drive.google.com/file/d/1hQbtKp4yohNfW0elt6JnWsQ2QxuWA60t/view
 
 [s23-ml-3-slides]: https://docs.google.com/presentation/d/1AlCDZ5rTUVF5YKUOGvxJuGVMitWOCNXkurgKU3I9Ei0
 [s23-ml-3-dbscan]: /lessons/S23-CDSI/ml-3/dbscan.ipynb
@@ -270,4 +275,5 @@ with [McGill's Building21][b21].
 [cdsi]: https://mcgill.ca/cdsi
 [b21]: https://building21.ca/
 [obvs-ai]: https://www.obviously.ai/post/data-cleaning-in-machine-learning
+[obvs-ai-sample-dataset]: https://drive.google.com/file/d/1hQbtKp4yohNfW0elt6JnWsQ2QxuWA60t/view
 [knn-viz]: http://vision.stanford.edu/teaching/cs231n-demos/knn/
