@@ -19,11 +19,14 @@ This course is taught across five two-hour sessions, once weekly.
     - [sample dataset][obvs-ai-sample-dataset], courtesy of [Obviously AI][obvs-ai]
     - [data exploration notebook][w24-ml-1-data-notebook]
     - [decision tree notebook][w24-ml-1-dt-notebook]
-
-<!--
 * 16 February - Lesson 2:
     Unsupervised learning and model validation
-    ([slides][w24-ml-2-slides])
+    - [slides][w24-ml-2-slides]
+    - [clustering worksheet][w24-ml-2-clustering]
+    - [lab resources](/lab.html)
+    - [DBSCAN notebook][w24-ml-2-dbscan]
+
+<!--
 * 23 February - Lesson 3:
     Neural networks, data leakage, the train/test split
     ([slides][w24-ml-3-slides])
@@ -34,9 +37,15 @@ This course is taught across five two-hour sessions, once weekly.
 
 [w24-ml-0-slides]: https://docs.google.com/presentation/d/1_YBxMpK5qZtCZFND7G55yP6unelgpL0FyfBX8PlwfJQ/edit?usp=sharing
 [w24-ml-0-knn-notebook]: /lessons/W24-CDSI/ml-0/knn.ipynb
+
 [w24-ml-1-slides]: https://docs.google.com/presentation/d/1UgCkfCaIp2rgXII2ZQ1UPP7lF2z14lBmgU5X1gXyxVA/edit?usp=sharing
 [w24-ml-1-data-notebook]: /lessons/W24-CDSI/ml-1/data-exploration.ipynb
 [w24-ml-1-dt-notebook]: /lessons/W24-CDSI/ml-1/dt-student.ipynb
+
+[w24-ml-2-slides]: https://docs.google.com/presentation/d/1y_cdKGr153VTM133a6vNB0wqKLH7-GGd6NDdIJn4-VA/edit?usp=sharing
+[w24-ml-2-dbscan]: /lessons/W24-CDSI/ml-2/dbscan.ipynb
+[w24-ml-2-clustering]: /lessons/W24-CDSI/ml-2/kmeans.pdf
+
 
 ---
 
