@@ -25,11 +25,12 @@ This course is taught across five two-hour sessions, once weekly.
     - [clustering worksheet][w24-ml-2-clustering]
     - [lab resources](/lab.html)
     - [DBSCAN notebook][w24-ml-2-dbscan]
-
-<!--
 * 23 February - Lesson 3:
     Neural networks, data leakage, the train/test split
-    ([slides][w24-ml-3-slides])
+    - [slides][w24-ml-3-slides]
+    - [Neural networks notebook][w24-ml-3-notebook]
+
+<!--
 * 1 March - Lesson 4:
     Neural networks part 2 and AI ethics
     ([slides][w24-ml-4-slides])
@@ -46,6 +47,8 @@ This course is taught across five two-hour sessions, once weekly.
 [w24-ml-2-dbscan]: /lessons/W24-CDSI/ml-2/dbscan.ipynb
 [w24-ml-2-clustering]: /lessons/W24-CDSI/ml-2/kmeans.pdf
 
+[w24-ml-3-slides]: https://docs.google.com/presentation/d/1XnF8Xnmdk68mSB3wfpl3Tp9TNey8OY0LcOtEK9PBfdA/edit?usp=sharing
+[w24-ml-3-notebook]: /lessons/W24-CDSI/ml-3/nn.ipynb
 
 ---
 
