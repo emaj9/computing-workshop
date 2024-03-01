@@ -29,12 +29,10 @@ This course is taught across five two-hour sessions, once weekly.
     Neural networks, data leakage, the train/test split
     - [slides][w24-ml-3-slides]
     - [Neural networks notebook][w24-ml-3-notebook]
-
-<!--
 * 1 March - Lesson 4:
     Neural networks part 2 and AI ethics
-    ([slides][w24-ml-4-slides])
-    -->
+    - [slides][w24-ml-4-slides]
+    - [pca for facial recognition notebook][w24-ml-4-knn-pca-faces]
 
 [w24-ml-0-slides]: https://docs.google.com/presentation/d/1_YBxMpK5qZtCZFND7G55yP6unelgpL0FyfBX8PlwfJQ/edit?usp=sharing
 [w24-ml-0-knn-notebook]: /lessons/W24-CDSI/ml-0/knn.ipynb
@@ -49,6 +47,9 @@ This course is taught across five two-hour sessions, once weekly.
 
 [w24-ml-3-slides]: https://docs.google.com/presentation/d/1XnF8Xnmdk68mSB3wfpl3Tp9TNey8OY0LcOtEK9PBfdA/edit?usp=sharing
 [w24-ml-3-notebook]: /lessons/W24-CDSI/ml-3/nn.ipynb
+
+[w24-ml-4-slides]: https://docs.google.com/presentation/d/1cdDnPtY9gjHmrCK9OjGNu26pvNouF37JJSorTh9jj8U/edit?usp=sharing
+[w24-ml-4-knn-pca-faces]: /lessons/W24-CDSI/ml-4/knn-pca.ipynb
 
 ---
 
