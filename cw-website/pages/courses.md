@@ -4,6 +4,66 @@ title: Courses
 
 ## Current Courses
 
+### Intensive Intro to Machine Learning with Python (CDSI) - Summer 2024
+
+This course is taught as a one-week intensive summer workshop, Monday 12 August to Friday 16
+August. Mornings (9:30 to noon) are more theoretical, mixing lecture with small group activities,
+and including a short break.
+Lunch takes place from noon to 1pm.
+Afternoons from 1 to 3:30pm are practical, hands-on coding labs.
+We recap and conclude each day around 3:30pm.
+
+* Monday, 12 August - Lesson 0:
+    Landscape of artificial intelligence and machine learning. Appropriateness of ML. K-nearest
+    neighbours algorithm.
+    - [slides][s24-ml-0-slides]
+    - [KNN Jupyter Notebook][s24-ml-0-knn-notebook]
+    - [KNN intuition visualization][knn-viz]
+
+<!--
+* Tuesday, 13 August - Lesson 1:
+    Data acquisition and decision trees
+    - [slides][w24-ml-1-slides]
+    - [sample dataset][obvs-ai-sample-dataset], courtesy of [Obviously AI][obvs-ai]
+    - [data exploration notebook][w24-ml-1-data-notebook]
+    - [decision tree notebook][w24-ml-1-dt-notebook]
+* Wednesday, 14 August - Lesson 2:
+    Unsupervised learning and model validation
+    - [slides][w24-ml-2-slides]
+    - [clustering worksheet][w24-ml-2-clustering]
+    - [lab resources](/lab.html)
+    - [DBSCAN notebook][w24-ml-2-dbscan]
+* Thursday, 15 August - Lesson 3:
+    Neural networks, data leakage, the train/test split
+    - [slides][w24-ml-3-slides]
+    - [Neural networks notebook][w24-ml-3-notebook]
+* Friday, 16 August - Lesson 4:
+    Neural networks part 2 and AI ethics
+    - [slides][w24-ml-4-slides]
+    - [pca for facial recognition notebook][w24-ml-4-knn-pca-faces]
+-->
+
+[s24-ml-0-knn-notebook]: /lessons/S24-CDSI/ml-0/knn.ipynb
+[s24-ml-0-slides]: https://docs.google.com/presentation/d/1HPX_dDdq_tMKsSaqjmvoTqh4r4DxmODASyIzSlKiaOU/edit?usp=drive_link
+
+[s24-ml-1-slides]: https://docs.google.com/presentation/d/1FJwdCfXMwtBRp-3P6YnMg2X5WXXWYmLhU_-b8199FDg/edit?usp=drive_link
+[s24-ml-1-data-notebook]: /lessons/S24-CDSI/ml-1/data-exploration.ipynb
+[s24-ml-1-dt-notebook]: /lessons/S24-CDSI/ml-1/dt-student.ipynb
+
+[s24-ml-2-slides]: https://docs.google.com/presentation/d/1XX91RAjzDHdGk5pNOl_8sxc7d1JE0CnjBUDAfIfCX1Q/edit?usp=drive_link
+[s24-ml-2-dbscan]: /lessons/S24-CDSI/ml-2/dbscan.ipynb
+[s24-ml-2-clustering]: /lessons/S24-CDSI/ml-2/kmeans.pdf
+
+[s24-ml-3-slides]: https://docs.google.com/presentation/d/1t-wC-AFdgYO_NQkr7kXyuUfc3eLTXe8WoRTndhL0azQ/edit?usp=drive_link
+[s24-ml-3-notebook]: /lessons/S24-CDSI/ml-3/nn.ipynb
+
+[s24-ml-4-slides]: https://docs.google.com/presentation/d/1toeio1vDHTO1nNIwsRYEBZIKBC7pqt1l8YxwxzgeErY/edit?usp=drive_link
+[s24-ml-4-knn-pca-faces]: /lessons/S24-CDSI/ml-4/knn-pca.ipynb
+
+---
+
+## Past Courses
+
 ### Fundamentals of Machine Learning with Python (CDSI) - Winter 2024
 
 This course is taught across five two-hour sessions, once weekly.
@@ -50,10 +110,6 @@ This course is taught across five two-hour sessions, once weekly.
 
 [w24-ml-4-slides]: https://docs.google.com/presentation/d/1cdDnPtY9gjHmrCK9OjGNu26pvNouF37JJSorTh9jj8U/edit?usp=sharing
 [w24-ml-4-knn-pca-faces]: /lessons/W24-CDSI/ml-4/knn-pca.ipynb
-
----
-
-## Past Courses
 
 ### Fundamentals of Machine Learning with Python (CDSI) - Summer 2023
 
