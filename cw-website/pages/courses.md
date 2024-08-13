@@ -20,13 +20,14 @@ We recap and conclude each day around 3:30pm.
     - [KNN Jupyter Notebook][s24-ml-0-knn-notebook]
     - [KNN intuition visualization][knn-viz]
 
-<!--
 * Tuesday, 13 August - Lesson 1:
     Data acquisition and decision trees
-    - [slides][w24-ml-1-slides]
+    - [slides][s24-ml-1-slides]
     - [sample dataset][obvs-ai-sample-dataset], courtesy of [Obviously AI][obvs-ai]
-    - [data exploration notebook][w24-ml-1-data-notebook]
-    - [decision tree notebook][w24-ml-1-dt-notebook]
+    - [data exploration notebook][s24-ml-1-data-notebook]
+    - [decision tree notebook][s24-ml-1-dt-notebook]
+
+<!--
 * Wednesday, 14 August - Lesson 2:
     Unsupervised learning and model validation
     - [slides][w24-ml-2-slides]
