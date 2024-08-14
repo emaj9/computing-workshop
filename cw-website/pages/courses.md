@@ -10,30 +10,33 @@ This course is taught as a one-week intensive summer workshop, Monday 12 August 
 August. Mornings (9:30 to noon) are more theoretical, mixing lecture with small group activities,
 and including a short break.
 Lunch takes place from noon to 1pm.
-Afternoons from 1 to 3:30pm are practical, hands-on coding labs.
-We recap and conclude each day around 3:30pm.
+Afternoons (from 1 to 3:30pm) tend towards more practical, hands-on coding labs.
+We recap each day around 3:30pm and conclude between 3:30 and 4pm.
 
-* Monday, 12 August - Lesson 0:
+* Monday, 12 August - Day 1:
     Landscape of artificial intelligence and machine learning. Appropriateness of ML. K-nearest
     neighbours algorithm.
     - [slides][s24-ml-0-slides]
     - [KNN Jupyter Notebook][s24-ml-0-knn-notebook]
     - [KNN intuition visualization][knn-viz]
 
-* Tuesday, 13 August - Lesson 1:
+* Tuesday, 13 August - Day 2:
     Data acquisition and decision trees
     - [slides][s24-ml-1-slides]
     - [sample dataset][obvs-ai-sample-dataset], courtesy of [Obviously AI][obvs-ai]
     - [data exploration notebook][s24-ml-1-data-notebook]
+      **and** [solution][s24-ml-1-data-notebook-annotated]
     - [decision tree notebook][s24-ml-1-dt-notebook]
 
-<!--
-* Wednesday, 14 August - Lesson 2:
+* Wednesday, 14 August - Day 3:
     Unsupervised learning and model validation
-    - [slides][w24-ml-2-slides]
-    - [clustering worksheet][w24-ml-2-clustering]
+    - [slides][s24-ml-2-slides]
+    - [clustering worksheet][s24-ml-2-clustering]
     - [lab resources](/lab.html)
-    - [DBSCAN notebook][w24-ml-2-dbscan]
+    - [DBSCAN notebook][s24-ml-2-dbscan]
+    - [colors visualization notebook][s24-ml-2-colors-viz]
+
+<!--
 * Thursday, 15 August - Lesson 3:
     Neural networks, data leakage, the train/test split
     - [slides][w24-ml-3-slides]
@@ -49,11 +52,13 @@ We recap and conclude each day around 3:30pm.
 
 [s24-ml-1-slides]: https://docs.google.com/presentation/d/1FJwdCfXMwtBRp-3P6YnMg2X5WXXWYmLhU_-b8199FDg/edit?usp=drive_link
 [s24-ml-1-data-notebook]: /lessons/S24-CDSI/ml-1/data-exploration.ipynb
+[s24-ml-1-data-notebook-annotated]: /lessons/S24-CDSI/ml-1/data-exploration-annotated.ipynb
 [s24-ml-1-dt-notebook]: /lessons/S24-CDSI/ml-1/dt-student.ipynb
 
 [s24-ml-2-slides]: https://docs.google.com/presentation/d/1XX91RAjzDHdGk5pNOl_8sxc7d1JE0CnjBUDAfIfCX1Q/edit?usp=drive_link
 [s24-ml-2-dbscan]: /lessons/S24-CDSI/ml-2/dbscan.ipynb
 [s24-ml-2-clustering]: /lessons/S24-CDSI/ml-2/kmeans.pdf
+[s24-ml-2-colors-viz]: /lessons/S24-CDSI/ml-2/colors-visualization-clustering.ipynb
 
 [s24-ml-3-slides]: https://docs.google.com/presentation/d/1t-wC-AFdgYO_NQkr7kXyuUfc3eLTXe8WoRTndhL0azQ/edit?usp=drive_link
 [s24-ml-3-notebook]: /lessons/S24-CDSI/ml-3/nn.ipynb
