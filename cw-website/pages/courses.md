@@ -35,6 +35,9 @@ We recap each day around 3:30pm and conclude between 3:30 and 4pm.
     - [lab resources](/lab.html)
     - [DBSCAN notebook][s24-ml-2-dbscan]
     - [colors visualization notebook][s24-ml-2-colors-viz]
+    - [DBSCAN notebook (annotated)][s24-ml-2-dbscan-annotated]
+    - [colors visualization notebook (annotated)][s24-ml-2-colors-viz-annotated]
+
 
 * Thursday, 15 August - Lesson 3:
     Neural networks part 1
@@ -60,6 +63,8 @@ We recap each day around 3:30pm and conclude between 3:30 and 4pm.
 [s24-ml-2-dbscan]: /lessons/S24-CDSI/ml-2/dbscan.ipynb
 [s24-ml-2-clustering]: /lessons/S24-CDSI/ml-2/kmeans.pdf
 [s24-ml-2-colors-viz]: /lessons/S24-CDSI/ml-2/colors-visualization-clustering.ipynb
+[s24-ml-2-dbscan-annotated]: /lessons/S24-CDSI/ml-2/dbscan-annotated.ipynb
+[s24-ml-2-colors-viz-annotated]: /lessons/S24-CDSI/ml-2/colors-viz-annotated.ipynb
 
 [s24-ml-3-slides]: https://docs.google.com/presentation/d/1t-wC-AFdgYO_NQkr7kXyuUfc3eLTXe8WoRTndhL0azQ/edit?usp=drive_link
 [s24-ml-3-notebook]: /lessons/S24-CDSI/ml-3/nn.ipynb
