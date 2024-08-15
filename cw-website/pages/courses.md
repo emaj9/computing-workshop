@@ -33,6 +33,7 @@ We recap each day around 3:30pm and conclude between 3:30 and 4pm.
     - [slides][s24-ml-2-slides]
     - [clustering worksheet][s24-ml-2-clustering]
     - [lab resources](/lab.html)
+    - [colors cleaning notebook (annotated)][s24-ml-2-colors-cleaning-annotated]
     - [DBSCAN notebook][s24-ml-2-dbscan]
     - [colors visualization notebook][s24-ml-2-colors-viz]
     - [DBSCAN notebook (annotated)][s24-ml-2-dbscan-annotated]
@@ -65,6 +66,7 @@ We recap each day around 3:30pm and conclude between 3:30 and 4pm.
 [s24-ml-2-colors-viz]: /lessons/S24-CDSI/ml-2/colors-visualization-clustering.ipynb
 [s24-ml-2-dbscan-annotated]: /lessons/S24-CDSI/ml-2/dbscan-annotated.ipynb
 [s24-ml-2-colors-viz-annotated]: /lessons/S24-CDSI/ml-2/colors-viz-annotated.ipynb
+[s24-ml-2-colors-cleaning-annotated]: /lessons/S24-CDSI/ml-2/colours-annotated.ipynb
 
 [s24-ml-3-slides]: https://docs.google.com/presentation/d/1t-wC-AFdgYO_NQkr7kXyuUfc3eLTXe8WoRTndhL0azQ/edit?usp=drive_link
 [s24-ml-3-notebook]: /lessons/S24-CDSI/ml-3/nn.ipynb
