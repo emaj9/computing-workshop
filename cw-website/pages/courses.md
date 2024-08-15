@@ -29,18 +29,19 @@ We recap each day around 3:30pm and conclude between 3:30 and 4pm.
     - [decision tree notebook][s24-ml-1-dt-notebook]
 
 * Wednesday, 14 August - Day 3:
-    Unsupervised learning and model validation
+    Unsupervised learning and model validation, data leakage
     - [slides][s24-ml-2-slides]
     - [clustering worksheet][s24-ml-2-clustering]
     - [lab resources](/lab.html)
     - [DBSCAN notebook][s24-ml-2-dbscan]
     - [colors visualization notebook][s24-ml-2-colors-viz]
 
-<!--
 * Thursday, 15 August - Lesson 3:
-    Neural networks, data leakage, the train/test split
-    - [slides][w24-ml-3-slides]
-    - [Neural networks notebook][w24-ml-3-notebook]
+    Neural networks part 1
+    - [slides][s24-ml-3-slides]
+    - [Neural networks notebook][s24-ml-3-notebook]
+
+<!--
 * Friday, 16 August - Lesson 4:
     Neural networks part 2 and AI ethics
     - [slides][w24-ml-4-slides]
