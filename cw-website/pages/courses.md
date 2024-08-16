@@ -45,12 +45,10 @@ We recap each day around 3:30pm and conclude between 3:30 and 4pm.
     - [slides][s24-ml-3-slides]
     - [Neural networks notebook][s24-ml-3-notebook]
 
-<!--
 * Friday, 16 August - Lesson 4:
     Neural networks part 2 and AI ethics
-    - [slides][w24-ml-4-slides]
-    - [pca for facial recognition notebook][w24-ml-4-knn-pca-faces]
--->
+    - [slides][s24-ml-4-slides]
+    - [pca for facial recognition notebook][s24-ml-4-knn-pca-faces]
 
 [s24-ml-0-knn-notebook]: /lessons/S24-CDSI/ml-0/knn.ipynb
 [s24-ml-0-slides]: https://docs.google.com/presentation/d/1HPX_dDdq_tMKsSaqjmvoTqh4r4DxmODASyIzSlKiaOU/edit?usp=drive_link
