@@ -2,7 +2,30 @@
 title: Courses
 ---
 
-## Current Courses
+Computing Workshop is currently taught in collaboration with [McGill's
+CDSI](https://mcgill.ca/cdsi), so watch their [training page](https://www.mcgill.ca/cdsi/training)
+for upcoming summer camps and workshops!
+
+## Current Course
+
+### Intro to Machine Learning with Python (CDSI) - Fall 2024
+
+This course is taught as a series of five, two-hour workshops, every two weeks, beginning on 3
+October 2024. The class times follow the McGill convention, beginning at 10:05 and ending at 11:55.
+
+* Thursday, 3 October 2024 - Day 1:
+    Landscape of artificial intelligence and machine learning. Appropriateness of ML. K-nearest
+    neighbours algorithm.
+    - [slides][f24-ml-1-slides]
+    - [KNN Jupyter Notebook][f24-ml-1-knn-notebook]
+    - [KNN intuition visualization][knn-viz]
+
+[f24-ml-1-knn-notebook]: /lessons/F24/ml-1/knn.ipynb
+[f24-ml-1-slides]: https://docs.google.com/presentation/d/1GYcDmSJ6RLc0_BFtfUJoNZ7181qg2211m1nVplJyi38/edit?usp=sharing
+
+---
+
+## Past Courses
 
 ### Intensive Intro to Machine Learning with Python (CDSI) - Summer 2024
 
@@ -71,10 +94,6 @@ We recap each day around 3:30pm and conclude between 3:30 and 4pm.
 
 [s24-ml-4-slides]: https://docs.google.com/presentation/d/1toeio1vDHTO1nNIwsRYEBZIKBC7pqt1l8YxwxzgeErY/edit?usp=drive_link
 [s24-ml-4-knn-pca-faces]: /lessons/S24-CDSI/ml-4/knn-pca.ipynb
-
----
-
-## Past Courses
 
 ### Fundamentals of Machine Learning with Python (CDSI) - Winter 2024
 
