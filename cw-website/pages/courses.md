@@ -20,8 +20,21 @@ October 2024. The class times follow the McGill convention, beginning at 10:05 a
     - [KNN Jupyter Notebook][f24-ml-1-knn-notebook]
     - [KNN intuition visualization][knn-viz]
 
+* Thursday, 17 October 2024 - Day 2:
+    Data acquisition and decision trees
+    - [slides][f24-ml-2-slides]
+    - [sample dataset][obvs-ai-sample-dataset], courtesy of [Obviously AI][obvs-ai]
+    - [data exploration notebook][f24-ml-2-data-notebook]
+      <!-- **and** [solution][f24-ml-1-data-notebook-annotated] -->
+    - [decision tree notebook][f24-ml-2-dt-notebook]
+
 [f24-ml-1-knn-notebook]: /lessons/F24/ml-1/knn.ipynb
 [f24-ml-1-slides]: https://docs.google.com/presentation/d/1GYcDmSJ6RLc0_BFtfUJoNZ7181qg2211m1nVplJyi38/edit?usp=sharing
+
+[f24-ml-2-slides]: https://docs.google.com/presentation/d/1io0Yk06toXiaKWOAr2GUGZimjUqgy-aborurLjFh-PM/edit?usp=sharing
+[f24-ml-2-data-notebook]: /lessons/F24/ml-2/data-exploration.ipynb
+[f24-ml-2-data-notebook-annotated]: /lessons/F24/ml-2/data-exploration-annotated.ipynb
+[f24-ml-2-dt-notebook]: /lessons/F24/ml-2/dt-student.ipynb
 
 ---
 
