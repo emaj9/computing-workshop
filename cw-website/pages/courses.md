@@ -25,8 +25,16 @@ October 2024. The class times follow the McGill convention, beginning at 10:05 a
     - [slides][f24-ml-2-slides]
     - [sample dataset][obvs-ai-sample-dataset], courtesy of [Obviously AI][obvs-ai]
     - [data exploration notebook][f24-ml-2-data-notebook]
-      <!-- **and** [solution][f24-ml-1-data-notebook-annotated] -->
+      **and** [solution][f24-ml-1-data-notebook-annotated]
     - [decision tree notebook][f24-ml-2-dt-notebook]
+
+* Wednesday, 14 August - Day 3:
+    Unsupervised learning and model validation, data leakage
+    - [slides][f24-ml-3-slides]
+    - [clustering worksheet][f24-ml-3-clustering]
+    - [lab resources](/lab.html)
+    - [DBSCAN notebook][f24-ml-3-dbscan]
+    <!-- - [DBSCAN notebook (annotated)][f24-ml-3-dbscan-annotated] -->
 
 [f24-ml-1-knn-notebook]: /lessons/F24/ml-1/knn.ipynb
 [f24-ml-1-slides]: https://docs.google.com/presentation/d/1GYcDmSJ6RLc0_BFtfUJoNZ7181qg2211m1nVplJyi38/edit?usp=sharing
@@ -35,6 +43,12 @@ October 2024. The class times follow the McGill convention, beginning at 10:05 a
 [f24-ml-2-data-notebook]: /lessons/F24/ml-2/data-exploration.ipynb
 [f24-ml-2-data-notebook-annotated]: /lessons/F24/ml-2/data-exploration-annotated.ipynb
 [f24-ml-2-dt-notebook]: /lessons/F24/ml-2/dt-student.ipynb
+
+[f24-ml-3-slides]: https://docs.google.com/presentation/d/1-PP-4gYCmDeWULsoq-NwJWfwTEEdOLvzZupQXy55J9Y/edit?usp=sharing
+[f24-ml-3-dbscan]: /lessons/F24/ml-3/dbscan.ipynb
+[f24-ml-3-clustering]: /lessons/F24/ml-3/kmeans.pdf
+[f24-ml-3-dbscan-annotated]: /lessons/F24/ml-3/dbscan-annotated.ipynb
+[f24-ml-3-colors-cleaning-annotated]: /lessons/F24/ml-3/colours-annotated.ipynb
 
 ---
 
