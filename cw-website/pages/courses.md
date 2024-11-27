@@ -13,14 +13,17 @@ for upcoming summer camps and workshops!
 This course is taught as a series of five, two-hour workshops, every two weeks, beginning on 3
 October 2024. The class times follow the McGill convention, beginning at 10:05 and ending at 11:55.
 
-* Thursday, 3 October 2024 - Day 1:
+* Thursday, 3 October 2024 - Lesson 1:
     Landscape of artificial intelligence and machine learning. Appropriateness of ML. K-nearest
     neighbours algorithm.
     - [slides][f24-ml-1-slides]
     - [KNN Jupyter Notebook][f24-ml-1-knn-notebook]
     - [KNN intuition visualization][knn-viz]
 
-* Thursday, 17 October 2024 - Day 2:
+[f24-ml-1-knn-notebook]: /lessons/F24/ml-1/knn.ipynb
+[f24-ml-1-slides]: https://docs.google.com/presentation/d/1GYcDmSJ6RLc0_BFtfUJoNZ7181qg2211m1nVplJyi38/edit?usp=sharing
+
+* Thursday, 17 October 2024 - Lesson 2:
     Data acquisition and decision trees
     - [slides][f24-ml-2-slides]
     - [sample dataset][obvs-ai-sample-dataset], courtesy of [Obviously AI][obvs-ai]
@@ -28,7 +31,12 @@ October 2024. The class times follow the McGill convention, beginning at 10:05 a
       **and** [solution][f24-ml-1-data-notebook-annotated]
     - [decision tree notebook][f24-ml-2-dt-notebook]
 
-* Wednesday, 14 August - Day 3:
+[f24-ml-2-slides]: https://docs.google.com/presentation/d/1io0Yk06toXiaKWOAr2GUGZimjUqgy-aborurLjFh-PM/edit?usp=sharing
+[f24-ml-2-data-notebook]: /lessons/F24/ml-2/data-exploration.ipynb
+[f24-ml-2-data-notebook-annotated]: /lessons/F24/ml-2/data-exploration-annotated.ipynb
+[f24-ml-2-dt-notebook]: /lessons/F24/ml-2/dt-student.ipynb
+
+* Thursday, 31 October - Lesson 3:
     Unsupervised learning and model validation, data leakage
     - [slides][f24-ml-3-slides]
     - [clustering worksheet][f24-ml-3-clustering]
@@ -36,19 +44,27 @@ October 2024. The class times follow the McGill convention, beginning at 10:05 a
     - [DBSCAN notebook][f24-ml-3-dbscan]
     <!-- - [DBSCAN notebook (annotated)][f24-ml-3-dbscan-annotated] -->
 
-[f24-ml-1-knn-notebook]: /lessons/F24/ml-1/knn.ipynb
-[f24-ml-1-slides]: https://docs.google.com/presentation/d/1GYcDmSJ6RLc0_BFtfUJoNZ7181qg2211m1nVplJyi38/edit?usp=sharing
-
-[f24-ml-2-slides]: https://docs.google.com/presentation/d/1io0Yk06toXiaKWOAr2GUGZimjUqgy-aborurLjFh-PM/edit?usp=sharing
-[f24-ml-2-data-notebook]: /lessons/F24/ml-2/data-exploration.ipynb
-[f24-ml-2-data-notebook-annotated]: /lessons/F24/ml-2/data-exploration-annotated.ipynb
-[f24-ml-2-dt-notebook]: /lessons/F24/ml-2/dt-student.ipynb
-
 [f24-ml-3-slides]: https://docs.google.com/presentation/d/1-PP-4gYCmDeWULsoq-NwJWfwTEEdOLvzZupQXy55J9Y/edit?usp=sharing
 [f24-ml-3-dbscan]: /lessons/F24/ml-3/dbscan.ipynb
 [f24-ml-3-clustering]: /lessons/F24/ml-3/kmeans.pdf
 [f24-ml-3-dbscan-annotated]: /lessons/F24/ml-3/dbscan-annotated.ipynb
 [f24-ml-3-colors-cleaning-annotated]: /lessons/F24/ml-3/colours-annotated.ipynb
+
+* Thursday, 14 November - Lesson 4:
+    Neural networks part 1
+    - [slides][f24-ml-4-slides]
+    - [Neural networks notebook][f24-ml-4-notebook]
+
+[f24-ml-4-slides]: https://docs.google.com/presentation/d/1Pwfni1YoI_CUnlx8M1Zu04bsJ8EImnJM93T3-_nUrdY/edit?usp=sharing
+[f24-ml-4-notebook]: /lessons/F24/ml-4/nn.ipynb
+
+* Thursday, 28 November - Lesson 5:
+    Neural networks part 2, dimensionality reduction, and AI ethics
+    - [slides][f24-ml-5-slides]
+    - [pca for facial recognition notebook][f24-ml-5-knn-pca-faces]
+
+[f24-ml-5-slides]: https://docs.google.com/presentation/d/1Ht3nvW5phWa7FhB4I6QGrCQtlGr0zfmz033D5vOOc44/edit?usp=sharing
+[f24-ml-5-knn-pca-faces]: /lessons/F24/ml-5/knn-pca.ipynb
 
 ---
 
@@ -88,7 +104,6 @@ We recap each day around 3:30pm and conclude between 3:30 and 4pm.
     - [colors visualization notebook][s24-ml-2-colors-viz]
     - [DBSCAN notebook (annotated)][s24-ml-2-dbscan-annotated]
     - [colors visualization notebook (annotated)][s24-ml-2-colors-viz-annotated]
-
 
 * Thursday, 15 August - Lesson 3:
     Neural networks part 1
