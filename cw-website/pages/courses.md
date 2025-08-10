@@ -159,7 +159,6 @@ collaboration with [McGill's Building21][b21].
 This course was taught in a weekly format with 2 hours of instruction per session.
 
 * [Syllabus](lessons/F18/hw-syllabus/hw-syllabus.pdf)
-
 * Lesson 0:
   Welcome!
   ([slides](https://docs.google.com/presentation/d/1dfmHvNf-lHQFAkwUlQ92UpAjd7SjuiYi4xnjvChUStQ/edit?usp=sharing))
@@ -184,7 +183,6 @@ This course was taught in a weekly format with 2 hours of instruction per sessio
 with [McGill's Building21][b21].
 
 * [Syllabus](/lessons/F17/syllabus/syllabus.pdf)
-
 * [Lesson 0](/lessons/F17/0/plan/0-lp.pdf): Welcome! ([slides](/lessons/F17/0/slides.pdf))
 * [Lesson 1](/lessons/F17/1/plan/1-lp.pdf): Binary and logic ([slides](/lessons/F17/1/slides.pdf))
 * [Lesson 2](/lessons/F17/2/plan/2-lp.pdf): Integrated circuits, memory, and Haskell ([slides](/lessons/F17/2/slides.pdf))
