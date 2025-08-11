@@ -21,9 +21,11 @@ through McGill's CDSI.
 ### Day 1: landscape and appropriateness of ML, K-nearest neighbours algorithm
 
 - [slides][summercamp-ml-1-slides]
-- [KNN Jupyter Notebook][summercamp-ml-1-knn-notebook]
+- [KNN worksheet][summercamp-ml-1-knn-worksheet]
 - [KNN intuition visualization][knn-viz]
+- [KNN Jupyter Notebook][summercamp-ml-1-knn-notebook]
 
+[summercamp-ml-1-knn-worksheet]: /lesson/W19/knn-ws/writeup.pdf
 [summercamp-ml-1-knn-notebook]: /lessons/summer-camp/ml-1/knn.ipynb
 [summercamp-ml-1-slides]: https://docs.google.com/presentation/d/1HPX_dDdq_tMKsSaqjmvoTqh4r4DxmODASyIzSlKiaOU/edit?usp=drive_link
 
