@@ -25,7 +25,7 @@ through McGill's CDSI.
 - [KNN intuition visualization][knn-viz]
 - [KNN Jupyter Notebook][summercamp-ml-1-knn-notebook]
 
-[summercamp-ml-1-knn-worksheet]: /lesson/W19/knn-ws/writeup.pdf
+[summercamp-ml-1-knn-worksheet]: /lessons/W19/knn-ws/writeup.pdf
 [summercamp-ml-1-knn-notebook]: /lessons/summer-camp/ml-1/knn.ipynb
 [summercamp-ml-1-slides]: https://docs.google.com/presentation/d/1HPX_dDdq_tMKsSaqjmvoTqh4r4DxmODASyIzSlKiaOU/edit?usp=drive_link
 
