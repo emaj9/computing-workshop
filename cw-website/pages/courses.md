@@ -29,13 +29,12 @@ through McGill's CDSI.
 [summercamp-ml-1-knn-notebook]: /lessons/summer-camp/ml-1/knn.ipynb
 [summercamp-ml-1-slides]: https://docs.google.com/presentation/d/1HPX_dDdq_tMKsSaqjmvoTqh4r4DxmODASyIzSlKiaOU/edit?usp=drive_link
 
-<!--
 ### Day 2: data acquisition, data sovereignty/ethics, decision trees
 
 - [slides][summercamp-ml-2-slides]
 - [sample dataset][obvs-ai-sample-dataset], courtesy of [Obviously AI][obvs-ai]
 - [data exploration notebook][summercamp-ml-2-data-notebook]
-  **and** [solution][summercamp-ml-2-data-notebook-annotated]
+  <!-- **and** [solution][summercamp-ml-2-data-notebook-annotated] -->
 - [decision tree notebook][summercamp-ml-2-dt-notebook]
 
 [summercamp-ml-2-slides]: https://docs.google.com/presentation/d/1FJwdCfXMwtBRp-3P6YnMg2X5WXXWYmLhU_-b8199FDg/edit?usp=drive_link
@@ -43,6 +42,7 @@ through McGill's CDSI.
 [summercamp-ml-2-data-notebook-annotated]: /lessons/summer-camp/ml-2/data-exploration-annotated.ipynb
 [summercamp-ml-2-dt-notebook]: /lessons/summer-camp/ml-2/dt-student.ipynb
 
+<!--
 ### Day 3: unsupervised learning and model validation, data leakage
 
 - [slides][summercamp-ml-3-slides]
