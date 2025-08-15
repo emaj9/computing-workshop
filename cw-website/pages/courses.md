@@ -42,33 +42,32 @@ through McGill's CDSI.
 [summercamp-ml-2-data-notebook-annotated]: /lessons/summer-camp/ml-2/data-exploration-annotated.ipynb
 [summercamp-ml-2-dt-notebook]: /lessons/summer-camp/ml-2/dt-student.ipynb
 
-<!--
 ### Day 3: unsupervised learning and model validation, data leakage
 
 - [slides][summercamp-ml-3-slides]
 - [clustering worksheet][summercamp-ml-3-clustering]
 - [lab resources](/lab.html)
-- [colors cleaning notebook (annotated)][summercamp-ml-3-colors-cleaning-annotated]
 - [DBSCAN notebook][summercamp-ml-3-dbscan]
 - [colors visualization notebook][summercamp-ml-3-colors-viz]
+- [colors cleaned categorized dataset](https://files.jerrington.me/colors-cleaned-categorized.csv)
+- [homemade raw artisanal colors dataset](https://files.jerrington.me/colors.zip)
 - [DBSCAN notebook (annotated)][summercamp-ml-3-dbscan-annotated]
-- [colors visualization notebook (annotated)][summercamp-ml-3-colors-viz-annotated]
 
 [summercamp-ml-3-slides]: https://docs.google.com/presentation/d/1XX91RAjzDHdGk5pNOl_8sxc7d1JE0CnjBUDAfIfCX1Q/edit?usp=drive_link
 [summercamp-ml-3-dbscan]: /lessons/summer-camp/ml-3/dbscan.ipynb
 [summercamp-ml-3-clustering]: /lessons/summer-camp/ml-3/kmeans.pdf
 [summercamp-ml-3-colors-viz]: /lessons/summer-camp/ml-3/colors-visualization-clustering.ipynb
 [summercamp-ml-3-dbscan-annotated]: /lessons/summer-camp/ml-3/dbscan-annotated.ipynb
-[summercamp-ml-3-colors-viz-annotated]: /lessons/summer-camp/ml-3/colors-viz-annotated.ipynb
-[summercamp-ml-3-colors-cleaning-annotated]: /lessons/summer-camp/ml-3/colours-annotated.ipynb
 
 ### Day 4: neural networks part 1
 
 - [slides][summercamp-ml-4-slides]
+- [Neural networks intro worksheet][summercamp-ml-4-nn-worksheet]
 - [Neural networks notebook][summercamp-ml-4-notebook]
 
 [summercamp-ml-4-slides]: https://docs.google.com/presentation/d/1t-wC-AFdgYO_NQkr7kXyuUfc3eLTXe8WoRTndhL0azQ/edit?usp=drive_link
 [summercamp-ml-4-notebook]: /lessons/summer-camp/ml-4/nn.ipynb
+[summercamp-ml-4-nn-worksheet]: /lessons/summer-camp/ml-4/nn-intro-ws.pdf
 
 ### Day 5: neural networks part 2, dimensionality reduction, limitations of AI
 
@@ -77,7 +76,6 @@ through McGill's CDSI.
 
 [summercamp-ml-5-slides]: https://docs.google.com/presentation/d/1toeio1vDHTO1nNIwsRYEBZIKBC7pqt1l8YxwxzgeErY/edit?usp=drive_link
 [summercamp-ml-5-knn-pca-faces]: /lessons/summer-camp/ml-5/knn-pca.ipynb
--->
 
 <!--
 ## Weekly series
