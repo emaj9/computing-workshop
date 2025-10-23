@@ -6,6 +6,22 @@ Computing Workshop is currently taught in collaboration with [McGill's
 CDSI][cdsi], so watch their [training page](https://www.mcgill.ca/cdsi/training)
 for upcoming summer camps and workshops!
 
+## Weekly workshop
+
+This course is taught in five, two-hour sessions, delivered weekly.
+See [here](https://www.mcgill.ca/cdsi/training/workshops) for registration through McGill's CDSI.
+
+### Day 1: landscape and appropriateness of ML, K-nearest neighbours algorithm
+
+- [slides][workshop-ml-1-slides]
+- [KNN worksheet][workshop-ml-1-knn-worksheet]
+- [KNN intuition visualization][knn-viz]
+- [KNN Jupyter Notebook][workshop-ml-1-knn-notebook]
+
+[workshop-ml-1-knn-worksheet]: /lessons/weekly-workshop/ml-1/knn-ws.pdf
+[workshop-ml-1-knn-notebook]: /lessons/weekly-workshop/ml-1/knn.ipynb
+[workshop-ml-1-slides]: https://docs.google.com/presentation/d/1Btgl_hL5unhLp2ltYn0PLuN_j1mvhvlB-nwDq6KrdhA/edit?usp=sharing
+
 ## Summer camp
 
 This course is taught as a one-week intensive summer workshop in August.
