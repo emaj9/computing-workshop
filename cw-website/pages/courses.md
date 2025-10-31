@@ -27,10 +27,10 @@ See [here](https://www.mcgill.ca/cdsi/training/workshops) for registration throu
 - [slides][workshop-ml-2-slides]
 - [sample dataset][obvs-ai-sample-dataset], courtesy of [Obviously AI][obvs-ai]
 - [data exploration notebook][workshop-ml-2-data-notebook]
-  **and** [solution][workshop-ml-1-data-notebook-annotated]
+  **and** [solution][workshop-ml-2-data-notebook-annotated]
 - [decision tree notebook][workshop-ml-2-dt-notebook]
 
-[workshop-ml-2-slides]: https://docs.google.com/presentation/d/1io0Yk06toXiaKWOAr2GUGZimjUqgy-aborurLjFh-PM/edit?usp=sharing
+[workshop-ml-2-slides]: https://docs.google.com/presentation/d/1UjktsFn4s3s9NLhyLmf-GI3jES4cPHETspM_CqSGtmk/edit?usp=sharing
 [workshop-ml-2-data-notebook]: /lessons/weekly-workshop/ml-2/data-exploration.ipynb
 [workshop-ml-2-data-notebook-annotated]: /lessons/weekly-workshop/ml-2/data-exploration-annotated.ipynb
 [workshop-ml-2-dt-notebook]: /lessons/weekly-workshop/ml-2/dt-student.ipynb
@@ -42,7 +42,7 @@ See [here](https://www.mcgill.ca/cdsi/training/workshops) for registration throu
 - [lab resources](/lab.html)
 - [DBSCAN notebook][workshop-ml-3-dbscan]
 
-[workshop-ml-3-slides]: https://docs.google.com/presentation/d/1-PP-4gYCmDeWULsoq-NwJWfwTEEdOLvzZupQXy55J9Y/edit?usp=sharing
+[workshop-ml-3-slides]: https://docs.google.com/presentation/d/1Hp63Kur_5dqCRW-lbRurrbp7DpgG9xt4uKw_7Q31mr4/edit?usp=drive_link
 [workshop-ml-3-dbscan]: /lessons/weekly-workshop/ml-3/dbscan.ipynb
 [workshop-ml-3-clustering]: /lessons/weekly-workshop/ml-3/kmeans.pdf
 [workshop-ml-3-dbscan-annotated]: /lessons/weekly-workshop/ml-3/dbscan-annotated.ipynb
@@ -52,16 +52,15 @@ See [here](https://www.mcgill.ca/cdsi/training/workshops) for registration throu
 - [slides][workshop-ml-4-slides]
 - [Neural networks notebook][workshop-ml-4-notebook]
 
-[workshop-ml-4-slides]: https://docs.google.com/presentation/d/1Pwfni1YoI_CUnlx8M1Zu04bsJ8EImnJM93T3-_nUrdY/edit?usp=sharing
+[workshop-ml-4-slides]: https://docs.google.com/presentation/d/1pzAHKhrj9Uf_Scwu59HDwv5_PEvGElxY2br-IdUy--o/edit?usp=drive_link
 [workshop-ml-4-notebook]: /lessons/weekly-workshop/ml-4/nn.ipynb
 
 ### Day 5: neural networks part 2, dimensionality reduction, limitations of AI
 
-Neural networks part 2, dimensionality reduction, and AI ethics
 - [slides][workshop-ml-5-slides]
 - [pca for facial recognition notebook][workshop-ml-5-knn-pca-faces]
 
-[workshop-ml-5-slides]: https://docs.google.com/presentation/d/1Ht3nvW5phWa7FhB4I6QGrCQtlGr0zfmz033D5vOOc44/edit?usp=sharing
+[workshop-ml-5-slides]: https://docs.google.com/presentation/d/1uCAVjyj0TP2zyY3nvXJ-48nxqCY4mYzx9bQn7-vhWwE/edit?usp=drive_link
 [workshop-ml-5-knn-pca-faces]: /lessons/weekly-workshop/ml-5/knn-pca.ipynb
 
 ## Summer camp
